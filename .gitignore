@@ -1,0 +1,40 @@
+# 评测凭证与隐私文件
+runner/providers.json
+runner/__pycache__/
+probe_providers.py
+
+# HSK 动态作文语料库原始数据（需向北京语言大学申请授权，不入库）
+corpus/hsk_corpus.jsonl
+corpus/hsk_essays_text.json
+corpus/hsk_metadata_all.csv
+
+# 含语料原文的完整题库（公开版为 items_public.jsonl）
+items/v1.0/items.jsonl
+
+# 原始逐题结果（已打包为 results/results_v1.0_raw.tar.gz）
+results/deepseek/
+results/doubao/
+results/ernie/
+results/gemini/
+results/grok/
+results/hunyuan/
+results/k2d6-agent/
+results/k3-agent/
+results/qwen/
+results/stepfun/
+results/tchub-dsv4f/
+results/zhipu/
+
+# 标准原始扫描件与全书 OCR（版权归原出版方，仅保留结构化数据与校验记录）
+standard/GF0025-2021-moe.pdf
+standard/国际中文教育中文水平等级标准.pdf
+standard/raw/
+standard/github-csv/
+standard/interpretation/*.pdf
+standard/interpretation/vol1/
+standard/interpretation/vol2/
+standard/interpretation/vol3/
+standard/interpretation/orig_grammar/
+standard/interpretation/orig_hanzi/
+standard/culture-framework/theory_ch1-3_ocr.txt
+standard/culture-framework/teaching_cases.json

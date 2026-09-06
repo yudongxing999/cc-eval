@@ -1,0 +1,6662 @@
+[
+ {
+  "no": 1,
+  "level": 1,
+  "syllable": "ài",
+  "example_char": "爱"
+ },
+ {
+  "no": 2,
+  "level": 1,
+  "syllable": "bā",
+  "example_char": "八"
+ },
+ {
+  "no": 3,
+  "level": 1,
+  "syllable": "bà",
+  "example_char": "爸"
+ },
+ {
+  "no": 4,
+  "level": 1,
+  "syllable": "ba",
+  "example_char": "吧"
+ },
+ {
+  "no": 5,
+  "level": 1,
+  "syllable": "bái",
+  "example_char": "白"
+ },
+ {
+  "no": 6,
+  "level": 1,
+  "syllable": "bǎi",
+  "example_char": "百"
+ },
+ {
+  "no": 7,
+  "level": 1,
+  "syllable": "bān",
+  "example_char": "班"
+ },
+ {
+  "no": 8,
+  "level": 1,
+  "syllable": "bàn",
+  "example_char": "半"
+ },
+ {
+  "no": 9,
+  "level": 1,
+  "syllable": "bāng",
+  "example_char": "帮"
+ },
+ {
+  "no": 10,
+  "level": 1,
+  "syllable": "bāo",
+  "example_char": "包"
+ },
+ {
+  "no": 11,
+  "level": 1,
+  "syllable": "bēi",
+  "example_char": "杯"
+ },
+ {
+  "no": 12,
+  "level": 1,
+  "syllable": "běi",
+  "example_char": "北"
+ },
+ {
+  "no": 13,
+  "level": 1,
+  "syllable": "bèi",
+  "example_char": "备"
+ },
+ {
+  "no": 14,
+  "level": 1,
+  "syllable": "běn",
+  "example_char": "本"
+ },
+ {
+  "no": 15,
+  "level": 1,
+  "syllable": "bǐ",
+  "example_char": "比"
+ },
+ {
+  "no": 16,
+  "level": 1,
+  "syllable": "biān",
+  "example_char": "边"
+ },
+ {
+  "no": 17,
+  "level": 1,
+  "syllable": "bié",
+  "example_char": "别"
+ },
+ {
+  "no": 18,
+  "level": 1,
+  "syllable": "bìng",
+  "example_char": "病"
+ },
+ {
+  "no": 19,
+  "level": 1,
+  "syllable": "bù",
+  "example_char": "不"
+ },
+ {
+  "no": 20,
+  "level": 1,
+  "syllable": "cài",
+  "example_char": "菜"
+ },
+ {
+  "no": 21,
+  "level": 1,
+  "syllable": "chá",
+  "example_char": "茶"
+ },
+ {
+  "no": 22,
+  "level": 1,
+  "syllable": "chà",
+  "example_char": "差"
+ },
+ {
+  "no": 23,
+  "level": 1,
+  "syllable": "cháng",
+  "example_char": "常"
+ },
+ {
+  "no": 24,
+  "level": 1,
+  "syllable": "chǎng",
+  "example_char": "场"
+ },
+ {
+  "no": 25,
+  "level": 1,
+  "syllable": "chàng",
+  "example_char": "唱"
+ },
+ {
+  "no": 26,
+  "level": 1,
+  "syllable": "chē",
+  "example_char": "车"
+ },
+ {
+  "no": 27,
+  "level": 1,
+  "syllable": "chī",
+  "example_char": "吃"
+ },
+ {
+  "no": 28,
+  "level": 1,
+  "syllable": "chū",
+  "example_char": "出"
+ },
+ {
+  "no": 29,
+  "level": 1,
+  "syllable": "chuān",
+  "example_char": "穿"
+ },
+ {
+  "no": 30,
+  "level": 1,
+  "syllable": "chuáng",
+  "example_char": "床"
+ },
+ {
+  "no": 31,
+  "level": 1,
+  "syllable": "cì",
+  "example_char": "次"
+ },
+ {
+  "no": 32,
+  "level": 1,
+  "syllable": "cóng",
+  "example_char": "从"
+ },
+ {
+  "no": 33,
+  "level": 1,
+  "syllable": "cuò",
+  "example_char": "错"
+ },
+ {
+  "no": 34,
+  "level": 1,
+  "syllable": "dá",
+  "example_char": "答"
+ },
+ {
+  "no": 35,
+  "level": 1,
+  "syllable": "dǎ",
+  "example_char": "打"
+ },
+ {
+  "no": 36,
+  "level": 1,
+  "syllable": "dà",
+  "example_char": "大"
+ },
+ {
+  "no": 37,
+  "level": 1,
+  "syllable": "dàn",
+  "example_char": "蛋"
+ },
+ {
+  "no": 38,
+  "level": 1,
+  "syllable": "dào",
+  "example_char": "到"
+ },
+ {
+  "no": 39,
+  "level": 1,
+  "syllable": "dé",
+  "example_char": "得"
+ },
+ {
+  "no": 40,
+  "level": 1,
+  "syllable": "de",
+  "example_char": "的"
+ },
+ {
+  "no": 41,
+  "level": 1,
+  "syllable": "děng",
+  "example_char": "等"
+ },
+ {
+  "no": 42,
+  "level": 1,
+  "syllable": "dì",
+  "example_char": "弟"
+ },
+ {
+  "no": 43,
+  "level": 1,
+  "syllable": "diǎn",
+  "example_char": "点"
+ },
+ {
+  "no": 44,
+  "level": 1,
+  "syllable": "diàn",
+  "example_char": "电"
+ },
+ {
+  "no": 45,
+  "level": 1,
+  "syllable": "dōng",
+  "example_char": "东"
+ },
+ {
+  "no": 46,
+  "level": 1,
+  "syllable": "dòng",
+  "example_char": "动"
+ },
+ {
+  "no": 47,
+  "level": 1,
+  "syllable": "dōu",
+  "example_char": "都"
+ },
+ {
+  "no": 48,
+  "level": 1,
+  "syllable": "dú",
+  "example_char": "读"
+ },
+ {
+  "no": 49,
+  "level": 1,
+  "syllable": "duì",
+  "example_char": "对"
+ },
+ {
+  "no": 50,
+  "level": 1,
+  "syllable": "duō",
+  "example_char": "多"
+ },
+ {
+  "no": 51,
+  "level": 1,
+  "syllable": "è",
+  "example_char": "饿"
+ },
+ {
+  "no": 52,
+  "level": 1,
+  "syllable": "ér",
+  "example_char": "儿"
+ },
+ {
+  "no": 53,
+  "level": 1,
+  "syllable": "èr",
+  "example_char": "二"
+ },
+ {
+  "no": 54,
+  "level": 1,
+  "syllable": "fàn",
+  "example_char": "饭"
+ },
+ {
+  "no": 55,
+  "level": 1,
+  "syllable": "fāng",
+  "example_char": "方"
+ },
+ {
+  "no": 56,
+  "level": 1,
+  "syllable": "fáng",
+  "example_char": "房"
+ },
+ {
+  "no": 57,
+  "level": 1,
+  "syllable": "fàng",
+  "example_char": "放"
+ },
+ {
+  "no": 58,
+  "level": 1,
+  "syllable": "fēi",
+  "example_char": "非"
+ },
+ {
+  "no": 59,
+  "level": 1,
+  "syllable": "fēn",
+  "example_char": "分"
+ },
+ {
+  "no": 60,
+  "level": 1,
+  "syllable": "fēng",
+  "example_char": "风"
+ },
+ {
+  "no": 61,
+  "level": 1,
+  "syllable": "fú",
+  "example_char": "服"
+ },
+ {
+  "no": 62,
+  "level": 1,
+  "syllable": "gān",
+  "example_char": "干"
+ },
+ {
+  "no": 63,
+  "level": 1,
+  "syllable": "gàn",
+  "example_char": "干"
+ },
+ {
+  "no": 64,
+  "level": 1,
+  "syllable": "gāo",
+  "example_char": "高"
+ },
+ {
+  "no": 65,
+  "level": 1,
+  "syllable": "gào",
+  "example_char": "告"
+ },
+ {
+  "no": 66,
+  "level": 1,
+  "syllable": "gē",
+  "example_char": "哥"
+ },
+ {
+  "no": 67,
+  "level": 1,
+  "syllable": "gè",
+  "example_char": "个"
+ },
+ {
+  "no": 68,
+  "level": 1,
+  "syllable": "gěi",
+  "example_char": "给"
+ },
+ {
+  "no": 69,
+  "level": 1,
+  "syllable": "gēn",
+  "example_char": "跟"
+ },
+ {
+  "no": 70,
+  "level": 1,
+  "syllable": "gōng",
+  "example_char": "工"
+ },
+ {
+  "no": 71,
+  "level": 1,
+  "syllable": "guān",
+  "example_char": "关"
+ },
+ {
+  "no": 72,
+  "level": 1,
+  "syllable": "guǎn",
+  "example_char": "馆"
+ },
+ {
+  "no": 73,
+  "level": 1,
+  "syllable": "guì",
+  "example_char": "贵"
+ },
+ {
+  "no": 74,
+  "level": 1,
+  "syllable": "guó",
+  "example_char": "国"
+ },
+ {
+  "no": 75,
+  "level": 1,
+  "syllable": "guǒ",
+  "example_char": "果"
+ },
+ {
+  "no": 76,
+  "level": 1,
+  "syllable": "guò",
+  "example_char": "过"
+ },
+ {
+  "no": 77,
+  "level": 1,
+  "syllable": "hái",
+  "example_char": "孩"
+ },
+ {
+  "no": 78,
+  "level": 1,
+  "syllable": "hàn",
+  "example_char": "汉"
+ },
+ {
+  "no": 79,
+  "level": 1,
+  "syllable": "hǎo",
+  "example_char": "好"
+ },
+ {
+  "no": 80,
+  "level": 1,
+  "syllable": "hào",
+  "example_char": "号"
+ },
+ {
+  "no": 81,
+  "level": 1,
+  "syllable": "hē",
+  "example_char": "喝"
+ },
+ {
+  "no": 82,
+  "level": 1,
+  "syllable": "hé",
+  "example_char": "和"
+ },
+ {
+  "no": 83,
+  "level": 1,
+  "syllable": "hěn",
+  "example_char": "很"
+ },
+ {
+  "no": 84,
+  "level": 1,
+  "syllable": "hòu",
+  "example_char": "后"
+ },
+ {
+  "no": 85,
+  "level": 1,
+  "syllable": "huā",
+  "example_char": "花"
+ },
+ {
+  "no": 86,
+  "level": 1,
+  "syllable": "huà",
+  "example_char": "话"
+ },
+ {
+  "no": 87,
+  "level": 1,
+  "syllable": "huài",
+  "example_char": "坏"
+ },
+ {
+  "no": 88,
+  "level": 1,
+  "syllable": "huān",
+  "example_char": "欢"
+ },
+ {
+  "no": 89,
+  "level": 1,
+  "syllable": "huán",
+  "example_char": "还"
+ },
+ {
+  "no": 90,
+  "level": 1,
+  "syllable": "huí",
+  "example_char": "回"
+ },
+ {
+  "no": 91,
+  "level": 1,
+  "syllable": "huì",
+  "example_char": "会"
+ },
+ {
+  "no": 92,
+  "level": 1,
+  "syllable": "huǒ",
+  "example_char": "火"
+ },
+ {
+  "no": 93,
+  "level": 1,
+  "syllable": "jī",
+  "example_char": "机"
+ },
+ {
+  "no": 94,
+  "level": 1,
+  "syllable": "jǐ",
+  "example_char": "几"
+ },
+ {
+  "no": 95,
+  "level": 1,
+  "syllable": "jì",
+  "example_char": "记"
+ },
+ {
+  "no": 96,
+  "level": 1,
+  "syllable": "jiā",
+  "example_char": "家"
+ },
+ {
+  "no": 97,
+  "level": 1,
+  "syllable": "jià",
+  "example_char": "假"
+ },
+ {
+  "no": 98,
+  "level": 1,
+  "syllable": "jiān",
+  "example_char": "间"
+ },
+ {
+  "no": 99,
+  "level": 1,
+  "syllable": "jiàn",
+  "example_char": "见"
+ },
+ {
+  "no": 100,
+  "level": 1,
+  "syllable": "jiāo",
+  "example_char": "教"
+ },
+ {
+  "no": 101,
+  "level": 1,
+  "syllable": "jiào",
+  "example_char": "叫"
+ },
+ {
+  "no": 102,
+  "level": 1,
+  "syllable": "jiě",
+  "example_char": "姐"
+ },
+ {
+  "no": 103,
+  "level": 1,
+  "syllable": "jiè",
+  "example_char": "介"
+ },
+ {
+  "no": 104,
+  "level": 1,
+  "syllable": "jīn",
+  "example_char": "今"
+ },
+ {
+  "no": 105,
+  "level": 1,
+  "syllable": "jìn",
+  "example_char": "进"
+ },
+ {
+  "no": 106,
+  "level": 1,
+  "syllable": "jīng",
+  "example_char": "京"
+ },
+ {
+  "no": 107,
+  "level": 1,
+  "syllable": "jìng",
+  "example_char": "净"
+ },
+ {
+  "no": 108,
+  "level": 1,
+  "syllable": "jiǔ",
+  "example_char": "九"
+ },
+ {
+  "no": 109,
+  "level": 1,
+  "syllable": "jiù",
+  "example_char": "就"
+ },
+ {
+  "no": 110,
+  "level": 1,
+  "syllable": "jué",
+  "example_char": "觉"
+ },
+ {
+  "no": 111,
+  "level": 1,
+  "syllable": "kāi",
+  "example_char": "开"
+ },
+ {
+  "no": 112,
+  "level": 1,
+  "syllable": "kàn",
+  "example_char": "看"
+ },
+ {
+  "no": 113,
+  "level": 1,
+  "syllable": "kǎo",
+  "example_char": "考"
+ },
+ {
+  "no": 114,
+  "level": 1,
+  "syllable": "kě",
+  "example_char": "渴"
+ },
+ {
+  "no": 115,
+  "level": 1,
+  "syllable": "kè",
+  "example_char": "课"
+ },
+ {
+  "no": 116,
+  "level": 1,
+  "syllable": "kǒu",
+  "example_char": "口"
+ },
+ {
+  "no": 117,
+  "level": 1,
+  "syllable": "kuài",
+  "example_char": "快"
+ },
+ {
+  "no": 118,
+  "level": 1,
+  "syllable": "lái",
+  "example_char": "来"
+ },
+ {
+  "no": 119,
+  "level": 1,
+  "syllable": "lǎo",
+  "example_char": "老"
+ },
+ {
+  "no": 120,
+  "level": 1,
+  "syllable": "le",
+  "example_char": "了"
+ },
+ {
+  "no": 121,
+  "level": 1,
+  "syllable": "lèi",
+  "example_char": "累"
+ },
+ {
+  "no": 122,
+  "level": 1,
+  "syllable": "lěng",
+  "example_char": "冷"
+ },
+ {
+  "no": 123,
+  "level": 1,
+  "syllable": "lǐ",
+  "example_char": "里"
+ },
+ {
+  "no": 124,
+  "level": 1,
+  "syllable": "liǎng",
+  "example_char": "两"
+ },
+ {
+  "no": 125,
+  "level": 1,
+  "syllable": "líng",
+  "example_char": "零"
+ },
+ {
+  "no": 126,
+  "level": 1,
+  "syllable": "liù",
+  "example_char": "六"
+ },
+ {
+  "no": 127,
+  "level": 1,
+  "syllable": "lóu",
+  "example_char": "楼"
+ },
+ {
+  "no": 128,
+  "level": 1,
+  "syllable": "lù",
+  "example_char": "路"
+ },
+ {
+  "no": 129,
+  "level": 1,
+  "syllable": "mā",
+  "example_char": "妈"
+ },
+ {
+  "no": 130,
+  "level": 1,
+  "syllable": "mǎ",
+  "example_char": "马"
+ },
+ {
+  "no": 131,
+  "level": 1,
+  "syllable": "ma",
+  "example_char": "吗"
+ },
+ {
+  "no": 132,
+  "level": 1,
+  "syllable": "mǎi",
+  "example_char": "买"
+ },
+ {
+  "no": 133,
+  "level": 1,
+  "syllable": "màn",
+  "example_char": "慢"
+ },
+ {
+  "no": 134,
+  "level": 1,
+  "syllable": "máng",
+  "example_char": "忙"
+ },
+ {
+  "no": 135,
+  "level": 1,
+  "syllable": "máo",
+  "example_char": "毛"
+ },
+ {
+  "no": 136,
+  "level": 1,
+  "syllable": "me",
+  "example_char": "么"
+ },
+ {
+  "no": 137,
+  "level": 1,
+  "syllable": "méi",
+  "example_char": "没"
+ },
+ {
+  "no": 138,
+  "level": 1,
+  "syllable": "mèi",
+  "example_char": "妹"
+ },
+ {
+  "no": 139,
+  "level": 1,
+  "syllable": "mén",
+  "example_char": "门"
+ },
+ {
+  "no": 140,
+  "level": 1,
+  "syllable": "men",
+  "example_char": "们"
+ },
+ {
+  "no": 141,
+  "level": 1,
+  "syllable": "mǐ",
+  "example_char": "米"
+ },
+ {
+  "no": 142,
+  "level": 1,
+  "syllable": "miàn",
+  "example_char": "面"
+ },
+ {
+  "no": 143,
+  "level": 1,
+  "syllable": "míng",
+  "example_char": "名"
+ },
+ {
+  "no": 144,
+  "level": 1,
+  "syllable": "ná",
+  "example_char": "拿"
+ },
+ {
+  "no": 145,
+  "level": 1,
+  "syllable": "nǎ",
+  "example_char": "哪"
+ },
+ {
+  "no": 146,
+  "level": 1,
+  "syllable": "nà",
+  "example_char": "那"
+ },
+ {
+  "no": 147,
+  "level": 1,
+  "syllable": "nǎi",
+  "example_char": "奶"
+ },
+ {
+  "no": 148,
+  "level": 1,
+  "syllable": "nán",
+  "example_char": "男"
+ },
+ {
+  "no": 149,
+  "level": 1,
+  "syllable": "nǎo",
+  "example_char": "脑"
+ },
+ {
+  "no": 150,
+  "level": 1,
+  "syllable": "ne",
+  "example_char": "呢"
+ },
+ {
+  "no": 151,
+  "level": 1,
+  "syllable": "néng",
+  "example_char": "能"
+ },
+ {
+  "no": 152,
+  "level": 1,
+  "syllable": "nǐ",
+  "example_char": "你"
+ },
+ {
+  "no": 153,
+  "level": 1,
+  "syllable": "nián",
+  "example_char": "年"
+ },
+ {
+  "no": 154,
+  "level": 1,
+  "syllable": "nín",
+  "example_char": "您"
+ },
+ {
+  "no": 155,
+  "level": 1,
+  "syllable": "niú",
+  "example_char": "牛"
+ },
+ {
+  "no": 156,
+  "level": 1,
+  "syllable": "nǚ",
+  "example_char": "女"
+ },
+ {
+  "no": 157,
+  "level": 1,
+  "syllable": "páng",
+  "example_char": "旁"
+ },
+ {
+  "no": 158,
+  "level": 1,
+  "syllable": "pǎo",
+  "example_char": "跑"
+ },
+ {
+  "no": 159,
+  "level": 1,
+  "syllable": "péng",
+  "example_char": "朋"
+ },
+ {
+  "no": 160,
+  "level": 1,
+  "syllable": "piào",
+  "example_char": "票"
+ },
+ {
+  "no": 161,
+  "level": 1,
+  "syllable": "qī",
+  "example_char": "七"
+ },
+ {
+  "no": 162,
+  "level": 1,
+  "syllable": "qǐ",
+  "example_char": "起"
+ },
+ {
+  "no": 163,
+  "level": 1,
+  "syllable": "qì",
+  "example_char": "气"
+ },
+ {
+  "no": 164,
+  "level": 1,
+  "syllable": "qián",
+  "example_char": "前"
+ },
+ {
+  "no": 165,
+  "level": 1,
+  "syllable": "qǐng",
+  "example_char": "请"
+ },
+ {
+  "no": 166,
+  "level": 1,
+  "syllable": "qiú",
+  "example_char": "球"
+ },
+ {
+  "no": 167,
+  "level": 1,
+  "syllable": "qù",
+  "example_char": "去"
+ },
+ {
+  "no": 168,
+  "level": 1,
+  "syllable": "rè",
+  "example_char": "热"
+ },
+ {
+  "no": 169,
+  "level": 1,
+  "syllable": "rén",
+  "example_char": "人"
+ },
+ {
+  "no": 170,
+  "level": 1,
+  "syllable": "rèn",
+  "example_char": "认"
+ },
+ {
+  "no": 171,
+  "level": 1,
+  "syllable": "rì",
+  "example_char": "日"
+ },
+ {
+  "no": 172,
+  "level": 1,
+  "syllable": "ròu",
+  "example_char": "肉"
+ },
+ {
+  "no": 173,
+  "level": 1,
+  "syllable": "sān",
+  "example_char": "三"
+ },
+ {
+  "no": 174,
+  "level": 1,
+  "syllable": "shān",
+  "example_char": "山"
+ },
+ {
+  "no": 175,
+  "level": 1,
+  "syllable": "shāng",
+  "example_char": "商"
+ },
+ {
+  "no": 176,
+  "level": 1,
+  "syllable": "shàng",
+  "example_char": "上"
+ },
+ {
+  "no": 177,
+  "level": 1,
+  "syllable": "shǎo",
+  "example_char": "少"
+ },
+ {
+  "no": 178,
+  "level": 1,
+  "syllable": "shào",
+  "example_char": "绍"
+ },
+ {
+  "no": 179,
+  "level": 1,
+  "syllable": "shéi",
+  "example_char": "谁"
+ },
+ {
+  "no": 180,
+  "level": 1,
+  "syllable": "shēn",
+  "example_char": "身"
+ },
+ {
+  "no": 181,
+  "level": 1,
+  "syllable": "shén",
+  "example_char": "什"
+ },
+ {
+  "no": 182,
+  "level": 1,
+  "syllable": "shēng",
+  "example_char": "生"
+ },
+ {
+  "no": 183,
+  "level": 1,
+  "syllable": "shī",
+  "example_char": "师"
+ },
+ {
+  "no": 184,
+  "level": 1,
+  "syllable": "shí",
+  "example_char": "十"
+ },
+ {
+  "no": 185,
+  "level": 1,
+  "syllable": "shì",
+  "example_char": "是"
+ },
+ {
+  "no": 186,
+  "level": 1,
+  "syllable": "shǒu",
+  "example_char": "手"
+ },
+ {
+  "no": 187,
+  "level": 1,
+  "syllable": "shū",
+  "example_char": "书"
+ },
+ {
+  "no": 188,
+  "level": 1,
+  "syllable": "shù",
+  "example_char": "树"
+ },
+ {
+  "no": 189,
+  "level": 1,
+  "syllable": "shuí",
+  "example_char": "谁"
+ },
+ {
+  "no": 190,
+  "level": 1,
+  "syllable": "shuǐ",
+  "example_char": "水"
+ },
+ {
+  "no": 191,
+  "level": 1,
+  "syllable": "shuì",
+  "example_char": "睡"
+ },
+ {
+  "no": 192,
+  "level": 1,
+  "syllable": "shuō",
+  "example_char": "说"
+ },
+ {
+  "no": 193,
+  "level": 1,
+  "syllable": "sì",
+  "example_char": "四"
+ },
+ {
+  "no": 194,
+  "level": 1,
+  "syllable": "sòng",
+  "example_char": "送"
+ },
+ {
+  "no": 195,
+  "level": 1,
+  "syllable": "sù",
+  "example_char": "诉"
+ },
+ {
+  "no": 196,
+  "level": 1,
+  "syllable": "suì",
+  "example_char": "岁"
+ },
+ {
+  "no": 197,
+  "level": 1,
+  "syllable": "tā",
+  "example_char": "他"
+ },
+ {
+  "no": 198,
+  "level": 1,
+  "syllable": "tài",
+  "example_char": "太"
+ },
+ {
+  "no": 199,
+  "level": 1,
+  "syllable": "tǐ",
+  "example_char": "体"
+ },
+ {
+  "no": 200,
+  "level": 1,
+  "syllable": "tiān",
+  "example_char": "天"
+ },
+ {
+  "no": 201,
+  "level": 1,
+  "syllable": "tiáo",
+  "example_char": "条"
+ },
+ {
+  "no": 202,
+  "level": 1,
+  "syllable": "tīng",
+  "example_char": "听"
+ },
+ {
+  "no": 203,
+  "level": 1,
+  "syllable": "tóng",
+  "example_char": "同"
+ },
+ {
+  "no": 204,
+  "level": 1,
+  "syllable": "tú",
+  "example_char": "图"
+ },
+ {
+  "no": 205,
+  "level": 1,
+  "syllable": "wài",
+  "example_char": "外"
+ },
+ {
+  "no": 206,
+  "level": 1,
+  "syllable": "wán",
+  "example_char": "玩"
+ },
+ {
+  "no": 207,
+  "level": 1,
+  "syllable": "wǎn",
+  "example_char": "晚"
+ },
+ {
+  "no": 208,
+  "level": 1,
+  "syllable": "wǎng",
+  "example_char": "网"
+ },
+ {
+  "no": 209,
+  "level": 1,
+  "syllable": "wàng",
+  "example_char": "忘"
+ },
+ {
+  "no": 210,
+  "level": 1,
+  "syllable": "wén",
+  "example_char": "文"
+ },
+ {
+  "no": 211,
+  "level": 1,
+  "syllable": "wèn",
+  "example_char": "问"
+ },
+ {
+  "no": 212,
+  "level": 1,
+  "syllable": "wǒ",
+  "example_char": "我"
+ },
+ {
+  "no": 213,
+  "level": 1,
+  "syllable": "wǔ",
+  "example_char": "五"
+ },
+ {
+  "no": 214,
+  "level": 1,
+  "syllable": "xī",
+  "example_char": "西"
+ },
+ {
+  "no": 215,
+  "level": 1,
+  "syllable": "xí",
+  "example_char": "习"
+ },
+ {
+  "no": 216,
+  "level": 1,
+  "syllable": "xǐ",
+  "example_char": "洗"
+ },
+ {
+  "no": 217,
+  "level": 1,
+  "syllable": "xì",
+  "example_char": "系"
+ },
+ {
+  "no": 218,
+  "level": 1,
+  "syllable": "xià",
+  "example_char": "下"
+ },
+ {
+  "no": 219,
+  "level": 1,
+  "syllable": "xiān",
+  "example_char": "先"
+ },
+ {
+  "no": 220,
+  "level": 1,
+  "syllable": "xiàn",
+  "example_char": "现"
+ },
+ {
+  "no": 221,
+  "level": 1,
+  "syllable": "xiǎng",
+  "example_char": "想"
+ },
+ {
+  "no": 222,
+  "level": 1,
+  "syllable": "xiǎo",
+  "example_char": "小"
+ },
+ {
+  "no": 223,
+  "level": 1,
+  "syllable": "xiào",
+  "example_char": "笑"
+ },
+ {
+  "no": 224,
+  "level": 1,
+  "syllable": "xiē",
+  "example_char": "些"
+ },
+ {
+  "no": 225,
+  "level": 1,
+  "syllable": "xiě",
+  "example_char": "写"
+ },
+ {
+  "no": 226,
+  "level": 1,
+  "syllable": "xiè",
+  "example_char": "谢"
+ },
+ {
+  "no": 227,
+  "level": 1,
+  "syllable": "xīn",
+  "example_char": "新"
+ },
+ {
+  "no": 228,
+  "level": 1,
+  "syllable": "xīng",
+  "example_char": "星"
+ },
+ {
+  "no": 229,
+  "level": 1,
+  "syllable": "xíng",
+  "example_char": "行"
+ },
+ {
+  "no": 230,
+  "level": 1,
+  "syllable": "xìng",
+  "example_char": "兴"
+ },
+ {
+  "no": 231,
+  "level": 1,
+  "syllable": "xiū",
+  "example_char": "休"
+ },
+ {
+  "no": 232,
+  "level": 1,
+  "syllable": "xué",
+  "example_char": "学"
+ },
+ {
+  "no": 233,
+  "level": 1,
+  "syllable": "yàng",
+  "example_char": "样"
+ },
+ {
+  "no": 234,
+  "level": 1,
+  "syllable": "yào",
+  "example_char": "要"
+ },
+ {
+  "no": 235,
+  "level": 1,
+  "syllable": "yé",
+  "example_char": "爷"
+ },
+ {
+  "no": 236,
+  "level": 1,
+  "syllable": "yě",
+  "example_char": "也"
+ },
+ {
+  "no": 237,
+  "level": 1,
+  "syllable": "yè",
+  "example_char": "页"
+ },
+ {
+  "no": 238,
+  "level": 1,
+  "syllable": "yī",
+  "example_char": "一"
+ },
+ {
+  "no": 239,
+  "level": 1,
+  "syllable": "yǐng",
+  "example_char": "影"
+ },
+ {
+  "no": 240,
+  "level": 1,
+  "syllable": "yòng",
+  "example_char": "用"
+ },
+ {
+  "no": 241,
+  "level": 1,
+  "syllable": "yǒu",
+  "example_char": "有"
+ },
+ {
+  "no": 242,
+  "level": 1,
+  "syllable": "yòu",
+  "example_char": "右"
+ },
+ {
+  "no": 243,
+  "level": 1,
+  "syllable": "yǔ",
+  "example_char": "雨"
+ },
+ {
+  "no": 244,
+  "level": 1,
+  "syllable": "yuán",
+  "example_char": "元"
+ },
+ {
+  "no": 245,
+  "level": 1,
+  "syllable": "yuǎn",
+  "example_char": "远"
+ },
+ {
+  "no": 246,
+  "level": 1,
+  "syllable": "yuàn",
+  "example_char": "院"
+ },
+ {
+  "no": 247,
+  "level": 1,
+  "syllable": "yuè",
+  "example_char": "月"
+ },
+ {
+  "no": 248,
+  "level": 1,
+  "syllable": "zài",
+  "example_char": "在"
+ },
+ {
+  "no": 249,
+  "level": 1,
+  "syllable": "zǎo",
+  "example_char": "早"
+ },
+ {
+  "no": 250,
+  "level": 1,
+  "syllable": "zěn",
+  "example_char": "怎"
+ },
+ {
+  "no": 251,
+  "level": 1,
+  "syllable": "zhàn",
+  "example_char": "站"
+ },
+ {
+  "no": 252,
+  "level": 1,
+  "syllable": "zhǎo",
+  "example_char": "找"
+ },
+ {
+  "no": 253,
+  "level": 1,
+  "syllable": "zhè",
+  "example_char": "这"
+ },
+ {
+  "no": 254,
+  "level": 1,
+  "syllable": "zhe",
+  "example_char": "着"
+ },
+ {
+  "no": 255,
+  "level": 1,
+  "syllable": "zhēn",
+  "example_char": "真"
+ },
+ {
+  "no": 256,
+  "level": 1,
+  "syllable": "zhèng",
+  "example_char": "正"
+ },
+ {
+  "no": 257,
+  "level": 1,
+  "syllable": "zhī",
+  "example_char": "知"
+ },
+ {
+  "no": 258,
+  "level": 1,
+  "syllable": "zhōng",
+  "example_char": "中"
+ },
+ {
+  "no": 259,
+  "level": 1,
+  "syllable": "zhòng",
+  "example_char": "重"
+ },
+ {
+  "no": 260,
+  "level": 1,
+  "syllable": "zhù",
+  "example_char": "住"
+ },
+ {
+  "no": 261,
+  "level": 1,
+  "syllable": "zhǔn",
+  "example_char": "准"
+ },
+ {
+  "no": 262,
+  "level": 1,
+  "syllable": "zhuō",
+  "example_char": "桌"
+ },
+ {
+  "no": 263,
+  "level": 1,
+  "syllable": "zǐ",
+  "example_char": "子"
+ },
+ {
+  "no": 264,
+  "level": 1,
+  "syllable": "zì",
+  "example_char": "字"
+ },
+ {
+  "no": 265,
+  "level": 1,
+  "syllable": "zǒu",
+  "example_char": "走"
+ },
+ {
+  "no": 266,
+  "level": 1,
+  "syllable": "zuì",
+  "example_char": "最"
+ },
+ {
+  "no": 267,
+  "level": 1,
+  "syllable": "zuó",
+  "example_char": "昨"
+ },
+ {
+  "no": 268,
+  "level": 1,
+  "syllable": "zuǒ",
+  "example_char": "左"
+ },
+ {
+  "no": 269,
+  "level": 1,
+  "syllable": "zuò",
+  "example_char": "坐"
+ },
+ {
+  "no": 270,
+  "level": 2,
+  "syllable": "a",
+  "example_char": "啊"
+ },
+ {
+  "no": 271,
+  "level": 2,
+  "syllable": "ān",
+  "example_char": "安"
+ },
+ {
+  "no": 272,
+  "level": 2,
+  "syllable": "bǎn",
+  "example_char": "板"
+ },
+ {
+  "no": 273,
+  "level": 2,
+  "syllable": "bǎo",
+  "example_char": "饱"
+ },
+ {
+  "no": 274,
+  "level": 2,
+  "syllable": "bào",
+  "example_char": "报"
+ },
+ {
+  "no": 275,
+  "level": 2,
+  "syllable": "bì",
+  "example_char": "必"
+ },
+ {
+  "no": 276,
+  "level": 2,
+  "syllable": "biàn",
+  "example_char": "变"
+ },
+ {
+  "no": 277,
+  "level": 2,
+  "syllable": "biǎo",
+  "example_char": "表"
+ },
+ {
+  "no": 278,
+  "level": 2,
+  "syllable": "cái",
+  "example_char": "才"
+ },
+ {
+  "no": 279,
+  "level": 2,
+  "syllable": "cān",
+  "example_char": "参"
+ },
+ {
+  "no": 280,
+  "level": 2,
+  "syllable": "cǎo",
+  "example_char": "草"
+ },
+ {
+  "no": 281,
+  "level": 2,
+  "syllable": "céng",
+  "example_char": "层"
+ },
+ {
+  "no": 282,
+  "level": 2,
+  "syllable": "chāo",
+  "example_char": "超"
+ },
+ {
+  "no": 283,
+  "level": 2,
+  "syllable": "chén",
+  "example_char": "晨"
+ },
+ {
+  "no": 284,
+  "level": 2,
+  "syllable": "chēng",
+  "example_char": "称"
+ },
+ {
+  "no": 285,
+  "level": 2,
+  "syllable": "chéng",
+  "example_char": "成"
+ },
+ {
+  "no": 286,
+  "level": 2,
+  "syllable": "chóng",
+  "example_char": "重"
+ },
+ {
+  "no": 287,
+  "level": 2,
+  "syllable": "chǔ",
+  "example_char": "楚"
+ },
+ {
+  "no": 288,
+  "level": 2,
+  "syllable": "chù",
+  "example_char": "处"
+ },
+ {
+  "no": 289,
+  "level": 2,
+  "syllable": "chuán",
+  "example_char": "船"
+ },
+ {
+  "no": 290,
+  "level": 2,
+  "syllable": "chuī",
+  "example_char": "吹"
+ },
+ {
+  "no": 291,
+  "level": 2,
+  "syllable": "chūn",
+  "example_char": "春"
+ },
+ {
+  "no": 292,
+  "level": 2,
+  "syllable": "cí",
+  "example_char": "词"
+ },
+ {
+  "no": 293,
+  "level": 2,
+  "syllable": "dā",
+  "example_char": "答"
+ },
+ {
+  "no": 294,
+  "level": 2,
+  "syllable": "dài",
+  "example_char": "带"
+ },
+ {
+  "no": 295,
+  "level": 2,
+  "syllable": "dān",
+  "example_char": "单"
+ },
+ {
+  "no": 296,
+  "level": 2,
+  "syllable": "dāng",
+  "example_char": "当"
+ },
+ {
+  "no": 297,
+  "level": 2,
+  "syllable": "dǎo",
+  "example_char": "倒"
+ },
+ {
+  "no": 298,
+  "level": 2,
+  "syllable": "dēng",
+  "example_char": "灯"
+ },
+ {
+  "no": 299,
+  "level": 2,
+  "syllable": "dī",
+  "example_char": "低"
+ },
+ {
+  "no": 300,
+  "level": 2,
+  "syllable": "diào",
+  "example_char": "掉"
+ },
+ {
+  "no": 301,
+  "level": 2,
+  "syllable": "dìng",
+  "example_char": "定"
+ },
+ {
+  "no": 302,
+  "level": 2,
+  "syllable": "dǒng",
+  "example_char": "懂"
+ },
+ {
+  "no": 303,
+  "level": 2,
+  "syllable": "dù",
+  "example_char": "度"
+ },
+ {
+  "no": 304,
+  "level": 2,
+  "syllable": "duǎn",
+  "example_char": "短"
+ },
+ {
+  "no": 305,
+  "level": 2,
+  "syllable": "duàn",
+  "example_char": "段"
+ },
+ {
+  "no": 306,
+  "level": 2,
+  "syllable": "fā",
+  "example_char": "发"
+ },
+ {
+  "no": 307,
+  "level": 2,
+  "syllable": "fǎ",
+  "example_char": "法"
+ },
+ {
+  "no": 308,
+  "level": 2,
+  "syllable": "fà",
+  "example_char": "发"
+ },
+ {
+  "no": 309,
+  "level": 2,
+  "syllable": "fèn",
+  "example_char": "份"
+ },
+ {
+  "no": 310,
+  "level": 2,
+  "syllable": "fù",
+  "example_char": "复"
+ },
+ {
+  "no": 311,
+  "level": 2,
+  "syllable": "gāi",
+  "example_char": "该"
+ },
+ {
+  "no": 312,
+  "level": 2,
+  "syllable": "gǎi",
+  "example_char": "改"
+ },
+ {
+  "no": 313,
+  "level": 2,
+  "syllable": "gǎn",
+  "example_char": "感"
+ },
+ {
+  "no": 314,
+  "level": 2,
+  "syllable": "gāng",
+  "example_char": "刚"
+ },
+ {
+  "no": 315,
+  "level": 2,
+  "syllable": "gèng",
+  "example_char": "更"
+ },
+ {
+  "no": 316,
+  "level": 2,
+  "syllable": "gòng",
+  "example_char": "共"
+ },
+ {
+  "no": 317,
+  "level": 2,
+  "syllable": "gǒu",
+  "example_char": "狗"
+ },
+ {
+  "no": 318,
+  "level": 2,
+  "syllable": "gòu",
+  "example_char": "够"
+ },
+ {
+  "no": 319,
+  "level": 2,
+  "syllable": "gù",
+  "example_char": "故"
+ },
+ {
+  "no": 320,
+  "level": 2,
+  "syllable": "guàn",
+  "example_char": "惯"
+ },
+ {
+  "no": 321,
+  "level": 2,
+  "syllable": "guǎng",
+  "example_char": "广"
+ },
+ {
+  "no": 322,
+  "level": 2,
+  "syllable": "guo",
+  "example_char": "过"
+ },
+ {
+  "no": 323,
+  "level": 2,
+  "syllable": "hǎi",
+  "example_char": "海"
+ },
+ {
+  "no": 324,
+  "level": 2,
+  "syllable": "hǎn",
+  "example_char": "喊"
+ },
+ {
+  "no": 325,
+  "level": 2,
+  "syllable": "háng",
+  "example_char": "行"
+ },
+ {
+  "no": 326,
+  "level": 2,
+  "syllable": "hēi",
+  "example_char": "黑"
+ },
+ {
+  "no": 327,
+  "level": 2,
+  "syllable": "hóng",
+  "example_char": "红"
+ },
+ {
+  "no": 328,
+  "level": 2,
+  "syllable": "hū",
+  "example_char": "忽"
+ },
+ {
+  "no": 329,
+  "level": 2,
+  "syllable": "hú",
+  "example_char": "湖"
+ },
+ {
+  "no": 330,
+  "level": 2,
+  "syllable": "hù",
+  "example_char": "护"
+ },
+ {
+  "no": 331,
+  "level": 2,
+  "syllable": "huàn",
+  "example_char": "换"
+ },
+ {
+  "no": 332,
+  "level": 2,
+  "syllable": "huáng",
+  "example_char": "黄"
+ },
+ {
+  "no": 333,
+  "level": 2,
+  "syllable": "huó",
+  "example_char": "活"
+ },
+ {
+  "no": 334,
+  "level": 2,
+  "syllable": "huò",
+  "example_char": "或"
+ },
+ {
+  "no": 335,
+  "level": 2,
+  "syllable": "jí",
+  "example_char": "级"
+ },
+ {
+  "no": 336,
+  "level": 2,
+  "syllable": "jiǎ",
+  "example_char": "假"
+ },
+ {
+  "no": 337,
+  "level": 2,
+  "syllable": "jiǎn",
+  "example_char": "检"
+ },
+ {
+  "no": 338,
+  "level": 2,
+  "syllable": "jiǎng",
+  "example_char": "讲"
+ },
+ {
+  "no": 339,
+  "level": 2,
+  "syllable": "jiǎo",
+  "example_char": "角"
+ },
+ {
+  "no": 340,
+  "level": 2,
+  "syllable": "jiē",
+  "example_char": "接"
+ },
+ {
+  "no": 341,
+  "level": 2,
+  "syllable": "jié",
+  "example_char": "节"
+ },
+ {
+  "no": 342,
+  "level": 2,
+  "syllable": "jǔ",
+  "example_char": "举"
+ },
+ {
+  "no": 343,
+  "level": 2,
+  "syllable": "jù",
+  "example_char": "句"
+ },
+ {
+  "no": 344,
+  "level": 2,
+  "syllable": "kǎ",
+  "example_char": "卡"
+ },
+ {
+  "no": 345,
+  "level": 2,
+  "syllable": "kāng",
+  "example_char": "康"
+ },
+ {
+  "no": 346,
+  "level": 2,
+  "syllable": "kào",
+  "example_char": "靠"
+ },
+ {
+  "no": 347,
+  "level": 2,
+  "syllable": "kē",
+  "example_char": "科"
+ },
+ {
+  "no": 348,
+  "level": 2,
+  "syllable": "kōng",
+  "example_char": "空"
+ },
+ {
+  "no": 349,
+  "level": 2,
+  "syllable": "kòng",
+  "example_char": "空"
+ },
+ {
+  "no": 350,
+  "level": 2,
+  "syllable": "kū",
+  "example_char": "哭"
+ },
+ {
+  "no": 351,
+  "level": 2,
+  "syllable": "lā",
+  "example_char": "拉"
+ },
+ {
+  "no": 352,
+  "level": 2,
+  "syllable": "lán",
+  "example_char": "蓝"
+ },
+ {
+  "no": 353,
+  "level": 2,
+  "syllable": "lè",
+  "example_char": "乐"
+ },
+ {
+  "no": 354,
+  "level": 2,
+  "syllable": "lí",
+  "example_char": "离"
+ },
+ {
+  "no": 355,
+  "level": 2,
+  "syllable": "lì",
+  "example_char": "利"
+ },
+ {
+  "no": 356,
+  "level": 2,
+  "syllable": "liǎn",
+  "example_char": "脸"
+ },
+ {
+  "no": 357,
+  "level": 2,
+  "syllable": "liàn",
+  "example_char": "练"
+ },
+ {
+  "no": 358,
+  "level": 2,
+  "syllable": "liáng",
+  "example_char": "凉"
+ },
+ {
+  "no": 359,
+  "level": 2,
+  "syllable": "liàng",
+  "example_char": "亮"
+ },
+ {
+  "no": 360,
+  "level": 2,
+  "syllable": "liú",
+  "example_char": "留"
+ },
+ {
+  "no": 361,
+  "level": 2,
+  "syllable": "lǚ",
+  "example_char": "旅"
+ },
+ {
+  "no": 362,
+  "level": 2,
+  "syllable": "lǜ",
+  "example_char": "绿"
+ },
+ {
+  "no": 363,
+  "level": 2,
+  "syllable": "lùn",
+  "example_char": "论"
+ },
+ {
+  "no": 364,
+  "level": 2,
+  "syllable": "mài",
+  "example_char": "卖"
+ },
+ {
+  "no": 365,
+  "level": 2,
+  "syllable": "mǎn",
+  "example_char": "满"
+ },
+ {
+  "no": 366,
+  "level": 2,
+  "syllable": "māo",
+  "example_char": "猫"
+ },
+ {
+  "no": 367,
+  "level": 2,
+  "syllable": "mò",
+  "example_char": "末"
+ },
+ {
+  "no": 368,
+  "level": 2,
+  "syllable": "mù",
+  "example_char": "目"
+ },
+ {
+  "no": 369,
+  "level": 2,
+  "syllable": "niǎo",
+  "example_char": "鸟"
+ },
+ {
+  "no": 370,
+  "level": 2,
+  "syllable": "nòng",
+  "example_char": "弄"
+ },
+ {
+  "no": 371,
+  "level": 2,
+  "syllable": "nǔ",
+  "example_char": "努"
+ },
+ {
+  "no": 372,
+  "level": 2,
+  "syllable": "pá",
+  "example_char": "爬"
+ },
+ {
+  "no": 373,
+  "level": 2,
+  "syllable": "pà",
+  "example_char": "怕"
+ },
+ {
+  "no": 374,
+  "level": 2,
+  "syllable": "pái",
+  "example_char": "排"
+ },
+ {
+  "no": 375,
+  "level": 2,
+  "syllable": "pèng",
+  "example_char": "碰"
+ },
+ {
+  "no": 376,
+  "level": 2,
+  "syllable": "piān",
+  "example_char": "篇"
+ },
+ {
+  "no": 377,
+  "level": 2,
+  "syllable": "pián",
+  "example_char": "便"
+ },
+ {
+  "no": 378,
+  "level": 2,
+  "syllable": "piàn",
+  "example_char": "片"
+ },
+ {
+  "no": 379,
+  "level": 2,
+  "syllable": "píng",
+  "example_char": "平"
+ },
+ {
+  "no": 380,
+  "level": 2,
+  "syllable": "pǔ",
+  "example_char": "普"
+ },
+ {
+  "no": 381,
+  "level": 2,
+  "syllable": "qí",
+  "example_char": "其"
+ },
+ {
+  "no": 382,
+  "level": 2,
+  "syllable": "qiān",
+  "example_char": "千"
+ },
+ {
+  "no": 383,
+  "level": 2,
+  "syllable": "qiáng",
+  "example_char": "墙"
+ },
+ {
+  "no": 384,
+  "level": 2,
+  "syllable": "qiě",
+  "example_char": "且"
+ },
+ {
+  "no": 385,
+  "level": 2,
+  "syllable": "qīng",
+  "example_char": "轻"
+ },
+ {
+  "no": 386,
+  "level": 2,
+  "syllable": "qíng",
+  "example_char": "情"
+ },
+ {
+  "no": 387,
+  "level": 2,
+  "syllable": "qiū",
+  "example_char": "秋"
+ },
+ {
+  "no": 388,
+  "level": 2,
+  "syllable": "qǔ",
+  "example_char": "取"
+ },
+ {
+  "no": 389,
+  "level": 2,
+  "syllable": "quán",
+  "example_char": "全"
+ },
+ {
+  "no": 390,
+  "level": 2,
+  "syllable": "què",
+  "example_char": "确"
+ },
+ {
+  "no": 391,
+  "level": 2,
+  "syllable": "rán",
+  "example_char": "然"
+ },
+ {
+  "no": 392,
+  "level": 2,
+  "syllable": "ràng",
+  "example_char": "让"
+ },
+ {
+  "no": 393,
+  "level": 2,
+  "syllable": "rú",
+  "example_char": "如"
+ },
+ {
+  "no": 394,
+  "level": 2,
+  "syllable": "rù",
+  "example_char": "入"
+ },
+ {
+  "no": 395,
+  "level": 2,
+  "syllable": "sè",
+  "example_char": "色"
+ },
+ {
+  "no": 396,
+  "level": 2,
+  "syllable": "shěng",
+  "example_char": "省"
+ },
+ {
+  "no": 397,
+  "level": 2,
+  "syllable": "shǐ",
+  "example_char": "使"
+ },
+ {
+  "no": 398,
+  "level": 2,
+  "syllable": "shōu",
+  "example_char": "收"
+ },
+ {
+  "no": 399,
+  "level": 2,
+  "syllable": "shóu",
+  "example_char": "熟"
+ },
+ {
+  "no": 400,
+  "level": 2,
+  "syllable": "shòu",
+  "example_char": "受"
+ },
+ {
+  "no": 401,
+  "level": 2,
+  "syllable": "shú",
+  "example_char": "熟"
+ },
+ {
+  "no": 402,
+  "level": 2,
+  "syllable": "shǔ",
+  "example_char": "数"
+ },
+ {
+  "no": 403,
+  "level": 2,
+  "syllable": "shùn",
+  "example_char": "顺"
+ },
+ {
+  "no": 404,
+  "level": 2,
+  "syllable": "sī",
+  "example_char": "思"
+ },
+ {
+  "no": 405,
+  "level": 2,
+  "syllable": "suàn",
+  "example_char": "算"
+ },
+ {
+  "no": 406,
+  "level": 2,
+  "syllable": "suī",
+  "example_char": "虽"
+ },
+ {
+  "no": 407,
+  "level": 2,
+  "syllable": "suí",
+  "example_char": "随"
+ },
+ {
+  "no": 408,
+  "level": 2,
+  "syllable": "suǒ",
+  "example_char": "所"
+ },
+ {
+  "no": 409,
+  "level": 2,
+  "syllable": "táng",
+  "example_char": "堂"
+ },
+ {
+  "no": 410,
+  "level": 2,
+  "syllable": "tǎo",
+  "example_char": "讨"
+ },
+ {
+  "no": 411,
+  "level": 2,
+  "syllable": "tào",
+  "example_char": "套"
+ },
+ {
+  "no": 412,
+  "level": 2,
+  "syllable": "tè",
+  "example_char": "特"
+ },
+ {
+  "no": 413,
+  "level": 2,
+  "syllable": "téng",
+  "example_char": "疼"
+ },
+ {
+  "no": 414,
+  "level": 2,
+  "syllable": "tí",
+  "example_char": "题"
+ },
+ {
+  "no": 415,
+  "level": 2,
+  "syllable": "tiě",
+  "example_char": "铁"
+ },
+ {
+  "no": 416,
+  "level": 2,
+  "syllable": "tíng",
+  "example_char": "停"
+ },
+ {
+  "no": 417,
+  "level": 2,
+  "syllable": "tǐng",
+  "example_char": "挺"
+ },
+ {
+  "no": 418,
+  "level": 2,
+  "syllable": "tōng",
+  "example_char": "通"
+ },
+ {
+  "no": 419,
+  "level": 2,
+  "syllable": "tóu",
+  "example_char": "头"
+ },
+ {
+  "no": 420,
+  "level": 2,
+  "syllable": "tuī",
+  "example_char": "推"
+ },
+ {
+  "no": 421,
+  "level": 2,
+  "syllable": "tuǐ",
+  "example_char": "腿"
+ },
+ {
+  "no": 422,
+  "level": 2,
+  "syllable": "wàn",
+  "example_char": "万"
+ },
+ {
+  "no": 423,
+  "level": 2,
+  "syllable": "wáng",
+  "example_char": "王"
+ },
+ {
+  "no": 424,
+  "level": 2,
+  "syllable": "wéi",
+  "example_char": "为"
+ },
+ {
+  "no": 425,
+  "level": 2,
+  "syllable": "wèi",
+  "example_char": "位"
+ },
+ {
+  "no": 426,
+  "level": 2,
+  "syllable": "wēn",
+  "example_char": "温"
+ },
+ {
+  "no": 427,
+  "level": 2,
+  "syllable": "wù",
+  "example_char": "物"
+ },
+ {
+  "no": 428,
+  "level": 2,
+  "syllable": "xiāng",
+  "example_char": "相"
+ },
+ {
+  "no": 429,
+  "level": 2,
+  "syllable": "xiàng",
+  "example_char": "向"
+ },
+ {
+  "no": 430,
+  "level": 2,
+  "syllable": "xié",
+  "example_char": "鞋"
+ },
+ {
+  "no": 431,
+  "level": 2,
+  "syllable": "xìn",
+  "example_char": "信"
+ },
+ {
+  "no": 432,
+  "level": 2,
+  "syllable": "xū",
+  "example_char": "须"
+ },
+ {
+  "no": 433,
+  "level": 2,
+  "syllable": "xǔ",
+  "example_char": "许"
+ },
+ {
+  "no": 434,
+  "level": 2,
+  "syllable": "xuǎn",
+  "example_char": "选"
+ },
+ {
+  "no": 435,
+  "level": 2,
+  "syllable": "xuě",
+  "example_char": "雪"
+ },
+ {
+  "no": 436,
+  "level": 2,
+  "syllable": "yán",
+  "example_char": "言"
+ },
+ {
+  "no": 437,
+  "level": 2,
+  "syllable": "yǎn",
+  "example_char": "眼"
+ },
+ {
+  "no": 438,
+  "level": 2,
+  "syllable": "yáng",
+  "example_char": "阳"
+ },
+ {
+  "no": 439,
+  "level": 2,
+  "syllable": "yǎng",
+  "example_char": "养"
+ },
+ {
+  "no": 440,
+  "level": 2,
+  "syllable": "yāo",
+  "example_char": "要"
+ },
+ {
+  "no": 441,
+  "level": 2,
+  "syllable": "yí",
+  "example_char": "宜"
+ },
+ {
+  "no": 442,
+  "level": 2,
+  "syllable": "yǐ",
+  "example_char": "以"
+ },
+ {
+  "no": 443,
+  "level": 2,
+  "syllable": "yì",
+  "example_char": "意"
+ },
+ {
+  "no": 444,
+  "level": 2,
+  "syllable": "yīn",
+  "example_char": "因"
+ },
+ {
+  "no": 445,
+  "level": 2,
+  "syllable": "yín",
+  "example_char": "银"
+ },
+ {
+  "no": 446,
+  "level": 2,
+  "syllable": "yìn",
+  "example_char": "印"
+ },
+ {
+  "no": 447,
+  "level": 2,
+  "syllable": "yīng",
+  "example_char": "应"
+ },
+ {
+  "no": 448,
+  "level": 2,
+  "syllable": "yíng",
+  "example_char": "迎"
+ },
+ {
+  "no": 449,
+  "level": 2,
+  "syllable": "yìng",
+  "example_char": "应"
+ },
+ {
+  "no": 450,
+  "level": 2,
+  "syllable": "yǒng",
+  "example_char": "永"
+ },
+ {
+  "no": 451,
+  "level": 2,
+  "syllable": "yóu",
+  "example_char": "由"
+ },
+ {
+  "no": 452,
+  "level": 2,
+  "syllable": "yú",
+  "example_char": "鱼"
+ },
+ {
+  "no": 453,
+  "level": 2,
+  "syllable": "yù",
+  "example_char": "育"
+ },
+ {
+  "no": 454,
+  "level": 2,
+  "syllable": "yún",
+  "example_char": "云"
+ },
+ {
+  "no": 455,
+  "level": 2,
+  "syllable": "yùn",
+  "example_char": "运"
+ },
+ {
+  "no": 456,
+  "level": 2,
+  "syllable": "zán",
+  "example_char": "咱"
+ },
+ {
+  "no": 457,
+  "level": 2,
+  "syllable": "zāng",
+  "example_char": "脏"
+ },
+ {
+  "no": 458,
+  "level": 2,
+  "syllable": "zhǎng",
+  "example_char": "长"
+ },
+ {
+  "no": 459,
+  "level": 2,
+  "syllable": "zhào",
+  "example_char": "照"
+ },
+ {
+  "no": 460,
+  "level": 2,
+  "syllable": "zhě",
+  "example_char": "者"
+ },
+ {
+  "no": 461,
+  "level": 2,
+  "syllable": "zhí",
+  "example_char": "直"
+ },
+ {
+  "no": 462,
+  "level": 2,
+  "syllable": "zhǐ",
+  "example_char": "纸"
+ },
+ {
+  "no": 463,
+  "level": 2,
+  "syllable": "zhōu",
+  "example_char": "周"
+ },
+ {
+  "no": 464,
+  "level": 2,
+  "syllable": "zhǔ",
+  "example_char": "主"
+ },
+ {
+  "no": 465,
+  "level": 2,
+  "syllable": "zhuāng",
+  "example_char": "装"
+ },
+ {
+  "no": 466,
+  "level": 2,
+  "syllable": "zū",
+  "example_char": "租"
+ },
+ {
+  "no": 467,
+  "level": 2,
+  "syllable": "zǔ",
+  "example_char": "组"
+ },
+ {
+  "no": 468,
+  "level": 2,
+  "syllable": "zuǐ",
+  "example_char": "嘴"
+ },
+ {
+  "no": 469,
+  "level": 3,
+  "syllable": "àn",
+  "example_char": "按"
+ },
+ {
+  "no": 470,
+  "level": 3,
+  "syllable": "bǎ",
+  "example_char": "把"
+ },
+ {
+  "no": 471,
+  "level": 3,
+  "syllable": "biāo",
+  "example_char": "标"
+ },
+ {
+  "no": 472,
+  "level": 3,
+  "syllable": "bō",
+  "example_char": "播"
+ },
+ {
+  "no": 473,
+  "level": 3,
+  "syllable": "bǔ",
+  "example_char": "补"
+ },
+ {
+  "no": 474,
+  "level": 3,
+  "syllable": "cǎi",
+  "example_char": "采"
+ },
+ {
+  "no": 475,
+  "level": 3,
+  "syllable": "chǎn",
+  "example_char": "产"
+ },
+ {
+  "no": 476,
+  "level": 3,
+  "syllable": "cháo",
+  "example_char": "朝"
+ },
+ {
+  "no": 477,
+  "level": 3,
+  "syllable": "chǎo",
+  "example_char": "吵"
+ },
+ {
+  "no": 478,
+  "level": 3,
+  "syllable": "chèn",
+  "example_char": "衬"
+ },
+ {
+  "no": 479,
+  "level": 3,
+  "syllable": "chí",
+  "example_char": "持"
+ },
+ {
+  "no": 480,
+  "level": 3,
+  "syllable": "chōng",
+  "example_char": "充"
+ },
+ {
+  "no": 481,
+  "level": 3,
+  "syllable": "chú",
+  "example_char": "除"
+ },
+ {
+  "no": 482,
+  "level": 3,
+  "syllable": "chuàng",
+  "example_char": "创"
+ },
+ {
+  "no": 483,
+  "level": 3,
+  "syllable": "cǐ",
+  "example_char": "此"
+ },
+ {
+  "no": 484,
+  "level": 3,
+  "syllable": "cūn",
+  "example_char": "村"
+ },
+ {
+  "no": 485,
+  "level": 3,
+  "syllable": "cún",
+  "example_char": "存"
+ },
+ {
+  "no": 486,
+  "level": 3,
+  "syllable": "dāo",
+  "example_char": "刀"
+ },
+ {
+  "no": 487,
+  "level": 3,
+  "syllable": "dǐ",
+  "example_char": "底"
+ },
+ {
+  "no": 488,
+  "level": 3,
+  "syllable": "dū",
+  "example_char": "都"
+ },
+ {
+  "no": 489,
+  "level": 3,
+  "syllable": "dùn",
+  "example_char": "顿"
+ },
+ {
+  "no": 490,
+  "level": 3,
+  "syllable": "fán",
+  "example_char": "烦"
+ },
+ {
+  "no": 491,
+  "level": 3,
+  "syllable": "fǎn",
+  "example_char": "反"
+ },
+ {
+  "no": 492,
+  "level": 3,
+  "syllable": "fǎng",
+  "example_char": "访"
+ },
+ {
+  "no": 493,
+  "level": 3,
+  "syllable": "fèi",
+  "example_char": "费"
+ },
+ {
+  "no": 494,
+  "level": 3,
+  "syllable": "fǒu",
+  "example_char": "否"
+ },
+ {
+  "no": 495,
+  "level": 3,
+  "syllable": "fū",
+  "example_char": "夫"
+ },
+ {
+  "no": 496,
+  "level": 3,
+  "syllable": "gài",
+  "example_char": "概"
+ },
+ {
+  "no": 497,
+  "level": 3,
+  "syllable": "gé",
+  "example_char": "格"
+ },
+ {
+  "no": 498,
+  "level": 3,
+  "syllable": "gū",
+  "example_char": "姑"
+ },
+ {
+  "no": 499,
+  "level": 3,
+  "syllable": "gǔ",
+  "example_char": "古"
+ },
+ {
+  "no": 500,
+  "level": 3,
+  "syllable": "guà",
+  "example_char": "挂"
+ },
+ {
+  "no": 501,
+  "level": 3,
+  "syllable": "guài",
+  "example_char": "怪"
+ },
+ {
+  "no": 502,
+  "level": 3,
+  "syllable": "guāng",
+  "example_char": "光"
+ },
+ {
+  "no": 503,
+  "level": 3,
+  "syllable": "guī",
+  "example_char": "规"
+ },
+ {
+  "no": 504,
+  "level": 3,
+  "syllable": "hā",
+  "example_char": "哈"
+ },
+ {
+  "no": 505,
+  "level": 3,
+  "syllable": "hài",
+  "example_char": "害"
+ },
+ {
+  "no": 506,
+  "level": 3,
+  "syllable": "huá",
+  "example_char": "华"
+ },
+ {
+  "no": 507,
+  "level": 3,
+  "syllable": "hūn",
+  "example_char": "婚"
+ },
+ {
+  "no": 508,
+  "level": 3,
+  "syllable": "jiāng",
+  "example_char": "将"
+ },
+ {
+  "no": 509,
+  "level": 3,
+  "syllable": "jǐn",
+  "example_char": "仅"
+ },
+ {
+  "no": 510,
+  "level": 3,
+  "syllable": "jǐng",
+  "example_char": "景"
+ },
+ {
+  "no": 511,
+  "level": 3,
+  "syllable": "kā",
+  "example_char": "咖"
+ },
+ {
+  "no": 512,
+  "level": 3,
+  "syllable": "kǒng",
+  "example_char": "恐"
+ },
+ {
+  "no": 513,
+  "level": 3,
+  "syllable": "kǔ",
+  "example_char": "苦"
+ },
+ {
+  "no": 514,
+  "level": 3,
+  "syllable": "kù",
+  "example_char": "裤"
+ },
+ {
+  "no": 515,
+  "level": 3,
+  "syllable": "kuàng",
+  "example_char": "况"
+ },
+ {
+  "no": 516,
+  "level": 3,
+  "syllable": "kùn",
+  "example_char": "困"
+ },
+ {
+  "no": 517,
+  "level": 3,
+  "syllable": "làng",
+  "example_char": "浪"
+ },
+ {
+  "no": 518,
+  "level": 3,
+  "syllable": "lián",
+  "example_char": "连"
+ },
+ {
+  "no": 519,
+  "level": 3,
+  "syllable": "liǎo",
+  "example_char": "了"
+ },
+ {
+  "no": 520,
+  "level": 3,
+  "syllable": "liè",
+  "example_char": "烈"
+ },
+ {
+  "no": 521,
+  "level": 3,
+  "syllable": "lǐng",
+  "example_char": "领"
+ },
+ {
+  "no": 522,
+  "level": 3,
+  "syllable": "lìng",
+  "example_char": "另"
+ },
+ {
+  "no": 523,
+  "level": 3,
+  "syllable": "lóng",
+  "example_char": "龙"
+ },
+ {
+  "no": 524,
+  "level": 3,
+  "syllable": "luàn",
+  "example_char": "乱"
+ },
+ {
+  "no": 525,
+  "level": 3,
+  "syllable": "luò",
+  "example_char": "落"
+ },
+ {
+  "no": 526,
+  "level": 3,
+  "syllable": "má",
+  "example_char": "麻"
+ },
+ {
+  "no": 527,
+  "level": 3,
+  "syllable": "mào",
+  "example_char": "冒"
+ },
+ {
+  "no": 528,
+  "level": 3,
+  "syllable": "měi",
+  "example_char": "每"
+ },
+ {
+  "no": 529,
+  "level": 3,
+  "syllable": "mí",
+  "example_char": "迷"
+ },
+ {
+  "no": 530,
+  "level": 3,
+  "syllable": "mín",
+  "example_char": "民"
+ },
+ {
+  "no": 531,
+  "level": 3,
+  "syllable": "mìng",
+  "example_char": "命"
+ },
+ {
+  "no": 532,
+  "level": 3,
+  "syllable": "mǒu",
+  "example_char": "某"
+ },
+ {
+  "no": 533,
+  "level": 3,
+  "syllable": "mǔ",
+  "example_char": "母"
+ },
+ {
+  "no": 534,
+  "level": 3,
+  "syllable": "nèi",
+  "example_char": "内"
+ },
+ {
+  "no": 535,
+  "level": 3,
+  "syllable": "niàn",
+  "example_char": "念"
+ },
+ {
+  "no": 536,
+  "level": 3,
+  "syllable": "niáng",
+  "example_char": "娘"
+ },
+ {
+  "no": 537,
+  "level": 3,
+  "syllable": "nóng",
+  "example_char": "农"
+ },
+ {
+  "no": 538,
+  "level": 3,
+  "syllable": "nuǎn",
+  "example_char": "暖"
+ },
+ {
+  "no": 539,
+  "level": 3,
+  "syllable": "pāi",
+  "example_char": "拍"
+ },
+ {
+  "no": 540,
+  "level": 3,
+  "syllable": "pài",
+  "example_char": "派"
+ },
+ {
+  "no": 541,
+  "level": 3,
+  "syllable": "pàn",
+  "example_char": "判"
+ },
+ {
+  "no": 542,
+  "level": 3,
+  "syllable": "pàng",
+  "example_char": "胖"
+ },
+ {
+  "no": 543,
+  "level": 3,
+  "syllable": "pèi",
+  "example_char": "配"
+ },
+ {
+  "no": 544,
+  "level": 3,
+  "syllable": "pī",
+  "example_char": "批"
+ },
+ {
+  "no": 545,
+  "level": 3,
+  "syllable": "pí",
+  "example_char": "皮"
+ },
+ {
+  "no": 546,
+  "level": 3,
+  "syllable": "pǐn",
+  "example_char": "品"
+ },
+ {
+  "no": 547,
+  "level": 3,
+  "syllable": "pò",
+  "example_char": "破"
+ },
+ {
+  "no": 548,
+  "level": 3,
+  "syllable": "qiáo",
+  "example_char": "桥"
+ },
+ {
+  "no": 549,
+  "level": 3,
+  "syllable": "qiǎo",
+  "example_char": "巧"
+ },
+ {
+  "no": 550,
+  "level": 3,
+  "syllable": "qiè",
+  "example_char": "切"
+ },
+ {
+  "no": 551,
+  "level": 3,
+  "syllable": "qīn",
+  "example_char": "亲"
+ },
+ {
+  "no": 552,
+  "level": 3,
+  "syllable": "qìng",
+  "example_char": "庆"
+ },
+ {
+  "no": 553,
+  "level": 3,
+  "syllable": "qū",
+  "example_char": "区"
+ },
+ {
+  "no": 554,
+  "level": 3,
+  "syllable": "quē",
+  "example_char": "缺"
+ },
+ {
+  "no": 555,
+  "level": 3,
+  "syllable": "qún",
+  "example_char": "群"
+ },
+ {
+  "no": 556,
+  "level": 3,
+  "syllable": "réng",
+  "example_char": "仍"
+ },
+ {
+  "no": 557,
+  "level": 3,
+  "syllable": "róng",
+  "example_char": "容"
+ },
+ {
+  "no": 558,
+  "level": 3,
+  "syllable": "sài",
+  "example_char": "赛"
+ },
+ {
+  "no": 559,
+  "level": 3,
+  "syllable": "sàn",
+  "example_char": "散"
+ },
+ {
+  "no": 560,
+  "level": 3,
+  "syllable": "shā",
+  "example_char": "沙"
+ },
+ {
+  "no": 561,
+  "level": 3,
+  "syllable": "shàn",
+  "example_char": "善"
+ },
+ {
+  "no": 562,
+  "level": 3,
+  "syllable": "shè",
+  "example_char": "社"
+ },
+ {
+  "no": 563,
+  "level": 3,
+  "syllable": "shèng",
+  "example_char": "胜"
+ },
+ {
+  "no": 564,
+  "level": 3,
+  "syllable": "shuāng",
+  "example_char": "双"
+ },
+ {
+  "no": 565,
+  "level": 3,
+  "syllable": "sǐ",
+  "example_char": "死"
+ },
+ {
+  "no": 566,
+  "level": 3,
+  "syllable": "tái",
+  "example_char": "台"
+ },
+ {
+  "no": 567,
+  "level": 3,
+  "syllable": "tán",
+  "example_char": "谈"
+ },
+ {
+  "no": 568,
+  "level": 3,
+  "syllable": "tāng",
+  "example_char": "汤"
+ },
+ {
+  "no": 569,
+  "level": 3,
+  "syllable": "tián",
+  "example_char": "甜"
+ },
+ {
+  "no": 570,
+  "level": 3,
+  "syllable": "tiào",
+  "example_char": "跳"
+ },
+ {
+  "no": 571,
+  "level": 3,
+  "syllable": "tòng",
+  "example_char": "痛"
+ },
+ {
+  "no": 572,
+  "level": 3,
+  "syllable": "tū",
+  "example_char": "突"
+ },
+ {
+  "no": 573,
+  "level": 3,
+  "syllable": "tǔ",
+  "example_char": "土"
+ },
+ {
+  "no": 574,
+  "level": 3,
+  "syllable": "tuán",
+  "example_char": "团"
+ },
+ {
+  "no": 575,
+  "level": 3,
+  "syllable": "tuì",
+  "example_char": "退"
+ },
+ {
+  "no": 576,
+  "level": 3,
+  "syllable": "wēi",
+  "example_char": "危"
+ },
+ {
+  "no": 577,
+  "level": 3,
+  "syllable": "wěi",
+  "example_char": "伟"
+ },
+ {
+  "no": 578,
+  "level": 3,
+  "syllable": "wò",
+  "example_char": "握"
+ },
+ {
+  "no": 579,
+  "level": 3,
+  "syllable": "wū",
+  "example_char": "屋"
+ },
+ {
+  "no": 580,
+  "level": 3,
+  "syllable": "xiǎn",
+  "example_char": "显"
+ },
+ {
+  "no": 581,
+  "level": 3,
+  "syllable": "xiāo",
+  "example_char": "消"
+ },
+ {
+  "no": 582,
+  "level": 3,
+  "syllable": "xù",
+  "example_char": "续"
+ },
+ {
+  "no": 583,
+  "level": 3,
+  "syllable": "xuān",
+  "example_char": "宣"
+ },
+ {
+  "no": 584,
+  "level": 3,
+  "syllable": "xùn",
+  "example_char": "训"
+ },
+ {
+  "no": 585,
+  "level": 3,
+  "syllable": "yā",
+  "example_char": "压"
+ },
+ {
+  "no": 586,
+  "level": 3,
+  "syllable": "yān",
+  "example_char": "烟"
+ },
+ {
+  "no": 587,
+  "level": 3,
+  "syllable": "yàn",
+  "example_char": "验"
+ },
+ {
+  "no": 588,
+  "level": 3,
+  "syllable": "yōu",
+  "example_char": "优"
+ },
+ {
+  "no": 589,
+  "level": 3,
+  "syllable": "yuē",
+  "example_char": "约"
+ },
+ {
+  "no": 590,
+  "level": 3,
+  "syllable": "zá",
+  "example_char": "杂"
+ },
+ {
+  "no": 591,
+  "level": 3,
+  "syllable": "zào",
+  "example_char": "造"
+ },
+ {
+  "no": 592,
+  "level": 3,
+  "syllable": "zé",
+  "example_char": "责"
+ },
+ {
+  "no": 593,
+  "level": 3,
+  "syllable": "zēng",
+  "example_char": "增"
+ },
+ {
+  "no": 594,
+  "level": 3,
+  "syllable": "zhǎn",
+  "example_char": "展"
+ },
+ {
+  "no": 595,
+  "level": 3,
+  "syllable": "zhāng",
+  "example_char": "张"
+ },
+ {
+  "no": 596,
+  "level": 3,
+  "syllable": "zhēng",
+  "example_char": "争"
+ },
+ {
+  "no": 597,
+  "level": 3,
+  "syllable": "zhěng",
+  "example_char": "整"
+ },
+ {
+  "no": 598,
+  "level": 3,
+  "syllable": "zhì",
+  "example_char": "志"
+ },
+ {
+  "no": 599,
+  "level": 3,
+  "syllable": "zhǒng",
+  "example_char": "种"
+ },
+ {
+  "no": 600,
+  "level": 3,
+  "syllable": "zhū",
+  "example_char": "猪"
+ },
+ {
+  "no": 601,
+  "level": 3,
+  "syllable": "zhuā",
+  "example_char": "抓"
+ },
+ {
+  "no": 602,
+  "level": 3,
+  "syllable": "zhuān",
+  "example_char": "专"
+ },
+ {
+  "no": 603,
+  "level": 3,
+  "syllable": "zhuǎn",
+  "example_char": "转"
+ },
+ {
+  "no": 604,
+  "level": 3,
+  "syllable": "zhuàng",
+  "example_char": "状"
+ },
+ {
+  "no": 605,
+  "level": 3,
+  "syllable": "zhuī",
+  "example_char": "追"
+ },
+ {
+  "no": 606,
+  "level": 3,
+  "syllable": "zī",
+  "example_char": "资"
+ },
+ {
+  "no": 607,
+  "level": 3,
+  "syllable": "zǒng",
+  "example_char": "总"
+ },
+ {
+  "no": 608,
+  "level": 3,
+  "syllable": "zú",
+  "example_char": "足"
+ },
+ {
+  "no": 609,
+  "level": 4,
+  "syllable": "ā",
+  "example_char": "阿"
+ },
+ {
+  "no": 610,
+  "level": 4,
+  "syllable": "ǎi",
+  "example_char": "矮"
+ },
+ {
+  "no": 611,
+  "level": 4,
+  "syllable": "bài",
+  "example_char": "败"
+ },
+ {
+  "no": 612,
+  "level": 4,
+  "syllable": "báo",
+  "example_char": "薄"
+ },
+ {
+  "no": 613,
+  "level": 4,
+  "syllable": "bèn",
+  "example_char": "笨"
+ },
+ {
+  "no": 614,
+  "level": 4,
+  "syllable": "bīng",
+  "example_char": "兵"
+ },
+ {
+  "no": 615,
+  "level": 4,
+  "syllable": "cā",
+  "example_char": "擦"
+ },
+ {
+  "no": 616,
+  "level": 4,
+  "syllable": "cāo",
+  "example_char": "操"
+ },
+ {
+  "no": 617,
+  "level": 4,
+  "syllable": "cè",
+  "example_char": "测"
+ },
+ {
+  "no": 618,
+  "level": 4,
+  "syllable": "chè",
+  "example_char": "彻"
+ },
+ {
+  "no": 619,
+  "level": 4,
+  "syllable": "chǐ",
+  "example_char": "尺"
+ },
+ {
+  "no": 620,
+  "level": 4,
+  "syllable": "chōu",
+  "example_char": "抽"
+ },
+ {
+  "no": 621,
+  "level": 4,
+  "syllable": "chuāng",
+  "example_char": "窗"
+ },
+ {
+  "no": 622,
+  "level": 4,
+  "syllable": "chún",
+  "example_char": "纯"
+ },
+ {
+  "no": 623,
+  "level": 4,
+  "syllable": "cū",
+  "example_char": "粗"
+ },
+ {
+  "no": 624,
+  "level": 4,
+  "syllable": "cù",
+  "example_char": "促"
+ },
+ {
+  "no": 625,
+  "level": 4,
+  "syllable": "cùn",
+  "example_char": "寸"
+ },
+ {
+  "no": 626,
+  "level": 4,
+  "syllable": "děi",
+  "example_char": "得"
+ },
+ {
+  "no": 627,
+  "level": 4,
+  "syllable": "dí",
+  "example_char": "敌"
+ },
+ {
+  "no": 628,
+  "level": 4,
+  "syllable": "dǐng",
+  "example_char": "顶"
+ },
+ {
+  "no": 629,
+  "level": 4,
+  "syllable": "dòu",
+  "example_char": "斗"
+ },
+ {
+  "no": 630,
+  "level": 4,
+  "syllable": "dǔ",
+  "example_char": "堵"
+ },
+ {
+  "no": 631,
+  "level": 4,
+  "syllable": "ě",
+  "example_char": "恶"
+ },
+ {
+  "no": 632,
+  "level": 4,
+  "syllable": "ěr",
+  "example_char": "耳"
+ },
+ {
+  "no": 633,
+  "level": 4,
+  "syllable": "fān",
+  "example_char": "翻"
+ },
+ {
+  "no": 634,
+  "level": 4,
+  "syllable": "féi",
+  "example_char": "肥"
+ },
+ {
+  "no": 635,
+  "level": 4,
+  "syllable": "fǔ",
+  "example_char": "府"
+ },
+ {
+  "no": 636,
+  "level": 4,
+  "syllable": "guā",
+  "example_char": "瓜"
+ },
+ {
+  "no": 637,
+  "level": 4,
+  "syllable": "guàng",
+  "example_char": "逛"
+ },
+ {
+  "no": 638,
+  "level": 4,
+  "syllable": "hán",
+  "example_char": "含"
+ },
+ {
+  "no": 639,
+  "level": 4,
+  "syllable": "háo",
+  "example_char": "毫"
+ },
+ {
+  "no": 640,
+  "level": 4,
+  "syllable": "huái",
+  "example_char": "怀"
+ },
+ {
+  "no": 641,
+  "level": 4,
+  "syllable": "huǎn",
+  "example_char": "缓"
+ },
+ {
+  "no": 642,
+  "level": 4,
+  "syllable": "huī",
+  "example_char": "挥"
+ },
+ {
+  "no": 643,
+  "level": 4,
+  "syllable": "jiàng",
+  "example_char": "降"
+ },
+ {
+  "no": 644,
+  "level": 4,
+  "syllable": "jiū",
+  "example_char": "究"
+ },
+ {
+  "no": 645,
+  "level": 4,
+  "syllable": "jū",
+  "example_char": "居"
+ },
+ {
+  "no": 646,
+  "level": 4,
+  "syllable": "jú",
+  "example_char": "局"
+ },
+ {
+  "no": 647,
+  "level": 4,
+  "syllable": "juǎn",
+  "example_char": "卷"
+ },
+ {
+  "no": 648,
+  "level": 4,
+  "syllable": "juàn",
+  "example_char": "卷"
+ },
+ {
+  "no": 649,
+  "level": 4,
+  "syllable": "jūn",
+  "example_char": "均"
+ },
+ {
+  "no": 650,
+  "level": 4,
+  "syllable": "kuān",
+  "example_char": "宽"
+ },
+ {
+  "no": 651,
+  "level": 4,
+  "syllable": "kuò",
+  "example_char": "扩"
+ },
+ {
+  "no": 652,
+  "level": 4,
+  "syllable": "là",
+  "example_char": "辣"
+ },
+ {
+  "no": 653,
+  "level": 4,
+  "syllable": "láng",
+  "example_char": "郎"
+ },
+ {
+  "no": 654,
+  "level": 4,
+  "syllable": "léi",
+  "example_char": "雷"
+ },
+ {
+  "no": 655,
+  "level": 4,
+  "syllable": "lěi",
+  "example_char": "累"
+ },
+ {
+  "no": 656,
+  "level": 4,
+  "syllable": "liǎ",
+  "example_char": "俩"
+ },
+ {
+  "no": 657,
+  "level": 4,
+  "syllable": "liáo",
+  "example_char": "疗"
+ },
+ {
+  "no": 658,
+  "level": 4,
+  "syllable": "liào",
+  "example_char": "料"
+ },
+ {
+  "no": 659,
+  "level": 4,
+  "syllable": "lín",
+  "example_char": "林"
+ },
+ {
+  "no": 660,
+  "level": 4,
+  "syllable": "lún",
+  "example_char": "轮"
+ },
+ {
+  "no": 661,
+  "level": 4,
+  "syllable": "mèng",
+  "example_char": "梦"
+ },
+ {
+  "no": 662,
+  "level": 4,
+  "syllable": "mì",
+  "example_char": "秘"
+ },
+ {
+  "no": 663,
+  "level": 4,
+  "syllable": "miǎn",
+  "example_char": "免"
+ },
+ {
+  "no": 664,
+  "level": 4,
+  "syllable": "miáo",
+  "example_char": "描"
+ },
+ {
+  "no": 665,
+  "level": 4,
+  "syllable": "mō",
+  "example_char": "摸"
+ },
+ {
+  "no": 666,
+  "level": 4,
+  "syllable": "mó",
+  "example_char": "模"
+ },
+ {
+  "no": 667,
+  "level": 4,
+  "syllable": "na",
+  "example_char": "哪"
+ },
+ {
+  "no": 668,
+  "level": 4,
+  "syllable": "nào",
+  "example_char": "闹"
+ },
+ {
+  "no": 669,
+  "level": 4,
+  "syllable": "níng",
+  "example_char": "宁"
+ },
+ {
+  "no": 670,
+  "level": 4,
+  "syllable": "pán",
+  "example_char": "盘"
+ },
+ {
+  "no": 671,
+  "level": 4,
+  "syllable": "péi",
+  "example_char": "培"
+ },
+ {
+  "no": 672,
+  "level": 4,
+  "syllable": "pó",
+  "example_char": "婆"
+ },
+ {
+  "no": 673,
+  "level": 4,
+  "syllable": "qiǎn",
+  "example_char": "浅"
+ },
+ {
+  "no": 674,
+  "level": 4,
+  "syllable": "qiē",
+  "example_char": "切"
+ },
+ {
+  "no": 675,
+  "level": 4,
+  "syllable": "qióng",
+  "example_char": "穷"
+ },
+ {
+  "no": 676,
+  "level": 4,
+  "syllable": "quān",
+  "example_char": "圈"
+ },
+ {
+  "no": 677,
+  "level": 4,
+  "syllable": "ruò",
+  "example_char": "弱"
+ },
+ {
+  "no": 678,
+  "level": 4,
+  "syllable": "sǎn",
+  "example_char": "伞"
+ },
+ {
+  "no": 679,
+  "level": 4,
+  "syllable": "sǎo",
+  "example_char": "扫"
+ },
+ {
+  "no": 680,
+  "level": 4,
+  "syllable": "sēn",
+  "example_char": "森"
+ },
+ {
+  "no": 681,
+  "level": 4,
+  "syllable": "shài",
+  "example_char": "晒"
+ },
+ {
+  "no": 682,
+  "level": 4,
+  "syllable": "shǎn",
+  "example_char": "闪"
+ },
+ {
+  "no": 683,
+  "level": 4,
+  "syllable": "shǎng",
+  "example_char": "赏"
+ },
+ {
+  "no": 684,
+  "level": 4,
+  "syllable": "shāo",
+  "example_char": "烧"
+ },
+ {
+  "no": 685,
+  "level": 4,
+  "syllable": "shèn",
+  "example_char": "甚"
+ },
+ {
+  "no": 686,
+  "level": 4,
+  "syllable": "shuā",
+  "example_char": "刷"
+ },
+ {
+  "no": 687,
+  "level": 4,
+  "syllable": "shuài",
+  "example_char": "帅"
+ },
+ {
+  "no": 688,
+  "level": 4,
+  "syllable": "sōng",
+  "example_char": "松"
+ },
+ {
+  "no": 689,
+  "level": 4,
+  "syllable": "sú",
+  "example_char": "俗"
+ },
+ {
+  "no": 690,
+  "level": 4,
+  "syllable": "suān",
+  "example_char": "酸"
+ },
+ {
+  "no": 691,
+  "level": 4,
+  "syllable": "sūn",
+  "example_char": "孙"
+ },
+ {
+  "no": 692,
+  "level": 4,
+  "syllable": "suō",
+  "example_char": "缩"
+ },
+ {
+  "no": 693,
+  "level": 4,
+  "syllable": "tǎng",
+  "example_char": "躺"
+ },
+ {
+  "no": 694,
+  "level": 4,
+  "syllable": "tī",
+  "example_char": "梯"
+ },
+ {
+  "no": 695,
+  "level": 4,
+  "syllable": "tì",
+  "example_char": "替"
+ },
+ {
+  "no": 696,
+  "level": 4,
+  "syllable": "tiāo",
+  "example_char": "挑"
+ },
+ {
+  "no": 697,
+  "level": 4,
+  "syllable": "tiǎo",
+  "example_char": "挑"
+ },
+ {
+  "no": 698,
+  "level": 4,
+  "syllable": "tiē",
+  "example_char": "贴"
+ },
+ {
+  "no": 699,
+  "level": 4,
+  "syllable": "tǒng",
+  "example_char": "统"
+ },
+ {
+  "no": 700,
+  "level": 4,
+  "syllable": "tòu",
+  "example_char": "透"
+ },
+ {
+  "no": 701,
+  "level": 4,
+  "syllable": "tuō",
+  "example_char": "脱"
+ },
+ {
+  "no": 702,
+  "level": 4,
+  "syllable": "wà",
+  "example_char": "袜"
+ },
+ {
+  "no": 703,
+  "level": 4,
+  "syllable": "wān",
+  "example_char": "弯"
+ },
+ {
+  "no": 704,
+  "level": 4,
+  "syllable": "wěn",
+  "example_char": "稳"
+ },
+ {
+  "no": 705,
+  "level": 4,
+  "syllable": "wú",
+  "example_char": "无"
+ },
+ {
+  "no": 706,
+  "level": 4,
+  "syllable": "xián",
+  "example_char": "咸"
+ },
+ {
+  "no": 707,
+  "level": 4,
+  "syllable": "xǐng",
+  "example_char": "醒"
+ },
+ {
+  "no": 708,
+  "level": 4,
+  "syllable": "xiōng",
+  "example_char": "兄"
+ },
+ {
+  "no": 709,
+  "level": 4,
+  "syllable": "xiù",
+  "example_char": "秀"
+ },
+ {
+  "no": 710,
+  "level": 4,
+  "syllable": "xún",
+  "example_char": "寻"
+ },
+ {
+  "no": 711,
+  "level": 4,
+  "syllable": "yá",
+  "example_char": "牙"
+ },
+ {
+  "no": 712,
+  "level": 4,
+  "syllable": "yà",
+  "example_char": "亚"
+ },
+ {
+  "no": 713,
+  "level": 4,
+  "syllable": "ya",
+  "example_char": "呀"
+ },
+ {
+  "no": 714,
+  "level": 4,
+  "syllable": "yáo",
+  "example_char": "摇"
+ },
+ {
+  "no": 715,
+  "level": 4,
+  "syllable": "yǐn",
+  "example_char": "引"
+ },
+ {
+  "no": 716,
+  "level": 4,
+  "syllable": "zǎi",
+  "example_char": "载"
+ },
+ {
+  "no": 717,
+  "level": 4,
+  "syllable": "zàn",
+  "example_char": "赞"
+ },
+ {
+  "no": 718,
+  "level": 4,
+  "syllable": "zhàng",
+  "example_char": "丈"
+ },
+ {
+  "no": 719,
+  "level": 4,
+  "syllable": "zhāo",
+  "example_char": "招"
+ },
+ {
+  "no": 720,
+  "level": 4,
+  "syllable": "zháo",
+  "example_char": "着"
+ },
+ {
+  "no": 721,
+  "level": 4,
+  "syllable": "zhé",
+  "example_char": "折"
+ },
+ {
+  "no": 722,
+  "level": 4,
+  "syllable": "zhèn",
+  "example_char": "阵"
+ },
+ {
+  "no": 723,
+  "level": 4,
+  "syllable": "zhú",
+  "example_char": "逐"
+ },
+ {
+  "no": 724,
+  "level": 4,
+  "syllable": "zōng",
+  "example_char": "综"
+ },
+ {
+  "no": 725,
+  "level": 5,
+  "syllable": "bá",
+  "example_char": "拔"
+ },
+ {
+  "no": 726,
+  "level": 5,
+  "syllable": "bàng",
+  "example_char": "棒"
+ },
+ {
+  "no": 727,
+  "level": 5,
+  "syllable": "bí",
+  "example_char": "鼻"
+ },
+ {
+  "no": 728,
+  "level": 5,
+  "syllable": "bīn",
+  "example_char": "宾"
+ },
+ {
+  "no": 729,
+  "level": 5,
+  "syllable": "bǐng",
+  "example_char": "饼"
+ },
+ {
+  "no": 730,
+  "level": 5,
+  "syllable": "bó",
+  "example_char": "博"
+ },
+ {
+  "no": 731,
+  "level": 5,
+  "syllable": "cāi",
+  "example_char": "猜"
+ },
+ {
+  "no": 732,
+  "level": 5,
+  "syllable": "chā",
+  "example_char": "叉"
+ },
+ {
+  "no": 733,
+  "level": 5,
+  "syllable": "chāi",
+  "example_char": "拆"
+ },
+ {
+  "no": 734,
+  "level": 5,
+  "syllable": "chái",
+  "example_char": "柴"
+ },
+ {
+  "no": 735,
+  "level": 5,
+  "syllable": "chóu",
+  "example_char": "愁"
+ },
+ {
+  "no": 736,
+  "level": 5,
+  "syllable": "chǒu",
+  "example_char": "丑"
+ },
+ {
+  "no": 737,
+  "level": 5,
+  "syllable": "chòu",
+  "example_char": "臭"
+ },
+ {
+  "no": 738,
+  "level": 5,
+  "syllable": "chuǎng",
+  "example_char": "闯"
+ },
+ {
+  "no": 739,
+  "level": 5,
+  "syllable": "cōng",
+  "example_char": "聪"
+ },
+ {
+  "no": 740,
+  "level": 5,
+  "syllable": "cuì",
+  "example_char": "脆"
+ },
+ {
+  "no": 741,
+  "level": 5,
+  "syllable": "dāi",
+  "example_char": "呆"
+ },
+ {
+  "no": 742,
+  "level": 5,
+  "syllable": "dǎn",
+  "example_char": "胆"
+ },
+ {
+  "no": 743,
+  "level": 5,
+  "syllable": "dǎng",
+  "example_char": "挡"
+ },
+ {
+  "no": 744,
+  "level": 5,
+  "syllable": "diū",
+  "example_char": "丢"
+ },
+ {
+  "no": 745,
+  "level": 5,
+  "syllable": "duī",
+  "example_char": "堆"
+ },
+ {
+  "no": 746,
+  "level": 5,
+  "syllable": "dūn",
+  "example_char": "吨"
+ },
+ {
+  "no": 747,
+  "level": 5,
+  "syllable": "duǒ",
+  "example_char": "朵"
+ },
+ {
+  "no": 748,
+  "level": 5,
+  "syllable": "fá",
+  "example_char": "乏"
+ },
+ {
+  "no": 749,
+  "level": 5,
+  "syllable": "gǎo",
+  "example_char": "搞"
+ },
+ {
+  "no": 750,
+  "level": 5,
+  "syllable": "gēng",
+  "example_char": "更"
+ },
+ {
+  "no": 751,
+  "level": 5,
+  "syllable": "gōu",
+  "example_char": "沟"
+ },
+ {
+  "no": 752,
+  "level": 5,
+  "syllable": "guǐ",
+  "example_char": "鬼"
+ },
+ {
+  "no": 753,
+  "level": 5,
+  "syllable": "gǔn",
+  "example_char": "滚"
+ },
+ {
+  "no": 754,
+  "level": 5,
+  "syllable": "guō",
+  "example_char": "锅"
+ },
+ {
+  "no": 755,
+  "level": 5,
+  "syllable": "hè",
+  "example_char": "贺"
+ },
+ {
+  "no": 756,
+  "level": 5,
+  "syllable": "hèn",
+  "example_char": "恨"
+ },
+ {
+  "no": 757,
+  "level": 5,
+  "syllable": "hóu",
+  "example_char": "猴"
+ },
+ {
+  "no": 758,
+  "level": 5,
+  "syllable": "hǔ",
+  "example_char": "虎"
+ },
+ {
+  "no": 759,
+  "level": 5,
+  "syllable": "huāng",
+  "example_char": "慌"
+ },
+ {
+  "no": 760,
+  "level": 5,
+  "syllable": "huǐ",
+  "example_char": "悔"
+ },
+ {
+  "no": 761,
+  "level": 5,
+  "syllable": "ké",
+  "example_char": "咳"
+ },
+ {
+  "no": 762,
+  "level": 5,
+  "syllable": "kěn",
+  "example_char": "肯"
+ },
+ {
+  "no": 763,
+  "level": 5,
+  "syllable": "kuǎn",
+  "example_char": "款"
+ },
+ {
+  "no": 764,
+  "level": 5,
+  "syllable": "kuáng",
+  "example_char": "狂"
+ },
+ {
+  "no": 765,
+  "level": 5,
+  "syllable": "kuī",
+  "example_char": "亏"
+ },
+ {
+  "no": 766,
+  "level": 5,
+  "syllable": "lǎn",
+  "example_char": "览"
+ },
+ {
+  "no": 767,
+  "level": 5,
+  "syllable": "làn",
+  "example_char": "烂"
+ },
+ {
+  "no": 768,
+  "level": 5,
+  "syllable": "lǎng",
+  "example_char": "朗"
+ },
+ {
+  "no": 769,
+  "level": 5,
+  "syllable": "láo",
+  "example_char": "劳"
+ },
+ {
+  "no": 770,
+  "level": 5,
+  "syllable": "lòu",
+  "example_char": "漏"
+ },
+ {
+  "no": 771,
+  "level": 5,
+  "syllable": "luó",
+  "example_char": "逻"
+ },
+ {
+  "no": 772,
+  "level": 5,
+  "syllable": "mà",
+  "example_char": "骂"
+ },
+ {
+  "no": 773,
+  "level": 5,
+  "syllable": "mián",
+  "example_char": "眠"
+ },
+ {
+  "no": 774,
+  "level": 5,
+  "syllable": "miǎo",
+  "example_char": "秒"
+ },
+ {
+  "no": 775,
+  "level": 5,
+  "syllable": "mǐn",
+  "example_char": "敏"
+ },
+ {
+  "no": 776,
+  "level": 5,
+  "syllable": "mú",
+  "example_char": "模"
+ },
+ {
+  "no": 777,
+  "level": 5,
+  "syllable": "nài",
+  "example_char": "耐"
+ },
+ {
+  "no": 778,
+  "level": 5,
+  "syllable": "nàn",
+  "example_char": "难"
+ },
+ {
+  "no": 779,
+  "level": 5,
+  "syllable": "ǒu",
+  "example_char": "偶"
+ },
+ {
+  "no": 780,
+  "level": 5,
+  "syllable": "pēn",
+  "example_char": "喷"
+ },
+ {
+  "no": 781,
+  "level": 5,
+  "syllable": "pén",
+  "example_char": "盆"
+ },
+ {
+  "no": 782,
+  "level": 5,
+  "syllable": "pǐ",
+  "example_char": "匹"
+ },
+ {
+  "no": 783,
+  "level": 5,
+  "syllable": "pīn",
+  "example_char": "拼"
+ },
+ {
+  "no": 784,
+  "level": 5,
+  "syllable": "pín",
+  "example_char": "频"
+ },
+ {
+  "no": 785,
+  "level": 5,
+  "syllable": "pō",
+  "example_char": "泼"
+ },
+ {
+  "no": 786,
+  "level": 5,
+  "syllable": "pú",
+  "example_char": "葡"
+ },
+ {
+  "no": 787,
+  "level": 5,
+  "syllable": "qiàn",
+  "example_char": "欠"
+ },
+ {
+  "no": 788,
+  "level": 5,
+  "syllable": "qiāng",
+  "example_char": "枪"
+ },
+ {
+  "no": 789,
+  "level": 5,
+  "syllable": "qiǎng",
+  "example_char": "抢"
+ },
+ {
+  "no": 790,
+  "level": 5,
+  "syllable": "qiāo",
+  "example_char": "悄"
+ },
+ {
+  "no": 791,
+  "level": 5,
+  "syllable": "qín",
+  "example_char": "琴"
+ },
+ {
+  "no": 792,
+  "level": 5,
+  "syllable": "quàn",
+  "example_char": "劝"
+ },
+ {
+  "no": 793,
+  "level": 5,
+  "syllable": "rǎn",
+  "example_char": "染"
+ },
+ {
+  "no": 794,
+  "level": 5,
+  "syllable": "rǎo",
+  "example_char": "扰"
+ },
+ {
+  "no": 795,
+  "level": 5,
+  "syllable": "rào",
+  "example_char": "绕"
+ },
+ {
+  "no": 796,
+  "level": 5,
+  "syllable": "rěn",
+  "example_char": "忍"
+ },
+ {
+  "no": 797,
+  "level": 5,
+  "syllable": "rēng",
+  "example_char": "扔"
+ },
+ {
+  "no": 798,
+  "level": 5,
+  "syllable": "ruǎn",
+  "example_char": "软"
+ },
+ {
+  "no": 799,
+  "level": 5,
+  "syllable": "rùn",
+  "example_char": "润"
+ },
+ {
+  "no": 800,
+  "level": 5,
+  "syllable": "sǎ",
+  "example_char": "洒"
+ },
+ {
+  "no": 801,
+  "level": 5,
+  "syllable": "shǎ",
+  "example_char": "傻"
+ },
+ {
+  "no": 802,
+  "level": 5,
+  "syllable": "shé",
+  "example_char": "蛇"
+ },
+ {
+  "no": 803,
+  "level": 5,
+  "syllable": "shě",
+  "example_char": "舍"
+ },
+ {
+  "no": 804,
+  "level": 5,
+  "syllable": "shuāi",
+  "example_char": "摔"
+ },
+ {
+  "no": 805,
+  "level": 5,
+  "syllable": "shuò",
+  "example_char": "硕"
+ },
+ {
+  "no": 806,
+  "level": 5,
+  "syllable": "sōu",
+  "example_char": "搜"
+ },
+ {
+  "no": 807,
+  "level": 5,
+  "syllable": "sǔn",
+  "example_char": "损"
+ },
+ {
+  "no": 808,
+  "level": 5,
+  "syllable": "tǎn",
+  "example_char": "坦"
+ },
+ {
+  "no": 809,
+  "level": 5,
+  "syllable": "táo",
+  "example_char": "逃"
+ },
+ {
+  "no": 810,
+  "level": 5,
+  "syllable": "tōu",
+  "example_char": "偷"
+ },
+ {
+  "no": 811,
+  "level": 5,
+  "syllable": "tù",
+  "example_char": "兔"
+ },
+ {
+  "no": 812,
+  "level": 5,
+  "syllable": "xiáng",
+  "example_char": "详"
+ },
+ {
+  "no": 813,
+  "level": 5,
+  "syllable": "xióng",
+  "example_char": "雄"
+ },
+ {
+  "no": 814,
+  "level": 5,
+  "syllable": "yāng",
+  "example_char": "央"
+ },
+ {
+  "no": 815,
+  "level": 5,
+  "syllable": "yǎo",
+  "example_char": "咬"
+ },
+ {
+  "no": 816,
+  "level": 5,
+  "syllable": "yōng",
+  "example_char": "拥"
+ },
+ {
+  "no": 817,
+  "level": 5,
+  "syllable": "zāi",
+  "example_char": "灾"
+ },
+ {
+  "no": 818,
+  "level": 5,
+  "syllable": "zāo",
+  "example_char": "糟"
+ },
+ {
+  "no": 819,
+  "level": 5,
+  "syllable": "zèng",
+  "example_char": "赠"
+ },
+ {
+  "no": 820,
+  "level": 5,
+  "syllable": "zhāi",
+  "example_char": "摘"
+ },
+ {
+  "no": 821,
+  "level": 5,
+  "syllable": "zhěn",
+  "example_char": "诊"
+ },
+ {
+  "no": 822,
+  "level": 5,
+  "syllable": "zūn",
+  "example_char": "尊"
+ },
+ {
+  "no": 823,
+  "level": 6,
+  "syllable": "āi",
+  "example_char": "挨"
+ },
+ {
+  "no": 824,
+  "level": 6,
+  "syllable": "ái",
+  "example_char": "挨"
+ },
+ {
+  "no": 825,
+  "level": 6,
+  "syllable": "ào",
+  "example_char": "傲"
+ },
+ {
+  "no": 826,
+  "level": 6,
+  "syllable": "bǎng",
+  "example_char": "榜"
+ },
+ {
+  "no": 827,
+  "level": 6,
+  "syllable": "bēn",
+  "example_char": "奔"
+ },
+ {
+  "no": 828,
+  "level": 6,
+  "syllable": "bī",
+  "example_char": "逼"
+ },
+ {
+  "no": 829,
+  "level": 6,
+  "syllable": "biǎn",
+  "example_char": "扁"
+ },
+ {
+  "no": 830,
+  "level": 6,
+  "syllable": "cán",
+  "example_char": "残"
+ },
+ {
+  "no": 831,
+  "level": 6,
+  "syllable": "cǎn",
+  "example_char": "惨"
+ },
+ {
+  "no": 832,
+  "level": 6,
+  "syllable": "cāng",
+  "example_char": "仓"
+ },
+ {
+  "no": 833,
+  "level": 6,
+  "syllable": "cáng",
+  "example_char": "藏"
+ },
+ {
+  "no": 834,
+  "level": 6,
+  "syllable": "chāng",
+  "example_char": "昌"
+ },
+ {
+  "no": 835,
+  "level": 6,
+  "syllable": "chǒng",
+  "example_char": "宠"
+ },
+ {
+  "no": 836,
+  "level": 6,
+  "syllable": "chòng",
+  "example_char": "冲"
+ },
+ {
+  "no": 837,
+  "level": 6,
+  "syllable": "chuàn",
+  "example_char": "串"
+ },
+ {
+  "no": 838,
+  "level": 6,
+  "syllable": "dàng",
+  "example_char": "档"
+ },
+ {
+  "no": 839,
+  "level": 6,
+  "syllable": "diē",
+  "example_char": "跌"
+ },
+ {
+  "no": 840,
+  "level": 6,
+  "syllable": "duān",
+  "example_char": "端"
+ },
+ {
+  "no": 841,
+  "level": 6,
+  "syllable": "duó",
+  "example_char": "夺"
+ },
+ {
+  "no": 842,
+  "level": 6,
+  "syllable": "é",
+  "example_char": "额"
+ },
+ {
+  "no": 843,
+  "level": 6,
+  "syllable": "ēn",
+  "example_char": "恩"
+ },
+ {
+  "no": 844,
+  "level": 6,
+  "syllable": "fěn",
+  "example_char": "粉"
+ },
+ {
+  "no": 845,
+  "level": 6,
+  "syllable": "fèng",
+  "example_char": "奉"
+ },
+ {
+  "no": 846,
+  "level": 6,
+  "syllable": "fó",
+  "example_char": "佛"
+ },
+ {
+  "no": 847,
+  "level": 6,
+  "syllable": "gǎng",
+  "example_char": "岗"
+ },
+ {
+  "no": 848,
+  "level": 6,
+  "syllable": "gǒng",
+  "example_char": "巩"
+ },
+ {
+  "no": 849,
+  "level": 6,
+  "syllable": "guǎi",
+  "example_char": "拐"
+ },
+ {
+  "no": 850,
+  "level": 6,
+  "syllable": "héng",
+  "example_char": "衡"
+ },
+ {
+  "no": 851,
+  "level": 6,
+  "syllable": "hùn",
+  "example_char": "混"
+ },
+ {
+  "no": 852,
+  "level": 6,
+  "syllable": "juān",
+  "example_char": "捐"
+ },
+ {
+  "no": 853,
+  "level": 6,
+  "syllable": "kān",
+  "example_char": "刊"
+ },
+ {
+  "no": 854,
+  "level": 6,
+  "syllable": "kàng",
+  "example_char": "抗"
+ },
+ {
+  "no": 855,
+  "level": 6,
+  "syllable": "kòu",
+  "example_char": "扣"
+ },
+ {
+  "no": 856,
+  "level": 6,
+  "syllable": "kuà",
+  "example_char": "跨"
+ },
+ {
+  "no": 857,
+  "level": 6,
+  "syllable": "la",
+  "example_char": "啦"
+ },
+ {
+  "no": 858,
+  "level": 6,
+  "syllable": "lài",
+  "example_char": "赖"
+ },
+ {
+  "no": 859,
+  "level": 6,
+  "syllable": "lú",
+  "example_char": "炉"
+ },
+ {
+  "no": 860,
+  "level": 6,
+  "syllable": "lüè",
+  "example_char": "略"
+ },
+ {
+  "no": 861,
+  "level": 6,
+  "syllable": "mái",
+  "example_char": "埋"
+ },
+ {
+  "no": 862,
+  "level": 6,
+  "syllable": "mán",
+  "example_char": "馒"
+ },
+ {
+  "no": 863,
+  "level": 6,
+  "syllable": "mēng",
+  "example_char": "蒙"
+ },
+ {
+  "no": 864,
+  "level": 6,
+  "syllable": "méng",
+  "example_char": "盟"
+ },
+ {
+  "no": 865,
+  "level": 6,
+  "syllable": "měng",
+  "example_char": "猛"
+ },
+ {
+  "no": 866,
+  "level": 6,
+  "syllable": "miào",
+  "example_char": "妙"
+ },
+ {
+  "no": 867,
+  "level": 6,
+  "syllable": "miè",
+  "example_char": "灭"
+ },
+ {
+  "no": 868,
+  "level": 6,
+  "syllable": "móu",
+  "example_char": "谋"
+ },
+ {
+  "no": 869,
+  "level": 6,
+  "syllable": "ní",
+  "example_char": "泥"
+ },
+ {
+  "no": 870,
+  "level": 6,
+  "syllable": "niǔ",
+  "example_char": "扭"
+ },
+ {
+  "no": 871,
+  "level": 6,
+  "syllable": "nù",
+  "example_char": "怒"
+ },
+ {
+  "no": 872,
+  "level": 6,
+  "syllable": "nuò",
+  "example_char": "诺"
+ },
+ {
+  "no": 873,
+  "level": 6,
+  "syllable": "pào",
+  "example_char": "泡"
+ },
+ {
+  "no": 874,
+  "level": 6,
+  "syllable": "pìn",
+  "example_char": "聘"
+ },
+ {
+  "no": 875,
+  "level": 6,
+  "syllable": "pū",
+  "example_char": "扑"
+ },
+ {
+  "no": 876,
+  "level": 6,
+  "syllable": "pù",
+  "example_char": "铺"
+ },
+ {
+  "no": 877,
+  "level": 6,
+  "syllable": "qià",
+  "example_char": "恰"
+ },
+ {
+  "no": 878,
+  "level": 6,
+  "syllable": "qié",
+  "example_char": "茄"
+ },
+ {
+  "no": 879,
+  "level": 6,
+  "syllable": "qú",
+  "example_char": "渠"
+ },
+ {
+  "no": 880,
+  "level": 6,
+  "syllable": "rǔ",
+  "example_char": "乳"
+ },
+ {
+  "no": 881,
+  "level": 6,
+  "syllable": "sāi",
+  "example_char": "塞"
+ },
+ {
+  "no": 882,
+  "level": 6,
+  "syllable": "sàng",
+  "example_char": "丧"
+ },
+ {
+  "no": 883,
+  "level": 6,
+  "syllable": "sháo",
+  "example_char": "勺"
+ },
+ {
+  "no": 884,
+  "level": 6,
+  "syllable": "shěn",
+  "example_char": "审"
+ },
+ {
+  "no": 885,
+  "level": 6,
+  "syllable": "shuǎng",
+  "example_char": "爽"
+ },
+ {
+  "no": 886,
+  "level": 6,
+  "syllable": "sū",
+  "example_char": "苏"
+ },
+ {
+  "no": 887,
+  "level": 6,
+  "syllable": "tǎ",
+  "example_char": "塔"
+ },
+ {
+  "no": 888,
+  "level": 6,
+  "syllable": "tà",
+  "example_char": "踏"
+ },
+ {
+  "no": 889,
+  "level": 6,
+  "syllable": "tàn",
+  "example_char": "叹"
+ },
+ {
+  "no": 890,
+  "level": 6,
+  "syllable": "tàng",
+  "example_char": "趟"
+ },
+ {
+  "no": 891,
+  "level": 6,
+  "syllable": "tāo",
+  "example_char": "掏"
+ },
+ {
+  "no": 892,
+  "level": 6,
+  "syllable": "tūn",
+  "example_char": "吞"
+ },
+ {
+  "no": 893,
+  "level": 6,
+  "syllable": "wā",
+  "example_char": "挖"
+ },
+ {
+  "no": 894,
+  "level": 6,
+  "syllable": "wá",
+  "example_char": "娃"
+ },
+ {
+  "no": 895,
+  "level": 6,
+  "syllable": "wa",
+  "example_char": "哇"
+ },
+ {
+  "no": 896,
+  "level": 6,
+  "syllable": "xuán",
+  "example_char": "悬"
+ },
+ {
+  "no": 897,
+  "level": 6,
+  "syllable": "xuè",
+  "example_char": "血"
+ },
+ {
+  "no": 898,
+  "level": 6,
+  "syllable": "yūn",
+  "example_char": "晕"
+ },
+ {
+  "no": 899,
+  "level": 6,
+  "syllable": "yǔn",
+  "example_char": "允"
+ },
+ {
+  "no": 900,
+  "level": 6,
+  "syllable": "zàng",
+  "example_char": "脏"
+ },
+ {
+  "no": 901,
+  "level": 6,
+  "syllable": "zhā",
+  "example_char": "扎"
+ },
+ {
+  "no": 902,
+  "level": 6,
+  "syllable": "zhà",
+  "example_char": "炸"
+ },
+ {
+  "no": 903,
+  "level": 6,
+  "syllable": "zhái",
+  "example_char": "宅"
+ },
+ {
+  "no": 904,
+  "level": 6,
+  "syllable": "zhài",
+  "example_char": "债"
+ },
+ {
+  "no": 905,
+  "level": 6,
+  "syllable": "zhuàn",
+  "example_char": "赚"
+ },
+ {
+  "no": 906,
+  "level": 6,
+  "syllable": "zòng",
+  "example_char": "纵"
+ },
+ {
+  "no": 907,
+  "level": 6,
+  "syllable": "zòu",
+  "example_char": "奏"
+ },
+ {
+  "no": 908,
+  "level": 6,
+  "syllable": "zuān",
+  "example_char": "钻"
+ },
+ {
+  "no": 909,
+  "level": "7-9",
+  "syllable": "áng",
+  "example_char": "昂"
+ },
+ {
+  "no": 910,
+  "level": "7-9",
+  "syllable": "āo",
+  "example_char": "凹"
+ },
+ {
+  "no": 911,
+  "level": "7-9",
+  "syllable": "áo",
+  "example_char": "熬"
+ },
+ {
+  "no": 912,
+  "level": "7-9",
+  "syllable": "bāi",
+  "example_char": "掰"
+ },
+ {
+  "no": 913,
+  "level": "7-9",
+  "syllable": "bēng",
+  "example_char": "崩"
+ },
+ {
+  "no": 914,
+  "level": "7-9",
+  "syllable": "bèng",
+  "example_char": "蹦"
+ },
+ {
+  "no": 915,
+  "level": "7-9",
+  "syllable": "biē",
+  "example_char": "憋"
+ },
+ {
+  "no": 916,
+  "level": "7-9",
+  "syllable": "biè",
+  "example_char": "别"
+ },
+ {
+  "no": 917,
+  "level": "7-9",
+  "syllable": "bo",
+  "example_char": "卜"
+ },
+ {
+  "no": 918,
+  "level": "7-9",
+  "syllable": "càn",
+  "example_char": "灿"
+ },
+ {
+  "no": 919,
+  "level": "7-9",
+  "syllable": "cáo",
+  "example_char": "曹"
+ },
+ {
+  "no": 920,
+  "level": "7-9",
+  "syllable": "cèng",
+  "example_char": "蹭"
+ },
+ {
+  "no": 921,
+  "level": "7-9",
+  "syllable": "chān",
+  "example_char": "掺"
+ },
+ {
+  "no": 922,
+  "level": "7-9",
+  "syllable": "chán",
+  "example_char": "缠"
+ },
+ {
+  "no": 923,
+  "level": "7-9",
+  "syllable": "chàn",
+  "example_char": "颤"
+ },
+ {
+  "no": 924,
+  "level": "7-9",
+  "syllable": "chě",
+  "example_char": "扯"
+ },
+ {
+  "no": 925,
+  "level": "7-9",
+  "syllable": "chěng",
+  "example_char": "逞"
+ },
+ {
+  "no": 926,
+  "level": "7-9",
+  "syllable": "chèng",
+  "example_char": "秤"
+ },
+ {
+  "no": 927,
+  "level": "7-9",
+  "syllable": "chì",
+  "example_char": "斥"
+ },
+ {
+  "no": 928,
+  "level": "7-9",
+  "syllable": "chuāi",
+  "example_char": "揣"
+ },
+ {
+  "no": 929,
+  "level": "7-9",
+  "syllable": "chuǎi",
+  "example_char": "揣"
+ },
+ {
+  "no": 930,
+  "level": "7-9",
+  "syllable": "chuài",
+  "example_char": "踹"
+ },
+ {
+  "no": 931,
+  "level": "7-9",
+  "syllable": "chuǎn",
+  "example_char": "喘"
+ },
+ {
+  "no": 932,
+  "level": "7-9",
+  "syllable": "chuí",
+  "example_char": "垂"
+ },
+ {
+  "no": 933,
+  "level": "7-9",
+  "syllable": "chǔn",
+  "example_char": "蠢"
+ },
+ {
+  "no": 934,
+  "level": "7-9",
+  "syllable": "chuō",
+  "example_char": "戳"
+ },
+ {
+  "no": 935,
+  "level": "7-9",
+  "syllable": "chuò",
+  "example_char": "绰"
+ },
+ {
+  "no": 936,
+  "level": "7-9",
+  "syllable": "còu",
+  "example_char": "凑"
+ },
+ {
+  "no": 937,
+  "level": "7-9",
+  "syllable": "cuàn",
+  "example_char": "窜"
+ },
+ {
+  "no": 938,
+  "level": "7-9",
+  "syllable": "cuī",
+  "example_char": "催"
+ },
+ {
+  "no": 939,
+  "level": "7-9",
+  "syllable": "cuō",
+  "example_char": "搓"
+ },
+ {
+  "no": 940,
+  "level": "7-9",
+  "syllable": "dǎi",
+  "example_char": "歹"
+ },
+ {
+  "no": 941,
+  "level": "7-9",
+  "syllable": "dèng",
+  "example_char": "瞪"
+ },
+ {
+  "no": 942,
+  "level": "7-9",
+  "syllable": "diān",
+  "example_char": "颠"
+ },
+ {
+  "no": 943,
+  "level": "7-9",
+  "syllable": "diāo",
+  "example_char": "叼"
+ },
+ {
+  "no": 944,
+  "level": "7-9",
+  "syllable": "dié",
+  "example_char": "叠"
+ },
+ {
+  "no": 945,
+  "level": "7-9",
+  "syllable": "dīng",
+  "example_char": "丁"
+ },
+ {
+  "no": 946,
+  "level": "7-9",
+  "syllable": "dǒu",
+  "example_char": "抖"
+ },
+ {
+  "no": 947,
+  "level": "7-9",
+  "syllable": "dǔn",
+  "example_char": "盹"
+ },
+ {
+  "no": 948,
+  "level": "7-9",
+  "syllable": "duò",
+  "example_char": "堕"
+ },
+ {
+  "no": 949,
+  "level": "7-9",
+  "syllable": "fěi",
+  "example_char": "匪"
+ },
+ {
+  "no": 950,
+  "level": "7-9",
+  "syllable": "fén",
+  "example_char": "坟"
+ },
+ {
+  "no": 951,
+  "level": "7-9",
+  "syllable": "féng",
+  "example_char": "逢"
+ },
+ {
+  "no": 952,
+  "level": "7-9",
+  "syllable": "fěng",
+  "example_char": "讽"
+ },
+ {
+  "no": 953,
+  "level": "7-9",
+  "syllable": "gà",
+  "example_char": "尬"
+ },
+ {
+  "no": 954,
+  "level": "7-9",
+  "syllable": "gàng",
+  "example_char": "杠"
+ },
+ {
+  "no": 955,
+  "level": "7-9",
+  "syllable": "gěng",
+  "example_char": "耿"
+ },
+ {
+  "no": 956,
+  "level": "7-9",
+  "syllable": "guǎ",
+  "example_char": "寡"
+ },
+ {
+  "no": 957,
+  "level": "7-9",
+  "syllable": "guāi",
+  "example_char": "乖"
+ },
+ {
+  "no": 958,
+  "level": "7-9",
+  "syllable": "gùn",
+  "example_char": "棍"
+ },
+ {
+  "no": 959,
+  "level": "7-9",
+  "syllable": "hān",
+  "example_char": "酣"
+ },
+ {
+  "no": 960,
+  "level": "7-9",
+  "syllable": "hén",
+  "example_char": "痕"
+ },
+ {
+  "no": 961,
+  "level": "7-9",
+  "syllable": "hēng",
+  "example_char": "哼"
+ },
+ {
+  "no": 962,
+  "level": "7-9",
+  "syllable": "hèng",
+  "example_char": "横"
+ },
+ {
+  "no": 963,
+  "level": "7-9",
+  "syllable": "hōng",
+  "example_char": "烘"
+ },
+ {
+  "no": 964,
+  "level": "7-9",
+  "syllable": "hǒng",
+  "example_char": "哄"
+ },
+ {
+  "no": 965,
+  "level": "7-9",
+  "syllable": "hòng",
+  "example_char": "哄"
+ },
+ {
+  "no": 966,
+  "level": "7-9",
+  "syllable": "hǒu",
+  "example_char": "吼"
+ },
+ {
+  "no": 967,
+  "level": "7-9",
+  "syllable": "huǎng",
+  "example_char": "谎"
+ },
+ {
+  "no": 968,
+  "level": "7-9",
+  "syllable": "huàng",
+  "example_char": "晃"
+ },
+ {
+  "no": 969,
+  "level": "7-9",
+  "syllable": "hún",
+  "example_char": "浑"
+ },
+ {
+  "no": 970,
+  "level": "7-9",
+  "syllable": "huō",
+  "example_char": "豁"
+ },
+ {
+  "no": 971,
+  "level": "7-9",
+  "syllable": "jiá",
+  "example_char": "颊"
+ },
+ {
+  "no": 972,
+  "level": "7-9",
+  "syllable": "jiáo",
+  "example_char": "嚼"
+ },
+ {
+  "no": 973,
+  "level": "7-9",
+  "syllable": "jiǒng",
+  "example_char": "窘"
+ },
+ {
+  "no": 974,
+  "level": "7-9",
+  "syllable": "juè",
+  "example_char": "倔"
+ },
+ {
+  "no": 975,
+  "level": "7-9",
+  "syllable": "jùn",
+  "example_char": "俊"
+ },
+ {
+  "no": 976,
+  "level": "7-9",
+  "syllable": "kǎi",
+  "example_char": "凯"
+ },
+ {
+  "no": 977,
+  "level": "7-9",
+  "syllable": "kǎn",
+  "example_char": "砍"
+ },
+ {
+  "no": 978,
+  "level": "7-9",
+  "syllable": "káng",
+  "example_char": "扛"
+ },
+ {
+  "no": 979,
+  "level": "7-9",
+  "syllable": "kēng",
+  "example_char": "坑"
+ },
+ {
+  "no": 980,
+  "level": "7-9",
+  "syllable": "kōu",
+  "example_char": "抠"
+ },
+ {
+  "no": 981,
+  "level": "7-9",
+  "syllable": "kuā",
+  "example_char": "夸"
+ },
+ {
+  "no": 982,
+  "level": "7-9",
+  "syllable": "kuǎ",
+  "example_char": "垮"
+ },
+ {
+  "no": 983,
+  "level": "7-9",
+  "syllable": "kuāng",
+  "example_char": "筐"
+ },
+ {
+  "no": 984,
+  "level": "7-9",
+  "syllable": "kuí",
+  "example_char": "魁"
+ },
+ {
+  "no": 985,
+  "level": "7-9",
+  "syllable": "kuì",
+  "example_char": "愧"
+ },
+ {
+  "no": 986,
+  "level": "7-9",
+  "syllable": "kūn",
+  "example_char": "昆"
+ },
+ {
+  "no": 987,
+  "level": "7-9",
+  "syllable": "kǔn",
+  "example_char": "捆"
+ },
+ {
+  "no": 988,
+  "level": "7-9",
+  "syllable": "lǎ",
+  "example_char": "喇"
+ },
+ {
+  "no": 989,
+  "level": "7-9",
+  "syllable": "lāo",
+  "example_char": "捞"
+ },
+ {
+  "no": 990,
+  "level": "7-9",
+  "syllable": "lào",
+  "example_char": "涝"
+ },
+ {
+  "no": 991,
+  "level": "7-9",
+  "syllable": "lēi",
+  "example_char": "勒"
+ },
+ {
+  "no": 992,
+  "level": "7-9",
+  "syllable": "léng",
+  "example_char": "棱"
+ },
+ {
+  "no": 993,
+  "level": "7-9",
+  "syllable": "lèng",
+  "example_char": "愣"
+ },
+ {
+  "no": 994,
+  "level": "7-9",
+  "syllable": "liē",
+  "example_char": "咧"
+ },
+ {
+  "no": 995,
+  "level": "7-9",
+  "syllable": "liě",
+  "example_char": "咧"
+ },
+ {
+  "no": 996,
+  "level": "7-9",
+  "syllable": "līn",
+  "example_char": "拎"
+ },
+ {
+  "no": 997,
+  "level": "7-9",
+  "syllable": "lìn",
+  "example_char": "赁"
+ },
+ {
+  "no": 998,
+  "level": "7-9",
+  "syllable": "liū",
+  "example_char": "溜"
+ },
+ {
+  "no": 999,
+  "level": "7-9",
+  "syllable": "liǔ",
+  "example_char": "柳"
+ },
+ {
+  "no": 1000,
+  "level": "7-9",
+  "syllable": "lǒng",
+  "example_char": "拢"
+ },
+ {
+  "no": 1001,
+  "level": "7-9",
+  "syllable": "lǒu",
+  "example_char": "搂"
+ },
+ {
+  "no": 1002,
+  "level": "7-9",
+  "syllable": "lǔ",
+  "example_char": "鲁"
+ },
+ {
+  "no": 1003,
+  "level": "7-9",
+  "syllable": "luán",
+  "example_char": "孪"
+ },
+ {
+  "no": 1004,
+  "level": "7-9",
+  "syllable": "luǎn",
+  "example_char": "卵"
+ },
+ {
+  "no": 1005,
+  "level": "7-9",
+  "syllable": "lūn",
+  "example_char": "抡"
+ },
+ {
+  "no": 1006,
+  "level": "7-9",
+  "syllable": "luǒ",
+  "example_char": "裸"
+ },
+ {
+  "no": 1007,
+  "level": "7-9",
+  "syllable": "mǎng",
+  "example_char": "莽"
+ },
+ {
+  "no": 1008,
+  "level": "7-9",
+  "syllable": "mēn",
+  "example_char": "闷"
+ },
+ {
+  "no": 1009,
+  "level": "7-9",
+  "syllable": "mèn",
+  "example_char": "闷"
+ },
+ {
+  "no": 1010,
+  "level": "7-9",
+  "syllable": "miù",
+  "example_char": "谬"
+ },
+ {
+  "no": 1011,
+  "level": "7-9",
+  "syllable": "mǒ",
+  "example_char": "抹"
+ },
+ {
+  "no": 1012,
+  "level": "7-9",
+  "syllable": "náng",
+  "example_char": "囊"
+ },
+ {
+  "no": 1013,
+  "level": "7-9",
+  "syllable": "náo",
+  "example_char": "挠"
+ },
+ {
+  "no": 1014,
+  "level": "7-9",
+  "syllable": "něi",
+  "example_char": "馁"
+ },
+ {
+  "no": 1015,
+  "level": "7-9",
+  "syllable": "nèn",
+  "example_char": "嫩"
+ },
+ {
+  "no": 1016,
+  "level": "7-9",
+  "syllable": "nì",
+  "example_char": "逆"
+ },
+ {
+  "no": 1017,
+  "level": "7-9",
+  "syllable": "niàng",
+  "example_char": "酿"
+ },
+ {
+  "no": 1018,
+  "level": "7-9",
+  "syllable": "niào",
+  "example_char": "尿"
+ },
+ {
+  "no": 1019,
+  "level": "7-9",
+  "syllable": "niē",
+  "example_char": "捏"
+ },
+ {
+  "no": 1020,
+  "level": "7-9",
+  "syllable": "nǐng",
+  "example_char": "拧"
+ },
+ {
+  "no": 1021,
+  "level": "7-9",
+  "syllable": "nìng",
+  "example_char": "宁"
+ },
+ {
+  "no": 1022,
+  "level": "7-9",
+  "syllable": "nú",
+  "example_char": "奴"
+ },
+ {
+  "no": 1023,
+  "level": "7-9",
+  "syllable": "nüè",
+  "example_char": "虐"
+ },
+ {
+  "no": 1024,
+  "level": "7-9",
+  "syllable": "nuó",
+  "example_char": "挪"
+ },
+ {
+  "no": 1025,
+  "level": "7-9",
+  "syllable": "ò",
+  "example_char": "哦"
+ },
+ {
+  "no": 1026,
+  "level": "7-9",
+  "syllable": "ōu",
+  "example_char": "欧"
+ },
+ {
+  "no": 1027,
+  "level": "7-9",
+  "syllable": "pā",
+  "example_char": "趴"
+ },
+ {
+  "no": 1028,
+  "level": "7-9",
+  "syllable": "pān",
+  "example_char": "攀"
+ },
+ {
+  "no": 1029,
+  "level": "7-9",
+  "syllable": "pāng",
+  "example_char": "乓"
+ },
+ {
+  "no": 1030,
+  "level": "7-9",
+  "syllable": "pāo",
+  "example_char": "抛"
+ },
+ {
+  "no": 1031,
+  "level": "7-9",
+  "syllable": "páo",
+  "example_char": "刨"
+ },
+ {
+  "no": 1032,
+  "level": "7-9",
+  "syllable": "pēi",
+  "example_char": "胚"
+ },
+ {
+  "no": 1033,
+  "level": "7-9",
+  "syllable": "pēng",
+  "example_char": "抨"
+ },
+ {
+  "no": 1034,
+  "level": "7-9",
+  "syllable": "pěng",
+  "example_char": "捧"
+ },
+ {
+  "no": 1035,
+  "level": "7-9",
+  "syllable": "pì",
+  "example_char": "辟"
+ },
+ {
+  "no": 1036,
+  "level": "7-9",
+  "syllable": "piāo",
+  "example_char": "飘"
+ },
+ {
+  "no": 1037,
+  "level": "7-9",
+  "syllable": "piě",
+  "example_char": "撇"
+ },
+ {
+  "no": 1038,
+  "level": "7-9",
+  "syllable": "pīng",
+  "example_char": "乒"
+ },
+ {
+  "no": 1039,
+  "level": "7-9",
+  "syllable": "pōu",
+  "example_char": "剖"
+ },
+ {
+  "no": 1040,
+  "level": "7-9",
+  "syllable": "qiā",
+  "example_char": "掐"
+ },
+ {
+  "no": 1041,
+  "level": "7-9",
+  "syllable": "qiǎ",
+  "example_char": "卡"
+ },
+ {
+  "no": 1042,
+  "level": "7-9",
+  "syllable": "qiàng",
+  "example_char": "呛"
+ },
+ {
+  "no": 1043,
+  "level": "7-9",
+  "syllable": "qiào",
+  "example_char": "俏"
+ },
+ {
+  "no": 1044,
+  "level": "7-9",
+  "syllable": "qǐn",
+  "example_char": "寝"
+ },
+ {
+  "no": 1045,
+  "level": "7-9",
+  "syllable": "quǎn",
+  "example_char": "犬"
+ },
+ {
+  "no": 1046,
+  "level": "7-9",
+  "syllable": "rǎng",
+  "example_char": "嚷"
+ },
+ {
+  "no": 1047,
+  "level": "7-9",
+  "syllable": "ráo",
+  "example_char": "饶"
+ },
+ {
+  "no": 1048,
+  "level": "7-9",
+  "syllable": "rě",
+  "example_char": "惹"
+ },
+ {
+  "no": 1049,
+  "level": "7-9",
+  "syllable": "rǒng",
+  "example_char": "冗"
+ },
+ {
+  "no": 1050,
+  "level": "7-9",
+  "syllable": "róu",
+  "example_char": "柔"
+ },
+ {
+  "no": 1051,
+  "level": "7-9",
+  "syllable": "ruì",
+  "example_char": "锐"
+ },
+ {
+  "no": 1052,
+  "level": "7-9",
+  "syllable": "sā",
+  "example_char": "撒"
+ },
+ {
+  "no": 1053,
+  "level": "7-9",
+  "syllable": "sà",
+  "example_char": "萨"
+ },
+ {
+  "no": 1054,
+  "level": "7-9",
+  "syllable": "sāng",
+  "example_char": "桑"
+ },
+ {
+  "no": 1055,
+  "level": "7-9",
+  "syllable": "sǎng",
+  "example_char": "嗓"
+ },
+ {
+  "no": 1056,
+  "level": "7-9",
+  "syllable": "sāo",
+  "example_char": "骚"
+ },
+ {
+  "no": 1057,
+  "level": "7-9",
+  "syllable": "sào",
+  "example_char": "臊"
+ },
+ {
+  "no": 1058,
+  "level": "7-9",
+  "syllable": "sēng",
+  "example_char": "僧"
+ },
+ {
+  "no": 1059,
+  "level": "7-9",
+  "syllable": "shà",
+  "example_char": "厦"
+ },
+ {
+  "no": 1060,
+  "level": "7-9",
+  "syllable": "shāi",
+  "example_char": "筛"
+ },
+ {
+  "no": 1061,
+  "level": "7-9",
+  "syllable": "shē",
+  "example_char": "奢"
+ },
+ {
+  "no": 1062,
+  "level": "7-9",
+  "syllable": "shéng",
+  "example_char": "绳"
+ },
+ {
+  "no": 1063,
+  "level": "7-9",
+  "syllable": "shi",
+  "example_char": "匙"
+ },
+ {
+  "no": 1064,
+  "level": "7-9",
+  "syllable": "shuǎ",
+  "example_char": "耍"
+ },
+ {
+  "no": 1065,
+  "level": "7-9",
+  "syllable": "shuǎi",
+  "example_char": "甩"
+ },
+ {
+  "no": 1066,
+  "level": "7-9",
+  "syllable": "shuān",
+  "example_char": "拴"
+ },
+ {
+  "no": 1067,
+  "level": "7-9",
+  "syllable": "shuàn",
+  "example_char": "涮"
+ },
+ {
+  "no": 1068,
+  "level": "7-9",
+  "syllable": "sǒng",
+  "example_char": "耸"
+ },
+ {
+  "no": 1069,
+  "level": "7-9",
+  "syllable": "sòu",
+  "example_char": "嗽"
+ },
+ {
+  "no": 1070,
+  "level": "7-9",
+  "syllable": "suǐ",
+  "example_char": "髓"
+ },
+ {
+  "no": 1071,
+  "level": "7-9",
+  "syllable": "tāi",
+  "example_char": "胎"
+ },
+ {
+  "no": 1072,
+  "level": "7-9",
+  "syllable": "tān",
+  "example_char": "贪"
+ },
+ {
+  "no": 1073,
+  "level": "7-9",
+  "syllable": "tiǎn",
+  "example_char": "舔"
+ },
+ {
+  "no": 1074,
+  "level": "7-9",
+  "syllable": "tuí",
+  "example_char": "颓"
+ },
+ {
+  "no": 1075,
+  "level": "7-9",
+  "syllable": "tún",
+  "example_char": "屯"
+ },
+ {
+  "no": 1076,
+  "level": "7-9",
+  "syllable": "tuó",
+  "example_char": "驮"
+ },
+ {
+  "no": 1077,
+  "level": "7-9",
+  "syllable": "tuǒ",
+  "example_char": "妥"
+ },
+ {
+  "no": 1078,
+  "level": "7-9",
+  "syllable": "tuò",
+  "example_char": "拓"
+ },
+ {
+  "no": 1079,
+  "level": "7-9",
+  "syllable": "wǎ",
+  "example_char": "瓦"
+ },
+ {
+  "no": 1080,
+  "level": "7-9",
+  "syllable": "wāi",
+  "example_char": "歪"
+ },
+ {
+  "no": 1081,
+  "level": "7-9",
+  "syllable": "wāng",
+  "example_char": "汪"
+ },
+ {
+  "no": 1082,
+  "level": "7-9",
+  "syllable": "wēng",
+  "example_char": "翁"
+ },
+ {
+  "no": 1083,
+  "level": "7-9",
+  "syllable": "wō",
+  "example_char": "窝"
+ },
+ {
+  "no": 1084,
+  "level": "7-9",
+  "syllable": "xiā",
+  "example_char": "虾"
+ },
+ {
+  "no": 1085,
+  "level": "7-9",
+  "syllable": "xiá",
+  "example_char": "侠"
+ },
+ {
+  "no": 1086,
+  "level": "7-9",
+  "syllable": "xiáo",
+  "example_char": "淆"
+ },
+ {
+  "no": 1087,
+  "level": "7-9",
+  "syllable": "xiǔ",
+  "example_char": "朽"
+ },
+ {
+  "no": 1088,
+  "level": "7-9",
+  "syllable": "xú",
+  "example_char": "徐"
+ },
+ {
+  "no": 1089,
+  "level": "7-9",
+  "syllable": "xuàn",
+  "example_char": "炫"
+ },
+ {
+  "no": 1090,
+  "level": "7-9",
+  "syllable": "xuē",
+  "example_char": "靴"
+ },
+ {
+  "no": 1091,
+  "level": "7-9",
+  "syllable": "xūn",
+  "example_char": "勋"
+ },
+ {
+  "no": 1092,
+  "level": "7-9",
+  "syllable": "yǎ",
+  "example_char": "哑"
+ },
+ {
+  "no": 1093,
+  "level": "7-9",
+  "syllable": "yē",
+  "example_char": "椰"
+ },
+ {
+  "no": 1094,
+  "level": "7-9",
+  "syllable": "yuān",
+  "example_char": "冤"
+ },
+ {
+  "no": 1095,
+  "level": "7-9",
+  "syllable": "zā",
+  "example_char": "扎"
+ },
+ {
+  "no": 1096,
+  "level": "7-9",
+  "syllable": "zǎn",
+  "example_char": "攒"
+ },
+ {
+  "no": 1097,
+  "level": "7-9",
+  "syllable": "záo",
+  "example_char": "凿"
+ },
+ {
+  "no": 1098,
+  "level": "7-9",
+  "syllable": "zéi",
+  "example_char": "贼"
+ },
+ {
+  "no": 1099,
+  "level": "7-9",
+  "syllable": "zhá",
+  "example_char": "闸"
+ },
+ {
+  "no": 1100,
+  "level": "7-9",
+  "syllable": "zhǎ",
+  "example_char": "眨"
+ },
+ {
+  "no": 1101,
+  "level": "7-9",
+  "syllable": "zhǎi",
+  "example_char": "窄"
+ },
+ {
+  "no": 1102,
+  "level": "7-9",
+  "syllable": "zhān",
+  "example_char": "沾"
+ },
+ {
+  "no": 1103,
+  "level": "7-9",
+  "syllable": "zhē",
+  "example_char": "遮"
+ },
+ {
+  "no": 1104,
+  "level": "7-9",
+  "syllable": "zhóu",
+  "example_char": "轴"
+ },
+ {
+  "no": 1105,
+  "level": "7-9",
+  "syllable": "zhòu",
+  "example_char": "皱"
+ },
+ {
+  "no": 1106,
+  "level": "7-9",
+  "syllable": "zhuǎ",
+  "example_char": "爪"
+ },
+ {
+  "no": 1107,
+  "level": "7-9",
+  "syllable": "zhuài",
+  "example_char": "拽"
+ },
+ {
+  "no": 1108,
+  "level": "7-9",
+  "syllable": "zhuì",
+  "example_char": "坠"
+ },
+ {
+  "no": 1109,
+  "level": "7-9",
+  "syllable": "zhuó",
+  "example_char": "卓"
+ },
+ {
+  "no": 1110,
+  "level": "7-9",
+  "syllable": "zuàn",
+  "example_char": "钻"
+ }
+]

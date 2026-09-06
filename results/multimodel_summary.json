@@ -1,0 +1,101 @@
+{
+ "k2d6-agent": {
+  "overall": 39.4,
+  "CUL": 85.6,
+  "ERR": 36.1,
+  "GEN": 40.0,
+  "KNO": 21.2,
+  "PED": 44.1,
+  "SCO": 55.8
+ },
+ "k3-agent": {
+  "overall": 46.7,
+  "CUL": 94.9,
+  "ERR": 33.3,
+  "GEN": 48.7,
+  "KNO": 29.0,
+  "PED": 45.0,
+  "SCO": 78.6
+ },
+ "deepseek": {
+  "overall": 44.2,
+  "CUL": 84.7,
+  "ERR": 31.4,
+  "GEN": 36.6,
+  "KNO": 35.2,
+  "PED": 41.7,
+  "SCO": 75.8
+ },
+ "qwen": {
+  "overall": 38.2,
+  "CUL": 80.4,
+  "ERR": 30.8,
+  "GEN": 38.4,
+  "KNO": 12.2,
+  "PED": 43.8,
+  "SCO": 74.2
+ },
+ "zhipu": {
+  "overall": 33.4,
+  "CUL": 70.5,
+  "ERR": 21.5,
+  "GEN": 31.4,
+  "KNO": 12.0,
+  "PED": 37.1,
+  "SCO": 74.2
+ },
+ "ernie": {
+  "overall": 38.4,
+  "CUL": 82.4,
+  "ERR": 24.1,
+  "GEN": 35.0,
+  "KNO": 20.2,
+  "PED": 42.5,
+  "SCO": 76.8
+ },
+ "grok": {
+  "overall": 41.2,
+  "CUL": 87.4,
+  "ERR": 28.0,
+  "GEN": 53.7,
+  "KNO": 24.8,
+  "PED": 40.3,
+  "SCO": 58.6
+ },
+ "stepfun": {
+  "overall": 37.0,
+  "CUL": 77.5,
+  "ERR": 32.0,
+  "GEN": 37.4,
+  "KNO": 15.8,
+  "PED": 40.8,
+  "SCO": 63.3
+ },
+ "doubao": {
+  "overall": 37.9,
+  "CUL": 86.3,
+  "ERR": 34.0,
+  "GEN": 46.6,
+  "KNO": 20.2,
+  "PED": 41.1,
+  "SCO": 44.4
+ },
+ "hunyuan": {
+  "overall": 42.2,
+  "CUL": 92.0,
+  "ERR": 32.8,
+  "GEN": 59.7,
+  "KNO": 23.8,
+  "PED": 43.3,
+  "SCO": 48.6
+ },
+ "tchub-dsv4f": {
+  "overall": 42.9,
+  "CUL": 88.9,
+  "ERR": 30.5,
+  "GEN": 50.8,
+  "KNO": 22.5,
+  "PED": 42.5,
+  "SCO": 70.8
+ }
+}

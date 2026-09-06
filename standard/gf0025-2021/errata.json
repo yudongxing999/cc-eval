@@ -1,0 +1,99 @@
+{
+  "description": "GF0025-2021 结构化 JSON 勘误表。依据：《国际中文教育中文水平等级标准（国家标准·应用解读本）》三册（全书 OCR）与教育部/语委原标准扫描 PDF 交叉复核，2026-09-05。",
+  "generated": "2026-09-05",
+  "corrections": [
+    {
+      "table": "vocabulary",
+      "item": "显",
+      "field": "level",
+      "from": 5,
+      "to": 6,
+      "evidence": "解读本第二分册音序总表标六级；原标准 PDF 词汇表五级段（#851-1071）无「显」，六级段含「显出」（#879）。判定为社区 CSV 转录错误。"
+    },
+    {
+      "table": "characters",
+      "item": "谋",
+      "field": "level",
+      "from": 6,
+      "to": "7-9",
+      "evidence": "解读本第一分册分级汉字表（七-九级段 p81-87）及原标准 PDF 汉字表七-九段（附录页 i025-031）均含「谋」，六级段无。"
+    },
+    {
+      "table": "characters",
+      "item": "悬",
+      "field": "level",
+      "from": 6,
+      "to": "7-9",
+      "evidence": "同上。"
+    },
+    {
+      "table": "characters",
+      "item": "抢",
+      "field": "level",
+      "from": 6,
+      "to": "7-9",
+      "evidence": "同上。"
+    },
+    {
+      "table": "characters",
+      "item": "馒",
+      "field": "level",
+      "from": 6,
+      "to": "7-9",
+      "evidence": "同上（「馒头」之「馒」）。"
+    },
+    {
+      "table": "characters",
+      "item": "素",
+      "field": "level",
+      "from": 6,
+      "to": "7-9",
+      "evidence": "同上。"
+    },
+    {
+      "table": "grammar",
+      "item": "no.40 变化态",
+      "field": "content",
+      "from": "用语气助词“了2”表示",
+      "to": "用动态助词“了2”表示",
+      "evidence": "原标准 A.1.5【一40】（扫描 PDF 第 180 页）与解读本第三分册 p027 均作「动态助词」。判定为社区 CSV 转录错误。"
+    },
+    {
+      "table": "grammar",
+      "item": "no.104 存现句1",
+      "field": "content",
+      "from": "含子项（1）处所+是（+数量短语）+名词（见“‘是’字句（3）”）",
+      "to": "删除该子项；标准仅有（1）处所+有+数量短语+名词、（2）处所+动词+着（+数量短语）+名词 两项",
+      "evidence": "原标准【二56】（扫描 PDF 第 190 页）与解读本第三分册 p036 一致，均无「处所+是…」子项。判定为社区 CSV 混入其他大纲内容。"
+    }
+  ],
+  "non_substantive_differences": [
+    {
+      "table": "grammar",
+      "item": "no.206",
+      "note": "JSON 作「用‘是’表示强调」，原标准【三77】与解读本作「用‘是’强调」，仅措辞详略差异，语义一致，不改。"
+    }
+  ],
+  "pending_manual_check": [
+    {
+      "table": "characters",
+      "items": ["事", "旗", "押", "赠", "章"],
+      "reason": "解读本总表与 JSON 级别不一致，但原标准 PDF 对应页 OCR 未能可靠检出，建议人工翻书抽核。"
+    },
+    {
+      "table": "characters",
+      "items": ["吨", "竞", "范", "要", "日", "室"],
+      "reason": "多音/多读字，在分级表两个级别段均出现；JSON 可能只收了一个读音对应级别，建议人工核对后决定是否双收。"
+    },
+    {
+      "table": "syllables",
+      "items": ["端(duan)", "国(guo)", "审(shen)", "楼(lou)", "馒(man)", "要(yao)", "区(qu)"],
+      "reason": "解读本音节总表（代表字+等级）比对不一致，原标准音节表 OCR 覆盖不足未能裁决，量级 7/1054，建议人工抽核。"
+    },
+    {
+      "table": "vocabulary",
+      "items": "55 个词（唉、掰、搀、踹 类单字词为主）",
+      "reason": "全书 OCR 文本中检索不到，判断为单字 OCR 固有失败而非真缺失；如需 100% 覆盖可人工抽核。详见 vol2_diff_missing.json。"
+    }
+  ]
+}

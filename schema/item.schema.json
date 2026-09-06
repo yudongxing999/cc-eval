@@ -1,0 +1,95 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://cc-eval.local/schema/item.schema.json",
+  "title": "CC-Eval 评测题目 Schema v0.1",
+  "type": "object",
+  "required": ["item_id", "version", "task_type", "anchor", "prompt", "reference", "scoring", "provenance"],
+  "properties": {
+    "item_id": {
+      "type": "string",
+      "pattern": "^CCE-(KNO|ERR|SCO|GEN|CUL|PED)-[1-79]-[0-9]{4}$",
+      "description": "CCE-<任务>-<锚定等级>-<序号>；等级 1-6，7 代表 7-9 高等，9 代表不锚定等级"
+    },
+    "version": {"type": "string", "description": "题目版本，如 0.1.0"},
+    "task_type": {
+      "type": "string",
+      "enum": ["KNO", "ERR", "SCO", "GEN", "CUL", "PED"],
+      "description": "KNO=等级知识 ERR=偏误识别与纠正 SCO=作文评分与反馈 GEN=分级生成控制 CUL=文化语用 PED=教学专业能力"
+    },
+    "sub_type": {"type": "string", "description": "任务细分，如 err.detect / err.correct / gen.rewrite"},
+    "anchor": {
+      "type": "object",
+      "description": "标准锚点：题目挂在哪条标准条目上",
+      "properties": {
+        "level": {"type": ["integer", "string"], "description": "GF0025 等级 1-6 或 \"7-9\""},
+        "grammar_no": {"type": "integer", "description": "语法大纲条目 no"},
+        "vocab_no": {"type": "integer", "description": "词汇表 no"},
+        "char": {"type": "string", "description": "汉字表条目"},
+        "culture_section": {"type": "string", "description": "文化框架二级项目 id"},
+        "teacher_competence": {"type": "string", "description": "教师标准条目编号"},
+        "textbook_indicator": {"type": "string", "description": "教材评价指标编号"}
+      },
+      "minProperties": 1
+    },
+    "prompt": {
+      "type": "object",
+      "required": ["instruction", "input"],
+      "properties": {
+        "system": {"type": "string", "description": "系统提示（可选），如角色设定"},
+        "instruction": {"type": "string", "description": "任务指令"},
+        "input": {"type": "string", "description": "题目输入（学习者句子/作文/情境等）"}
+      }
+    },
+    "reference": {
+      "type": "object",
+      "description": "参考答案或评分依据",
+      "properties": {
+        "answer": {"description": "标准答案（可为字符串、列表、结构化对象）"},
+        "alternatives": {"type": "array", "description": "可接受的替代答案"},
+        "gold_meta": {"type": "object", "description": "真值元数据，如 HSK 人工分数、偏误标注原文"}
+      }
+    },
+    "scoring": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["exact_match", "set_overlap", "numeric_proximity", "deterministic_rule", "llm_rubric"],
+          "description": "exact_match=精确匹配 set_overlap=集合重叠 numeric_proximity=数值接近 deterministic_rule=确定性规则（如用词等级检查） llm_rubric=评委模型按量表打分"
+        },
+        "params": {"type": "object", "description": "评分参数，如容差、权重"},
+        "rubric": {"type": "array", "items": {"type": "object"}, "description": "llm_rubric 时的评分量表条目（维度/分值/描述）"}
+      }
+    },
+    "constraints": {
+      "type": "object",
+      "description": "生成类任务的确定性约束（可被 deterministic_rule 评分器直接执行）",
+      "properties": {
+        "max_vocab_level": {"type": "integer", "description": "输出用词不得超过的等级"},
+        "max_char_level": {"type": "integer"},
+        "target_grammar_no": {"type": "array", "items": {"type": "integer"}, "description": "必须使用的语法点"},
+        "length_range": {"type": "array", "items": {"type": "integer"}}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["source", "license", "contamination_risk"],
+      "properties": {
+        "source": {"type": "string", "description": "hsk-corpus | gf0025-2021 | culture-framework | teacher-std | textbook-std | vocational-std | cged | synthetic"},
+        "source_id": {"type": "string", "description": "来源记录 id，如作文编码、语法条目 no"},
+        "license": {"type": "string"},
+        "contamination_risk": {"type": "string", "enum": ["low", "mid", "high"], "description": "该题内容进入模型训练语料的可能性"}
+      }
+    },
+    "meta": {
+      "type": "object",
+      "properties": {
+        "difficulty": {"type": "string", "enum": ["easy", "mid", "hard"]},
+        "tags": {"type": "array", "items": {"type": "string"}},
+        "review_status": {"type": "string", "enum": ["draft", "reviewed", "published"], "default": "draft"},
+        "created": {"type": "string"}
+      }
+    }
+  }
+}

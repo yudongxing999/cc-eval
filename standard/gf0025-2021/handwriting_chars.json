@@ -1,0 +1,7202 @@
+[
+ {
+  "no": 1,
+  "band": "初等",
+  "char": "爱",
+  "pinyin": "ài"
+ },
+ {
+  "no": 2,
+  "band": "初等",
+  "char": "八",
+  "pinyin": "bā"
+ },
+ {
+  "no": 3,
+  "band": "初等",
+  "char": "把",
+  "pinyin": "bǎ"
+ },
+ {
+  "no": 4,
+  "band": "初等",
+  "char": "爸",
+  "pinyin": "bà"
+ },
+ {
+  "no": 5,
+  "band": "初等",
+  "char": "吧",
+  "pinyin": "ba, bā"
+ },
+ {
+  "no": 6,
+  "band": "初等",
+  "char": "白",
+  "pinyin": "bái"
+ },
+ {
+  "no": 7,
+  "band": "初等",
+  "char": "百",
+  "pinyin": "bǎi"
+ },
+ {
+  "no": 8,
+  "band": "初等",
+  "char": "半",
+  "pinyin": "bàn"
+ },
+ {
+  "no": 9,
+  "band": "初等",
+  "char": "帮",
+  "pinyin": "bāng"
+ },
+ {
+  "no": 10,
+  "band": "初等",
+  "char": "包",
+  "pinyin": "bāo"
+ },
+ {
+  "no": 11,
+  "band": "初等",
+  "char": "北",
+  "pinyin": "běi"
+ },
+ {
+  "no": 12,
+  "band": "初等",
+  "char": "备",
+  "pinyin": "bèi"
+ },
+ {
+  "no": 13,
+  "band": "初等",
+  "char": "本",
+  "pinyin": "běn"
+ },
+ {
+  "no": 14,
+  "band": "初等",
+  "char": "比",
+  "pinyin": "bǐ"
+ },
+ {
+  "no": 15,
+  "band": "初等",
+  "char": "边",
+  "pinyin": "biān"
+ },
+ {
+  "no": 16,
+  "band": "初等",
+  "char": "别",
+  "pinyin": "bié, biè"
+ },
+ {
+  "no": 17,
+  "band": "初等",
+  "char": "病",
+  "pinyin": "bìng"
+ },
+ {
+  "no": 18,
+  "band": "初等",
+  "char": "不",
+  "pinyin": "bù"
+ },
+ {
+  "no": 19,
+  "band": "初等",
+  "char": "才",
+  "pinyin": "cái"
+ },
+ {
+  "no": 20,
+  "band": "初等",
+  "char": "菜",
+  "pinyin": "cài"
+ },
+ {
+  "no": 21,
+  "band": "初等",
+  "char": "茶",
+  "pinyin": "chá"
+ },
+ {
+  "no": 22,
+  "band": "初等",
+  "char": "差",
+  "pinyin": "chà, chā, chāi"
+ },
+ {
+  "no": 23,
+  "band": "初等",
+  "char": "长",
+  "pinyin": "cháng, zhǎng"
+ },
+ {
+  "no": 24,
+  "band": "初等",
+  "char": "常",
+  "pinyin": "cháng"
+ },
+ {
+  "no": 25,
+  "band": "初等",
+  "char": "场",
+  "pinyin": "chǎng"
+ },
+ {
+  "no": 26,
+  "band": "初等",
+  "char": "唱",
+  "pinyin": "chàng"
+ },
+ {
+  "no": 27,
+  "band": "初等",
+  "char": "车",
+  "pinyin": "chē"
+ },
+ {
+  "no": 28,
+  "band": "初等",
+  "char": "吃",
+  "pinyin": "chī"
+ },
+ {
+  "no": 29,
+  "band": "初等",
+  "char": "出",
+  "pinyin": "chū"
+ },
+ {
+  "no": 30,
+  "band": "初等",
+  "char": "穿",
+  "pinyin": "chuān"
+ },
+ {
+  "no": 31,
+  "band": "初等",
+  "char": "次",
+  "pinyin": "cì"
+ },
+ {
+  "no": 32,
+  "band": "初等",
+  "char": "从",
+  "pinyin": "cóng"
+ },
+ {
+  "no": 33,
+  "band": "初等",
+  "char": "错",
+  "pinyin": "cuò"
+ },
+ {
+  "no": 34,
+  "band": "初等",
+  "char": "答",
+  "pinyin": "dá, dā"
+ },
+ {
+  "no": 35,
+  "band": "初等",
+  "char": "打",
+  "pinyin": "dǎ, dá"
+ },
+ {
+  "no": 36,
+  "band": "初等",
+  "char": "大",
+  "pinyin": "dà, dài"
+ },
+ {
+  "no": 37,
+  "band": "初等",
+  "char": "但",
+  "pinyin": "dàn"
+ },
+ {
+  "no": 38,
+  "band": "初等",
+  "char": "蛋",
+  "pinyin": "dàn"
+ },
+ {
+  "no": 39,
+  "band": "初等",
+  "char": "当",
+  "pinyin": "dāng, dàng"
+ },
+ {
+  "no": 40,
+  "band": "初等",
+  "char": "到",
+  "pinyin": "dào"
+ },
+ {
+  "no": 41,
+  "band": "初等",
+  "char": "道",
+  "pinyin": "dào"
+ },
+ {
+  "no": 42,
+  "band": "初等",
+  "char": "得",
+  "pinyin": "dé, de, děi"
+ },
+ {
+  "no": 43,
+  "band": "初等",
+  "char": "地",
+  "pinyin": "de, dì"
+ },
+ {
+  "no": 44,
+  "band": "初等",
+  "char": "的",
+  "pinyin": "de, dì, dí"
+ },
+ {
+  "no": 45,
+  "band": "初等",
+  "char": "等",
+  "pinyin": "děng"
+ },
+ {
+  "no": 46,
+  "band": "初等",
+  "char": "第",
+  "pinyin": "dì"
+ },
+ {
+  "no": 47,
+  "band": "初等",
+  "char": "点",
+  "pinyin": "diǎn"
+ },
+ {
+  "no": 48,
+  "band": "初等",
+  "char": "电",
+  "pinyin": "diàn"
+ },
+ {
+  "no": 49,
+  "band": "初等",
+  "char": "店",
+  "pinyin": "diàn"
+ },
+ {
+  "no": 50,
+  "band": "初等",
+  "char": "东",
+  "pinyin": "dōng"
+ },
+ {
+  "no": 51,
+  "band": "初等",
+  "char": "动",
+  "pinyin": "dòng"
+ },
+ {
+  "no": 52,
+  "band": "初等",
+  "char": "都",
+  "pinyin": "dōu, dū"
+ },
+ {
+  "no": 53,
+  "band": "初等",
+  "char": "对",
+  "pinyin": "duì"
+ },
+ {
+  "no": 54,
+  "band": "初等",
+  "char": "多",
+  "pinyin": "duō"
+ },
+ {
+  "no": 55,
+  "band": "初等",
+  "char": "饿",
+  "pinyin": "è"
+ },
+ {
+  "no": 56,
+  "band": "初等",
+  "char": "儿",
+  "pinyin": "ér"
+ },
+ {
+  "no": 57,
+  "band": "初等",
+  "char": "而",
+  "pinyin": "ér"
+ },
+ {
+  "no": 58,
+  "band": "初等",
+  "char": "二",
+  "pinyin": "èr"
+ },
+ {
+  "no": 59,
+  "band": "初等",
+  "char": "饭",
+  "pinyin": "fàn"
+ },
+ {
+  "no": 60,
+  "band": "初等",
+  "char": "方",
+  "pinyin": "fāng"
+ },
+ {
+  "no": 61,
+  "band": "初等",
+  "char": "房",
+  "pinyin": "fáng"
+ },
+ {
+  "no": 62,
+  "band": "初等",
+  "char": "放",
+  "pinyin": "fàng"
+ },
+ {
+  "no": 63,
+  "band": "初等",
+  "char": "飞",
+  "pinyin": "fēi"
+ },
+ {
+  "no": 64,
+  "band": "初等",
+  "char": "非",
+  "pinyin": "fēi"
+ },
+ {
+  "no": 65,
+  "band": "初等",
+  "char": "分",
+  "pinyin": "fēn, fèn"
+ },
+ {
+  "no": 66,
+  "band": "初等",
+  "char": "服",
+  "pinyin": "fú"
+ },
+ {
+  "no": 67,
+  "band": "初等",
+  "char": "该",
+  "pinyin": "gāi"
+ },
+ {
+  "no": 68,
+  "band": "初等",
+  "char": "干",
+  "pinyin": "gān, gàn"
+ },
+ {
+  "no": 69,
+  "band": "初等",
+  "char": "高",
+  "pinyin": "gāo"
+ },
+ {
+  "no": 70,
+  "band": "初等",
+  "char": "告",
+  "pinyin": "gào"
+ },
+ {
+  "no": 71,
+  "band": "初等",
+  "char": "哥",
+  "pinyin": "gē"
+ },
+ {
+  "no": 72,
+  "band": "初等",
+  "char": "歌",
+  "pinyin": "gē"
+ },
+ {
+  "no": 73,
+  "band": "初等",
+  "char": "个",
+  "pinyin": "gè"
+ },
+ {
+  "no": 74,
+  "band": "初等",
+  "char": "给",
+  "pinyin": "gěi, jǐ"
+ },
+ {
+  "no": 75,
+  "band": "初等",
+  "char": "跟",
+  "pinyin": "gēn"
+ },
+ {
+  "no": 76,
+  "band": "初等",
+  "char": "更",
+  "pinyin": "gèng, gēng"
+ },
+ {
+  "no": 77,
+  "band": "初等",
+  "char": "工",
+  "pinyin": "gōng"
+ },
+ {
+  "no": 78,
+  "band": "初等",
+  "char": "关",
+  "pinyin": "guān"
+ },
+ {
+  "no": 79,
+  "band": "初等",
+  "char": "贵",
+  "pinyin": "guì"
+ },
+ {
+  "no": 80,
+  "band": "初等",
+  "char": "国",
+  "pinyin": "guó"
+ },
+ {
+  "no": 81,
+  "band": "初等",
+  "char": "果",
+  "pinyin": "guǒ"
+ },
+ {
+  "no": 82,
+  "band": "初等",
+  "char": "过",
+  "pinyin": "guò, guo"
+ },
+ {
+  "no": 83,
+  "band": "初等",
+  "char": "还",
+  "pinyin": "hái, huán"
+ },
+ {
+  "no": 84,
+  "band": "初等",
+  "char": "孩",
+  "pinyin": "hái"
+ },
+ {
+  "no": 85,
+  "band": "初等",
+  "char": "汉",
+  "pinyin": "hàn"
+ },
+ {
+  "no": 86,
+  "band": "初等",
+  "char": "好",
+  "pinyin": "hǎo, hào"
+ },
+ {
+  "no": 87,
+  "band": "初等",
+  "char": "号",
+  "pinyin": "hào"
+ },
+ {
+  "no": 88,
+  "band": "初等",
+  "char": "喝",
+  "pinyin": "hē, hè"
+ },
+ {
+  "no": 89,
+  "band": "初等",
+  "char": "和",
+  "pinyin": "hé, huó, hè"
+ },
+ {
+  "no": 90,
+  "band": "初等",
+  "char": "黑",
+  "pinyin": "hēi"
+ },
+ {
+  "no": 91,
+  "band": "初等",
+  "char": "很",
+  "pinyin": "hěn"
+ },
+ {
+  "no": 92,
+  "band": "初等",
+  "char": "后",
+  "pinyin": "hòu"
+ },
+ {
+  "no": 93,
+  "band": "初等",
+  "char": "候",
+  "pinyin": "hòu"
+ },
+ {
+  "no": 94,
+  "band": "初等",
+  "char": "花",
+  "pinyin": "huā"
+ },
+ {
+  "no": 95,
+  "band": "初等",
+  "char": "话",
+  "pinyin": "huà"
+ },
+ {
+  "no": 96,
+  "band": "初等",
+  "char": "坏",
+  "pinyin": "huài"
+ },
+ {
+  "no": 97,
+  "band": "初等",
+  "char": "欢",
+  "pinyin": "huān"
+ },
+ {
+  "no": 98,
+  "band": "初等",
+  "char": "回",
+  "pinyin": "huí"
+ },
+ {
+  "no": 99,
+  "band": "初等",
+  "char": "会",
+  "pinyin": "huì, kuài"
+ },
+ {
+  "no": 100,
+  "band": "初等",
+  "char": "火",
+  "pinyin": "huǒ"
+ },
+ {
+  "no": 101,
+  "band": "初等",
+  "char": "机",
+  "pinyin": "jī"
+ },
+ {
+  "no": 102,
+  "band": "初等",
+  "char": "鸡",
+  "pinyin": "jī"
+ },
+ {
+  "no": 103,
+  "band": "初等",
+  "char": "几",
+  "pinyin": "jǐ, jī"
+ },
+ {
+  "no": 104,
+  "band": "初等",
+  "char": "记",
+  "pinyin": "jì"
+ },
+ {
+  "no": 105,
+  "band": "初等",
+  "char": "家",
+  "pinyin": "jiā"
+ },
+ {
+  "no": 106,
+  "band": "初等",
+  "char": "假",
+  "pinyin": "jià, jiǎ"
+ },
+ {
+  "no": 107,
+  "band": "初等",
+  "char": "间",
+  "pinyin": "jiān, jiàn"
+ },
+ {
+  "no": 108,
+  "band": "初等",
+  "char": "见",
+  "pinyin": "jiàn"
+ },
+ {
+  "no": 109,
+  "band": "初等",
+  "char": "教",
+  "pinyin": "jiāo, jiào"
+ },
+ {
+  "no": 110,
+  "band": "初等",
+  "char": "叫",
+  "pinyin": "jiào"
+ },
+ {
+  "no": 111,
+  "band": "初等",
+  "char": "觉",
+  "pinyin": "jiào, jué"
+ },
+ {
+  "no": 112,
+  "band": "初等",
+  "char": "姐",
+  "pinyin": "jiě"
+ },
+ {
+  "no": 113,
+  "band": "初等",
+  "char": "介",
+  "pinyin": "jiè"
+ },
+ {
+  "no": 114,
+  "band": "初等",
+  "char": "借",
+  "pinyin": "jiè"
+ },
+ {
+  "no": 115,
+  "band": "初等",
+  "char": "今",
+  "pinyin": "jīn"
+ },
+ {
+  "no": 116,
+  "band": "初等",
+  "char": "进",
+  "pinyin": "jìn"
+ },
+ {
+  "no": 117,
+  "band": "初等",
+  "char": "净",
+  "pinyin": "jìng"
+ },
+ {
+  "no": 118,
+  "band": "初等",
+  "char": "九",
+  "pinyin": "jiǔ"
+ },
+ {
+  "no": 119,
+  "band": "初等",
+  "char": "酒",
+  "pinyin": "jiǔ"
+ },
+ {
+  "no": 120,
+  "band": "初等",
+  "char": "就",
+  "pinyin": "jiù"
+ },
+ {
+  "no": 121,
+  "band": "初等",
+  "char": "开",
+  "pinyin": "kāi"
+ },
+ {
+  "no": 122,
+  "band": "初等",
+  "char": "看",
+  "pinyin": "kàn, kān"
+ },
+ {
+  "no": 123,
+  "band": "初等",
+  "char": "考",
+  "pinyin": "kǎo"
+ },
+ {
+  "no": 124,
+  "band": "初等",
+  "char": "可",
+  "pinyin": "kě"
+ },
+ {
+  "no": 125,
+  "band": "初等",
+  "char": "渴",
+  "pinyin": "kě"
+ },
+ {
+  "no": 126,
+  "band": "初等",
+  "char": "课",
+  "pinyin": "kè"
+ },
+ {
+  "no": 127,
+  "band": "初等",
+  "char": "口",
+  "pinyin": "kǒu"
+ },
+ {
+  "no": 128,
+  "band": "初等",
+  "char": "块",
+  "pinyin": "kuài"
+ },
+ {
+  "no": 129,
+  "band": "初等",
+  "char": "快",
+  "pinyin": "kuài"
+ },
+ {
+  "no": 130,
+  "band": "初等",
+  "char": "来",
+  "pinyin": "lái"
+ },
+ {
+  "no": 131,
+  "band": "初等",
+  "char": "老",
+  "pinyin": "lǎo"
+ },
+ {
+  "no": 132,
+  "band": "初等",
+  "char": "了",
+  "pinyin": "le, liǎo"
+ },
+ {
+  "no": 133,
+  "band": "初等",
+  "char": "累",
+  "pinyin": "lèi, lěi"
+ },
+ {
+  "no": 134,
+  "band": "初等",
+  "char": "冷",
+  "pinyin": "lěng"
+ },
+ {
+  "no": 135,
+  "band": "初等",
+  "char": "里",
+  "pinyin": "lǐ"
+ },
+ {
+  "no": 136,
+  "band": "初等",
+  "char": "两",
+  "pinyin": "liǎng"
+ },
+ {
+  "no": 137,
+  "band": "初等",
+  "char": "零",
+  "pinyin": "líng"
+ },
+ {
+  "no": 138,
+  "band": "初等",
+  "char": "六",
+  "pinyin": "liù"
+ },
+ {
+  "no": 139,
+  "band": "初等",
+  "char": "楼",
+  "pinyin": "lóu"
+ },
+ {
+  "no": 140,
+  "band": "初等",
+  "char": "路",
+  "pinyin": "lù"
+ },
+ {
+  "no": 141,
+  "band": "初等",
+  "char": "妈",
+  "pinyin": "mā"
+ },
+ {
+  "no": 142,
+  "band": "初等",
+  "char": "马",
+  "pinyin": "mǎ"
+ },
+ {
+  "no": 143,
+  "band": "初等",
+  "char": "吗",
+  "pinyin": "ma"
+ },
+ {
+  "no": 144,
+  "band": "初等",
+  "char": "买",
+  "pinyin": "mǎi"
+ },
+ {
+  "no": 145,
+  "band": "初等",
+  "char": "忙",
+  "pinyin": "máng"
+ },
+ {
+  "no": 146,
+  "band": "初等",
+  "char": "么",
+  "pinyin": "me"
+ },
+ {
+  "no": 147,
+  "band": "初等",
+  "char": "没",
+  "pinyin": "méi, mò"
+ },
+ {
+  "no": 148,
+  "band": "初等",
+  "char": "每",
+  "pinyin": "měi"
+ },
+ {
+  "no": 149,
+  "band": "初等",
+  "char": "门",
+  "pinyin": "mén"
+ },
+ {
+  "no": 150,
+  "band": "初等",
+  "char": "们",
+  "pinyin": "men"
+ },
+ {
+  "no": 151,
+  "band": "初等",
+  "char": "面",
+  "pinyin": "miàn"
+ },
+ {
+  "no": 152,
+  "band": "初等",
+  "char": "名",
+  "pinyin": "míng"
+ },
+ {
+  "no": 153,
+  "band": "初等",
+  "char": "明",
+  "pinyin": "míng"
+ },
+ {
+  "no": 154,
+  "band": "初等",
+  "char": "木",
+  "pinyin": "mù"
+ },
+ {
+  "no": 155,
+  "band": "初等",
+  "char": "拿",
+  "pinyin": "ná"
+ },
+ {
+  "no": 156,
+  "band": "初等",
+  "char": "哪",
+  "pinyin": "nǎ, na"
+ },
+ {
+  "no": 157,
+  "band": "初等",
+  "char": "那",
+  "pinyin": "nà"
+ },
+ {
+  "no": 158,
+  "band": "初等",
+  "char": "奶",
+  "pinyin": "nǎi"
+ },
+ {
+  "no": 159,
+  "band": "初等",
+  "char": "男",
+  "pinyin": "nán"
+ },
+ {
+  "no": 160,
+  "band": "初等",
+  "char": "南",
+  "pinyin": "nán"
+ },
+ {
+  "no": 161,
+  "band": "初等",
+  "char": "难",
+  "pinyin": "nán, nàn"
+ },
+ {
+  "no": 162,
+  "band": "初等",
+  "char": "呢",
+  "pinyin": "ne"
+ },
+ {
+  "no": 163,
+  "band": "初等",
+  "char": "能",
+  "pinyin": "néng"
+ },
+ {
+  "no": 164,
+  "band": "初等",
+  "char": "你",
+  "pinyin": "nǐ"
+ },
+ {
+  "no": 165,
+  "band": "初等",
+  "char": "年",
+  "pinyin": "nián"
+ },
+ {
+  "no": 166,
+  "band": "初等",
+  "char": "您",
+  "pinyin": "nín"
+ },
+ {
+  "no": 167,
+  "band": "初等",
+  "char": "牛",
+  "pinyin": "niú"
+ },
+ {
+  "no": 168,
+  "band": "初等",
+  "char": "女",
+  "pinyin": "nǚ"
+ },
+ {
+  "no": 169,
+  "band": "初等",
+  "char": "怕",
+  "pinyin": "pà"
+ },
+ {
+  "no": 170,
+  "band": "初等",
+  "char": "旁",
+  "pinyin": "páng"
+ },
+ {
+  "no": 171,
+  "band": "初等",
+  "char": "跑",
+  "pinyin": "pǎo"
+ },
+ {
+  "no": 172,
+  "band": "初等",
+  "char": "朋",
+  "pinyin": "péng"
+ },
+ {
+  "no": 173,
+  "band": "初等",
+  "char": "票",
+  "pinyin": "piào"
+ },
+ {
+  "no": 174,
+  "band": "初等",
+  "char": "七",
+  "pinyin": "qī"
+ },
+ {
+  "no": 175,
+  "band": "初等",
+  "char": "期",
+  "pinyin": "qī"
+ },
+ {
+  "no": 176,
+  "band": "初等",
+  "char": "起",
+  "pinyin": "qǐ"
+ },
+ {
+  "no": 177,
+  "band": "初等",
+  "char": "气",
+  "pinyin": "qì"
+ },
+ {
+  "no": 178,
+  "band": "初等",
+  "char": "汽",
+  "pinyin": "qì"
+ },
+ {
+  "no": 179,
+  "band": "初等",
+  "char": "前",
+  "pinyin": "qián"
+ },
+ {
+  "no": 180,
+  "band": "初等",
+  "char": "钱",
+  "pinyin": "qián"
+ },
+ {
+  "no": 181,
+  "band": "初等",
+  "char": "请",
+  "pinyin": "qǐng"
+ },
+ {
+  "no": 182,
+  "band": "初等",
+  "char": "球",
+  "pinyin": "qiú"
+ },
+ {
+  "no": 183,
+  "band": "初等",
+  "char": "去",
+  "pinyin": "qù"
+ },
+ {
+  "no": 184,
+  "band": "初等",
+  "char": "然",
+  "pinyin": "rán"
+ },
+ {
+  "no": 185,
+  "band": "初等",
+  "char": "让",
+  "pinyin": "ràng"
+ },
+ {
+  "no": 186,
+  "band": "初等",
+  "char": "热",
+  "pinyin": "rè"
+ },
+ {
+  "no": 187,
+  "band": "初等",
+  "char": "人",
+  "pinyin": "rén"
+ },
+ {
+  "no": 188,
+  "band": "初等",
+  "char": "认",
+  "pinyin": "rèn"
+ },
+ {
+  "no": 189,
+  "band": "初等",
+  "char": "日",
+  "pinyin": "rì"
+ },
+ {
+  "no": 190,
+  "band": "初等",
+  "char": "肉",
+  "pinyin": "ròu"
+ },
+ {
+  "no": 191,
+  "band": "初等",
+  "char": "三",
+  "pinyin": "sān"
+ },
+ {
+  "no": 192,
+  "band": "初等",
+  "char": "山",
+  "pinyin": "shān"
+ },
+ {
+  "no": 193,
+  "band": "初等",
+  "char": "上",
+  "pinyin": "shàng"
+ },
+ {
+  "no": 194,
+  "band": "初等",
+  "char": "少",
+  "pinyin": "shǎo, shào"
+ },
+ {
+  "no": 195,
+  "band": "初等",
+  "char": "绍",
+  "pinyin": "shào"
+ },
+ {
+  "no": 196,
+  "band": "初等",
+  "char": "身",
+  "pinyin": "shēn"
+ },
+ {
+  "no": 197,
+  "band": "初等",
+  "char": "什",
+  "pinyin": "shén"
+ },
+ {
+  "no": 198,
+  "band": "初等",
+  "char": "生",
+  "pinyin": "shēng"
+ },
+ {
+  "no": 199,
+  "band": "初等",
+  "char": "师",
+  "pinyin": "shī"
+ },
+ {
+  "no": 200,
+  "band": "初等",
+  "char": "十",
+  "pinyin": "shí"
+ },
+ {
+  "no": 201,
+  "band": "初等",
+  "char": "时",
+  "pinyin": "shí"
+ },
+ {
+  "no": 202,
+  "band": "初等",
+  "char": "识",
+  "pinyin": "shí"
+ },
+ {
+  "no": 203,
+  "band": "初等",
+  "char": "事",
+  "pinyin": "shì"
+ },
+ {
+  "no": 204,
+  "band": "初等",
+  "char": "试",
+  "pinyin": "shì"
+ },
+ {
+  "no": 205,
+  "band": "初等",
+  "char": "视",
+  "pinyin": "shì"
+ },
+ {
+  "no": 206,
+  "band": "初等",
+  "char": "是",
+  "pinyin": "shì"
+ },
+ {
+  "no": 207,
+  "band": "初等",
+  "char": "手",
+  "pinyin": "shǒu"
+ },
+ {
+  "no": 208,
+  "band": "初等",
+  "char": "书",
+  "pinyin": "shū"
+ },
+ {
+  "no": 209,
+  "band": "初等",
+  "char": "树",
+  "pinyin": "shù"
+ },
+ {
+  "no": 210,
+  "band": "初等",
+  "char": "谁",
+  "pinyin": "shéi, shuí"
+ },
+ {
+  "no": 211,
+  "band": "初等",
+  "char": "水",
+  "pinyin": "shuǐ"
+ },
+ {
+  "no": 212,
+  "band": "初等",
+  "char": "睡",
+  "pinyin": "shuì"
+ },
+ {
+  "no": 213,
+  "band": "初等",
+  "char": "说",
+  "pinyin": "shuō"
+ },
+ {
+  "no": 214,
+  "band": "初等",
+  "char": "四",
+  "pinyin": "sì"
+ },
+ {
+  "no": 215,
+  "band": "初等",
+  "char": "送",
+  "pinyin": "sòng"
+ },
+ {
+  "no": 216,
+  "band": "初等",
+  "char": "诉",
+  "pinyin": "sù"
+ },
+ {
+  "no": 217,
+  "band": "初等",
+  "char": "岁",
+  "pinyin": "suì"
+ },
+ {
+  "no": 218,
+  "band": "初等",
+  "char": "所",
+  "pinyin": "suǒ"
+ },
+ {
+  "no": 219,
+  "band": "初等",
+  "char": "他",
+  "pinyin": "tā"
+ },
+ {
+  "no": 220,
+  "band": "初等",
+  "char": "她",
+  "pinyin": "tā"
+ },
+ {
+  "no": 221,
+  "band": "初等",
+  "char": "太",
+  "pinyin": "tài"
+ },
+ {
+  "no": 222,
+  "band": "初等",
+  "char": "体",
+  "pinyin": "tǐ"
+ },
+ {
+  "no": 223,
+  "band": "初等",
+  "char": "天",
+  "pinyin": "tiān"
+ },
+ {
+  "no": 224,
+  "band": "初等",
+  "char": "听",
+  "pinyin": "tīng"
+ },
+ {
+  "no": 225,
+  "band": "初等",
+  "char": "同",
+  "pinyin": "tóng"
+ },
+ {
+  "no": 226,
+  "band": "初等",
+  "char": "外",
+  "pinyin": "wài"
+ },
+ {
+  "no": 227,
+  "band": "初等",
+  "char": "完",
+  "pinyin": "wán"
+ },
+ {
+  "no": 228,
+  "band": "初等",
+  "char": "玩",
+  "pinyin": "wán"
+ },
+ {
+  "no": 229,
+  "band": "初等",
+  "char": "晚",
+  "pinyin": "wǎn"
+ },
+ {
+  "no": 230,
+  "band": "初等",
+  "char": "网",
+  "pinyin": "wǎng"
+ },
+ {
+  "no": 231,
+  "band": "初等",
+  "char": "忘",
+  "pinyin": "wàng"
+ },
+ {
+  "no": 232,
+  "band": "初等",
+  "char": "为",
+  "pinyin": "wéi, wèi"
+ },
+ {
+  "no": 233,
+  "band": "初等",
+  "char": "文",
+  "pinyin": "wén"
+ },
+ {
+  "no": 234,
+  "band": "初等",
+  "char": "问",
+  "pinyin": "wèn"
+ },
+ {
+  "no": 235,
+  "band": "初等",
+  "char": "我",
+  "pinyin": "wǒ"
+ },
+ {
+  "no": 236,
+  "band": "初等",
+  "char": "五",
+  "pinyin": "wǔ"
+ },
+ {
+  "no": 237,
+  "band": "初等",
+  "char": "午",
+  "pinyin": "wǔ"
+ },
+ {
+  "no": 238,
+  "band": "初等",
+  "char": "西",
+  "pinyin": "xī"
+ },
+ {
+  "no": 239,
+  "band": "初等",
+  "char": "息",
+  "pinyin": "xī"
+ },
+ {
+  "no": 240,
+  "band": "初等",
+  "char": "习",
+  "pinyin": "xí"
+ },
+ {
+  "no": 241,
+  "band": "初等",
+  "char": "洗",
+  "pinyin": "xǐ"
+ },
+ {
+  "no": 242,
+  "band": "初等",
+  "char": "喜",
+  "pinyin": "xǐ"
+ },
+ {
+  "no": 243,
+  "band": "初等",
+  "char": "系",
+  "pinyin": "xì, jì"
+ },
+ {
+  "no": 244,
+  "band": "初等",
+  "char": "下",
+  "pinyin": "xià"
+ },
+ {
+  "no": 245,
+  "band": "初等",
+  "char": "先",
+  "pinyin": "xiān"
+ },
+ {
+  "no": 246,
+  "band": "初等",
+  "char": "现",
+  "pinyin": "xiàn"
+ },
+ {
+  "no": 247,
+  "band": "初等",
+  "char": "想",
+  "pinyin": "xiǎng"
+ },
+ {
+  "no": 248,
+  "band": "初等",
+  "char": "向",
+  "pinyin": "xiàng"
+ },
+ {
+  "no": 249,
+  "band": "初等",
+  "char": "小",
+  "pinyin": "xiǎo"
+ },
+ {
+  "no": 250,
+  "band": "初等",
+  "char": "笑",
+  "pinyin": "xiào"
+ },
+ {
+  "no": 251,
+  "band": "初等",
+  "char": "些",
+  "pinyin": "xiē"
+ },
+ {
+  "no": 252,
+  "band": "初等",
+  "char": "写",
+  "pinyin": "xiě"
+ },
+ {
+  "no": 253,
+  "band": "初等",
+  "char": "谢",
+  "pinyin": "xiè"
+ },
+ {
+  "no": 254,
+  "band": "初等",
+  "char": "新",
+  "pinyin": "xīn"
+ },
+ {
+  "no": 255,
+  "band": "初等",
+  "char": "星",
+  "pinyin": "xīng"
+ },
+ {
+  "no": 256,
+  "band": "初等",
+  "char": "行",
+  "pinyin": "xíng, háng"
+ },
+ {
+  "no": 257,
+  "band": "初等",
+  "char": "兴",
+  "pinyin": "xìng, xīng"
+ },
+ {
+  "no": 258,
+  "band": "初等",
+  "char": "休",
+  "pinyin": "xiū"
+ },
+ {
+  "no": 259,
+  "band": "初等",
+  "char": "学",
+  "pinyin": "xué"
+ },
+ {
+  "no": 260,
+  "band": "初等",
+  "char": "样",
+  "pinyin": "yàng"
+ },
+ {
+  "no": 261,
+  "band": "初等",
+  "char": "要",
+  "pinyin": "yào, yāo"
+ },
+ {
+  "no": 262,
+  "band": "初等",
+  "char": "也",
+  "pinyin": "yě"
+ },
+ {
+  "no": 263,
+  "band": "初等",
+  "char": "一",
+  "pinyin": "yī"
+ },
+ {
+  "no": 264,
+  "band": "初等",
+  "char": "衣",
+  "pinyin": "yī"
+ },
+ {
+  "no": 265,
+  "band": "初等",
+  "char": "医",
+  "pinyin": "yī"
+ },
+ {
+  "no": 266,
+  "band": "初等",
+  "char": "以",
+  "pinyin": "yǐ"
+ },
+ {
+  "no": 267,
+  "band": "初等",
+  "char": "意",
+  "pinyin": "yì"
+ },
+ {
+  "no": 268,
+  "band": "初等",
+  "char": "因",
+  "pinyin": "yīn"
+ },
+ {
+  "no": 269,
+  "band": "初等",
+  "char": "应",
+  "pinyin": "yīng, yìng"
+ },
+ {
+  "no": 270,
+  "band": "初等",
+  "char": "用",
+  "pinyin": "yòng"
+ },
+ {
+  "no": 271,
+  "band": "初等",
+  "char": "友",
+  "pinyin": "yǒu"
+ },
+ {
+  "no": 272,
+  "band": "初等",
+  "char": "有",
+  "pinyin": "yǒu"
+ },
+ {
+  "no": 273,
+  "band": "初等",
+  "char": "又",
+  "pinyin": "yòu"
+ },
+ {
+  "no": 274,
+  "band": "初等",
+  "char": "雨",
+  "pinyin": "yǔ"
+ },
+ {
+  "no": 275,
+  "band": "初等",
+  "char": "语",
+  "pinyin": "yǔ"
+ },
+ {
+  "no": 276,
+  "band": "初等",
+  "char": "远",
+  "pinyin": "yuǎn"
+ },
+ {
+  "no": 277,
+  "band": "初等",
+  "char": "院",
+  "pinyin": "yuàn"
+ },
+ {
+  "no": 278,
+  "band": "初等",
+  "char": "月",
+  "pinyin": "yuè"
+ },
+ {
+  "no": 279,
+  "band": "初等",
+  "char": "再",
+  "pinyin": "zài"
+ },
+ {
+  "no": 280,
+  "band": "初等",
+  "char": "在",
+  "pinyin": "zài"
+ },
+ {
+  "no": 281,
+  "band": "初等",
+  "char": "早",
+  "pinyin": "zǎo"
+ },
+ {
+  "no": 282,
+  "band": "初等",
+  "char": "怎",
+  "pinyin": "zěn"
+ },
+ {
+  "no": 283,
+  "band": "初等",
+  "char": "站",
+  "pinyin": "zhàn"
+ },
+ {
+  "no": 284,
+  "band": "初等",
+  "char": "找",
+  "pinyin": "zhǎo"
+ },
+ {
+  "no": 285,
+  "band": "初等",
+  "char": "这",
+  "pinyin": "zhè"
+ },
+ {
+  "no": 286,
+  "band": "初等",
+  "char": "着",
+  "pinyin": "zhe, zháo, zhuó"
+ },
+ {
+  "no": 287,
+  "band": "初等",
+  "char": "真",
+  "pinyin": "zhēn"
+ },
+ {
+  "no": 288,
+  "band": "初等",
+  "char": "正",
+  "pinyin": "zhèng"
+ },
+ {
+  "no": 289,
+  "band": "初等",
+  "char": "知",
+  "pinyin": "zhī"
+ },
+ {
+  "no": 290,
+  "band": "初等",
+  "char": "中",
+  "pinyin": "zhōng, zhòng"
+ },
+ {
+  "no": 291,
+  "band": "初等",
+  "char": "助",
+  "pinyin": "zhù"
+ },
+ {
+  "no": 292,
+  "band": "初等",
+  "char": "住",
+  "pinyin": "zhù"
+ },
+ {
+  "no": 293,
+  "band": "初等",
+  "char": "准",
+  "pinyin": "zhǔn"
+ },
+ {
+  "no": 294,
+  "band": "初等",
+  "char": "子",
+  "pinyin": "zǐ"
+ },
+ {
+  "no": 295,
+  "band": "初等",
+  "char": "字",
+  "pinyin": "zì"
+ },
+ {
+  "no": 296,
+  "band": "初等",
+  "char": "走",
+  "pinyin": "zǒu"
+ },
+ {
+  "no": 297,
+  "band": "初等",
+  "char": "昨",
+  "pinyin": "zuó"
+ },
+ {
+  "no": 298,
+  "band": "初等",
+  "char": "作",
+  "pinyin": "zuò"
+ },
+ {
+  "no": 299,
+  "band": "初等",
+  "char": "坐",
+  "pinyin": "zuò"
+ },
+ {
+  "no": 300,
+  "band": "初等",
+  "char": "做",
+  "pinyin": "zuò"
+ },
+ {
+  "no": 301,
+  "band": "中等",
+  "char": "啊",
+  "pinyin": "a, ā"
+ },
+ {
+  "no": 302,
+  "band": "中等",
+  "char": "安",
+  "pinyin": "ān"
+ },
+ {
+  "no": 303,
+  "band": "中等",
+  "char": "巴",
+  "pinyin": "bā"
+ },
+ {
+  "no": 304,
+  "band": "中等",
+  "char": "班",
+  "pinyin": "bān"
+ },
+ {
+  "no": 305,
+  "band": "中等",
+  "char": "般",
+  "pinyin": "bān"
+ },
+ {
+  "no": 306,
+  "band": "中等",
+  "char": "板",
+  "pinyin": "bǎn"
+ },
+ {
+  "no": 307,
+  "band": "中等",
+  "char": "办",
+  "pinyin": "bàn"
+ },
+ {
+  "no": 308,
+  "band": "中等",
+  "char": "宝",
+  "pinyin": "bǎo"
+ },
+ {
+  "no": 309,
+  "band": "中等",
+  "char": "饱",
+  "pinyin": "bǎo"
+ },
+ {
+  "no": 310,
+  "band": "中等",
+  "char": "报",
+  "pinyin": "bào"
+ },
+ {
+  "no": 311,
+  "band": "中等",
+  "char": "抱",
+  "pinyin": "bào"
+ },
+ {
+  "no": 312,
+  "band": "中等",
+  "char": "杯",
+  "pinyin": "bēi"
+ },
+ {
+  "no": 313,
+  "band": "中等",
+  "char": "贝",
+  "pinyin": "bèi"
+ },
+ {
+  "no": 314,
+  "band": "中等",
+  "char": "背",
+  "pinyin": "bēi, bèi"
+ },
+ {
+  "no": 315,
+  "band": "中等",
+  "char": "被",
+  "pinyin": "bèi"
+ },
+ {
+  "no": 316,
+  "band": "中等",
+  "char": "笔",
+  "pinyin": "bǐ"
+ },
+ {
+  "no": 317,
+  "band": "中等",
+  "char": "必",
+  "pinyin": "bì"
+ },
+ {
+  "no": 318,
+  "band": "中等",
+  "char": "变",
+  "pinyin": "biàn"
+ },
+ {
+  "no": 319,
+  "band": "中等",
+  "char": "便",
+  "pinyin": "biàn, pián"
+ },
+ {
+  "no": 320,
+  "band": "中等",
+  "char": "遍",
+  "pinyin": "biàn"
+ },
+ {
+  "no": 321,
+  "band": "中等",
+  "char": "标",
+  "pinyin": "biāo"
+ },
+ {
+  "no": 322,
+  "band": "中等",
+  "char": "表",
+  "pinyin": "biǎo"
+ },
+ {
+  "no": 323,
+  "band": "中等",
+  "char": "冰",
+  "pinyin": "bīng"
+ },
+ {
+  "no": 324,
+  "band": "中等",
+  "char": "兵",
+  "pinyin": "bīng"
+ },
+ {
+  "no": 325,
+  "band": "中等",
+  "char": "步",
+  "pinyin": "bù"
+ },
+ {
+  "no": 326,
+  "band": "中等",
+  "char": "部",
+  "pinyin": "bù"
+ },
+ {
+  "no": 327,
+  "band": "中等",
+  "char": "参",
+  "pinyin": "cān"
+ },
+ {
+  "no": 328,
+  "band": "中等",
+  "char": "餐",
+  "pinyin": "cān"
+ },
+ {
+  "no": 329,
+  "band": "中等",
+  "char": "草",
+  "pinyin": "cǎo"
+ },
+ {
+  "no": 330,
+  "band": "中等",
+  "char": "层",
+  "pinyin": "céng"
+ },
+ {
+  "no": 331,
+  "band": "中等",
+  "char": "查",
+  "pinyin": "chá"
+ },
+ {
+  "no": 332,
+  "band": "中等",
+  "char": "产",
+  "pinyin": "chǎn"
+ },
+ {
+  "no": 333,
+  "band": "中等",
+  "char": "厂",
+  "pinyin": "chǎng"
+ },
+ {
+  "no": 334,
+  "band": "中等",
+  "char": "超",
+  "pinyin": "chāo"
+ },
+ {
+  "no": 335,
+  "band": "中等",
+  "char": "晨",
+  "pinyin": "chén"
+ },
+ {
+  "no": 336,
+  "band": "中等",
+  "char": "称",
+  "pinyin": "chèn, chēng"
+ },
+ {
+  "no": 337,
+  "band": "中等",
+  "char": "成",
+  "pinyin": "chéng"
+ },
+ {
+  "no": 338,
+  "band": "中等",
+  "char": "城",
+  "pinyin": "chéng"
+ },
+ {
+  "no": 339,
+  "band": "中等",
+  "char": "虫",
+  "pinyin": "chóng"
+ },
+ {
+  "no": 340,
+  "band": "中等",
+  "char": "除",
+  "pinyin": "chú"
+ },
+ {
+  "no": 341,
+  "band": "中等",
+  "char": "楚",
+  "pinyin": "chǔ"
+ },
+ {
+  "no": 342,
+  "band": "中等",
+  "char": "处",
+  "pinyin": "chǔ, chù"
+ },
+ {
+  "no": 343,
+  "band": "中等",
+  "char": "串",
+  "pinyin": "chuàn"
+ },
+ {
+  "no": 344,
+  "band": "中等",
+  "char": "床",
+  "pinyin": "chuáng"
+ },
+ {
+  "no": 345,
+  "band": "中等",
+  "char": "吹",
+  "pinyin": "chuī"
+ },
+ {
+  "no": 346,
+  "band": "中等",
+  "char": "春",
+  "pinyin": "chūn"
+ },
+ {
+  "no": 347,
+  "band": "中等",
+  "char": "词",
+  "pinyin": "cí"
+ },
+ {
+  "no": 348,
+  "band": "中等",
+  "char": "村",
+  "pinyin": "cūn"
+ },
+ {
+  "no": 349,
+  "band": "中等",
+  "char": "达",
+  "pinyin": "dá"
+ },
+ {
+  "no": 350,
+  "band": "中等",
+  "char": "呆",
+  "pinyin": "dāi"
+ },
+ {
+  "no": 351,
+  "band": "中等",
+  "char": "带",
+  "pinyin": "dài"
+ },
+ {
+  "no": 352,
+  "band": "中等",
+  "char": "单",
+  "pinyin": "dān"
+ },
+ {
+  "no": 353,
+  "band": "中等",
+  "char": "旦",
+  "pinyin": "dàn"
+ },
+ {
+  "no": 354,
+  "band": "中等",
+  "char": "刀",
+  "pinyin": "dāo"
+ },
+ {
+  "no": 355,
+  "band": "中等",
+  "char": "倒",
+  "pinyin": "dǎo, dào"
+ },
+ {
+  "no": 356,
+  "band": "中等",
+  "char": "灯",
+  "pinyin": "dēng"
+ },
+ {
+  "no": 357,
+  "band": "中等",
+  "char": "低",
+  "pinyin": "dī"
+ },
+ {
+  "no": 358,
+  "band": "中等",
+  "char": "弟",
+  "pinyin": "dì"
+ },
+ {
+  "no": 359,
+  "band": "中等",
+  "char": "典",
+  "pinyin": "diǎn"
+ },
+ {
+  "no": 360,
+  "band": "中等",
+  "char": "调",
+  "pinyin": "diào, tiáo"
+ },
+ {
+  "no": 361,
+  "band": "中等",
+  "char": "掉",
+  "pinyin": "diào"
+ },
+ {
+  "no": 362,
+  "band": "中等",
+  "char": "定",
+  "pinyin": "dìng"
+ },
+ {
+  "no": 363,
+  "band": "中等",
+  "char": "丢",
+  "pinyin": "diū"
+ },
+ {
+  "no": 364,
+  "band": "中等",
+  "char": "冬",
+  "pinyin": "dōng"
+ },
+ {
+  "no": 365,
+  "band": "中等",
+  "char": "懂",
+  "pinyin": "dǒng"
+ },
+ {
+  "no": 366,
+  "band": "中等",
+  "char": "读",
+  "pinyin": "dú"
+ },
+ {
+  "no": 367,
+  "band": "中等",
+  "char": "度",
+  "pinyin": "dù"
+ },
+ {
+  "no": 368,
+  "band": "中等",
+  "char": "短",
+  "pinyin": "duǎn"
+ },
+ {
+  "no": 369,
+  "band": "中等",
+  "char": "段",
+  "pinyin": "duàn"
+ },
+ {
+  "no": 370,
+  "band": "中等",
+  "char": "断",
+  "pinyin": "duàn"
+ },
+ {
+  "no": 371,
+  "band": "中等",
+  "char": "队",
+  "pinyin": "duì"
+ },
+ {
+  "no": 372,
+  "band": "中等",
+  "char": "耳",
+  "pinyin": "ěr"
+ },
+ {
+  "no": 373,
+  "band": "中等",
+  "char": "发",
+  "pinyin": "fā, fà"
+ },
+ {
+  "no": 374,
+  "band": "中等",
+  "char": "法",
+  "pinyin": "fǎ"
+ },
+ {
+  "no": 375,
+  "band": "中等",
+  "char": "烦",
+  "pinyin": "fán"
+ },
+ {
+  "no": 376,
+  "band": "中等",
+  "char": "反",
+  "pinyin": "fǎn"
+ },
+ {
+  "no": 377,
+  "band": "中等",
+  "char": "份",
+  "pinyin": "fèn"
+ },
+ {
+  "no": 378,
+  "band": "中等",
+  "char": "风",
+  "pinyin": "fēng"
+ },
+ {
+  "no": 379,
+  "band": "中等",
+  "char": "否",
+  "pinyin": "fǒu"
+ },
+ {
+  "no": 380,
+  "band": "中等",
+  "char": "夫",
+  "pinyin": "fū"
+ },
+ {
+  "no": 381,
+  "band": "中等",
+  "char": "父",
+  "pinyin": "fù"
+ },
+ {
+  "no": 382,
+  "band": "中等",
+  "char": "妇",
+  "pinyin": "fù"
+ },
+ {
+  "no": 383,
+  "band": "中等",
+  "char": "复",
+  "pinyin": "fù"
+ },
+ {
+  "no": 384,
+  "band": "中等",
+  "char": "改",
+  "pinyin": "gǎi"
+ },
+ {
+  "no": 385,
+  "band": "中等",
+  "char": "敢",
+  "pinyin": "gǎn"
+ },
+ {
+  "no": 386,
+  "band": "中等",
+  "char": "感",
+  "pinyin": "gǎn"
+ },
+ {
+  "no": 387,
+  "band": "中等",
+  "char": "刚",
+  "pinyin": "gāng"
+ },
+ {
+  "no": 388,
+  "band": "中等",
+  "char": "搞",
+  "pinyin": "gǎo"
+ },
+ {
+  "no": 389,
+  "band": "中等",
+  "char": "各",
+  "pinyin": "gè"
+ },
+ {
+  "no": 390,
+  "band": "中等",
+  "char": "公",
+  "pinyin": "gōng"
+ },
+ {
+  "no": 391,
+  "band": "中等",
+  "char": "共",
+  "pinyin": "gòng"
+ },
+ {
+  "no": 392,
+  "band": "中等",
+  "char": "狗",
+  "pinyin": "gǒu"
+ },
+ {
+  "no": 393,
+  "band": "中等",
+  "char": "够",
+  "pinyin": "gòu"
+ },
+ {
+  "no": 394,
+  "band": "中等",
+  "char": "古",
+  "pinyin": "gǔ"
+ },
+ {
+  "no": 395,
+  "band": "中等",
+  "char": "故",
+  "pinyin": "gù"
+ },
+ {
+  "no": 396,
+  "band": "中等",
+  "char": "顾",
+  "pinyin": "gù"
+ },
+ {
+  "no": 397,
+  "band": "中等",
+  "char": "瓜",
+  "pinyin": "guā"
+ },
+ {
+  "no": 398,
+  "band": "中等",
+  "char": "挂",
+  "pinyin": "guà"
+ },
+ {
+  "no": 399,
+  "band": "中等",
+  "char": "观",
+  "pinyin": "guān"
+ },
+ {
+  "no": 400,
+  "band": "中等",
+  "char": "馆",
+  "pinyin": "guǎn"
+ },
+ {
+  "no": 401,
+  "band": "中等",
+  "char": "管",
+  "pinyin": "guǎn"
+ },
+ {
+  "no": 402,
+  "band": "中等",
+  "char": "惯",
+  "pinyin": "guàn"
+ },
+ {
+  "no": 403,
+  "band": "中等",
+  "char": "广",
+  "pinyin": "guǎng"
+ },
+ {
+  "no": 404,
+  "band": "中等",
+  "char": "哈",
+  "pinyin": "hā"
+ },
+ {
+  "no": 405,
+  "band": "中等",
+  "char": "海",
+  "pinyin": "hǎi"
+ },
+ {
+  "no": 406,
+  "band": "中等",
+  "char": "喊",
+  "pinyin": "hǎn"
+ },
+ {
+  "no": 407,
+  "band": "中等",
+  "char": "合",
+  "pinyin": "hé"
+ },
+ {
+  "no": 408,
+  "band": "中等",
+  "char": "河",
+  "pinyin": "hé"
+ },
+ {
+  "no": 409,
+  "band": "中等",
+  "char": "红",
+  "pinyin": "hóng"
+ },
+ {
+  "no": 410,
+  "band": "中等",
+  "char": "忽",
+  "pinyin": "hū"
+ },
+ {
+  "no": 411,
+  "band": "中等",
+  "char": "湖",
+  "pinyin": "hú"
+ },
+ {
+  "no": 412,
+  "band": "中等",
+  "char": "虎",
+  "pinyin": "hǔ"
+ },
+ {
+  "no": 413,
+  "band": "中等",
+  "char": "护",
+  "pinyin": "hù"
+ },
+ {
+  "no": 414,
+  "band": "中等",
+  "char": "划",
+  "pinyin": "huá, huà"
+ },
+ {
+  "no": 415,
+  "band": "中等",
+  "char": "华",
+  "pinyin": "huá"
+ },
+ {
+  "no": 416,
+  "band": "中等",
+  "char": "化",
+  "pinyin": "huà"
+ },
+ {
+  "no": 417,
+  "band": "中等",
+  "char": "画",
+  "pinyin": "huà"
+ },
+ {
+  "no": 418,
+  "band": "中等",
+  "char": "换",
+  "pinyin": "huàn"
+ },
+ {
+  "no": 419,
+  "band": "中等",
+  "char": "黄",
+  "pinyin": "huáng"
+ },
+ {
+  "no": 420,
+  "band": "中等",
+  "char": "活",
+  "pinyin": "huó"
+ },
+ {
+  "no": 421,
+  "band": "中等",
+  "char": "或",
+  "pinyin": "huò"
+ },
+ {
+  "no": 422,
+  "band": "中等",
+  "char": "及",
+  "pinyin": "jí"
+ },
+ {
+  "no": 423,
+  "band": "中等",
+  "char": "级",
+  "pinyin": "jí"
+ },
+ {
+  "no": 424,
+  "band": "中等",
+  "char": "急",
+  "pinyin": "jí"
+ },
+ {
+  "no": 425,
+  "band": "中等",
+  "char": "己",
+  "pinyin": "jǐ"
+ },
+ {
+  "no": 426,
+  "band": "中等",
+  "char": "计",
+  "pinyin": "jì"
+ },
+ {
+  "no": 427,
+  "band": "中等",
+  "char": "际",
+  "pinyin": "jì"
+ },
+ {
+  "no": 428,
+  "band": "中等",
+  "char": "寄",
+  "pinyin": "jì"
+ },
+ {
+  "no": 429,
+  "band": "中等",
+  "char": "绩",
+  "pinyin": "jì"
+ },
+ {
+  "no": 430,
+  "band": "中等",
+  "char": "加",
+  "pinyin": "jiā"
+ },
+ {
+  "no": 431,
+  "band": "中等",
+  "char": "甲",
+  "pinyin": "jiǎ"
+ },
+ {
+  "no": 432,
+  "band": "中等",
+  "char": "尖",
+  "pinyin": "jiān"
+ },
+ {
+  "no": 433,
+  "band": "中等",
+  "char": "检",
+  "pinyin": "jiǎn"
+ },
+ {
+  "no": 434,
+  "band": "中等",
+  "char": "件",
+  "pinyin": "jiàn"
+ },
+ {
+  "no": 435,
+  "band": "中等",
+  "char": "健",
+  "pinyin": "jiàn"
+ },
+ {
+  "no": 436,
+  "band": "中等",
+  "char": "江",
+  "pinyin": "jiāng"
+ },
+ {
+  "no": 437,
+  "band": "中等",
+  "char": "讲",
+  "pinyin": "jiǎng"
+ },
+ {
+  "no": 438,
+  "band": "中等",
+  "char": "交",
+  "pinyin": "jiāo"
+ },
+ {
+  "no": 439,
+  "band": "中等",
+  "char": "角",
+  "pinyin": "jiǎo, jué"
+ },
+ {
+  "no": 440,
+  "band": "中等",
+  "char": "饺",
+  "pinyin": "jiǎo"
+ },
+ {
+  "no": 441,
+  "band": "中等",
+  "char": "脚",
+  "pinyin": "jiǎo"
+ },
+ {
+  "no": 442,
+  "band": "中等",
+  "char": "接",
+  "pinyin": "jiē"
+ },
+ {
+  "no": 443,
+  "band": "中等",
+  "char": "街",
+  "pinyin": "jiē"
+ },
+ {
+  "no": 444,
+  "band": "中等",
+  "char": "节",
+  "pinyin": "jié"
+ },
+ {
+  "no": 445,
+  "band": "中等",
+  "char": "结",
+  "pinyin": "jiē, jié"
+ },
+ {
+  "no": 446,
+  "band": "中等",
+  "char": "斤",
+  "pinyin": "jīn"
+ },
+ {
+  "no": 447,
+  "band": "中等",
+  "char": "近",
+  "pinyin": "jìn"
+ },
+ {
+  "no": 448,
+  "band": "中等",
+  "char": "京",
+  "pinyin": "jīng"
+ },
+ {
+  "no": 449,
+  "band": "中等",
+  "char": "经",
+  "pinyin": "jīng"
+ },
+ {
+  "no": 450,
+  "band": "中等",
+  "char": "睛",
+  "pinyin": "jīng"
+ },
+ {
+  "no": 451,
+  "band": "中等",
+  "char": "静",
+  "pinyin": "jìng"
+ },
+ {
+  "no": 452,
+  "band": "中等",
+  "char": "究",
+  "pinyin": "jiū"
+ },
+ {
+  "no": 453,
+  "band": "中等",
+  "char": "久",
+  "pinyin": "jiǔ"
+ },
+ {
+  "no": 454,
+  "band": "中等",
+  "char": "举",
+  "pinyin": "jǔ"
+ },
+ {
+  "no": 455,
+  "band": "中等",
+  "char": "句",
+  "pinyin": "jù"
+ },
+ {
+  "no": 456,
+  "band": "中等",
+  "char": "卡",
+  "pinyin": "kǎ, qiǎ"
+ },
+ {
+  "no": 457,
+  "band": "中等",
+  "char": "康",
+  "pinyin": "kāng"
+ },
+ {
+  "no": 458,
+  "band": "中等",
+  "char": "靠",
+  "pinyin": "kào"
+ },
+ {
+  "no": 459,
+  "band": "中等",
+  "char": "科",
+  "pinyin": "kē"
+ },
+ {
+  "no": 460,
+  "band": "中等",
+  "char": "克",
+  "pinyin": "kè"
+ },
+ {
+  "no": 461,
+  "band": "中等",
+  "char": "客",
+  "pinyin": "kè"
+ },
+ {
+  "no": 462,
+  "band": "中等",
+  "char": "刻",
+  "pinyin": "kè"
+ },
+ {
+  "no": 463,
+  "band": "中等",
+  "char": "空",
+  "pinyin": "kōng, kòng"
+ },
+ {
+  "no": 464,
+  "band": "中等",
+  "char": "哭",
+  "pinyin": "kū"
+ },
+ {
+  "no": 465,
+  "band": "中等",
+  "char": "筷",
+  "pinyin": "kuài"
+ },
+ {
+  "no": 466,
+  "band": "中等",
+  "char": "况",
+  "pinyin": "kuàng"
+ },
+ {
+  "no": 467,
+  "band": "中等",
+  "char": "困",
+  "pinyin": "kùn"
+ },
+ {
+  "no": 468,
+  "band": "中等",
+  "char": "拉",
+  "pinyin": "lā"
+ },
+ {
+  "no": 469,
+  "band": "中等",
+  "char": "蓝",
+  "pinyin": "lán"
+ },
+ {
+  "no": 470,
+  "band": "中等",
+  "char": "篮",
+  "pinyin": "lán"
+ },
+ {
+  "no": 471,
+  "band": "中等",
+  "char": "劳",
+  "pinyin": "láo"
+ },
+ {
+  "no": 472,
+  "band": "中等",
+  "char": "乐",
+  "pinyin": "lè, yuè"
+ },
+ {
+  "no": 473,
+  "band": "中等",
+  "char": "离",
+  "pinyin": "lí"
+ },
+ {
+  "no": 474,
+  "band": "中等",
+  "char": "礼",
+  "pinyin": "lǐ"
+ },
+ {
+  "no": 475,
+  "band": "中等",
+  "char": "李",
+  "pinyin": "lǐ"
+ },
+ {
+  "no": 476,
+  "band": "中等",
+  "char": "理",
+  "pinyin": "lǐ"
+ },
+ {
+  "no": 477,
+  "band": "中等",
+  "char": "力",
+  "pinyin": "lì"
+ },
+ {
+  "no": 478,
+  "band": "中等",
+  "char": "利",
+  "pinyin": "lì"
+ },
+ {
+  "no": 479,
+  "band": "中等",
+  "char": "例",
+  "pinyin": "lì"
+ },
+ {
+  "no": 480,
+  "band": "中等",
+  "char": "俩",
+  "pinyin": "liǎ"
+ },
+ {
+  "no": 481,
+  "band": "中等",
+  "char": "连",
+  "pinyin": "lián"
+ },
+ {
+  "no": 482,
+  "band": "中等",
+  "char": "脸",
+  "pinyin": "liǎn"
+ },
+ {
+  "no": 483,
+  "band": "中等",
+  "char": "练",
+  "pinyin": "liàn"
+ },
+ {
+  "no": 484,
+  "band": "中等",
+  "char": "凉",
+  "pinyin": "liáng"
+ },
+ {
+  "no": 485,
+  "band": "中等",
+  "char": "亮",
+  "pinyin": "liàng"
+ },
+ {
+  "no": 486,
+  "band": "中等",
+  "char": "辆",
+  "pinyin": "liàng"
+ },
+ {
+  "no": 487,
+  "band": "中等",
+  "char": "量",
+  "pinyin": "liàng, liáng"
+ },
+ {
+  "no": 488,
+  "band": "中等",
+  "char": "另",
+  "pinyin": "lìng"
+ },
+ {
+  "no": 489,
+  "band": "中等",
+  "char": "令",
+  "pinyin": "lìng"
+ },
+ {
+  "no": 490,
+  "band": "中等",
+  "char": "留",
+  "pinyin": "liú"
+ },
+ {
+  "no": 491,
+  "band": "中等",
+  "char": "流",
+  "pinyin": "liú"
+ },
+ {
+  "no": 492,
+  "band": "中等",
+  "char": "龙",
+  "pinyin": "lóng"
+ },
+ {
+  "no": 493,
+  "band": "中等",
+  "char": "旅",
+  "pinyin": "lǚ"
+ },
+ {
+  "no": 494,
+  "band": "中等",
+  "char": "绿",
+  "pinyin": "lǜ"
+ },
+ {
+  "no": 495,
+  "band": "中等",
+  "char": "论",
+  "pinyin": "lùn"
+ },
+ {
+  "no": 496,
+  "band": "中等",
+  "char": "麻",
+  "pinyin": "má"
+ },
+ {
+  "no": 497,
+  "band": "中等",
+  "char": "卖",
+  "pinyin": "mài"
+ },
+ {
+  "no": 498,
+  "band": "中等",
+  "char": "满",
+  "pinyin": "mǎn"
+ },
+ {
+  "no": 499,
+  "band": "中等",
+  "char": "慢",
+  "pinyin": "màn"
+ },
+ {
+  "no": 500,
+  "band": "中等",
+  "char": "猫",
+  "pinyin": "māo"
+ },
+ {
+  "no": 501,
+  "band": "中等",
+  "char": "毛",
+  "pinyin": "máo"
+ },
+ {
+  "no": 502,
+  "band": "中等",
+  "char": "美",
+  "pinyin": "měi"
+ },
+ {
+  "no": 503,
+  "band": "中等",
+  "char": "妹",
+  "pinyin": "mèi"
+ },
+ {
+  "no": 504,
+  "band": "中等",
+  "char": "米",
+  "pinyin": "mǐ"
+ },
+ {
+  "no": 505,
+  "band": "中等",
+  "char": "灭",
+  "pinyin": "miè"
+ },
+ {
+  "no": 506,
+  "band": "中等",
+  "char": "民",
+  "pinyin": "mín"
+ },
+ {
+  "no": 507,
+  "band": "中等",
+  "char": "目",
+  "pinyin": "mù"
+ },
+ {
+  "no": 508,
+  "band": "中等",
+  "char": "脑",
+  "pinyin": "nǎo"
+ },
+ {
+  "no": 509,
+  "band": "中等",
+  "char": "念",
+  "pinyin": "niàn"
+ },
+ {
+  "no": 510,
+  "band": "中等",
+  "char": "鸟",
+  "pinyin": "niǎo"
+ },
+ {
+  "no": 511,
+  "band": "中等",
+  "char": "弄",
+  "pinyin": "nòng"
+ },
+ {
+  "no": 512,
+  "band": "中等",
+  "char": "努",
+  "pinyin": "nǔ"
+ },
+ {
+  "no": 513,
+  "band": "中等",
+  "char": "爬",
+  "pinyin": "pá"
+ },
+ {
+  "no": 514,
+  "band": "中等",
+  "char": "排",
+  "pinyin": "pái"
+ },
+ {
+  "no": 515,
+  "band": "中等",
+  "char": "牌",
+  "pinyin": "pái"
+ },
+ {
+  "no": 516,
+  "band": "中等",
+  "char": "盘",
+  "pinyin": "pán"
+ },
+ {
+  "no": 517,
+  "band": "中等",
+  "char": "胖",
+  "pinyin": "pàng"
+ },
+ {
+  "no": 518,
+  "band": "中等",
+  "char": "碰",
+  "pinyin": "pèng"
+ },
+ {
+  "no": 519,
+  "band": "中等",
+  "char": "篇",
+  "pinyin": "piān"
+ },
+ {
+  "no": 520,
+  "band": "中等",
+  "char": "片",
+  "pinyin": "piàn, piān"
+ },
+ {
+  "no": 521,
+  "band": "中等",
+  "char": "漂",
+  "pinyin": "piào, piāo"
+ },
+ {
+  "no": 522,
+  "band": "中等",
+  "char": "平",
+  "pinyin": "píng"
+ },
+ {
+  "no": 523,
+  "band": "中等",
+  "char": "苹",
+  "pinyin": "píng"
+ },
+ {
+  "no": 524,
+  "band": "中等",
+  "char": "瓶",
+  "pinyin": "píng"
+ },
+ {
+  "no": 525,
+  "band": "中等",
+  "char": "普",
+  "pinyin": "pǔ"
+ },
+ {
+  "no": 526,
+  "band": "中等",
+  "char": "妻",
+  "pinyin": "qī"
+ },
+ {
+  "no": 527,
+  "band": "中等",
+  "char": "其",
+  "pinyin": "qí"
+ },
+ {
+  "no": 528,
+  "band": "中等",
+  "char": "骑",
+  "pinyin": "qí"
+ },
+ {
+  "no": 529,
+  "band": "中等",
+  "char": "千",
+  "pinyin": "qiān"
+ },
+ {
+  "no": 530,
+  "band": "中等",
+  "char": "欠",
+  "pinyin": "qiàn"
+ },
+ {
+  "no": 531,
+  "band": "中等",
+  "char": "且",
+  "pinyin": "qiě"
+ },
+ {
+  "no": 532,
+  "band": "中等",
+  "char": "青",
+  "pinyin": "qīng"
+ },
+ {
+  "no": 533,
+  "band": "中等",
+  "char": "轻",
+  "pinyin": "qīng"
+ },
+ {
+  "no": 534,
+  "band": "中等",
+  "char": "清",
+  "pinyin": "qīng"
+ },
+ {
+  "no": 535,
+  "band": "中等",
+  "char": "情",
+  "pinyin": "qíng"
+ },
+ {
+  "no": 536,
+  "band": "中等",
+  "char": "秋",
+  "pinyin": "qiū"
+ },
+ {
+  "no": 537,
+  "band": "中等",
+  "char": "求",
+  "pinyin": "qiú"
+ },
+ {
+  "no": 538,
+  "band": "中等",
+  "char": "区",
+  "pinyin": "qū"
+ },
+ {
+  "no": 539,
+  "band": "中等",
+  "char": "取",
+  "pinyin": "qǔ"
+ },
+ {
+  "no": 540,
+  "band": "中等",
+  "char": "全",
+  "pinyin": "quán"
+ },
+ {
+  "no": 541,
+  "band": "中等",
+  "char": "确",
+  "pinyin": "què"
+ },
+ {
+  "no": 542,
+  "band": "中等",
+  "char": "扔",
+  "pinyin": "rēng"
+ },
+ {
+  "no": 543,
+  "band": "中等",
+  "char": "如",
+  "pinyin": "rú"
+ },
+ {
+  "no": 544,
+  "band": "中等",
+  "char": "入",
+  "pinyin": "rù"
+ },
+ {
+  "no": 545,
+  "band": "中等",
+  "char": "伞",
+  "pinyin": "sǎn"
+ },
+ {
+  "no": 546,
+  "band": "中等",
+  "char": "色",
+  "pinyin": "sè"
+ },
+ {
+  "no": 547,
+  "band": "中等",
+  "char": "商",
+  "pinyin": "shāng"
+ },
+ {
+  "no": 548,
+  "band": "中等",
+  "char": "烧",
+  "pinyin": "shāo"
+ },
+ {
+  "no": 549,
+  "band": "中等",
+  "char": "勺",
+  "pinyin": "sháo"
+ },
+ {
+  "no": 550,
+  "band": "中等",
+  "char": "舌",
+  "pinyin": "shé"
+ },
+ {
+  "no": 551,
+  "band": "中等",
+  "char": "社",
+  "pinyin": "shè"
+ },
+ {
+  "no": 552,
+  "band": "中等",
+  "char": "深",
+  "pinyin": "shēn"
+ },
+ {
+  "no": 553,
+  "band": "中等",
+  "char": "声",
+  "pinyin": "shēng"
+ },
+ {
+  "no": 554,
+  "band": "中等",
+  "char": "省",
+  "pinyin": "shěng, xǐng"
+ },
+ {
+  "no": 555,
+  "band": "中等",
+  "char": "实",
+  "pinyin": "shí"
+ },
+ {
+  "no": 556,
+  "band": "中等",
+  "char": "食",
+  "pinyin": "shí"
+ },
+ {
+  "no": 557,
+  "band": "中等",
+  "char": "使",
+  "pinyin": "shǐ"
+ },
+ {
+  "no": 558,
+  "band": "中等",
+  "char": "示",
+  "pinyin": "shì"
+ },
+ {
+  "no": 559,
+  "band": "中等",
+  "char": "市",
+  "pinyin": "shì"
+ },
+ {
+  "no": 560,
+  "band": "中等",
+  "char": "适",
+  "pinyin": "shì"
+ },
+ {
+  "no": 561,
+  "band": "中等",
+  "char": "室",
+  "pinyin": "shì"
+ },
+ {
+  "no": 562,
+  "band": "中等",
+  "char": "收",
+  "pinyin": "shōu"
+ },
+ {
+  "no": 563,
+  "band": "中等",
+  "char": "受",
+  "pinyin": "shòu"
+ },
+ {
+  "no": 564,
+  "band": "中等",
+  "char": "舒",
+  "pinyin": "shū"
+ },
+ {
+  "no": 565,
+  "band": "中等",
+  "char": "输",
+  "pinyin": "shū"
+ },
+ {
+  "no": 566,
+  "band": "中等",
+  "char": "熟",
+  "pinyin": "shú, shóu"
+ },
+ {
+  "no": 567,
+  "band": "中等",
+  "char": "数",
+  "pinyin": "shǔ, shù"
+ },
+ {
+  "no": 568,
+  "band": "中等",
+  "char": "顺",
+  "pinyin": "shùn"
+ },
+ {
+  "no": 569,
+  "band": "中等",
+  "char": "司",
+  "pinyin": "sī"
+ },
+ {
+  "no": 570,
+  "band": "中等",
+  "char": "思",
+  "pinyin": "sī"
+ },
+ {
+  "no": 571,
+  "band": "中等",
+  "char": "算",
+  "pinyin": "suàn"
+ },
+ {
+  "no": 572,
+  "band": "中等",
+  "char": "虽",
+  "pinyin": "suī"
+ },
+ {
+  "no": 573,
+  "band": "中等",
+  "char": "随",
+  "pinyin": "suí"
+ },
+ {
+  "no": 574,
+  "band": "中等",
+  "char": "它",
+  "pinyin": "tā"
+ },
+ {
+  "no": 575,
+  "band": "中等",
+  "char": "态",
+  "pinyin": "tài"
+ },
+ {
+  "no": 576,
+  "band": "中等",
+  "char": "谈",
+  "pinyin": "tán"
+ },
+ {
+  "no": 577,
+  "band": "中等",
+  "char": "汤",
+  "pinyin": "tāng"
+ },
+ {
+  "no": 578,
+  "band": "中等",
+  "char": "堂",
+  "pinyin": "táng"
+ },
+ {
+  "no": 579,
+  "band": "中等",
+  "char": "讨",
+  "pinyin": "tǎo"
+ },
+ {
+  "no": 580,
+  "band": "中等",
+  "char": "套",
+  "pinyin": "tào"
+ },
+ {
+  "no": 581,
+  "band": "中等",
+  "char": "特",
+  "pinyin": "tè"
+ },
+ {
+  "no": 582,
+  "band": "中等",
+  "char": "疼",
+  "pinyin": "téng"
+ },
+ {
+  "no": 583,
+  "band": "中等",
+  "char": "提",
+  "pinyin": "tí, dī"
+ },
+ {
+  "no": 584,
+  "band": "中等",
+  "char": "题",
+  "pinyin": "tí"
+ },
+ {
+  "no": 585,
+  "band": "中等",
+  "char": "田",
+  "pinyin": "tián"
+ },
+ {
+  "no": 586,
+  "band": "中等",
+  "char": "条",
+  "pinyin": "tiáo"
+ },
+ {
+  "no": 587,
+  "band": "中等",
+  "char": "庭",
+  "pinyin": "tíng"
+ },
+ {
+  "no": 588,
+  "band": "中等",
+  "char": "停",
+  "pinyin": "tíng"
+ },
+ {
+  "no": 589,
+  "band": "中等",
+  "char": "挺",
+  "pinyin": "tǐng"
+ },
+ {
+  "no": 590,
+  "band": "中等",
+  "char": "通",
+  "pinyin": "tōng"
+ },
+ {
+  "no": 591,
+  "band": "中等",
+  "char": "痛",
+  "pinyin": "tòng"
+ },
+ {
+  "no": 592,
+  "band": "中等",
+  "char": "头",
+  "pinyin": "tóu"
+ },
+ {
+  "no": 593,
+  "band": "中等",
+  "char": "图",
+  "pinyin": "tú"
+ },
+ {
+  "no": 594,
+  "band": "中等",
+  "char": "土",
+  "pinyin": "tǔ"
+ },
+ {
+  "no": 595,
+  "band": "中等",
+  "char": "推",
+  "pinyin": "tuī"
+ },
+ {
+  "no": 596,
+  "band": "中等",
+  "char": "腿",
+  "pinyin": "tuǐ"
+ },
+ {
+  "no": 597,
+  "band": "中等",
+  "char": "碗",
+  "pinyin": "wǎn"
+ },
+ {
+  "no": 598,
+  "band": "中等",
+  "char": "万",
+  "pinyin": "wàn"
+ },
+ {
+  "no": 599,
+  "band": "中等",
+  "char": "王",
+  "pinyin": "wáng"
+ },
+ {
+  "no": 600,
+  "band": "中等",
+  "char": "往",
+  "pinyin": "wǎng"
+ },
+ {
+  "no": 601,
+  "band": "中等",
+  "char": "望",
+  "pinyin": "wàng"
+ },
+ {
+  "no": 602,
+  "band": "中等",
+  "char": "未",
+  "pinyin": "wèi"
+ },
+ {
+  "no": 603,
+  "band": "中等",
+  "char": "位",
+  "pinyin": "wèi"
+ },
+ {
+  "no": 604,
+  "band": "中等",
+  "char": "味",
+  "pinyin": "wèi"
+ },
+ {
+  "no": 605,
+  "band": "中等",
+  "char": "温",
+  "pinyin": "wēn"
+ },
+ {
+  "no": 606,
+  "band": "中等",
+  "char": "闻",
+  "pinyin": "wén"
+ },
+ {
+  "no": 607,
+  "band": "中等",
+  "char": "无",
+  "pinyin": "wú"
+ },
+ {
+  "no": 608,
+  "band": "中等",
+  "char": "务",
+  "pinyin": "wù"
+ },
+ {
+  "no": 609,
+  "band": "中等",
+  "char": "物",
+  "pinyin": "wù"
+ },
+ {
+  "no": 610,
+  "band": "中等",
+  "char": "误",
+  "pinyin": "wù"
+ },
+ {
+  "no": 611,
+  "band": "中等",
+  "char": "夏",
+  "pinyin": "xià"
+ },
+ {
+  "no": 612,
+  "band": "中等",
+  "char": "相",
+  "pinyin": "xiāng, xiàng"
+ },
+ {
+  "no": 613,
+  "band": "中等",
+  "char": "香",
+  "pinyin": "xiāng"
+ },
+ {
+  "no": 614,
+  "band": "中等",
+  "char": "响",
+  "pinyin": "xiǎng"
+ },
+ {
+  "no": 615,
+  "band": "中等",
+  "char": "象",
+  "pinyin": "xiàng"
+ },
+ {
+  "no": 616,
+  "band": "中等",
+  "char": "像",
+  "pinyin": "xiàng"
+ },
+ {
+  "no": 617,
+  "band": "中等",
+  "char": "校",
+  "pinyin": "xiào"
+ },
+ {
+  "no": 618,
+  "band": "中等",
+  "char": "鞋",
+  "pinyin": "xié"
+ },
+ {
+  "no": 619,
+  "band": "中等",
+  "char": "血",
+  "pinyin": "xiě, xuè"
+ },
+ {
+  "no": 620,
+  "band": "中等",
+  "char": "心",
+  "pinyin": "xīn"
+ },
+ {
+  "no": 621,
+  "band": "中等",
+  "char": "信",
+  "pinyin": "xìn"
+ },
+ {
+  "no": 622,
+  "band": "中等",
+  "char": "姓",
+  "pinyin": "xìng"
+ },
+ {
+  "no": 623,
+  "band": "中等",
+  "char": "兄",
+  "pinyin": "xiōng"
+ },
+ {
+  "no": 624,
+  "band": "中等",
+  "char": "须",
+  "pinyin": "xū"
+ },
+ {
+  "no": 625,
+  "band": "中等",
+  "char": "需",
+  "pinyin": "xū"
+ },
+ {
+  "no": 626,
+  "band": "中等",
+  "char": "许",
+  "pinyin": "xǔ"
+ },
+ {
+  "no": 627,
+  "band": "中等",
+  "char": "选",
+  "pinyin": "xuǎn"
+ },
+ {
+  "no": 628,
+  "band": "中等",
+  "char": "雪",
+  "pinyin": "xuě"
+ },
+ {
+  "no": 629,
+  "band": "中等",
+  "char": "压",
+  "pinyin": "yā"
+ },
+ {
+  "no": 630,
+  "band": "中等",
+  "char": "牙",
+  "pinyin": "yá"
+ },
+ {
+  "no": 631,
+  "band": "中等",
+  "char": "言",
+  "pinyin": "yán"
+ },
+ {
+  "no": 632,
+  "band": "中等",
+  "char": "研",
+  "pinyin": "yán"
+ },
+ {
+  "no": 633,
+  "band": "中等",
+  "char": "颜",
+  "pinyin": "yán"
+ },
+ {
+  "no": 634,
+  "band": "中等",
+  "char": "眼",
+  "pinyin": "yǎn"
+ },
+ {
+  "no": 635,
+  "band": "中等",
+  "char": "验",
+  "pinyin": "yàn"
+ },
+ {
+  "no": 636,
+  "band": "中等",
+  "char": "羊",
+  "pinyin": "yáng"
+ },
+ {
+  "no": 637,
+  "band": "中等",
+  "char": "阳",
+  "pinyin": "yáng"
+ },
+ {
+  "no": 638,
+  "band": "中等",
+  "char": "养",
+  "pinyin": "yǎng"
+ },
+ {
+  "no": 639,
+  "band": "中等",
+  "char": "药",
+  "pinyin": "yào"
+ },
+ {
+  "no": 640,
+  "band": "中等",
+  "char": "爷",
+  "pinyin": "yé"
+ },
+ {
+  "no": 641,
+  "band": "中等",
+  "char": "业",
+  "pinyin": "yè"
+ },
+ {
+  "no": 642,
+  "band": "中等",
+  "char": "页",
+  "pinyin": "yè"
+ },
+ {
+  "no": 643,
+  "band": "中等",
+  "char": "夜",
+  "pinyin": "yè"
+ },
+ {
+  "no": 644,
+  "band": "中等",
+  "char": "宜",
+  "pinyin": "yí"
+ },
+ {
+  "no": 645,
+  "band": "中等",
+  "char": "乙",
+  "pinyin": "yǐ"
+ },
+ {
+  "no": 646,
+  "band": "中等",
+  "char": "已",
+  "pinyin": "yǐ"
+ },
+ {
+  "no": 647,
+  "band": "中等",
+  "char": "椅",
+  "pinyin": "yǐ"
+ },
+ {
+  "no": 648,
+  "band": "中等",
+  "char": "亿",
+  "pinyin": "yì"
+ },
+ {
+  "no": 649,
+  "band": "中等",
+  "char": "音",
+  "pinyin": "yīn"
+ },
+ {
+  "no": 650,
+  "band": "中等",
+  "char": "银",
+  "pinyin": "yín"
+ },
+ {
+  "no": 651,
+  "band": "中等",
+  "char": "饮",
+  "pinyin": "yǐn"
+ },
+ {
+  "no": 652,
+  "band": "中等",
+  "char": "印",
+  "pinyin": "yìn"
+ },
+ {
+  "no": 653,
+  "band": "中等",
+  "char": "影",
+  "pinyin": "yǐng"
+ },
+ {
+  "no": 654,
+  "band": "中等",
+  "char": "永",
+  "pinyin": "yǒng"
+ },
+ {
+  "no": 655,
+  "band": "中等",
+  "char": "由",
+  "pinyin": "yóu"
+ },
+ {
+  "no": 656,
+  "band": "中等",
+  "char": "油",
+  "pinyin": "yóu"
+ },
+ {
+  "no": 657,
+  "band": "中等",
+  "char": "右",
+  "pinyin": "yòu"
+ },
+ {
+  "no": 658,
+  "band": "中等",
+  "char": "于",
+  "pinyin": "yú"
+ },
+ {
+  "no": 659,
+  "band": "中等",
+  "char": "鱼",
+  "pinyin": "yú"
+ },
+ {
+  "no": 660,
+  "band": "中等",
+  "char": "与",
+  "pinyin": "yǔ"
+ },
+ {
+  "no": 661,
+  "band": "中等",
+  "char": "玉",
+  "pinyin": "yù"
+ },
+ {
+  "no": 662,
+  "band": "中等",
+  "char": "育",
+  "pinyin": "yù"
+ },
+ {
+  "no": 663,
+  "band": "中等",
+  "char": "元",
+  "pinyin": "yuán"
+ },
+ {
+  "no": 664,
+  "band": "中等",
+  "char": "原",
+  "pinyin": "yuán"
+ },
+ {
+  "no": 665,
+  "band": "中等",
+  "char": "愿",
+  "pinyin": "yuàn"
+ },
+ {
+  "no": 666,
+  "band": "中等",
+  "char": "约",
+  "pinyin": "yuē"
+ },
+ {
+  "no": 667,
+  "band": "中等",
+  "char": "越",
+  "pinyin": "yuè"
+ },
+ {
+  "no": 668,
+  "band": "中等",
+  "char": "云",
+  "pinyin": "yún"
+ },
+ {
+  "no": 669,
+  "band": "中等",
+  "char": "运",
+  "pinyin": "yùn"
+ },
+ {
+  "no": 670,
+  "band": "中等",
+  "char": "咱",
+  "pinyin": "zán"
+ },
+ {
+  "no": 671,
+  "band": "中等",
+  "char": "脏",
+  "pinyin": "zāng, zàng"
+ },
+ {
+  "no": 672,
+  "band": "中等",
+  "char": "澡",
+  "pinyin": "zǎo"
+ },
+ {
+  "no": 673,
+  "band": "中等",
+  "char": "占",
+  "pinyin": "zhàn"
+ },
+ {
+  "no": 674,
+  "band": "中等",
+  "char": "张",
+  "pinyin": "zhāng"
+ },
+ {
+  "no": 675,
+  "band": "中等",
+  "char": "照",
+  "pinyin": "zhào"
+ },
+ {
+  "no": 676,
+  "band": "中等",
+  "char": "者",
+  "pinyin": "zhě"
+ },
+ {
+  "no": 677,
+  "band": "中等",
+  "char": "之",
+  "pinyin": "zhī"
+ },
+ {
+  "no": 678,
+  "band": "中等",
+  "char": "支",
+  "pinyin": "zhī"
+ },
+ {
+  "no": 679,
+  "band": "中等",
+  "char": "直",
+  "pinyin": "zhí"
+ },
+ {
+  "no": 680,
+  "band": "中等",
+  "char": "止",
+  "pinyin": "zhǐ"
+ },
+ {
+  "no": 681,
+  "band": "中等",
+  "char": "只",
+  "pinyin": "zhī, zhǐ"
+ },
+ {
+  "no": 682,
+  "band": "中等",
+  "char": "纸",
+  "pinyin": "zhǐ"
+ },
+ {
+  "no": 683,
+  "band": "中等",
+  "char": "志",
+  "pinyin": "zhì"
+ },
+ {
+  "no": 684,
+  "band": "中等",
+  "char": "种",
+  "pinyin": "zhǒng, zhòng"
+ },
+ {
+  "no": 685,
+  "band": "中等",
+  "char": "重",
+  "pinyin": "zhòng, chóng"
+ },
+ {
+  "no": 686,
+  "band": "中等",
+  "char": "周",
+  "pinyin": "zhōu"
+ },
+ {
+  "no": 687,
+  "band": "中等",
+  "char": "猪",
+  "pinyin": "zhū"
+ },
+ {
+  "no": 688,
+  "band": "中等",
+  "char": "主",
+  "pinyin": "zhǔ"
+ },
+ {
+  "no": 689,
+  "band": "中等",
+  "char": "抓",
+  "pinyin": "zhuā"
+ },
+ {
+  "no": 690,
+  "band": "中等",
+  "char": "转",
+  "pinyin": "zhuǎn, zhuàn"
+ },
+ {
+  "no": 691,
+  "band": "中等",
+  "char": "装",
+  "pinyin": "zhuāng"
+ },
+ {
+  "no": 692,
+  "band": "中等",
+  "char": "桌",
+  "pinyin": "zhuō"
+ },
+ {
+  "no": 693,
+  "band": "中等",
+  "char": "自",
+  "pinyin": "zì"
+ },
+ {
+  "no": 694,
+  "band": "中等",
+  "char": "总",
+  "pinyin": "zǒng"
+ },
+ {
+  "no": 695,
+  "band": "中等",
+  "char": "租",
+  "pinyin": "zū"
+ },
+ {
+  "no": 696,
+  "band": "中等",
+  "char": "足",
+  "pinyin": "zú"
+ },
+ {
+  "no": 697,
+  "band": "中等",
+  "char": "组",
+  "pinyin": "zǔ"
+ },
+ {
+  "no": 698,
+  "band": "中等",
+  "char": "最",
+  "pinyin": "zuì"
+ },
+ {
+  "no": 699,
+  "band": "中等",
+  "char": "左",
+  "pinyin": "zuǒ"
+ },
+ {
+  "no": 700,
+  "band": "中等",
+  "char": "座",
+  "pinyin": "zuò"
+ },
+ {
+  "no": 701,
+  "band": "高等",
+  "char": "矮",
+  "pinyin": "ǎi"
+ },
+ {
+  "no": 702,
+  "band": "高等",
+  "char": "按",
+  "pinyin": "àn"
+ },
+ {
+  "no": 703,
+  "band": "高等",
+  "char": "暗",
+  "pinyin": "àn"
+ },
+ {
+  "no": 704,
+  "band": "高等",
+  "char": "摆",
+  "pinyin": "bǎi"
+ },
+ {
+  "no": 705,
+  "band": "高等",
+  "char": "败",
+  "pinyin": "bài"
+ },
+ {
+  "no": 706,
+  "band": "高等",
+  "char": "版",
+  "pinyin": "bǎn"
+ },
+ {
+  "no": 707,
+  "band": "高等",
+  "char": "扮",
+  "pinyin": "bàn"
+ },
+ {
+  "no": 708,
+  "band": "高等",
+  "char": "伴",
+  "pinyin": "bàn"
+ },
+ {
+  "no": 709,
+  "band": "高等",
+  "char": "棒",
+  "pinyin": "bàng"
+ },
+ {
+  "no": 710,
+  "band": "高等",
+  "char": "保",
+  "pinyin": "bǎo"
+ },
+ {
+  "no": 711,
+  "band": "高等",
+  "char": "悲",
+  "pinyin": "bēi"
+ },
+ {
+  "no": 712,
+  "band": "高等",
+  "char": "倍",
+  "pinyin": "bèi"
+ },
+ {
+  "no": 713,
+  "band": "高等",
+  "char": "笨",
+  "pinyin": "bèn"
+ },
+ {
+  "no": 714,
+  "band": "高等",
+  "char": "鼻",
+  "pinyin": "bí"
+ },
+ {
+  "no": 715,
+  "band": "高等",
+  "char": "币",
+  "pinyin": "bì"
+ },
+ {
+  "no": 716,
+  "band": "高等",
+  "char": "毕",
+  "pinyin": "bì"
+ },
+ {
+  "no": 717,
+  "band": "高等",
+  "char": "闭",
+  "pinyin": "bì"
+ },
+ {
+  "no": 718,
+  "band": "高等",
+  "char": "编",
+  "pinyin": "biān"
+ },
+ {
+  "no": 719,
+  "band": "高等",
+  "char": "宾",
+  "pinyin": "bīn"
+ },
+ {
+  "no": 720,
+  "band": "高等",
+  "char": "饼",
+  "pinyin": "bǐng"
+ },
+ {
+  "no": 721,
+  "band": "高等",
+  "char": "并",
+  "pinyin": "bìng"
+ },
+ {
+  "no": 722,
+  "band": "高等",
+  "char": "播",
+  "pinyin": "bō"
+ },
+ {
+  "no": 723,
+  "band": "高等",
+  "char": "博",
+  "pinyin": "bó"
+ },
+ {
+  "no": 724,
+  "band": "高等",
+  "char": "补",
+  "pinyin": "bǔ"
+ },
+ {
+  "no": 725,
+  "band": "高等",
+  "char": "布",
+  "pinyin": "bù"
+ },
+ {
+  "no": 726,
+  "band": "高等",
+  "char": "猜",
+  "pinyin": "cāi"
+ },
+ {
+  "no": 727,
+  "band": "高等",
+  "char": "材",
+  "pinyin": "cái"
+ },
+ {
+  "no": 728,
+  "band": "高等",
+  "char": "财",
+  "pinyin": "cái"
+ },
+ {
+  "no": 729,
+  "band": "高等",
+  "char": "采",
+  "pinyin": "cǎi"
+ },
+ {
+  "no": 730,
+  "band": "高等",
+  "char": "彩",
+  "pinyin": "cǎi"
+ },
+ {
+  "no": 731,
+  "band": "高等",
+  "char": "册",
+  "pinyin": "cè"
+ },
+ {
+  "no": 732,
+  "band": "高等",
+  "char": "测",
+  "pinyin": "cè"
+ },
+ {
+  "no": 733,
+  "band": "高等",
+  "char": "曾",
+  "pinyin": "céng"
+ },
+ {
+  "no": 734,
+  "band": "高等",
+  "char": "叉",
+  "pinyin": "chā"
+ },
+ {
+  "no": 735,
+  "band": "高等",
+  "char": "察",
+  "pinyin": "chá"
+ },
+ {
+  "no": 736,
+  "band": "高等",
+  "char": "昌",
+  "pinyin": "chāng"
+ },
+ {
+  "no": 737,
+  "band": "高等",
+  "char": "尝",
+  "pinyin": "cháng"
+ },
+ {
+  "no": 738,
+  "band": "高等",
+  "char": "抄",
+  "pinyin": "chāo"
+ },
+ {
+  "no": 739,
+  "band": "高等",
+  "char": "朝",
+  "pinyin": "cháo, zhāo"
+ },
+ {
+  "no": 740,
+  "band": "高等",
+  "char": "吵",
+  "pinyin": "chǎo"
+ },
+ {
+  "no": 741,
+  "band": "高等",
+  "char": "沉",
+  "pinyin": "chén"
+ },
+ {
+  "no": 742,
+  "band": "高等",
+  "char": "衬",
+  "pinyin": "chèn"
+ },
+ {
+  "no": 743,
+  "band": "高等",
+  "char": "诚",
+  "pinyin": "chéng"
+ },
+ {
+  "no": 744,
+  "band": "高等",
+  "char": "承",
+  "pinyin": "chéng"
+ },
+ {
+  "no": 745,
+  "band": "高等",
+  "char": "程",
+  "pinyin": "chéng"
+ },
+ {
+  "no": 746,
+  "band": "高等",
+  "char": "迟",
+  "pinyin": "chí"
+ },
+ {
+  "no": 747,
+  "band": "高等",
+  "char": "持",
+  "pinyin": "chí"
+ },
+ {
+  "no": 748,
+  "band": "高等",
+  "char": "尺",
+  "pinyin": "chǐ"
+ },
+ {
+  "no": 749,
+  "band": "高等",
+  "char": "冲",
+  "pinyin": "chòng, chōng"
+ },
+ {
+  "no": 750,
+  "band": "高等",
+  "char": "充",
+  "pinyin": "chōng"
+ },
+ {
+  "no": 751,
+  "band": "高等",
+  "char": "抽",
+  "pinyin": "chōu"
+ },
+ {
+  "no": 752,
+  "band": "高等",
+  "char": "愁",
+  "pinyin": "chóu"
+ },
+ {
+  "no": 753,
+  "band": "高等",
+  "char": "丑",
+  "pinyin": "chǒu"
+ },
+ {
+  "no": 754,
+  "band": "高等",
+  "char": "臭",
+  "pinyin": "chòu"
+ },
+ {
+  "no": 755,
+  "band": "高等",
+  "char": "初",
+  "pinyin": "chū"
+ },
+ {
+  "no": 756,
+  "band": "高等",
+  "char": "础",
+  "pinyin": "chǔ"
+ },
+ {
+  "no": 757,
+  "band": "高等",
+  "char": "传",
+  "pinyin": "chuán, zhuàn"
+ },
+ {
+  "no": 758,
+  "band": "高等",
+  "char": "船",
+  "pinyin": "chuán"
+ },
+ {
+  "no": 759,
+  "band": "高等",
+  "char": "窗",
+  "pinyin": "chuāng"
+ },
+ {
+  "no": 760,
+  "band": "高等",
+  "char": "闯",
+  "pinyin": "chuǎng"
+ },
+ {
+  "no": 761,
+  "band": "高等",
+  "char": "创",
+  "pinyin": "chuàng, chuāng"
+ },
+ {
+  "no": 762,
+  "band": "高等",
+  "char": "此",
+  "pinyin": "cǐ"
+ },
+ {
+  "no": 763,
+  "band": "高等",
+  "char": "聪",
+  "pinyin": "cōng"
+ },
+ {
+  "no": 764,
+  "band": "高等",
+  "char": "粗",
+  "pinyin": "cū"
+ },
+ {
+  "no": 765,
+  "band": "高等",
+  "char": "存",
+  "pinyin": "cún"
+ },
+ {
+  "no": 766,
+  "band": "高等",
+  "char": "寸",
+  "pinyin": "cùn"
+ },
+ {
+  "no": 767,
+  "band": "高等",
+  "char": "代",
+  "pinyin": "dài"
+ },
+ {
+  "no": 768,
+  "band": "高等",
+  "char": "待",
+  "pinyin": "dài, dāi"
+ },
+ {
+  "no": 769,
+  "band": "高等",
+  "char": "袋",
+  "pinyin": "dài"
+ },
+ {
+  "no": 770,
+  "band": "高等",
+  "char": "担",
+  "pinyin": "dān"
+ },
+ {
+  "no": 771,
+  "band": "高等",
+  "char": "胆",
+  "pinyin": "dǎn"
+ },
+ {
+  "no": 772,
+  "band": "高等",
+  "char": "淡",
+  "pinyin": "dàn"
+ },
+ {
+  "no": 773,
+  "band": "高等",
+  "char": "挡",
+  "pinyin": "dǎng"
+ },
+ {
+  "no": 774,
+  "band": "高等",
+  "char": "导",
+  "pinyin": "dǎo"
+ },
+ {
+  "no": 775,
+  "band": "高等",
+  "char": "岛",
+  "pinyin": "dǎo"
+ },
+ {
+  "no": 776,
+  "band": "高等",
+  "char": "德",
+  "pinyin": "dé"
+ },
+ {
+  "no": 777,
+  "band": "高等",
+  "char": "敌",
+  "pinyin": "dí"
+ },
+ {
+  "no": 778,
+  "band": "高等",
+  "char": "底",
+  "pinyin": "dǐ"
+ },
+ {
+  "no": 779,
+  "band": "高等",
+  "char": "递",
+  "pinyin": "dì"
+ },
+ {
+  "no": 780,
+  "band": "高等",
+  "char": "顶",
+  "pinyin": "dǐng"
+ },
+ {
+  "no": 781,
+  "band": "高等",
+  "char": "订",
+  "pinyin": "dìng"
+ },
+ {
+  "no": 782,
+  "band": "高等",
+  "char": "冻",
+  "pinyin": "dòng"
+ },
+ {
+  "no": 783,
+  "band": "高等",
+  "char": "斗",
+  "pinyin": "dòu"
+ },
+ {
+  "no": 784,
+  "band": "高等",
+  "char": "豆",
+  "pinyin": "dòu"
+ },
+ {
+  "no": 785,
+  "band": "高等",
+  "char": "独",
+  "pinyin": "dú"
+ },
+ {
+  "no": 786,
+  "band": "高等",
+  "char": "堵",
+  "pinyin": "dǔ"
+ },
+ {
+  "no": 787,
+  "band": "高等",
+  "char": "肚",
+  "pinyin": "dù"
+ },
+ {
+  "no": 788,
+  "band": "高等",
+  "char": "锻",
+  "pinyin": "duàn"
+ },
+ {
+  "no": 789,
+  "band": "高等",
+  "char": "堆",
+  "pinyin": "duī"
+ },
+ {
+  "no": 790,
+  "band": "高等",
+  "char": "吨",
+  "pinyin": "dūn"
+ },
+ {
+  "no": 791,
+  "band": "高等",
+  "char": "顿",
+  "pinyin": "dùn"
+ },
+ {
+  "no": 792,
+  "band": "高等",
+  "char": "朵",
+  "pinyin": "duǒ"
+ },
+ {
+  "no": 793,
+  "band": "高等",
+  "char": "恶",
+  "pinyin": "ě, è, wù"
+ },
+ {
+  "no": 794,
+  "band": "高等",
+  "char": "翻",
+  "pinyin": "fān"
+ },
+ {
+  "no": 795,
+  "band": "高等",
+  "char": "凡",
+  "pinyin": "fán"
+ },
+ {
+  "no": 796,
+  "band": "高等",
+  "char": "范",
+  "pinyin": "fàn"
+ },
+ {
+  "no": 797,
+  "band": "高等",
+  "char": "防",
+  "pinyin": "fáng"
+ },
+ {
+  "no": 798,
+  "band": "高等",
+  "char": "访",
+  "pinyin": "fǎng"
+ },
+ {
+  "no": 799,
+  "band": "高等",
+  "char": "肥",
+  "pinyin": "féi"
+ },
+ {
+  "no": 800,
+  "band": "高等",
+  "char": "费",
+  "pinyin": "fèi"
+ },
+ {
+  "no": 801,
+  "band": "高等",
+  "char": "奋",
+  "pinyin": "fèn"
+ },
+ {
+  "no": 802,
+  "band": "高等",
+  "char": "丰",
+  "pinyin": "fēng"
+ },
+ {
+  "no": 803,
+  "band": "高等",
+  "char": "封",
+  "pinyin": "fēng"
+ },
+ {
+  "no": 804,
+  "band": "高等",
+  "char": "疯",
+  "pinyin": "fēng"
+ },
+ {
+  "no": 805,
+  "band": "高等",
+  "char": "佛",
+  "pinyin": "fó, fú"
+ },
+ {
+  "no": 806,
+  "band": "高等",
+  "char": "肤",
+  "pinyin": "fū"
+ },
+ {
+  "no": 807,
+  "band": "高等",
+  "char": "符",
+  "pinyin": "fú"
+ },
+ {
+  "no": 808,
+  "band": "高等",
+  "char": "福",
+  "pinyin": "fú"
+ },
+ {
+  "no": 809,
+  "band": "高等",
+  "char": "府",
+  "pinyin": "fǔ"
+ },
+ {
+  "no": 810,
+  "band": "高等",
+  "char": "辅",
+  "pinyin": "fǔ"
+ },
+ {
+  "no": 811,
+  "band": "高等",
+  "char": "腐",
+  "pinyin": "fǔ"
+ },
+ {
+  "no": 812,
+  "band": "高等",
+  "char": "付",
+  "pinyin": "fù"
+ },
+ {
+  "no": 813,
+  "band": "高等",
+  "char": "负",
+  "pinyin": "fù"
+ },
+ {
+  "no": 814,
+  "band": "高等",
+  "char": "附",
+  "pinyin": "fù"
+ },
+ {
+  "no": 815,
+  "band": "高等",
+  "char": "富",
+  "pinyin": "fù"
+ },
+ {
+  "no": 816,
+  "band": "高等",
+  "char": "盖",
+  "pinyin": "gài"
+ },
+ {
+  "no": 817,
+  "band": "高等",
+  "char": "概",
+  "pinyin": "gài"
+ },
+ {
+  "no": 818,
+  "band": "高等",
+  "char": "赶",
+  "pinyin": "gǎn"
+ },
+ {
+  "no": 819,
+  "band": "高等",
+  "char": "纲",
+  "pinyin": "gāng"
+ },
+ {
+  "no": 820,
+  "band": "高等",
+  "char": "钢",
+  "pinyin": "gāng"
+ },
+ {
+  "no": 821,
+  "band": "高等",
+  "char": "格",
+  "pinyin": "gé"
+ },
+ {
+  "no": 822,
+  "band": "高等",
+  "char": "根",
+  "pinyin": "gēn"
+ },
+ {
+  "no": 823,
+  "band": "高等",
+  "char": "功",
+  "pinyin": "gōng"
+ },
+ {
+  "no": 824,
+  "band": "高等",
+  "char": "贡",
+  "pinyin": "gòng"
+ },
+ {
+  "no": 825,
+  "band": "高等",
+  "char": "构",
+  "pinyin": "gòu"
+ },
+ {
+  "no": 826,
+  "band": "高等",
+  "char": "购",
+  "pinyin": "gòu"
+ },
+ {
+  "no": 827,
+  "band": "高等",
+  "char": "估",
+  "pinyin": "gū"
+ },
+ {
+  "no": 828,
+  "band": "高等",
+  "char": "姑",
+  "pinyin": "gū"
+ },
+ {
+  "no": 829,
+  "band": "高等",
+  "char": "谷",
+  "pinyin": "gǔ"
+ },
+ {
+  "no": 830,
+  "band": "高等",
+  "char": "骨",
+  "pinyin": "gǔ"
+ },
+ {
+  "no": 831,
+  "band": "高等",
+  "char": "怪",
+  "pinyin": "guài"
+ },
+ {
+  "no": 832,
+  "band": "高等",
+  "char": "官",
+  "pinyin": "guān"
+ },
+ {
+  "no": 833,
+  "band": "高等",
+  "char": "光",
+  "pinyin": "guāng"
+ },
+ {
+  "no": 834,
+  "band": "高等",
+  "char": "归",
+  "pinyin": "guī"
+ },
+ {
+  "no": 835,
+  "band": "高等",
+  "char": "规",
+  "pinyin": "guī"
+ },
+ {
+  "no": 836,
+  "band": "高等",
+  "char": "鬼",
+  "pinyin": "guǐ"
+ },
+ {
+  "no": 837,
+  "band": "高等",
+  "char": "柜",
+  "pinyin": "guì"
+ },
+ {
+  "no": 838,
+  "band": "高等",
+  "char": "滚",
+  "pinyin": "gǔn"
+ },
+ {
+  "no": 839,
+  "band": "高等",
+  "char": "害",
+  "pinyin": "hài"
+ },
+ {
+  "no": 840,
+  "band": "高等",
+  "char": "含",
+  "pinyin": "hán"
+ },
+ {
+  "no": 841,
+  "band": "高等",
+  "char": "寒",
+  "pinyin": "hán"
+ },
+ {
+  "no": 842,
+  "band": "高等",
+  "char": "汗",
+  "pinyin": "hàn"
+ },
+ {
+  "no": 843,
+  "band": "高等",
+  "char": "航",
+  "pinyin": "háng"
+ },
+ {
+  "no": 844,
+  "band": "高等",
+  "char": "何",
+  "pinyin": "hé"
+ },
+ {
+  "no": 845,
+  "band": "高等",
+  "char": "盒",
+  "pinyin": "hé"
+ },
+ {
+  "no": 846,
+  "band": "高等",
+  "char": "贺",
+  "pinyin": "hè"
+ },
+ {
+  "no": 847,
+  "band": "高等",
+  "char": "恨",
+  "pinyin": "hèn"
+ },
+ {
+  "no": 848,
+  "band": "高等",
+  "char": "厚",
+  "pinyin": "hòu"
+ },
+ {
+  "no": 849,
+  "band": "高等",
+  "char": "呼",
+  "pinyin": "hū"
+ },
+ {
+  "no": 850,
+  "band": "高等",
+  "char": "胡",
+  "pinyin": "hú"
+ },
+ {
+  "no": 851,
+  "band": "高等",
+  "char": "互",
+  "pinyin": "hù"
+ },
+ {
+  "no": 852,
+  "band": "高等",
+  "char": "户",
+  "pinyin": "hù"
+ },
+ {
+  "no": 853,
+  "band": "高等",
+  "char": "怀",
+  "pinyin": "huái"
+ },
+ {
+  "no": 854,
+  "band": "高等",
+  "char": "环",
+  "pinyin": "huán"
+ },
+ {
+  "no": 855,
+  "band": "高等",
+  "char": "皇",
+  "pinyin": "huáng"
+ },
+ {
+  "no": 856,
+  "band": "高等",
+  "char": "挥",
+  "pinyin": "huī"
+ },
+ {
+  "no": 857,
+  "band": "高等",
+  "char": "婚",
+  "pinyin": "hūn"
+ },
+ {
+  "no": 858,
+  "band": "高等",
+  "char": "伙",
+  "pinyin": "huǒ"
+ },
+ {
+  "no": 859,
+  "band": "高等",
+  "char": "货",
+  "pinyin": "huò"
+ },
+ {
+  "no": 860,
+  "band": "高等",
+  "char": "获",
+  "pinyin": "huò"
+ },
+ {
+  "no": 861,
+  "band": "高等",
+  "char": "积",
+  "pinyin": "jī"
+ },
+ {
+  "no": 862,
+  "band": "高等",
+  "char": "基",
+  "pinyin": "jī"
+ },
+ {
+  "no": 863,
+  "band": "高等",
+  "char": "吉",
+  "pinyin": "jí"
+ },
+ {
+  "no": 864,
+  "band": "高等",
+  "char": "极",
+  "pinyin": "jí"
+ },
+ {
+  "no": 865,
+  "band": "高等",
+  "char": "即",
+  "pinyin": "jí"
+ },
+ {
+  "no": 866,
+  "band": "高等",
+  "char": "集",
+  "pinyin": "jí"
+ },
+ {
+  "no": 867,
+  "band": "高等",
+  "char": "挤",
+  "pinyin": "jǐ"
+ },
+ {
+  "no": 868,
+  "band": "高等",
+  "char": "纪",
+  "pinyin": "jì"
+ },
+ {
+  "no": 869,
+  "band": "高等",
+  "char": "技",
+  "pinyin": "jì"
+ },
+ {
+  "no": 870,
+  "band": "高等",
+  "char": "季",
+  "pinyin": "jì"
+ },
+ {
+  "no": 871,
+  "band": "高等",
+  "char": "济",
+  "pinyin": "jì"
+ },
+ {
+  "no": 872,
+  "band": "高等",
+  "char": "既",
+  "pinyin": "jì"
+ },
+ {
+  "no": 873,
+  "band": "高等",
+  "char": "继",
+  "pinyin": "jì"
+ },
+ {
+  "no": 874,
+  "band": "高等",
+  "char": "夹",
+  "pinyin": "jiā"
+ },
+ {
+  "no": 875,
+  "band": "高等",
+  "char": "价",
+  "pinyin": "jià"
+ },
+ {
+  "no": 876,
+  "band": "高等",
+  "char": "架",
+  "pinyin": "jià"
+ },
+ {
+  "no": 877,
+  "band": "高等",
+  "char": "坚",
+  "pinyin": "jiān"
+ },
+ {
+  "no": 878,
+  "band": "高等",
+  "char": "艰",
+  "pinyin": "jiān"
+ },
+ {
+  "no": 879,
+  "band": "高等",
+  "char": "减",
+  "pinyin": "jiǎn"
+ },
+ {
+  "no": 880,
+  "band": "高等",
+  "char": "简",
+  "pinyin": "jiǎn"
+ },
+ {
+  "no": 881,
+  "band": "高等",
+  "char": "建",
+  "pinyin": "jiàn"
+ },
+ {
+  "no": 882,
+  "band": "高等",
+  "char": "将",
+  "pinyin": "jiāng, jiàng"
+ },
+ {
+  "no": 883,
+  "band": "高等",
+  "char": "奖",
+  "pinyin": "jiǎng"
+ },
+ {
+  "no": 884,
+  "band": "高等",
+  "char": "较",
+  "pinyin": "jiào"
+ },
+ {
+  "no": 885,
+  "band": "高等",
+  "char": "解",
+  "pinyin": "jiě"
+ },
+ {
+  "no": 886,
+  "band": "高等",
+  "char": "界",
+  "pinyin": "jiè"
+ },
+ {
+  "no": 887,
+  "band": "高等",
+  "char": "巾",
+  "pinyin": "jīn"
+ },
+ {
+  "no": 888,
+  "band": "高等",
+  "char": "金",
+  "pinyin": "jīn"
+ },
+ {
+  "no": 889,
+  "band": "高等",
+  "char": "仅",
+  "pinyin": "jǐn"
+ },
+ {
+  "no": 890,
+  "band": "高等",
+  "char": "尽",
+  "pinyin": "jǐn, jìn"
+ },
+ {
+  "no": 891,
+  "band": "高等",
+  "char": "紧",
+  "pinyin": "jǐn"
+ },
+ {
+  "no": 892,
+  "band": "高等",
+  "char": "禁",
+  "pinyin": "jīn, jìn"
+ },
+ {
+  "no": 893,
+  "band": "高等",
+  "char": "惊",
+  "pinyin": "jīng"
+ },
+ {
+  "no": 894,
+  "band": "高等",
+  "char": "精",
+  "pinyin": "jīng"
+ },
+ {
+  "no": 895,
+  "band": "高等",
+  "char": "景",
+  "pinyin": "jǐng"
+ },
+ {
+  "no": 896,
+  "band": "高等",
+  "char": "警",
+  "pinyin": "jǐng"
+ },
+ {
+  "no": 897,
+  "band": "高等",
+  "char": "竟",
+  "pinyin": "jìng"
+ },
+ {
+  "no": 898,
+  "band": "高等",
+  "char": "敬",
+  "pinyin": "jìng"
+ },
+ {
+  "no": 899,
+  "band": "高等",
+  "char": "境",
+  "pinyin": "jìng"
+ },
+ {
+  "no": 900,
+  "band": "高等",
+  "char": "镜",
+  "pinyin": "jìng"
+ },
+ {
+  "no": 901,
+  "band": "高等",
+  "char": "旧",
+  "pinyin": "jiù"
+ },
+ {
+  "no": 902,
+  "band": "高等",
+  "char": "救",
+  "pinyin": "jiù"
+ },
+ {
+  "no": 903,
+  "band": "高等",
+  "char": "居",
+  "pinyin": "jū"
+ },
+ {
+  "no": 904,
+  "band": "高等",
+  "char": "局",
+  "pinyin": "jú"
+ },
+ {
+  "no": 905,
+  "band": "高等",
+  "char": "巨",
+  "pinyin": "jù"
+ },
+ {
+  "no": 906,
+  "band": "高等",
+  "char": "具",
+  "pinyin": "jù"
+ },
+ {
+  "no": 907,
+  "band": "高等",
+  "char": "剧",
+  "pinyin": "jù"
+ },
+ {
+  "no": 908,
+  "band": "高等",
+  "char": "据",
+  "pinyin": "jù"
+ },
+ {
+  "no": 909,
+  "band": "高等",
+  "char": "距",
+  "pinyin": "jù"
+ },
+ {
+  "no": 910,
+  "band": "高等",
+  "char": "决",
+  "pinyin": "jué"
+ },
+ {
+  "no": 911,
+  "band": "高等",
+  "char": "绝",
+  "pinyin": "jué"
+ },
+ {
+  "no": 912,
+  "band": "高等",
+  "char": "军",
+  "pinyin": "jūn"
+ },
+ {
+  "no": 913,
+  "band": "高等",
+  "char": "均",
+  "pinyin": "jūn"
+ },
+ {
+  "no": 914,
+  "band": "高等",
+  "char": "棵",
+  "pinyin": "kē"
+ },
+ {
+  "no": 915,
+  "band": "高等",
+  "char": "恐",
+  "pinyin": "kǒng"
+ },
+ {
+  "no": 916,
+  "band": "高等",
+  "char": "苦",
+  "pinyin": "kǔ"
+ },
+ {
+  "no": 917,
+  "band": "高等",
+  "char": "宽",
+  "pinyin": "kuān"
+ },
+ {
+  "no": 918,
+  "band": "高等",
+  "char": "款",
+  "pinyin": "kuǎn"
+ },
+ {
+  "no": 919,
+  "band": "高等",
+  "char": "亏",
+  "pinyin": "kuī"
+ },
+ {
+  "no": 920,
+  "band": "高等",
+  "char": "括",
+  "pinyin": "kuò"
+ },
+ {
+  "no": 921,
+  "band": "高等",
+  "char": "辣",
+  "pinyin": "là"
+ },
+ {
+  "no": 922,
+  "band": "高等",
+  "char": "浪",
+  "pinyin": "làng"
+ },
+ {
+  "no": 923,
+  "band": "高等",
+  "char": "雷",
+  "pinyin": "léi"
+ },
+ {
+  "no": 924,
+  "band": "高等",
+  "char": "泪",
+  "pinyin": "lèi"
+ },
+ {
+  "no": 925,
+  "band": "高等",
+  "char": "类",
+  "pinyin": "lèi"
+ },
+ {
+  "no": 926,
+  "band": "高等",
+  "char": "历",
+  "pinyin": "lì"
+ },
+ {
+  "no": 927,
+  "band": "高等",
+  "char": "立",
+  "pinyin": "lì"
+ },
+ {
+  "no": 928,
+  "band": "高等",
+  "char": "丽",
+  "pinyin": "lì"
+ },
+ {
+  "no": 929,
+  "band": "高等",
+  "char": "联",
+  "pinyin": "lián"
+ },
+ {
+  "no": 930,
+  "band": "高等",
+  "char": "炼",
+  "pinyin": "liàn"
+ },
+ {
+  "no": 931,
+  "band": "高等",
+  "char": "良",
+  "pinyin": "liáng"
+ },
+ {
+  "no": 932,
+  "band": "高等",
+  "char": "疗",
+  "pinyin": "liáo"
+ },
+ {
+  "no": 933,
+  "band": "高等",
+  "char": "料",
+  "pinyin": "liào"
+ },
+ {
+  "no": 934,
+  "band": "高等",
+  "char": "烈",
+  "pinyin": "liè"
+ },
+ {
+  "no": 935,
+  "band": "高等",
+  "char": "林",
+  "pinyin": "lín"
+ },
+ {
+  "no": 936,
+  "band": "高等",
+  "char": "领",
+  "pinyin": "lǐng"
+ },
+ {
+  "no": 937,
+  "band": "高等",
+  "char": "陆",
+  "pinyin": "lù"
+ },
+ {
+  "no": 938,
+  "band": "高等",
+  "char": "录",
+  "pinyin": "lù"
+ },
+ {
+  "no": 939,
+  "band": "高等",
+  "char": "虑",
+  "pinyin": "lǜ"
+ },
+ {
+  "no": 940,
+  "band": "高等",
+  "char": "乱",
+  "pinyin": "luàn"
+ },
+ {
+  "no": 941,
+  "band": "高等",
+  "char": "落",
+  "pinyin": "luò, là"
+ },
+ {
+  "no": 942,
+  "band": "高等",
+  "char": "码",
+  "pinyin": "mǎ"
+ },
+ {
+  "no": 943,
+  "band": "高等",
+  "char": "骂",
+  "pinyin": "mà"
+ },
+ {
+  "no": 944,
+  "band": "高等",
+  "char": "麦",
+  "pinyin": "mài"
+ },
+ {
+  "no": 945,
+  "band": "高等",
+  "char": "冒",
+  "pinyin": "mào"
+ },
+ {
+  "no": 946,
+  "band": "高等",
+  "char": "贸",
+  "pinyin": "mào"
+ },
+ {
+  "no": 947,
+  "band": "高等",
+  "char": "媒",
+  "pinyin": "méi"
+ },
+ {
+  "no": 948,
+  "band": "高等",
+  "char": "梦",
+  "pinyin": "mèng"
+ },
+ {
+  "no": 949,
+  "band": "高等",
+  "char": "迷",
+  "pinyin": "mí"
+ },
+ {
+  "no": 950,
+  "band": "高等",
+  "char": "秘",
+  "pinyin": "mì"
+ },
+ {
+  "no": 951,
+  "band": "高等",
+  "char": "密",
+  "pinyin": "mì"
+ },
+ {
+  "no": 952,
+  "band": "高等",
+  "char": "免",
+  "pinyin": "miǎn"
+ },
+ {
+  "no": 953,
+  "band": "高等",
+  "char": "描",
+  "pinyin": "miáo"
+ },
+ {
+  "no": 954,
+  "band": "高等",
+  "char": "命",
+  "pinyin": "mìng"
+ },
+ {
+  "no": 955,
+  "band": "高等",
+  "char": "摸",
+  "pinyin": "mō"
+ },
+ {
+  "no": 956,
+  "band": "高等",
+  "char": "模",
+  "pinyin": "mú, mó"
+ },
+ {
+  "no": 957,
+  "band": "高等",
+  "char": "末",
+  "pinyin": "mò"
+ },
+ {
+  "no": 958,
+  "band": "高等",
+  "char": "某",
+  "pinyin": "mǒu"
+ },
+ {
+  "no": 959,
+  "band": "高等",
+  "char": "母",
+  "pinyin": "mǔ"
+ },
+ {
+  "no": 960,
+  "band": "高等",
+  "char": "闹",
+  "pinyin": "nào"
+ },
+ {
+  "no": 961,
+  "band": "高等",
+  "char": "内",
+  "pinyin": "nèi"
+ },
+ {
+  "no": 962,
+  "band": "高等",
+  "char": "娘",
+  "pinyin": "niáng"
+ },
+ {
+  "no": 963,
+  "band": "高等",
+  "char": "宁",
+  "pinyin": "níng, nìng"
+ },
+ {
+  "no": 964,
+  "band": "高等",
+  "char": "农",
+  "pinyin": "nóng"
+ },
+ {
+  "no": 965,
+  "band": "高等",
+  "char": "暖",
+  "pinyin": "nuǎn"
+ },
+ {
+  "no": 966,
+  "band": "高等",
+  "char": "偶",
+  "pinyin": "ǒu"
+ },
+ {
+  "no": 967,
+  "band": "高等",
+  "char": "拍",
+  "pinyin": "pāi"
+ },
+ {
+  "no": 968,
+  "band": "高等",
+  "char": "派",
+  "pinyin": "pài"
+ },
+ {
+  "no": 969,
+  "band": "高等",
+  "char": "判",
+  "pinyin": "pàn"
+ },
+ {
+  "no": 970,
+  "band": "高等",
+  "char": "盼",
+  "pinyin": "pàn"
+ },
+ {
+  "no": 971,
+  "band": "高等",
+  "char": "陪",
+  "pinyin": "péi"
+ },
+ {
+  "no": 972,
+  "band": "高等",
+  "char": "配",
+  "pinyin": "pèi"
+ },
+ {
+  "no": 973,
+  "band": "高等",
+  "char": "盆",
+  "pinyin": "pén"
+ },
+ {
+  "no": 974,
+  "band": "高等",
+  "char": "批",
+  "pinyin": "pī"
+ },
+ {
+  "no": 975,
+  "band": "高等",
+  "char": "皮",
+  "pinyin": "pí"
+ },
+ {
+  "no": 976,
+  "band": "高等",
+  "char": "匹",
+  "pinyin": "pǐ"
+ },
+ {
+  "no": 977,
+  "band": "高等",
+  "char": "骗",
+  "pinyin": "piàn"
+ },
+ {
+  "no": 978,
+  "band": "高等",
+  "char": "拼",
+  "pinyin": "pīn"
+ },
+ {
+  "no": 979,
+  "band": "高等",
+  "char": "品",
+  "pinyin": "pǐn"
+ },
+ {
+  "no": 980,
+  "band": "高等",
+  "char": "评",
+  "pinyin": "píng"
+ },
+ {
+  "no": 981,
+  "band": "高等",
+  "char": "破",
+  "pinyin": "pò"
+ },
+ {
+  "no": 982,
+  "band": "高等",
+  "char": "齐",
+  "pinyin": "qí"
+ },
+ {
+  "no": 983,
+  "band": "高等",
+  "char": "奇",
+  "pinyin": "qí"
+ },
+ {
+  "no": 984,
+  "band": "高等",
+  "char": "弃",
+  "pinyin": "qì"
+ },
+ {
+  "no": 985,
+  "band": "高等",
+  "char": "器",
+  "pinyin": "qì"
+ },
+ {
+  "no": 986,
+  "band": "高等",
+  "char": "强",
+  "pinyin": "qiáng, qiǎng, jiàng"
+ },
+ {
+  "no": 987,
+  "band": "高等",
+  "char": "墙",
+  "pinyin": "qiáng"
+ },
+ {
+  "no": 988,
+  "band": "高等",
+  "char": "桥",
+  "pinyin": "qiáo"
+ },
+ {
+  "no": 989,
+  "band": "高等",
+  "char": "瞧",
+  "pinyin": "qiáo"
+ },
+ {
+  "no": 990,
+  "band": "高等",
+  "char": "巧",
+  "pinyin": "qiǎo"
+ },
+ {
+  "no": 991,
+  "band": "高等",
+  "char": "切",
+  "pinyin": "qiè, qiē"
+ },
+ {
+  "no": 992,
+  "band": "高等",
+  "char": "亲",
+  "pinyin": "qīn"
+ },
+ {
+  "no": 993,
+  "band": "高等",
+  "char": "晴",
+  "pinyin": "qíng"
+ },
+ {
+  "no": 994,
+  "band": "高等",
+  "char": "庆",
+  "pinyin": "qìng"
+ },
+ {
+  "no": 995,
+  "band": "高等",
+  "char": "曲",
+  "pinyin": "qǔ, qū"
+ },
+ {
+  "no": 996,
+  "band": "高等",
+  "char": "趣",
+  "pinyin": "qù"
+ },
+ {
+  "no": 997,
+  "band": "高等",
+  "char": "圈",
+  "pinyin": "quān, juàn"
+ },
+ {
+  "no": 998,
+  "band": "高等",
+  "char": "权",
+  "pinyin": "quán"
+ },
+ {
+  "no": 999,
+  "band": "高等",
+  "char": "劝",
+  "pinyin": "quàn"
+ },
+ {
+  "no": 1000,
+  "band": "高等",
+  "char": "缺",
+  "pinyin": "quē"
+ },
+ {
+  "no": 1001,
+  "band": "高等",
+  "char": "群",
+  "pinyin": "qún"
+ },
+ {
+  "no": 1002,
+  "band": "高等",
+  "char": "扰",
+  "pinyin": "rǎo"
+ },
+ {
+  "no": 1003,
+  "band": "高等",
+  "char": "忍",
+  "pinyin": "rěn"
+ },
+ {
+  "no": 1004,
+  "band": "高等",
+  "char": "任",
+  "pinyin": "rèn"
+ },
+ {
+  "no": 1005,
+  "band": "高等",
+  "char": "仍",
+  "pinyin": "réng"
+ },
+ {
+  "no": 1006,
+  "band": "高等",
+  "char": "容",
+  "pinyin": "róng"
+ },
+ {
+  "no": 1007,
+  "band": "高等",
+  "char": "赛",
+  "pinyin": "sài"
+ },
+ {
+  "no": 1008,
+  "band": "高等",
+  "char": "散",
+  "pinyin": "sàn, sǎn"
+ },
+ {
+  "no": 1009,
+  "band": "高等",
+  "char": "扫",
+  "pinyin": "sǎo"
+ },
+ {
+  "no": 1010,
+  "band": "高等",
+  "char": "森",
+  "pinyin": "sēn"
+ },
+ {
+  "no": 1011,
+  "band": "高等",
+  "char": "杀",
+  "pinyin": "shā"
+ },
+ {
+  "no": 1012,
+  "band": "高等",
+  "char": "沙",
+  "pinyin": "shā"
+ },
+ {
+  "no": 1013,
+  "band": "高等",
+  "char": "傻",
+  "pinyin": "shǎ"
+ },
+ {
+  "no": 1014,
+  "band": "高等",
+  "char": "晒",
+  "pinyin": "shài"
+ },
+ {
+  "no": 1015,
+  "band": "高等",
+  "char": "闪",
+  "pinyin": "shǎn"
+ },
+ {
+  "no": 1016,
+  "band": "高等",
+  "char": "善",
+  "pinyin": "shàn"
+ },
+ {
+  "no": 1017,
+  "band": "高等",
+  "char": "伤",
+  "pinyin": "shāng"
+ },
+ {
+  "no": 1018,
+  "band": "高等",
+  "char": "赏",
+  "pinyin": "shǎng"
+ },
+ {
+  "no": 1019,
+  "band": "高等",
+  "char": "尚",
+  "pinyin": "shàng"
+ },
+ {
+  "no": 1020,
+  "band": "高等",
+  "char": "舍",
+  "pinyin": "shě, shè"
+ },
+ {
+  "no": 1021,
+  "band": "高等",
+  "char": "设",
+  "pinyin": "shè"
+ },
+ {
+  "no": 1022,
+  "band": "高等",
+  "char": "申",
+  "pinyin": "shēn"
+ },
+ {
+  "no": 1023,
+  "band": "高等",
+  "char": "神",
+  "pinyin": "shén"
+ },
+ {
+  "no": 1024,
+  "band": "高等",
+  "char": "升",
+  "pinyin": "shēng"
+ },
+ {
+  "no": 1025,
+  "band": "高等",
+  "char": "圣",
+  "pinyin": "shèng"
+ },
+ {
+  "no": 1026,
+  "band": "高等",
+  "char": "胜",
+  "pinyin": "shèng"
+ },
+ {
+  "no": 1027,
+  "band": "高等",
+  "char": "失",
+  "pinyin": "shī"
+ },
+ {
+  "no": 1028,
+  "band": "高等",
+  "char": "诗",
+  "pinyin": "shī"
+ },
+ {
+  "no": 1029,
+  "band": "高等",
+  "char": "石",
+  "pinyin": "shí"
+ },
+ {
+  "no": 1030,
+  "band": "高等",
+  "char": "史",
+  "pinyin": "shǐ"
+ },
+ {
+  "no": 1031,
+  "band": "高等",
+  "char": "始",
+  "pinyin": "shǐ"
+ },
+ {
+  "no": 1032,
+  "band": "高等",
+  "char": "士",
+  "pinyin": "shì"
+ },
+ {
+  "no": 1033,
+  "band": "高等",
+  "char": "世",
+  "pinyin": "shì"
+ },
+ {
+  "no": 1034,
+  "band": "高等",
+  "char": "式",
+  "pinyin": "shì"
+ },
+ {
+  "no": 1035,
+  "band": "高等",
+  "char": "似",
+  "pinyin": "sì, shì"
+ },
+ {
+  "no": 1036,
+  "band": "高等",
+  "char": "势",
+  "pinyin": "shì"
+ },
+ {
+  "no": 1037,
+  "band": "高等",
+  "char": "释",
+  "pinyin": "shì"
+ },
+ {
+  "no": 1038,
+  "band": "高等",
+  "char": "守",
+  "pinyin": "shǒu"
+ },
+ {
+  "no": 1039,
+  "band": "高等",
+  "char": "首",
+  "pinyin": "shǒu"
+ },
+ {
+  "no": 1040,
+  "band": "高等",
+  "char": "寿",
+  "pinyin": "shòu"
+ },
+ {
+  "no": 1041,
+  "band": "高等",
+  "char": "授",
+  "pinyin": "shòu"
+ },
+ {
+  "no": 1042,
+  "band": "高等",
+  "char": "售",
+  "pinyin": "shòu"
+ },
+ {
+  "no": 1043,
+  "band": "高等",
+  "char": "瘦",
+  "pinyin": "shòu"
+ },
+ {
+  "no": 1044,
+  "band": "高等",
+  "char": "叔",
+  "pinyin": "shū"
+ },
+ {
+  "no": 1045,
+  "band": "高等",
+  "char": "暑",
+  "pinyin": "shǔ"
+ },
+ {
+  "no": 1046,
+  "band": "高等",
+  "char": "属",
+  "pinyin": "shǔ"
+ },
+ {
+  "no": 1047,
+  "band": "高等",
+  "char": "术",
+  "pinyin": "shù"
+ },
+ {
+  "no": 1048,
+  "band": "高等",
+  "char": "束",
+  "pinyin": "shù"
+ },
+ {
+  "no": 1049,
+  "band": "高等",
+  "char": "帅",
+  "pinyin": "shuài"
+ },
+ {
+  "no": 1050,
+  "band": "高等",
+  "char": "双",
+  "pinyin": "shuāng"
+ },
+ {
+  "no": 1051,
+  "band": "高等",
+  "char": "爽",
+  "pinyin": "shuǎng"
+ },
+ {
+  "no": 1052,
+  "band": "高等",
+  "char": "私",
+  "pinyin": "sī"
+ },
+ {
+  "no": 1053,
+  "band": "高等",
+  "char": "死",
+  "pinyin": "sǐ"
+ },
+ {
+  "no": 1054,
+  "band": "高等",
+  "char": "寺",
+  "pinyin": "sì"
+ },
+ {
+  "no": 1055,
+  "band": "高等",
+  "char": "宿",
+  "pinyin": "sù"
+ },
+ {
+  "no": 1056,
+  "band": "高等",
+  "char": "素",
+  "pinyin": "sù"
+ },
+ {
+  "no": 1057,
+  "band": "高等",
+  "char": "速",
+  "pinyin": "sù"
+ },
+ {
+  "no": 1058,
+  "band": "高等",
+  "char": "孙",
+  "pinyin": "sūn"
+ },
+ {
+  "no": 1059,
+  "band": "高等",
+  "char": "台",
+  "pinyin": "tái"
+ },
+ {
+  "no": 1060,
+  "band": "高等",
+  "char": "糖",
+  "pinyin": "táng"
+ },
+ {
+  "no": 1061,
+  "band": "高等",
+  "char": "躺",
+  "pinyin": "tǎng"
+ },
+ {
+  "no": 1062,
+  "band": "高等",
+  "char": "甜",
+  "pinyin": "tián"
+ },
+ {
+  "no": 1063,
+  "band": "高等",
+  "char": "填",
+  "pinyin": "tián"
+ },
+ {
+  "no": 1064,
+  "band": "高等",
+  "char": "挑",
+  "pinyin": "tiāo, tiǎo"
+ },
+ {
+  "no": 1065,
+  "band": "高等",
+  "char": "跳",
+  "pinyin": "tiào"
+ },
+ {
+  "no": 1066,
+  "band": "高等",
+  "char": "铁",
+  "pinyin": "tiě"
+ },
+ {
+  "no": 1067,
+  "band": "高等",
+  "char": "童",
+  "pinyin": "tóng"
+ },
+ {
+  "no": 1068,
+  "band": "高等",
+  "char": "突",
+  "pinyin": "tū"
+ },
+ {
+  "no": 1069,
+  "band": "高等",
+  "char": "团",
+  "pinyin": "tuán"
+ },
+ {
+  "no": 1070,
+  "band": "高等",
+  "char": "退",
+  "pinyin": "tuì"
+ },
+ {
+  "no": 1071,
+  "band": "高等",
+  "char": "托",
+  "pinyin": "tuō"
+ },
+ {
+  "no": 1072,
+  "band": "高等",
+  "char": "亡",
+  "pinyin": "wáng"
+ },
+ {
+  "no": 1073,
+  "band": "高等",
+  "char": "危",
+  "pinyin": "wēi"
+ },
+ {
+  "no": 1074,
+  "band": "高等",
+  "char": "围",
+  "pinyin": "wéi"
+ },
+ {
+  "no": 1075,
+  "band": "高等",
+  "char": "伟",
+  "pinyin": "wěi"
+ },
+ {
+  "no": 1076,
+  "band": "高等",
+  "char": "卫",
+  "pinyin": "wèi"
+ },
+ {
+  "no": 1077,
+  "band": "高等",
+  "char": "胃",
+  "pinyin": "wèi"
+ },
+ {
+  "no": 1078,
+  "band": "高等",
+  "char": "谓",
+  "pinyin": "wèi"
+ },
+ {
+  "no": 1079,
+  "band": "高等",
+  "char": "握",
+  "pinyin": "wò"
+ },
+ {
+  "no": 1080,
+  "band": "高等",
+  "char": "屋",
+  "pinyin": "wū"
+ },
+ {
+  "no": 1081,
+  "band": "高等",
+  "char": "武",
+  "pinyin": "wǔ"
+ },
+ {
+  "no": 1082,
+  "band": "高等",
+  "char": "舞",
+  "pinyin": "wǔ"
+ },
+ {
+  "no": 1083,
+  "band": "高等",
+  "char": "夕",
+  "pinyin": "xī"
+ },
+ {
+  "no": 1084,
+  "band": "高等",
+  "char": "吸",
+  "pinyin": "xī"
+ },
+ {
+  "no": 1085,
+  "band": "高等",
+  "char": "希",
+  "pinyin": "xī"
+ },
+ {
+  "no": 1086,
+  "band": "高等",
+  "char": "析",
+  "pinyin": "xī"
+ },
+ {
+  "no": 1087,
+  "band": "高等",
+  "char": "悉",
+  "pinyin": "xī"
+ },
+ {
+  "no": 1088,
+  "band": "高等",
+  "char": "惜",
+  "pinyin": "xī"
+ },
+ {
+  "no": 1089,
+  "band": "高等",
+  "char": "席",
+  "pinyin": "xí"
+ },
+ {
+  "no": 1090,
+  "band": "高等",
+  "char": "戏",
+  "pinyin": "xì"
+ },
+ {
+  "no": 1091,
+  "band": "高等",
+  "char": "吓",
+  "pinyin": "xià, hè"
+ },
+ {
+  "no": 1092,
+  "band": "高等",
+  "char": "鲜",
+  "pinyin": "xiān"
+ },
+ {
+  "no": 1093,
+  "band": "高等",
+  "char": "闲",
+  "pinyin": "xián"
+ },
+ {
+  "no": 1094,
+  "band": "高等",
+  "char": "显",
+  "pinyin": "xiǎn"
+ },
+ {
+  "no": 1095,
+  "band": "高等",
+  "char": "险",
+  "pinyin": "xiǎn"
+ },
+ {
+  "no": 1096,
+  "band": "高等",
+  "char": "县",
+  "pinyin": "xiàn"
+ },
+ {
+  "no": 1097,
+  "band": "高等",
+  "char": "线",
+  "pinyin": "xiàn"
+ },
+ {
+  "no": 1098,
+  "band": "高等",
+  "char": "乡",
+  "pinyin": "xiāng"
+ },
+ {
+  "no": 1099,
+  "band": "高等",
+  "char": "项",
+  "pinyin": "xiàng"
+ },
+ {
+  "no": 1100,
+  "band": "高等",
+  "char": "消",
+  "pinyin": "xiāo"
+ },
+ {
+  "no": 1101,
+  "band": "高等",
+  "char": "效",
+  "pinyin": "xiào"
+ },
+ {
+  "no": 1102,
+  "band": "高等",
+  "char": "辛",
+  "pinyin": "xīn"
+ },
+ {
+  "no": 1103,
+  "band": "高等",
+  "char": "形",
+  "pinyin": "xíng"
+ },
+ {
+  "no": 1104,
+  "band": "高等",
+  "char": "醒",
+  "pinyin": "xǐng"
+ },
+ {
+  "no": 1105,
+  "band": "高等",
+  "char": "幸",
+  "pinyin": "xìng"
+ },
+ {
+  "no": 1106,
+  "band": "高等",
+  "char": "性",
+  "pinyin": "xìng"
+ },
+ {
+  "no": 1107,
+  "band": "高等",
+  "char": "凶",
+  "pinyin": "xiōng"
+ },
+ {
+  "no": 1108,
+  "band": "高等",
+  "char": "雄",
+  "pinyin": "xióng"
+ },
+ {
+  "no": 1109,
+  "band": "高等",
+  "char": "修",
+  "pinyin": "xiū"
+ },
+ {
+  "no": 1110,
+  "band": "高等",
+  "char": "秀",
+  "pinyin": "xiù"
+ },
+ {
+  "no": 1111,
+  "band": "高等",
+  "char": "续",
+  "pinyin": "xù"
+ },
+ {
+  "no": 1112,
+  "band": "高等",
+  "char": "宣",
+  "pinyin": "xuān"
+ },
+ {
+  "no": 1113,
+  "band": "高等",
+  "char": "寻",
+  "pinyin": "xún"
+ },
+ {
+  "no": 1114,
+  "band": "高等",
+  "char": "训",
+  "pinyin": "xùn"
+ },
+ {
+  "no": 1115,
+  "band": "高等",
+  "char": "亚",
+  "pinyin": "yà"
+ },
+ {
+  "no": 1116,
+  "band": "高等",
+  "char": "烟",
+  "pinyin": "yān"
+ },
+ {
+  "no": 1117,
+  "band": "高等",
+  "char": "严",
+  "pinyin": "yán"
+ },
+ {
+  "no": 1118,
+  "band": "高等",
+  "char": "炎",
+  "pinyin": "yán"
+ },
+ {
+  "no": 1119,
+  "band": "高等",
+  "char": "盐",
+  "pinyin": "yán"
+ },
+ {
+  "no": 1120,
+  "band": "高等",
+  "char": "演",
+  "pinyin": "yǎn"
+ },
+ {
+  "no": 1121,
+  "band": "高等",
+  "char": "央",
+  "pinyin": "yāng"
+ },
+ {
+  "no": 1122,
+  "band": "高等",
+  "char": "腰",
+  "pinyin": "yāo"
+ },
+ {
+  "no": 1123,
+  "band": "高等",
+  "char": "咬",
+  "pinyin": "yǎo"
+ },
+ {
+  "no": 1124,
+  "band": "高等",
+  "char": "叶",
+  "pinyin": "yè"
+ },
+ {
+  "no": 1125,
+  "band": "高等",
+  "char": "依",
+  "pinyin": "yī"
+ },
+ {
+  "no": 1126,
+  "band": "高等",
+  "char": "移",
+  "pinyin": "yí"
+ },
+ {
+  "no": 1127,
+  "band": "高等",
+  "char": "遗",
+  "pinyin": "yí"
+ },
+ {
+  "no": 1128,
+  "band": "高等",
+  "char": "义",
+  "pinyin": "yì"
+ },
+ {
+  "no": 1129,
+  "band": "高等",
+  "char": "艺",
+  "pinyin": "yì"
+ },
+ {
+  "no": 1130,
+  "band": "高等",
+  "char": "议",
+  "pinyin": "yì"
+ },
+ {
+  "no": 1131,
+  "band": "高等",
+  "char": "译",
+  "pinyin": "yì"
+ },
+ {
+  "no": 1132,
+  "band": "高等",
+  "char": "易",
+  "pinyin": "yì"
+ },
+ {
+  "no": 1133,
+  "band": "高等",
+  "char": "益",
+  "pinyin": "yì"
+ },
+ {
+  "no": 1134,
+  "band": "高等",
+  "char": "谊",
+  "pinyin": "yì"
+ },
+ {
+  "no": 1135,
+  "band": "高等",
+  "char": "阴",
+  "pinyin": "yīn"
+ },
+ {
+  "no": 1136,
+  "band": "高等",
+  "char": "引",
+  "pinyin": "yǐn"
+ },
+ {
+  "no": 1137,
+  "band": "高等",
+  "char": "英",
+  "pinyin": "yīng"
+ },
+ {
+  "no": 1138,
+  "band": "高等",
+  "char": "迎",
+  "pinyin": "yíng"
+ },
+ {
+  "no": 1139,
+  "band": "高等",
+  "char": "营",
+  "pinyin": "yíng"
+ },
+ {
+  "no": 1140,
+  "band": "高等",
+  "char": "映",
+  "pinyin": "yìng"
+ },
+ {
+  "no": 1141,
+  "band": "高等",
+  "char": "泳",
+  "pinyin": "yǒng"
+ },
+ {
+  "no": 1142,
+  "band": "高等",
+  "char": "勇",
+  "pinyin": "yǒng"
+ },
+ {
+  "no": 1143,
+  "band": "高等",
+  "char": "优",
+  "pinyin": "yōu"
+ },
+ {
+  "no": 1144,
+  "band": "高等",
+  "char": "尤",
+  "pinyin": "yóu"
+ },
+ {
+  "no": 1145,
+  "band": "高等",
+  "char": "邮",
+  "pinyin": "yóu"
+ },
+ {
+  "no": 1146,
+  "band": "高等",
+  "char": "游",
+  "pinyin": "yóu"
+ },
+ {
+  "no": 1147,
+  "band": "高等",
+  "char": "余",
+  "pinyin": "yú"
+ },
+ {
+  "no": 1148,
+  "band": "高等",
+  "char": "愉",
+  "pinyin": "yú"
+ },
+ {
+  "no": 1149,
+  "band": "高等",
+  "char": "预",
+  "pinyin": "yù"
+ },
+ {
+  "no": 1150,
+  "band": "高等",
+  "char": "园",
+  "pinyin": "yuán"
+ },
+ {
+  "no": 1151,
+  "band": "高等",
+  "char": "员",
+  "pinyin": "yuán"
+ },
+ {
+  "no": 1152,
+  "band": "高等",
+  "char": "圆",
+  "pinyin": "yuán"
+ },
+ {
+  "no": 1153,
+  "band": "高等",
+  "char": "源",
+  "pinyin": "yuán"
+ },
+ {
+  "no": 1154,
+  "band": "高等",
+  "char": "阅",
+  "pinyin": "yuè"
+ },
+ {
+  "no": 1155,
+  "band": "高等",
+  "char": "晕",
+  "pinyin": "yūn"
+ },
+ {
+  "no": 1156,
+  "band": "高等",
+  "char": "杂",
+  "pinyin": "zá"
+ },
+ {
+  "no": 1157,
+  "band": "高等",
+  "char": "灾",
+  "pinyin": "zāi"
+ },
+ {
+  "no": 1158,
+  "band": "高等",
+  "char": "载",
+  "pinyin": "zǎi, zài"
+ },
+ {
+  "no": 1159,
+  "band": "高等",
+  "char": "暂",
+  "pinyin": "zàn"
+ },
+ {
+  "no": 1160,
+  "band": "高等",
+  "char": "赞",
+  "pinyin": "zàn"
+ },
+ {
+  "no": 1161,
+  "band": "高等",
+  "char": "造",
+  "pinyin": "zào"
+ },
+ {
+  "no": 1162,
+  "band": "高等",
+  "char": "责",
+  "pinyin": "zé"
+ },
+ {
+  "no": 1163,
+  "band": "高等",
+  "char": "增",
+  "pinyin": "zēng"
+ },
+ {
+  "no": 1164,
+  "band": "高等",
+  "char": "展",
+  "pinyin": "zhǎn"
+ },
+ {
+  "no": 1165,
+  "band": "高等",
+  "char": "章",
+  "pinyin": "zhāng"
+ },
+ {
+  "no": 1166,
+  "band": "高等",
+  "char": "掌",
+  "pinyin": "zhǎng"
+ },
+ {
+  "no": 1167,
+  "band": "高等",
+  "char": "丈",
+  "pinyin": "zhàng"
+ },
+ {
+  "no": 1168,
+  "band": "高等",
+  "char": "招",
+  "pinyin": "zhāo"
+ },
+ {
+  "no": 1169,
+  "band": "高等",
+  "char": "召",
+  "pinyin": "zhào"
+ },
+ {
+  "no": 1170,
+  "band": "高等",
+  "char": "折",
+  "pinyin": "zhé, zhē"
+ },
+ {
+  "no": 1171,
+  "band": "高等",
+  "char": "争",
+  "pinyin": "zhēng"
+ },
+ {
+  "no": 1172,
+  "band": "高等",
+  "char": "整",
+  "pinyin": "zhěng"
+ },
+ {
+  "no": 1173,
+  "band": "高等",
+  "char": "证",
+  "pinyin": "zhèng"
+ },
+ {
+  "no": 1174,
+  "band": "高等",
+  "char": "政",
+  "pinyin": "zhèng"
+ },
+ {
+  "no": 1175,
+  "band": "高等",
+  "char": "汁",
+  "pinyin": "zhī"
+ },
+ {
+  "no": 1176,
+  "band": "高等",
+  "char": "织",
+  "pinyin": "zhī"
+ },
+ {
+  "no": 1177,
+  "band": "高等",
+  "char": "值",
+  "pinyin": "zhí"
+ },
+ {
+  "no": 1178,
+  "band": "高等",
+  "char": "职",
+  "pinyin": "zhí"
+ },
+ {
+  "no": 1179,
+  "band": "高等",
+  "char": "址",
+  "pinyin": "zhǐ"
+ },
+ {
+  "no": 1180,
+  "band": "高等",
+  "char": "指",
+  "pinyin": "zhǐ"
+ },
+ {
+  "no": 1181,
+  "band": "高等",
+  "char": "至",
+  "pinyin": "zhì"
+ },
+ {
+  "no": 1182,
+  "band": "高等",
+  "char": "制",
+  "pinyin": "zhì"
+ },
+ {
+  "no": 1183,
+  "band": "高等",
+  "char": "治",
+  "pinyin": "zhì"
+ },
+ {
+  "no": 1184,
+  "band": "高等",
+  "char": "致",
+  "pinyin": "zhì"
+ },
+ {
+  "no": 1185,
+  "band": "高等",
+  "char": "智",
+  "pinyin": "zhì"
+ },
+ {
+  "no": 1186,
+  "band": "高等",
+  "char": "终",
+  "pinyin": "zhōng"
+ },
+ {
+  "no": 1187,
+  "band": "高等",
+  "char": "钟",
+  "pinyin": "zhōng"
+ },
+ {
+  "no": 1188,
+  "band": "高等",
+  "char": "众",
+  "pinyin": "zhòng"
+ },
+ {
+  "no": 1189,
+  "band": "高等",
+  "char": "竹",
+  "pinyin": "zhú"
+ },
+ {
+  "no": 1190,
+  "band": "高等",
+  "char": "注",
+  "pinyin": "zhù"
+ },
+ {
+  "no": 1191,
+  "band": "高等",
+  "char": "祝",
+  "pinyin": "zhù"
+ },
+ {
+  "no": 1192,
+  "band": "高等",
+  "char": "著",
+  "pinyin": "zhù"
+ },
+ {
+  "no": 1193,
+  "band": "高等",
+  "char": "专",
+  "pinyin": "zhuān"
+ },
+ {
+  "no": 1194,
+  "band": "高等",
+  "char": "庄",
+  "pinyin": "zhuāng"
+ },
+ {
+  "no": 1195,
+  "band": "高等",
+  "char": "状",
+  "pinyin": "zhuàng"
+ },
+ {
+  "no": 1196,
+  "band": "高等",
+  "char": "追",
+  "pinyin": "zhuī"
+ },
+ {
+  "no": 1197,
+  "band": "高等",
+  "char": "资",
+  "pinyin": "zī"
+ },
+ {
+  "no": 1198,
+  "band": "高等",
+  "char": "综",
+  "pinyin": "zōng"
+ },
+ {
+  "no": 1199,
+  "band": "高等",
+  "char": "族",
+  "pinyin": "zú"
+ },
+ {
+  "no": 1200,
+  "band": "高等",
+  "char": "醉",
+  "pinyin": "zuì"
+ }
+]
