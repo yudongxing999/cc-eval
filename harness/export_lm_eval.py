@@ -23,10 +23,14 @@ for c in chars:
     readings[c['char']].add(c['pinyin'].lower())
 
 def dump(name, rows):
+    # 候选统一加“答案：”共享前缀，缓解基座模型的“复述最近选项”位置偏差
+    # 注意：必须复制行再改写，避免 rows 被二次 dump（如 KNO 主文件+分片）时前缀叠加
     path = os.path.join(OUT_D, name + '.jsonl')
     with open(path, 'w', encoding='utf-8') as f:
         for r in rows:
-            f.write(json.dumps(r, ensure_ascii=False) + '\n')
+            r2 = dict(r)
+            r2['choices'] = ['答案：' + c for c in r['choices']]
+            f.write(json.dumps(r2, ensure_ascii=False) + '\n')
     print(f'{name}: {len(rows)} rows ->', path)
 
 def write_yaml(task, datafile, desc):
@@ -70,6 +74,13 @@ for it in items:
 dump('cceval_kno', rows)
 write_yaml('cceval_kno', 'cceval_kno',
            '国际中文教育等级知识（音节/汉字/词汇/语法点定级，锚定 GF 0025-2021）')
+# KNO 分片（供 CPU/限时环境分段跑：4 片 × 100 题）
+CH = 100
+for ci in range(0, len(rows), CH):
+    part = rows[ci:ci + CH]
+    name = f'cceval_kno_p{ci // CH + 1}'
+    dump(name, part)
+    write_yaml(name, name, f'CC-Eval KNO 分片 {ci // CH + 1}（合并 acc 按题数加权）')
 
 # ---- cceval_pho_legal：音节合法性 60 题（二选一）----
 rows = []

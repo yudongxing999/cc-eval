@@ -1,30 +1,30 @@
-{"instruction": "词语「局长」中，第 2 个字「长」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["cháng", "zhǎng"], "gold": 1, "item_id": "CCE-PHO-5-0010", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「通过」中，第 2 个字「过」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["guo", "guò"], "gold": 1, "item_id": "CCE-PHO-2-0014", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「恨不得」中，第 3 个字「得」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["de", "dé", "děi"], "gold": 0, "item_id": "CCE-PHO-7-0029", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「原创」中，第 2 个字「创」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["chuàng", "chuāng"], "gold": 0, "item_id": "CCE-PHO-7-0030", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「人间」中，第 2 个字「间」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["jiàn", "jiān"], "gold": 1, "item_id": "CCE-PHO-5-0011", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「好在」中，第 1 个字「好」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["hào", "hǎo"], "gold": 1, "item_id": "CCE-PHO-7-0031", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「当今」中，第 1 个字「当」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["dàng", "dāng"], "gold": 1, "item_id": "CCE-PHO-7-0032", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「大人」中，第 1 个字「大」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["dà", "dài"], "gold": 0, "item_id": "CCE-PHO-2-0015", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「结尾」中，第 1 个字「结」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["jié", "jiē"], "gold": 0, "item_id": "CCE-PHO-7-0033", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「发射」中，第 1 个字「发」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["fà", "fā"], "gold": 1, "item_id": "CCE-PHO-5-0012", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「运动会」中，第 3 个字「会」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["huì", "kuài"], "gold": 0, "item_id": "CCE-PHO-4-0009", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「差错」中，第 1 个字「差」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["chà", "chā", "chāi"], "gold": 1, "item_id": "CCE-PHO-7-0034", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「排行榜」中，第 2 个字「行」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["háng", "xíng"], "gold": 0, "item_id": "CCE-PHO-6-0006", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「强制」中，第 1 个字「强」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["jiàng", "qiáng", "qiǎng"], "gold": 1, "item_id": "CCE-PHO-7-0035", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「大臣」中，第 1 个字「大」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["dà", "dài"], "gold": 0, "item_id": "CCE-PHO-7-0036", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「体会」中，第 2 个字「会」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["huì", "kuài"], "gold": 0, "item_id": "CCE-PHO-3-0008", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「爱好」中，第 2 个字「好」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["hào", "hǎo"], "gold": 0, "item_id": "CCE-PHO-1-0021", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「曲线」中，第 1 个字「曲」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["qū", "qǔ"], "gold": 0, "item_id": "CCE-PHO-7-0037", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「中国」中，第 1 个字「中」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["zhòng", "zhōng"], "gold": 1, "item_id": "CCE-PHO-1-0022", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「打发」中，第 1 个字「打」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["dá", "dǎ"], "gold": 1, "item_id": "CCE-PHO-6-0007", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「重组」中，第 1 个字「重」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["chóng", "zhòng"], "gold": 0, "item_id": "CCE-PHO-6-0008", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「虐待」中，第 2 个字「待」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["dài", "dāi"], "gold": 0, "item_id": "CCE-PHO-7-0038", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「传闻」中，第 1 个字「传」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["chuán", "zhuàn"], "gold": 0, "item_id": "CCE-PHO-7-0039", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「保重」中，第 2 个字「重」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["chóng", "zhòng"], "gold": 1, "item_id": "CCE-PHO-7-0040", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「推行」中，第 2 个字「行」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["háng", "xíng"], "gold": 1, "item_id": "CCE-PHO-5-0013", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「十分」中，第 2 个字「分」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["fèn", "fēn"], "gold": 1, "item_id": "CCE-PHO-2-0016", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「禁止」中，第 1 个字「禁」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["jìn", "jīn"], "gold": 0, "item_id": "CCE-PHO-4-0010", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「没说的」中，第 1 个字「没」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["méi", "mò"], "gold": 0, "item_id": "CCE-PHO-7-0041", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「可恶」中，第 2 个字「恶」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["wù", "è", "ě"], "gold": 0, "item_id": "CCE-PHO-7-0042", "sub_type": "pho.polyphonic"}
-{"instruction": "词语「鲜血」中，第 2 个字「血」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["xiě", "xuè"], "gold": 1, "item_id": "CCE-PHO-7-0043", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「局长」中，第 2 个字「长」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：cháng", "答案：zhǎng"], "gold": 1, "item_id": "CCE-PHO-5-0010", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「通过」中，第 2 个字「过」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：guo", "答案：guò"], "gold": 1, "item_id": "CCE-PHO-2-0014", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「恨不得」中，第 3 个字「得」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：de", "答案：dé", "答案：děi"], "gold": 0, "item_id": "CCE-PHO-7-0029", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「原创」中，第 2 个字「创」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：chuàng", "答案：chuāng"], "gold": 0, "item_id": "CCE-PHO-7-0030", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「人间」中，第 2 个字「间」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：jiàn", "答案：jiān"], "gold": 1, "item_id": "CCE-PHO-5-0011", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「好在」中，第 1 个字「好」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：hào", "答案：hǎo"], "gold": 1, "item_id": "CCE-PHO-7-0031", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「当今」中，第 1 个字「当」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：dàng", "答案：dāng"], "gold": 1, "item_id": "CCE-PHO-7-0032", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「大人」中，第 1 个字「大」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：dà", "答案：dài"], "gold": 0, "item_id": "CCE-PHO-2-0015", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「结尾」中，第 1 个字「结」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：jié", "答案：jiē"], "gold": 0, "item_id": "CCE-PHO-7-0033", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「发射」中，第 1 个字「发」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：fà", "答案：fā"], "gold": 1, "item_id": "CCE-PHO-5-0012", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「运动会」中，第 3 个字「会」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：huì", "答案：kuài"], "gold": 0, "item_id": "CCE-PHO-4-0009", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「差错」中，第 1 个字「差」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：chà", "答案：chā", "答案：chāi"], "gold": 1, "item_id": "CCE-PHO-7-0034", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「排行榜」中，第 2 个字「行」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：háng", "答案：xíng"], "gold": 0, "item_id": "CCE-PHO-6-0006", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「强制」中，第 1 个字「强」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：jiàng", "答案：qiáng", "答案：qiǎng"], "gold": 1, "item_id": "CCE-PHO-7-0035", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「大臣」中，第 1 个字「大」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：dà", "答案：dài"], "gold": 0, "item_id": "CCE-PHO-7-0036", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「体会」中，第 2 个字「会」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：huì", "答案：kuài"], "gold": 0, "item_id": "CCE-PHO-3-0008", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「爱好」中，第 2 个字「好」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：hào", "答案：hǎo"], "gold": 0, "item_id": "CCE-PHO-1-0021", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「曲线」中，第 1 个字「曲」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：qū", "答案：qǔ"], "gold": 0, "item_id": "CCE-PHO-7-0037", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「中国」中，第 1 个字「中」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：zhòng", "答案：zhōng"], "gold": 1, "item_id": "CCE-PHO-1-0022", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「打发」中，第 1 个字「打」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：dá", "答案：dǎ"], "gold": 1, "item_id": "CCE-PHO-6-0007", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「重组」中，第 1 个字「重」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：chóng", "答案：zhòng"], "gold": 0, "item_id": "CCE-PHO-6-0008", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「虐待」中，第 2 个字「待」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：dài", "答案：dāi"], "gold": 0, "item_id": "CCE-PHO-7-0038", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「传闻」中，第 1 个字「传」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：chuán", "答案：zhuàn"], "gold": 0, "item_id": "CCE-PHO-7-0039", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「保重」中，第 2 个字「重」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：chóng", "答案：zhòng"], "gold": 1, "item_id": "CCE-PHO-7-0040", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「推行」中，第 2 个字「行」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：háng", "答案：xíng"], "gold": 1, "item_id": "CCE-PHO-5-0013", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「十分」中，第 2 个字「分」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：fèn", "答案：fēn"], "gold": 1, "item_id": "CCE-PHO-2-0016", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「禁止」中，第 1 个字「禁」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：jìn", "答案：jīn"], "gold": 0, "item_id": "CCE-PHO-4-0010", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「没说的」中，第 1 个字「没」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：méi", "答案：mò"], "gold": 0, "item_id": "CCE-PHO-7-0041", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「可恶」中，第 2 个字「恶」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：wù", "答案：è", "答案：ě"], "gold": 0, "item_id": "CCE-PHO-7-0042", "sub_type": "pho.polyphonic"}
+{"instruction": "词语「鲜血」中，第 2 个字「血」在该词中的正确读音是什么？请只回答带声调的拼音，不要解释。", "choices": ["答案：xiě", "答案：xuè"], "gold": 1, "item_id": "CCE-PHO-7-0043", "sub_type": "pho.polyphonic"}
