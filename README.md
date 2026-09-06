@@ -84,3 +84,12 @@ python runner/summarize.py mymodel
 ## 许可
 
 代码与原创题库：[MIT License](LICENSE)。第三方标准数据与语料的著作权归原权利方。
+
+
+## v1.1 更新：PHO 语音规范维度（新增 180 题）
+
+- `items/v1.1/items.jsonl` = v1.0 全部 1555 题 + PHO 语音维度 180 题（共 1735 题）
+- 四个子任务：音节合法性判断（60）、音节定级（40）、词语实际读音/变调轻声儿化（50）、多音字语境定音（30）
+- 全部 exact_match 确定性评分；拼音答案经声调符→数字归一化比对（见 `runner/run_eval.py` 的 `canon_pinyin`）
+- 生成器：`items/gen_pho_items.py`（种子 20260906，可复现）
+- 施测：`python runner/run_eval.py --items items/v1.1/items.jsonl ...`
