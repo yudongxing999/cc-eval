@@ -154,10 +154,11 @@ def add_item(sub, level, anchor, instruction, answer, tags, source_id, contam):
 
 # ---------- 1) pho.syl_legal 音节合法性 60 题（30 合法 + 30 非法） ----------
 legal_sample = random.sample(syllables, 30)
-for syl in legal_sample:
+for s in legal_sample:
+    syl = s['syllable']
     add_item('pho.syl_legal', 9, {'syllable': syl},
              f'根据《国际中文教育中文水平等级标准》（GF 0025-2021）音节表，带调音节「{syl}」是否为合法的普通话音节？请只回答：合法 或 非法。',
-             '合法', ['语音', '音节'], f'syllable#{syl}', 'mid')
+             '合法', ['语音', '音节'], f'syllable#{s["no"]}', 'mid')
 
 fake_pool = []
 # (a) 声韵组合不存在型
