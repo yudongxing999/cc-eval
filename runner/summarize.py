@@ -25,7 +25,7 @@ print(f'已评: {sum(len(v) for v in by_task.values())}  待评委(llm_rubric): 
 tot_all = [s for v in by_task.values() for s in v]
 print(f'可机判题总得分率: {sum(tot_all)/len(tot_all)*100:.1f}%  (n={len(tot_all)})')
 print()
-for t in ('KNO', 'ERR', 'SCO', 'GEN', 'CUL', 'PED'):
+for t in ('KNO', 'ERR', 'SCO', 'GEN', 'CUL', 'PED', 'PHO'):
     v = by_task.get(t)
     if v: print(f'{t}: {sum(v)/len(v)*100:.1f}%  (n={len(v)})')
 print()

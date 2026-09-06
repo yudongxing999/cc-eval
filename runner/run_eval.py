@@ -50,6 +50,29 @@ def clean_output(s):
     return s.strip()
 
 # ---------- 评分器 ----------
+# 拼音规范化：声调符→数字原位，ü 归一，去空格/隔音符/连字符
+TONE2NUM = {}
+for _base, _marks in [('a', 'āáǎà'), ('o', 'ōóǒò'), ('e', 'ēéěè'),
+                      ('i', 'īíǐì'), ('u', 'ūúǔù'), ('ü', 'ǖǘǚǜ'), ('ê', 'ếề')]:
+    for _i, _m in enumerate(_marks, 1):
+        TONE2NUM[_m] = _base + str(_i)
+
+def canon_pinyin(s):
+    s = s.lower().replace('u:', 'ü').replace('v', 'ü')
+    out = []
+    for ch in s:
+        if ch in TONE2NUM:
+            out.append(TONE2NUM[ch])
+        elif ch.isalpha() or ch.isdigit():
+            out.append(ch)
+    return ''.join(out)
+
+PY_TOKEN = re.compile(r"[A-Za-züÜāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ][A-Za-züÜāáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜ0-9'·\-]*")
+def extract_pinyin(out):
+    o = clean_output(out)
+    m = PY_TOKEN.search(o)
+    return canon_pinyin(m.group(0)) if m else canon_pinyin(o)
+
 NUM_CN = {'一': '1', '二': '2', '三': '3', '四': '4', '五': '5', '六': '6'}
 def norm_level(s):
     s = clean_output(s)
@@ -63,8 +86,20 @@ def norm_level(s):
 
 def score_exact(item, out):
     gold = str(item['reference']['answer'])
-    if item['sub_type'].startswith('kno.'):
+    st = item['sub_type']
+    if st.startswith('kno.') or st == 'pho.syl_level':
         return 1.0 if norm_level(out) == gold else 0.0
+    if st == 'pho.syl_legal':
+        o = clean_output(out)
+        if re.search(r'非法|不合法|不存在|不是合法|不属于|不合法', o):
+            pred = '非法'
+        elif '合法' in o:
+            pred = '合法'
+        else:
+            return 0.0
+        return 1.0 if pred == gold else 0.0
+    if st in ('pho.tone_actual', 'pho.polyphonic'):
+        return 1.0 if extract_pinyin(out) == canon_pinyin(gold) else 0.0
     pred = clean_output(out).strip('。「」 \n')
     gold_n = gold.strip()
     return 1.0 if (pred == gold_n or gold_n in pred and len(pred) <= len(gold_n) + 6) else 0.0
@@ -165,18 +200,22 @@ def main():
     ap.add_argument('--budget', type=int, default=260, help='本次运行秒数预算')
     ap.add_argument('--only-scorer', default=None)
     ap.add_argument('--rpm', type=float, default=0, help='每分钟请求上限，0=不限')
+    ap.add_argument('--items', default=os.path.join(ROOT, 'items/v1.0/items.jsonl'), help='题库文件路径')
+    ap.add_argument('--max-items', type=int, default=0, help='最多施测题数（0=不限，烟测用）')
     args = ap.parse_args()
 
     base = args.base or os.environ['KIMI_BASE_URL']
     key = args.key or os.environ['KIMI_API_KEY']
     name = args.name or args.model
-    items = [json.loads(l) for l in open(os.path.join(ROOT, 'items/v1.0/items.jsonl'), encoding='utf-8')]
+    items = [json.loads(l) for l in open(args.items, encoding='utf-8')]
     outdir = os.path.join(ROOT, 'results', name)
     os.makedirs(outdir, exist_ok=True)
     done = {f[:-5] for f in os.listdir(outdir) if f.endswith('.json')}
     todo = [i for i in items if i['item_id'] not in done]
     if args.only_scorer:
         todo = [i for i in todo if i['scoring']['type'] == args.only_scorer]
+    if args.max_items > 0:
+        todo = todo[:args.max_items]
     print(f"name={name} model={args.model} total={len(items)} done={len(done)} todo={len(todo)}")
 
     t0 = time.time(); n = 0

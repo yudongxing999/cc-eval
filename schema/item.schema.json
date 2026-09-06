@@ -7,14 +7,14 @@
   "properties": {
     "item_id": {
       "type": "string",
-      "pattern": "^CCE-(KNO|ERR|SCO|GEN|CUL|PED)-[1-79]-[0-9]{4}$",
+      "pattern": "^CCE-(KNO|ERR|SCO|GEN|CUL|PED|PHO)-[1-79]-[0-9]{4}$",
       "description": "CCE-<任务>-<锚定等级>-<序号>；等级 1-6，7 代表 7-9 高等，9 代表不锚定等级"
     },
     "version": {"type": "string", "description": "题目版本，如 0.1.0"},
     "task_type": {
       "type": "string",
-      "enum": ["KNO", "ERR", "SCO", "GEN", "CUL", "PED"],
-      "description": "KNO=等级知识 ERR=偏误识别与纠正 SCO=作文评分与反馈 GEN=分级生成控制 CUL=文化语用 PED=教学专业能力"
+      "enum": ["KNO", "ERR", "SCO", "GEN", "CUL", "PED", "PHO"],
+      "description": "KNO=等级知识 ERR=偏误识别与纠正 SCO=作文评分与反馈 GEN=分级生成控制 CUL=文化语用 PED=教学专业能力 PHO=语音规范（v1.1 新增）"
     },
     "sub_type": {"type": "string", "description": "任务细分，如 err.detect / err.correct / gen.rewrite"},
     "anchor": {
@@ -27,7 +27,8 @@
         "char": {"type": "string", "description": "汉字表条目"},
         "culture_section": {"type": "string", "description": "文化框架二级项目 id"},
         "teacher_competence": {"type": "string", "description": "教师标准条目编号"},
-        "textbook_indicator": {"type": "string", "description": "教材评价指标编号"}
+        "textbook_indicator": {"type": "string", "description": "教材评价指标编号"},
+        "syllable": {"type": "string", "description": "音节表条目（PHO 维度）"}
       },
       "minProperties": 1
     },
