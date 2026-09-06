@@ -1,0 +1,193 @@
+{
+  "n": 30,
+  "judge1": "k3-agent",
+  "judge2": "deepseek-chat",
+  "pearson_r": 0.2187,
+  "spearman_rho": 0.432,
+  "mean_abs_diff": 0.055,
+  "agreement_within_0.15": 0.8667,
+  "k3_mean": 0.935,
+  "judge2_mean": 0.9767,
+  "pairs": [
+    {
+      "model": "ernie",
+      "item_id": "CCE-CUL-9-0062",
+      "k3": 0.9,
+      "j2": 0.8
+    },
+    {
+      "model": "deepseek",
+      "item_id": "CCE-GEN-3-0065",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "k2d6-agent",
+      "item_id": "CCE-GEN-6-0009",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "k2d6-agent",
+      "item_id": "CCE-CUL-9-0015",
+      "k3": 0.8,
+      "j2": 1.0
+    },
+    {
+      "model": "hunyuan",
+      "item_id": "CCE-GEN-5-0026",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "ernie",
+      "item_id": "CCE-PED-9-0129",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "ernie",
+      "item_id": "CCE-CUL-9-0025",
+      "k3": 0.9,
+      "j2": 0.8
+    },
+    {
+      "model": "doubao",
+      "item_id": "CCE-PED-9-0112",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "stepfun",
+      "item_id": "CCE-PED-9-0098",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "deepseek",
+      "item_id": "CCE-GEN-6-0003",
+      "k3": 0.8,
+      "j2": 1.0
+    },
+    {
+      "model": "deepseek",
+      "item_id": "CCE-GEN-5-0026",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "doubao",
+      "item_id": "CCE-PED-9-0139",
+      "k3": 0.9,
+      "j2": 1.0
+    },
+    {
+      "model": "hunyuan",
+      "item_id": "CCE-GEN-3-0066",
+      "k3": 0.9,
+      "j2": 1.0
+    },
+    {
+      "model": "hunyuan",
+      "item_id": "CCE-PED-9-0114",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "zhipu",
+      "item_id": "CCE-GEN-2-0065",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "deepseek",
+      "item_id": "CCE-GEN-3-0071",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "hunyuan",
+      "item_id": "CCE-CUL-9-0024",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "stepfun",
+      "item_id": "CCE-GEN-6-0007",
+      "k3": 0.6,
+      "j2": 1.0
+    },
+    {
+      "model": "hunyuan",
+      "item_id": "CCE-GEN-3-0073",
+      "k3": 0.8,
+      "j2": 1.0
+    },
+    {
+      "model": "tchub-dsv4f",
+      "item_id": "CCE-CUL-9-0059",
+      "k3": 0.95,
+      "j2": 1.0
+    },
+    {
+      "model": "k2d6-agent",
+      "item_id": "CCE-PED-9-0103",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "deepseek",
+      "item_id": "CCE-CUL-9-0027",
+      "k3": 0.9,
+      "j2": 0.9
+    },
+    {
+      "model": "grok",
+      "item_id": "CCE-CUL-9-0061",
+      "k3": 0.9,
+      "j2": 1.0
+    },
+    {
+      "model": "stepfun",
+      "item_id": "CCE-PED-9-0101",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "qwen",
+      "item_id": "CCE-CUL-9-0009",
+      "k3": 0.8,
+      "j2": 0.9
+    },
+    {
+      "model": "k2d6-agent",
+      "item_id": "CCE-PED-9-0102",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "grok",
+      "item_id": "CCE-CUL-9-0044",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "hunyuan",
+      "item_id": "CCE-GEN-2-0065",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "k3-agent",
+      "item_id": "CCE-PED-9-0144",
+      "k3": 1.0,
+      "j2": 1.0
+    },
+    {
+      "model": "ernie",
+      "item_id": "CCE-CUL-9-0024",
+      "k3": 0.9,
+      "j2": 0.9
+    }
+  ]
+}
