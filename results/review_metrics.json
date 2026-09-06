@@ -1,0 +1,160 @@
+{
+  "SCO_correlations": {
+    "k3-agent": {
+      "n": 250,
+      "pearson_r": 0.6347,
+      "spearman_rho": 0.6906,
+      "qwk_10pt": 0.5649,
+      "pred_mean": 68.3,
+      "gold_mean": 71.6,
+      "pred_sd": 13.6
+    },
+    "deepseek": {
+      "n": 250,
+      "pearson_r": 0.5487,
+      "spearman_rho": 0.5736,
+      "qwk_10pt": 0.4874,
+      "pred_mean": 71.2,
+      "gold_mean": 71.6,
+      "pred_sd": 12.1
+    },
+    "tchub-dsv4f": {
+      "n": 250,
+      "pearson_r": 0.5256,
+      "spearman_rho": 0.5727,
+      "qwk_10pt": 0.4283,
+      "pred_mean": 66.4,
+      "gold_mean": 71.6,
+      "pred_sd": 14.6
+    },
+    "hunyuan": {
+      "n": 250,
+      "pearson_r": 0.6444,
+      "spearman_rho": 0.6754,
+      "qwk_10pt": 0.4217,
+      "pred_mean": 55.1,
+      "gold_mean": 71.6,
+      "pred_sd": 18.1
+    },
+    "grok": {
+      "n": 250,
+      "pearson_r": 0.5816,
+      "spearman_rho": 0.6529,
+      "qwk_10pt": 0.3766,
+      "pred_mean": 60.4,
+      "gold_mean": 71.6,
+      "pred_sd": 11.9
+    },
+    "k2d6-agent": {
+      "n": 250,
+      "pearson_r": 0.546,
+      "spearman_rho": 0.5459,
+      "qwk_10pt": 0.3308,
+      "pred_mean": 59.4,
+      "gold_mean": 71.6,
+      "pred_sd": 10.9
+    },
+    "ernie": {
+      "n": 250,
+      "pearson_r": 0.5248,
+      "spearman_rho": 0.5649,
+      "qwk_10pt": 0.455,
+      "pred_mean": 67.2,
+      "gold_mean": 71.6,
+      "pred_sd": 12.9
+    },
+    "qwen": {
+      "n": 250,
+      "pearson_r": 0.5126,
+      "spearman_rho": 0.5768,
+      "qwk_10pt": 0.4406,
+      "pred_mean": 76.8,
+      "gold_mean": 71.6,
+      "pred_sd": 9.9
+    },
+    "doubao": {
+      "n": 249,
+      "pearson_r": 0.572,
+      "spearman_rho": 0.6023,
+      "qwk_10pt": 0.3422,
+      "pred_mean": 53.2,
+      "gold_mean": 71.6,
+      "pred_sd": 19.4
+    },
+    "stepfun": {
+      "n": 248,
+      "pearson_r": 0.5206,
+      "spearman_rho": 0.5626,
+      "qwk_10pt": 0.4318,
+      "pred_mean": 63.4,
+      "gold_mean": 71.6,
+      "pred_sd": 19.0
+    },
+    "zhipu": {
+      "n": 250,
+      "pearson_r": 0.4051,
+      "spearman_rho": 0.4217,
+      "qwk_10pt": 0.3795,
+      "pred_mean": 71.4,
+      "gold_mean": 71.6,
+      "pred_sd": 13.4
+    }
+  },
+  "GEN_oov": {
+    "k3-agent": {
+      "n": 240,
+      "oov_rate_mean_pct": 12.02,
+      "oov_rate_median_pct": 5.26
+    },
+    "deepseek": {
+      "n": 240,
+      "oov_rate_mean_pct": 15.75,
+      "oov_rate_median_pct": 10.13
+    },
+    "tchub-dsv4f": {
+      "n": 240,
+      "oov_rate_mean_pct": 10.55,
+      "oov_rate_median_pct": 5.38
+    },
+    "hunyuan": {
+      "n": 240,
+      "oov_rate_mean_pct": 8.75,
+      "oov_rate_median_pct": 1.32
+    },
+    "grok": {
+      "n": 240,
+      "oov_rate_mean_pct": 11.36,
+      "oov_rate_median_pct": 5.0
+    },
+    "k2d6-agent": {
+      "n": 240,
+      "oov_rate_mean_pct": 16.79,
+      "oov_rate_median_pct": 11.95
+    },
+    "ernie": {
+      "n": 239,
+      "oov_rate_mean_pct": 20.77,
+      "oov_rate_median_pct": 16.67
+    },
+    "qwen": {
+      "n": 240,
+      "oov_rate_mean_pct": 19.27,
+      "oov_rate_median_pct": 12.5
+    },
+    "doubao": {
+      "n": 240,
+      "oov_rate_mean_pct": 15.36,
+      "oov_rate_median_pct": 9.31
+    },
+    "stepfun": {
+      "n": 240,
+      "oov_rate_mean_pct": 20.84,
+      "oov_rate_median_pct": 15.0
+    },
+    "zhipu": {
+      "n": 240,
+      "oov_rate_mean_pct": 22.55,
+      "oov_rate_median_pct": 18.35
+    }
+  }
+}
