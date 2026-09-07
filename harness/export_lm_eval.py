@@ -81,6 +81,13 @@ for ci in range(0, len(rows), CH):
     name = f'cceval_kno_p{ci // CH + 1}'
     dump(name, part)
     write_yaml(name, name, f'CC-Eval KNO 分片 {ci // CH + 1}（合并 acc 按题数加权）')
+# KNO 细分片（大模型 CPU 推理更慢时改用：8 片 × 50 题；s5-s8 = p3-p4 的拆分）
+CH2 = 50
+for ci in range(0, len(rows), CH2):
+    part = rows[ci:ci + CH2]
+    name = f'cceval_kno_s{ci // CH2 + 1}'
+    dump(name, part)
+    write_yaml(name, name, f'CC-Eval KNO 细分片 {ci // CH2 + 1}（合并 acc 按题数加权）')
 
 # ---- cceval_pho_legal：音节合法性 60 题（二选一）----
 rows = []

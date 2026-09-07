@@ -1,0 +1,19 @@
+# CC-Eval cceval_kno_s8 —— lm-evaluation-harness multiple_choice 任务
+# 生成：harness/export_lm_eval.py（勿手改）
+task: cceval_kno_s8
+dataset_path: json
+dataset_kwargs:
+  data_files:
+    test: data/cceval_kno_s8.jsonl
+test_split: test
+output_type: multiple_choice
+doc_to_text: "{{instruction}}"
+doc_to_choice: "{{choices}}"
+doc_to_target: gold
+metric_list:
+  - metric: acc
+    aggregation: mean
+    higher_is_better: true
+metadata:
+  version: 1.1.0
+  description: "CC-Eval KNO 细分片 8（合并 acc 按题数加权）"
