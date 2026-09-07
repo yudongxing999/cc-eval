@@ -200,7 +200,11 @@ def main():
     ap.add_argument('--budget', type=int, default=260, help='本次运行秒数预算')
     ap.add_argument('--only-scorer', default=None)
     ap.add_argument('--rpm', type=float, default=0, help='每分钟请求上限，0=不限')
-    ap.add_argument('--items', default=os.path.join(ROOT, 'items/v1.0/items.jsonl'), help='题库文件路径')
+    def _default_items():
+        v11 = os.path.join(ROOT, 'items/v1.1/items.jsonl')
+        v10 = os.path.join(ROOT, 'items/v1.0/items.jsonl')
+        return v11 if os.path.isfile(v11) else v10
+    ap.add_argument('--items', default=_default_items(), help='题库文件路径（默认优先 v1.1）')
     ap.add_argument('--max-items', type=int, default=0, help='最多施测题数（0=不限，烟测用）')
     args = ap.parse_args()
 

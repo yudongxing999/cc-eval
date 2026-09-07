@@ -9,7 +9,15 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from run_eval import check_vocab_level, load_lexicon, clean_output
 
-items = {i['item_id']: i for i in (json.loads(l) for l in open(os.path.join(ROOT, 'items/v1.0/items.jsonl'), encoding='utf-8'))}
+def default_items_path():
+    """v1.1 是 v1.0 超集（含 PHO）；优先用 v1.1，避免分析时静默丢题。"""
+    v11 = os.path.join(ROOT, 'items/v1.1/items.jsonl')
+    v10 = os.path.join(ROOT, 'items/v1.0/items.jsonl')
+    return v11 if os.path.isfile(v11) else v10
+
+_items_path = os.environ.get('CCEVAL_ITEMS') or default_items_path()
+items = {i['item_id']: i for i in (json.loads(l) for l in open(_items_path, encoding='utf-8'))}
+print(f'items={_items_path}  n={len(items)}')
 MODELS = ['k3-agent','deepseek','tchub-dsv4f','hunyuan','grok','k2d6-agent','ernie','qwen','doubao','stepfun','zhipu']
 
 def extract_score(out):
