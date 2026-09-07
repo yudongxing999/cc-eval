@@ -88,6 +88,20 @@ for ci in range(0, len(rows), CH2):
     name = f'cceval_kno_s{ci // CH2 + 1}'
     dump(name, part)
     write_yaml(name, name, f'CC-Eval KNO 细分片 {ci // CH2 + 1}（合并 acc 按题数加权）')
+# KNO 微分片（3B+ 模型 CPU 限时环境用：16 片 × 25 题）
+CH3 = 25
+for ci in range(0, len(rows), CH3):
+    part = rows[ci:ci + CH3]
+    name = f'cceval_kno_t{ci // CH3 + 1}'
+    dump(name, part)
+    write_yaml(name, name, f'CC-Eval KNO 微分片 {ci // CH3 + 1}（合并 acc 按题数加权）')
+# KNO 超微分片（系统负载高、单片超时时的兜底：约 34 片 × 12 题）
+CH4 = 12
+for ci in range(0, len(rows), CH4):
+    part = rows[ci:ci + CH4]
+    name = f'cceval_kno_u{ci // CH4 + 1}'
+    dump(name, part)
+    write_yaml(name, name, f'CC-Eval KNO 超微分片 {ci // CH4 + 1}（合并 acc 按题数加权）')
 
 # ---- cceval_pho_legal：音节合法性 60 题（二选一）----
 rows = []
@@ -101,6 +115,12 @@ for it in items:
 dump('cceval_pho_legal', rows)
 write_yaml('cceval_pho_legal', 'cceval_pho_legal',
            '普通话音节合法性判断（锚定 GF 0025-2021 音节表）')
+# 大模型 CPU 限时环境用：legal 2 片 × 30 题
+for ci in range(0, len(rows), 30):
+    part = rows[ci:ci + 30]
+    name = f'cceval_pho_legal_{chr(97 + ci // 30)}'
+    dump(name, part)
+    write_yaml(name, name, f'CC-Eval PHO legal 分片 {chr(97 + ci // 30)}（合并 acc 按题数加权）')
 
 # ---- cceval_pho_level：音节定级 40 题（七选一）----
 rows = []
@@ -117,6 +137,12 @@ for it in items:
 dump('cceval_pho_level', rows)
 write_yaml('cceval_pho_level', 'cceval_pho_level',
            '带调音节等级定位（锚定 GF 0025-2021 音节表）')
+# 大模型 CPU 限时环境用：level 2 片 × 20 题
+for ci in range(0, len(rows), 20):
+    part = rows[ci:ci + 20]
+    name = f'cceval_pho_level_{chr(97 + ci // 20)}'
+    dump(name, part)
+    write_yaml(name, name, f'CC-Eval PHO level 分片 {chr(97 + ci // 20)}（合并 acc 按题数加权）')
 
 # ---- cceval_pho_poly：多音字语境定音 30 题（候选=该字全部标准读音）----
 rows = []

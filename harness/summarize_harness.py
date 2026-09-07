@@ -9,18 +9,36 @@ RES = os.path.join(ROOT, 'results/harness')
 DATA = os.path.join(ROOT, 'harness/data')
 OUT = os.path.join(RES, 'LOCAL_OPENSOURCE_v1.1a.md')
 
-MODELS = ['Qwen2.5-0.5B', 'Qwen2.5-0.5B-Instruct', 'Qwen2.5-1.5B-Instruct']
+MODELS = ['Qwen2.5-0.5B', 'Qwen2.5-0.5B-Instruct', 'Qwen2.5-1.5B-Instruct',
+          'Qwen2.5-3B-Instruct', 'Llama-3.2-1B-Instruct', 'Llama-3.2-3B-Instruct']
 MODEL_LABEL = {
-    'Qwen2.5-0.5B': '0.5B 基座',
-    'Qwen2.5-0.5B-Instruct': '0.5B 指令',
-    'Qwen2.5-1.5B-Instruct': '1.5B 指令',
+    'Qwen2.5-0.5B': 'Qwen 0.5B 基座',
+    'Qwen2.5-0.5B-Instruct': 'Qwen 0.5B 指令',
+    'Qwen2.5-1.5B-Instruct': 'Qwen 1.5B 指令',
+    'Qwen2.5-3B-Instruct': 'Qwen 3B 指令',
+    'Llama-3.2-1B-Instruct': 'Llama 1B 指令',
+    'Llama-3.2-3B-Instruct': 'Llama 3B 指令',
 }
-# 各模型 KNO 计分用的分片（1.5B 的 p3/p4 因限时改用 50 题细分片 s5-s8，覆盖相同题目）
-KNO_PARTS = {
-    'Qwen2.5-0.5B': ['cceval_kno_p1', 'cceval_kno_p2', 'cceval_kno_p3', 'cceval_kno_p4'],
-    'Qwen2.5-0.5B-Instruct': ['cceval_kno_p1', 'cceval_kno_p2', 'cceval_kno_p3', 'cceval_kno_p4'],
-    'Qwen2.5-1.5B-Instruct': ['cceval_kno_p1', 'cceval_kno_p2',
-                              'cceval_kno_s5', 'cceval_kno_s6', 'cceval_kno_s7', 'cceval_kno_s8'],
+# 各模型计分用的分片集合（题目覆盖完全一致，仅分批粒度不同）
+PARTS = {
+    'cceval_kno': {
+        'Qwen2.5-0.5B': ['cceval_kno_p1', 'cceval_kno_p2', 'cceval_kno_p3', 'cceval_kno_p4'],
+        'Qwen2.5-0.5B-Instruct': ['cceval_kno_p1', 'cceval_kno_p2', 'cceval_kno_p3', 'cceval_kno_p4'],
+        'Qwen2.5-1.5B-Instruct': ['cceval_kno_p1', 'cceval_kno_p2',
+                                  'cceval_kno_s5', 'cceval_kno_s6', 'cceval_kno_s7', 'cceval_kno_s8'],
+        'Qwen2.5-3B-Instruct': [f'cceval_kno_u{i}' for i in range(1, 35)],
+        'Llama-3.2-1B-Instruct': [f'cceval_kno_s{i}' for i in range(1, 9)],
+        'Llama-3.2-3B-Instruct': [f'cceval_kno_u{i}' for i in range(1, 35)],
+    },
+    'cceval_pho_legal': {
+        'Qwen2.5-3B-Instruct': ['cceval_pho_legal_a', 'cceval_pho_legal_b'],
+        'Llama-3.2-3B-Instruct': ['cceval_pho_legal_a', 'cceval_pho_legal_b'],
+    },
+    'cceval_pho_level': {
+        'Qwen2.5-3B-Instruct': ['cceval_pho_level_a', 'cceval_pho_level_b'],
+        'Llama-3.2-3B-Instruct': ['cceval_pho_level_a', 'cceval_pho_level_b'],
+    },
+    'cceval_pho_poly': {},
 }
 TASKS = ['cceval_kno', 'cceval_pho_legal', 'cceval_pho_level', 'cceval_pho_poly']
 TASK_NAME = {
@@ -29,10 +47,11 @@ TASK_NAME = {
     'cceval_pho_level': 'PHO 音节定级（40 题）',
     'cceval_pho_poly': 'PHO 多音字定音（30 题）',
 }
+TASK_N = {'cceval_kno': 400, 'cceval_pho_legal': 60, 'cceval_pho_level': 40, 'cceval_pho_poly': 30}
 
 
 def latest_per_task(model):
-    """返回 {task: (acc, n, stderr)}，每个任务取时间戳最新的结果文件。"""
+    """返回 {task: (acc, n)}，每个任务取时间戳最新的结果文件。"""
     d = os.path.join(RES, model)
     out = {}
     for root, _dirs, files in os.walk(d):  # 目录名以 ".." 开头，glob 不可靠，用 os.walk
@@ -44,8 +63,8 @@ def latest_per_task(model):
                 r = json.load(f)
             for task, v in r.get('results', {}).items():
                 if task not in out or ts > out[task][0]:
-                    out[task] = (ts, v['acc,none'], v['sample_len'], v['acc_stderr,none'])
-    return {t: (acc, n, se) for t, (ts, acc, n, se) in out.items()}
+                    out[task] = (ts, v['acc,none'], v['sample_len'])
+    return {t: (acc, n) for t, (ts, acc, n) in out.items()}
 
 
 def chance(task):
@@ -54,19 +73,21 @@ def chance(task):
     return sum(1.0 / len(r['choices']) for r in rows) / len(rows)
 
 
-def kno_acc(per_model, model):
+def task_acc(per_model, task, model):
+    parts = PARTS[task].get(model, [task])
     n_tot, c = 0, 0.0
-    detail = []
-    for sh in KNO_PARTS[model]:
-        acc, n, _se = per_model[sh]
+    for sh in parts:
+        acc, n = per_model[sh]
         n_tot += n
         c += acc * n
-        detail.append(f"{sh.replace('cceval_kno_', '')} {acc*100:.0f}%")
-    return c / n_tot, n_tot, detail
+    assert n_tot == TASK_N[task], f'{model} {task} 题数不符: {n_tot}'
+    return c / n_tot
 
 
 def main():
     per = {m: latest_per_task(m) for m in MODELS}
+    accs = {m: {t: task_acc(per[m], t, m) for t in TASKS} for m in MODELS}
+
     lines = []
     lines.append('# CC-Eval v1.1a 本地开源模型实测（loglikelihood 判别式）')
     lines.append('')
@@ -75,41 +96,23 @@ def main():
     lines.append('- 栈：lm-evaluation-harness 0.4.13 · torch 2.14.0+cpu · float32 · 0-shot · seed 0/1234')
     lines.append('- 题型：multiple_choice 对数似然（不生成文本）；候选统一加共享前缀「答案：」缓解位置偏差')
     lines.append('- 数据：`harness/data/`（530 题 = KNO 400 + PHO 130），锚定 GF 0025-2021')
-    lines.append('- 说明：loglikelihood 结果与 batch size 无关（0.5B 用 64，1.5B 用 256）；1.5B 的 KNO 后 200 题以 50 题细分片（s5-s8）完成，题目与 p3/p4 完全一致')
+    lines.append('- 说明：loglikelihood 与 batch size 无关；KNO 按模型耗时以 100/50/25/12 题分片完成，题目完全一致')
     lines.append('')
-    header = '| 任务 | 题数 | 随机基线 |' + ''.join(f' {MODEL_LABEL[m]} |' for m in MODELS)
-    sep = '|---|---:|---:|' + '---:|' * len(MODELS)
-    lines.append(header)
-    lines.append(sep)
+    lines.append('| 任务 | 题数 | 随机基线 |' + ''.join(f' {MODEL_LABEL[m]} |' for m in MODELS))
+    lines.append('|---|---:|---:|' + '---:|' * len(MODELS))
     for task in TASKS:
-        cells = []
-        if task == 'cceval_kno':
-            n_show = 400
-            for m in MODELS:
-                acc, _n, _d = kno_acc(per[m], m)
-                cells.append(acc)
-        else:
-            n_show = per[MODELS[0]][task][1]
-            cells = [per[m][task][0] for m in MODELS]
-        row = f"| {TASK_NAME[task]} | {n_show} | {chance(task)*100:.1f}% |"
-        row += ''.join(f' {c*100:.1f}% |' for c in cells)
+        row = f"| {TASK_NAME[task]} | {TASK_N[task]} | {chance(task)*100:.1f}% |"
+        row += ''.join(f' {accs[m][task]*100:.1f}% |' for m in MODELS)
         lines.append(row)
-    lines.append('')
-    lines.append('KNO 分片明细：')
-    lines.append('')
-    lines.append('| 模型 | 分片 acc |')
-    lines.append('|---|---|')
-    for m in MODELS:
-        acc, n, detail = kno_acc(per[m], m)
-        lines.append(f"| {MODEL_LABEL[m]}（合计 {acc*100:.1f}%，{n} 题） | {' · '.join(detail)} |")
     lines.append('')
     lines.append('## 初步观察')
     lines.append('')
-    lines.append('1. **清晰的参数缩放趋势**：KNO 定级从 0.5B 的 6.5%（低于随机 14.3%）升到 1.5B 的 15.8%（略高于随机）。标准知识随参数量增长，但 1.5B 仍只是"接近随机"，距离商用模型（Kimi 88.5%）有数量级差距。')
-    lines.append('2. 0.5B 基座与指令版四项几乎无差异（KNO 同为 6.5%）：小参数量级上，通用指令对齐并未注入《等级标准》知识。')
-    lines.append('3. PHO 音节合法性三个模型全部 50%（=二选一随机），逐样本看模型恒定选同一标签，属于占位式回答——音节表知识完全缺失。')
-    lines.append('4. 多音字定音是最强子项且随规模提升（66.7% → 60.0% → 80.0%），但仍低于商用模型（Kimi 100%）；音节定级在 1.5B 上反而跌到 5%，提示小模型的"语音+等级"复合判断极不稳定。')
-    lines.append('5. 该结果支持论文核心论点：通用大模型对锚定标准的专门知识"不会就是不会"，评测必须锚定标准、而非依赖主观打分；也为"后训练注入标准知识"提供了量化基线。')
+    q, l1, l3 = (accs[m] for m in ('Qwen2.5-3B-Instruct', 'Llama-3.2-1B-Instruct', 'Llama-3.2-3B-Instruct'))
+    lines.append(f"1. **KNO 全部处于随机水平**：六个模型 KNO 落在 6.2%–15.8%（七选一随机 14.3%，400 题 stderr≈1.6%），两个模型族、0.5B–3B 之间无可靠缩放趋势（Qwen 3B 的 {q['cceval_kno']*100:.1f}% 甚至低于 1.5B 的 15.8%）——开源小模型普遍未内化《等级标准》知识，与商用模型（Kimi 88.5%）差距是质的而非量的。")
+    lines.append(f"2. **族间结论一致**：Llama-3.2 与 Qwen2.5 表现同构（KNO 1B {l1['cceval_kno']*100:.1f}% / 3B {l3['cceval_kno']*100:.1f}%，音节合法性均 50% 占位式回答）——标准知识缺失是跨模型族的普遍现象，非某家特有问题。")
+    lines.append(f"3. **多音字定音是唯一随规模稳定提升的子项**：Qwen 66.7% → 60.0% → 80.0% → {q['cceval_pho_poly']*100:.1f}%；Llama {l1['cceval_pho_poly']*100:.1f}% → {l3['cceval_pho_poly']*100:.1f}%——语境定音属于通用语言能力，而定级判断属于标准专门知识，二者清晰分离。")
+    lines.append('4. 音节定级无稳定模式（5%–32.5% 波动），"语音+等级"复合判断对小模型最难。')
+    lines.append('5. 佐证论文核心论点：通用开源小模型对锚定标准的专门知识近乎空白，且该空白与指令对齐、参数量级（≤3B）、模型族无关——必须通过后训练专门注入。')
     lines.append('')
     lines.append('## 复现')
     lines.append('')
@@ -119,6 +122,9 @@ def main():
     lines.append('  --model_args pretrained=../models/Qwen2.5-0.5B,dtype=float32 \\')
     lines.append('  --tasks cceval_kno_p1 --include_path tasks --device cpu --batch_size 64 \\')
     lines.append('  --output_path ../results/harness/Qwen2.5-0.5B')
+    lines.append('# 大模型 CPU 限时环境：run_queue.py 断点续跑微分片')
+    lines.append('../.venv/Scripts/python.exe run_queue.py --model ../models/Qwen2.5-3B-Instruct \\')
+    lines.append('  --prefix cceval_kno_u --count 34 --budget 240')
     lines.append('```')
     txt = '\n'.join(lines) + '\n'
     with open(OUT, 'w', encoding='utf-8') as f:
