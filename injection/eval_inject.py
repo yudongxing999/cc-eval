@@ -80,34 +80,49 @@ def load_recs(path, limit=None):
         recs = [json.loads(l) for l in text.splitlines() if l.strip()]  # 逐行 JSONL
     return recs[:limit] if limit else recs
 
+RESULT_PATH = os.path.join(ROOT, 'injection/results_inject.json')
 results = {}
+if os.path.exists(RESULT_PATH):
+    try:
+        results = json.load(open(RESULT_PATH, encoding='utf-8'))
+        print(f'断点续跑: 已有 {sum(len(v) for v in results.values())} 组结果')
+    except Exception:
+        results = {}
+
+def eval_mc_cached(model, recs, name, chat_fmt=True, group=None, section=None):
+    key = section
+    if key in results.get(group, {}):
+        print(f'[跳过] {name}（已完成: {results[group][key]}%）')
+        return results[group][key]
+    acc = eval_mc(model, recs, name, chat_fmt)
+    results.setdefault(group, {})[key] = acc
+    json.dump(results, open(RESULT_PATH, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    return acc
 
 # ===== A. 基座 =====
 print('\n===== A. Qwen2.5-0.5B 基座 =====')
 recs_w = load_recs(os.path.join(ROOT, 'injection/data/heldout_words_1000.jsonl'))
 recs_g = load_recs(os.path.join(ROOT, 'injection/data/heldout_grammar.jsonl'))
-results['base'] = {
-    'heldout_words_raw': eval_mc(model, recs_w, '基座/heldout_words', chat_fmt=False),
-    'heldout_words_chat': eval_mc(model, recs_w, '基座/heldout_words'),
-    'heldout_grammar_raw': eval_mc(model, recs_g, '基座/heldout_grammar', chat_fmt=False),
-}
+results.setdefault('base', {})
+eval_mc_cached(model, recs_w, '基座/heldout_words', chat_fmt=False, group='base', section='heldout_words_raw')
+eval_mc_cached(model, recs_w, '基座/heldout_words', group='base', section='heldout_words_chat')
+eval_mc_cached(model, recs_g, '基座/heldout_grammar', chat_fmt=False, group='base', section='heldout_grammar_raw')
 
 # KNO 400（raw = lm-eval 口径，与 v1.1a 的 6.5% 可比；chat = 训练一致口径）
 kno_recs = load_recs(os.path.join(ROOT, 'harness/data/cceval_kno.jsonl'))
-results['base']['kno400_raw'] = eval_mc(model, kno_recs, '基座/kno400', chat_fmt=False)
-results['base']['kno400_chat'] = eval_mc(model, kno_recs, '基座/kno400')
+eval_mc_cached(model, kno_recs, '基座/kno400', chat_fmt=False, group='base', section='kno400_raw')
+eval_mc_cached(model, kno_recs, '基座/kno400', group='base', section='kno400_chat')
 
 # ===== B. 注入后 =====
 print('\n===== B. 基座 + GF0025 LoRA =====')
 model = PeftModel.from_pretrained(model, LORA)
 model.eval()
-results['injected'] = {
-    'heldout_words_chat': eval_mc(model, recs_w, '注入/heldout_words'),
-    'heldout_grammar_chat': eval_mc(model, recs_g, '注入/heldout_grammar'),
-    'seen_chat': eval_mc(model, load_recs(os.path.join(ROOT, 'injection/data/seen_words.jsonl')), '注入/seen'),
-    'kno400_chat': eval_mc(model, kno_recs, '注入/kno400'),
-    'kno400_raw': eval_mc(model, kno_recs, '注入/kno400', chat_fmt=False),
-}
+results.setdefault('injected', {})
+eval_mc_cached(model, recs_w, '注入/heldout_words', group='injected', section='heldout_words_chat')
+eval_mc_cached(model, recs_g, '注入/heldout_grammar', group='injected', section='heldout_grammar_chat')
+eval_mc_cached(model, load_recs(os.path.join(ROOT, 'injection/data/seen_words.jsonl')), '注入/seen', group='injected', section='seen_chat')
+eval_mc_cached(model, kno_recs, '注入/kno400', group='injected', section='kno400_chat')
+eval_mc_cached(model, kno_recs, '注入/kno400', chat_fmt=False, group='injected', section='kno400_raw')
 
 json.dump(results, open(os.path.join(ROOT, 'injection/results_inject.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print('\n===== 结果汇总 =====')

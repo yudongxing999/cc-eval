@@ -1,0 +1,16 @@
+{
+ "base": {
+  "heldout_words_raw": 4.3999999999999995,
+  "heldout_words_chat": 4.3,
+  "heldout_grammar_raw": 16.666666666666664,
+  "kno400_raw": 9.0,
+  "kno400_chat": 6.25
+ },
+ "injected": {
+  "heldout_words_chat": 42.1,
+  "heldout_grammar_chat": 16.666666666666664,
+  "seen_chat": 28.57142857142857,
+  "kno400_chat": 34.25,
+  "kno400_raw": 30.25
+ }
+}
