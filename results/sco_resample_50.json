@@ -1,0 +1,779 @@
+{
+ "hunyuan": {
+  "n": 50,
+  "delta_old": -16.159999999999997,
+  "delta_new": -13.280000000000001,
+  "alpha_old": 0.5965379903674576,
+  "alpha_new": 0.5831939542090633,
+  "pairs": {
+   "CCE-SCO-9-0038": {
+    "gold": 50,
+    "old": 45,
+    "new": 50
+   },
+   "CCE-SCO-9-0024": {
+    "gold": 45,
+    "old": 35,
+    "new": 40
+   },
+   "CCE-SCO-9-0030": {
+    "gold": 50,
+    "old": 10,
+    "new": 15
+   },
+   "CCE-SCO-9-0025": {
+    "gold": 40,
+    "old": 10,
+    "new": 10
+   },
+   "CCE-SCO-9-0023": {
+    "gold": 55,
+    "old": 15,
+    "new": 25
+   },
+   "CCE-SCO-9-0014": {
+    "gold": 55,
+    "old": 30,
+    "new": 35
+   },
+   "CCE-SCO-9-0017": {
+    "gold": 8,
+    "old": 70,
+    "new": 80
+   },
+   "CCE-SCO-9-0043": {
+    "gold": 55,
+    "old": 40,
+    "new": 55
+   },
+   "CCE-SCO-9-0031": {
+    "gold": 55,
+    "old": 50,
+    "new": 65
+   },
+   "CCE-SCO-9-0005": {
+    "gold": 55,
+    "old": 25,
+    "new": 20
+   },
+   "CCE-SCO-9-0101": {
+    "gold": 65,
+    "old": 55,
+    "new": 35
+   },
+   "CCE-SCO-9-0107": {
+    "gold": 65,
+    "old": 40,
+    "new": 30
+   },
+   "CCE-SCO-9-0115": {
+    "gold": 60,
+    "old": 46,
+    "new": 50
+   },
+   "CCE-SCO-9-0147": {
+    "gold": 65,
+    "old": 75,
+    "new": 55
+   },
+   "CCE-SCO-9-0103": {
+    "gold": 60,
+    "old": 45,
+    "new": 60
+   },
+   "CCE-SCO-9-0129": {
+    "gold": 65,
+    "old": 50,
+    "new": 45
+   },
+   "CCE-SCO-9-0110": {
+    "gold": 65,
+    "old": 70,
+    "new": 65
+   },
+   "CCE-SCO-9-0118": {
+    "gold": 65,
+    "old": 35,
+    "new": 30
+   },
+   "CCE-SCO-9-0109": {
+    "gold": 65,
+    "old": 40,
+    "new": 60
+   },
+   "CCE-SCO-9-0113": {
+    "gold": 65,
+    "old": 56,
+    "new": 50
+   },
+   "CCE-SCO-9-0088": {
+    "gold": 75,
+    "old": 76,
+    "new": 78
+   },
+   "CCE-SCO-9-0071": {
+    "gold": 75,
+    "old": 40,
+    "new": 60
+   },
+   "CCE-SCO-9-0070": {
+    "gold": 70,
+    "old": 48,
+    "new": 58
+   },
+   "CCE-SCO-9-0081": {
+    "gold": 70,
+    "old": 35,
+    "new": 35
+   },
+   "CCE-SCO-9-0062": {
+    "gold": 70,
+    "old": 45,
+    "new": 72
+   },
+   "CCE-SCO-9-0097": {
+    "gold": 70,
+    "old": 65,
+    "new": 62
+   },
+   "CCE-SCO-9-0091": {
+    "gold": 70,
+    "old": 72,
+    "new": 80
+   },
+   "CCE-SCO-9-0085": {
+    "gold": 70,
+    "old": 50,
+    "new": 50
+   },
+   "CCE-SCO-9-0057": {
+    "gold": 75,
+    "old": 65,
+    "new": 45
+   },
+   "CCE-SCO-9-0093": {
+    "gold": 70,
+    "old": 62,
+    "new": 56
+   },
+   "CCE-SCO-9-0234": {
+    "gold": 85,
+    "old": 75,
+    "new": 75
+   },
+   "CCE-SCO-9-0212": {
+    "gold": 80,
+    "old": 65,
+    "new": 75
+   },
+   "CCE-SCO-9-0228": {
+    "gold": 80,
+    "old": 63,
+    "new": 60
+   },
+   "CCE-SCO-9-0238": {
+    "gold": 80,
+    "old": 75,
+    "new": 78
+   },
+   "CCE-SCO-9-0243": {
+    "gold": 80,
+    "old": 85,
+    "new": 85
+   },
+   "CCE-SCO-9-0247": {
+    "gold": 80,
+    "old": 68,
+    "new": 65
+   },
+   "CCE-SCO-9-0230": {
+    "gold": 85,
+    "old": 60,
+    "new": 65
+   },
+   "CCE-SCO-9-0211": {
+    "gold": 80,
+    "old": 70,
+    "new": 56
+   },
+   "CCE-SCO-9-0202": {
+    "gold": 85,
+    "old": 60,
+    "new": 70
+   },
+   "CCE-SCO-9-0239": {
+    "gold": 85,
+    "old": 50,
+    "new": 65
+   },
+   "CCE-SCO-9-0177": {
+    "gold": 95,
+    "old": 70,
+    "new": 55
+   },
+   "CCE-SCO-9-0193": {
+    "gold": 95,
+    "old": 62,
+    "new": 62
+   },
+   "CCE-SCO-9-0155": {
+    "gold": 90,
+    "old": 60,
+    "new": 65
+   },
+   "CCE-SCO-9-0188": {
+    "gold": 95,
+    "old": 80,
+    "new": 78
+   },
+   "CCE-SCO-9-0167": {
+    "gold": 90,
+    "old": 80,
+    "new": 82
+   },
+   "CCE-SCO-9-0200": {
+    "gold": 90,
+    "old": 80,
+    "new": 72
+   },
+   "CCE-SCO-9-0169": {
+    "gold": 90,
+    "old": 70,
+    "new": 80
+   },
+   "CCE-SCO-9-0196": {
+    "gold": 95,
+    "old": 45,
+    "new": 78
+   },
+   "CCE-SCO-9-0154": {
+    "gold": 90,
+    "old": 60,
+    "new": 82
+   },
+   "CCE-SCO-9-0159": {
+    "gold": 95,
+    "old": 82,
+    "new": 85
+   }
+  }
+ },
+ "deepseek": {
+  "n": 50,
+  "delta_old": -0.45999999999999375,
+  "delta_new": 0.6800000000000068,
+  "alpha_old": 0.30925384154970953,
+  "alpha_new": 0.19545335041310302,
+  "pairs": {
+   "CCE-SCO-9-0038": {
+    "gold": 50,
+    "old": 75,
+    "new": 65
+   },
+   "CCE-SCO-9-0024": {
+    "gold": 45,
+    "old": 35,
+    "new": 65
+   },
+   "CCE-SCO-9-0030": {
+    "gold": 50,
+    "old": 85,
+    "new": 78
+   },
+   "CCE-SCO-9-0025": {
+    "gold": 40,
+    "old": 42,
+    "new": 68
+   },
+   "CCE-SCO-9-0023": {
+    "gold": 55,
+    "old": 65,
+    "new": 78
+   },
+   "CCE-SCO-9-0014": {
+    "gold": 55,
+    "old": 52,
+    "new": 55
+   },
+   "CCE-SCO-9-0017": {
+    "gold": 8,
+    "old": 78,
+    "new": 78
+   },
+   "CCE-SCO-9-0043": {
+    "gold": 55,
+    "old": 65,
+    "new": 70
+   },
+   "CCE-SCO-9-0031": {
+    "gold": 55,
+    "old": 62,
+    "new": 55
+   },
+   "CCE-SCO-9-0005": {
+    "gold": 55,
+    "old": 58,
+    "new": 45
+   },
+   "CCE-SCO-9-0101": {
+    "gold": 65,
+    "old": 62,
+    "new": 78
+   },
+   "CCE-SCO-9-0107": {
+    "gold": 65,
+    "old": 78,
+    "new": 78
+   },
+   "CCE-SCO-9-0115": {
+    "gold": 60,
+    "old": 65,
+    "new": 65
+   },
+   "CCE-SCO-9-0147": {
+    "gold": 65,
+    "old": 60,
+    "new": 72
+   },
+   "CCE-SCO-9-0103": {
+    "gold": 60,
+    "old": 65,
+    "new": 68
+   },
+   "CCE-SCO-9-0129": {
+    "gold": 65,
+    "old": 48,
+    "new": 68
+   },
+   "CCE-SCO-9-0110": {
+    "gold": 65,
+    "old": 78,
+    "new": 78
+   },
+   "CCE-SCO-9-0118": {
+    "gold": 65,
+    "old": 61,
+    "new": 72
+   },
+   "CCE-SCO-9-0109": {
+    "gold": 65,
+    "old": 63,
+    "new": 78
+   },
+   "CCE-SCO-9-0113": {
+    "gold": 65,
+    "old": 82,
+    "new": 82
+   },
+   "CCE-SCO-9-0088": {
+    "gold": 75,
+    "old": 84,
+    "new": 83
+   },
+   "CCE-SCO-9-0071": {
+    "gold": 75,
+    "old": 78,
+    "new": 78
+   },
+   "CCE-SCO-9-0070": {
+    "gold": 70,
+    "old": 55,
+    "new": 58
+   },
+   "CCE-SCO-9-0081": {
+    "gold": 70,
+    "old": 55,
+    "new": 53
+   },
+   "CCE-SCO-9-0062": {
+    "gold": 70,
+    "old": 68,
+    "new": 55
+   },
+   "CCE-SCO-9-0097": {
+    "gold": 70,
+    "old": 78,
+    "new": 82
+   },
+   "CCE-SCO-9-0091": {
+    "gold": 70,
+    "old": 78,
+    "new": 78
+   },
+   "CCE-SCO-9-0085": {
+    "gold": 70,
+    "old": 65,
+    "new": 65
+   },
+   "CCE-SCO-9-0057": {
+    "gold": 75,
+    "old": 85,
+    "new": 70
+   },
+   "CCE-SCO-9-0093": {
+    "gold": 70,
+    "old": 78,
+    "new": 45
+   },
+   "CCE-SCO-9-0234": {
+    "gold": 85,
+    "old": 78,
+    "new": 75
+   },
+   "CCE-SCO-9-0212": {
+    "gold": 80,
+    "old": 72,
+    "new": 65
+   },
+   "CCE-SCO-9-0228": {
+    "gold": 80,
+    "old": 78,
+    "new": 68
+   },
+   "CCE-SCO-9-0238": {
+    "gold": 80,
+    "old": 76,
+    "new": 83
+   },
+   "CCE-SCO-9-0243": {
+    "gold": 80,
+    "old": 78,
+    "new": 88
+   },
+   "CCE-SCO-9-0247": {
+    "gold": 80,
+    "old": 88,
+    "new": 78
+   },
+   "CCE-SCO-9-0230": {
+    "gold": 85,
+    "old": 75,
+    "new": 78
+   },
+   "CCE-SCO-9-0211": {
+    "gold": 80,
+    "old": 76,
+    "new": 58
+   },
+   "CCE-SCO-9-0202": {
+    "gold": 85,
+    "old": 88,
+    "new": 85
+   },
+   "CCE-SCO-9-0239": {
+    "gold": 85,
+    "old": 42,
+    "new": 68
+   },
+   "CCE-SCO-9-0177": {
+    "gold": 95,
+    "old": 82,
+    "new": 78
+   },
+   "CCE-SCO-9-0193": {
+    "gold": 95,
+    "old": 78,
+    "new": 78
+   },
+   "CCE-SCO-9-0155": {
+    "gold": 90,
+    "old": 78,
+    "new": 78
+   },
+   "CCE-SCO-9-0188": {
+    "gold": 95,
+    "old": 85,
+    "new": 85
+   },
+   "CCE-SCO-9-0167": {
+    "gold": 90,
+    "old": 88,
+    "new": 85
+   },
+   "CCE-SCO-9-0200": {
+    "gold": 90,
+    "old": 82,
+    "new": 78
+   },
+   "CCE-SCO-9-0169": {
+    "gold": 90,
+    "old": 78,
+    "new": 78
+   },
+   "CCE-SCO-9-0196": {
+    "gold": 95,
+    "old": 58,
+    "new": 68
+   },
+   "CCE-SCO-9-0154": {
+    "gold": 90,
+    "old": 80,
+    "new": 83
+   },
+   "CCE-SCO-9-0159": {
+    "gold": 95,
+    "old": 82,
+    "new": 82
+   }
+  }
+ },
+ "tchub-dsv4f": {
+  "n": 50,
+  "delta_old": -4.739999999999995,
+  "delta_new": -5.780000000000001,
+  "alpha_old": 0.43840375009089955,
+  "alpha_new": 0.4748138659387256,
+  "pairs": {
+   "CCE-SCO-9-0038": {
+    "gold": 50,
+    "old": 65,
+    "new": 55
+   },
+   "CCE-SCO-9-0024": {
+    "gold": 45,
+    "old": 68,
+    "new": 50
+   },
+   "CCE-SCO-9-0030": {
+    "gold": 50,
+    "old": 40,
+    "new": 15
+   },
+   "CCE-SCO-9-0025": {
+    "gold": 40,
+    "old": 40,
+    "new": 25
+   },
+   "CCE-SCO-9-0023": {
+    "gold": 55,
+    "old": 45,
+    "new": 45
+   },
+   "CCE-SCO-9-0014": {
+    "gold": 55,
+    "old": 55,
+    "new": 50
+   },
+   "CCE-SCO-9-0017": {
+    "gold": 8,
+    "old": 60,
+    "new": 75
+   },
+   "CCE-SCO-9-0043": {
+    "gold": 55,
+    "old": 75,
+    "new": 70
+   },
+   "CCE-SCO-9-0031": {
+    "gold": 55,
+    "old": 55,
+    "new": 62
+   },
+   "CCE-SCO-9-0005": {
+    "gold": 55,
+    "old": 42,
+    "new": 55
+   },
+   "CCE-SCO-9-0101": {
+    "gold": 65,
+    "old": 75,
+    "new": 50
+   },
+   "CCE-SCO-9-0107": {
+    "gold": 65,
+    "old": 65,
+    "new": 75
+   },
+   "CCE-SCO-9-0115": {
+    "gold": 60,
+    "old": 65,
+    "new": 45
+   },
+   "CCE-SCO-9-0147": {
+    "gold": 65,
+    "old": 58,
+    "new": 65
+   },
+   "CCE-SCO-9-0103": {
+    "gold": 60,
+    "old": 65,
+    "new": 60
+   },
+   "CCE-SCO-9-0129": {
+    "gold": 65,
+    "old": 70,
+    "new": 65
+   },
+   "CCE-SCO-9-0110": {
+    "gold": 65,
+    "old": 65,
+    "new": 75
+   },
+   "CCE-SCO-9-0118": {
+    "gold": 65,
+    "old": 30,
+    "new": 60
+   },
+   "CCE-SCO-9-0109": {
+    "gold": 65,
+    "old": 45,
+    "new": 45
+   },
+   "CCE-SCO-9-0113": {
+    "gold": 65,
+    "old": 68,
+    "new": 78
+   },
+   "CCE-SCO-9-0088": {
+    "gold": 75,
+    "old": 85,
+    "new": 85
+   },
+   "CCE-SCO-9-0071": {
+    "gold": 75,
+    "old": 65,
+    "new": 75
+   },
+   "CCE-SCO-9-0070": {
+    "gold": 70,
+    "old": 65,
+    "new": 65
+   },
+   "CCE-SCO-9-0081": {
+    "gold": 70,
+    "old": 45,
+    "new": 45
+   },
+   "CCE-SCO-9-0062": {
+    "gold": 70,
+    "old": 65,
+    "new": 50
+   },
+   "CCE-SCO-9-0097": {
+    "gold": 70,
+    "old": 76,
+    "new": 65
+   },
+   "CCE-SCO-9-0091": {
+    "gold": 70,
+    "old": 78,
+    "new": 80
+   },
+   "CCE-SCO-9-0085": {
+    "gold": 70,
+    "old": 55,
+    "new": 65
+   },
+   "CCE-SCO-9-0057": {
+    "gold": 75,
+    "old": 75,
+    "new": 75
+   },
+   "CCE-SCO-9-0093": {
+    "gold": 70,
+    "old": 75,
+    "new": 70
+   },
+   "CCE-SCO-9-0234": {
+    "gold": 85,
+    "old": 90,
+    "new": 70
+   },
+   "CCE-SCO-9-0212": {
+    "gold": 80,
+    "old": 65,
+    "new": 55
+   },
+   "CCE-SCO-9-0228": {
+    "gold": 80,
+    "old": 55,
+    "new": 65
+   },
+   "CCE-SCO-9-0238": {
+    "gold": 80,
+    "old": 75,
+    "new": 75
+   },
+   "CCE-SCO-9-0243": {
+    "gold": 80,
+    "old": 89,
+    "new": 88
+   },
+   "CCE-SCO-9-0247": {
+    "gold": 80,
+    "old": 70,
+    "new": 73
+   },
+   "CCE-SCO-9-0230": {
+    "gold": 85,
+    "old": 76,
+    "new": 70
+   },
+   "CCE-SCO-9-0211": {
+    "gold": 80,
+    "old": 55,
+    "new": 65
+   },
+   "CCE-SCO-9-0202": {
+    "gold": 85,
+    "old": 75,
+    "new": 75
+   },
+   "CCE-SCO-9-0239": {
+    "gold": 85,
+    "old": 75,
+    "new": 70
+   },
+   "CCE-SCO-9-0177": {
+    "gold": 95,
+    "old": 78,
+    "new": 82
+   },
+   "CCE-SCO-9-0193": {
+    "gold": 95,
+    "old": 68,
+    "new": 65
+   },
+   "CCE-SCO-9-0155": {
+    "gold": 90,
+    "old": 85,
+    "new": 85
+   },
+   "CCE-SCO-9-0188": {
+    "gold": 95,
+    "old": 85,
+    "new": 85
+   },
+   "CCE-SCO-9-0167": {
+    "gold": 90,
+    "old": 92,
+    "new": 86
+   },
+   "CCE-SCO-9-0200": {
+    "gold": 90,
+    "old": 50,
+    "new": 85
+   },
+   "CCE-SCO-9-0169": {
+    "gold": 90,
+    "old": 80,
+    "new": 62
+   },
+   "CCE-SCO-9-0196": {
+    "gold": 95,
+    "old": 65,
+    "new": 65
+   },
+   "CCE-SCO-9-0154": {
+    "gold": 90,
+    "old": 83,
+    "new": 75
+   },
+   "CCE-SCO-9-0159": {
+    "gold": 95,
+    "old": 85,
+    "new": 88
+   }
+  }
+ }
+}

@@ -1,0 +1,733 @@
+{
+ "n": 120,
+ "judge1": "k3-agent",
+ "judge2": "deepseek-chat(deepseek-chat)",
+ "pearson_r": 0.5198575325307205,
+ "spearman_rho": 0.5901329953468991,
+ "agreement_within_0.15": 0.725,
+ "mean_abs_diff": 0.0995833333333333,
+ "k3_mean": 0.8604166666666669,
+ "judge2_mean": 0.9308333333333335,
+ "pairs": [
+  {
+   "model": "ernie",
+   "item_id": "CCE-GEN-2-0067",
+   "k3": 0.4,
+   "j2": 1.0
+  },
+  {
+   "model": "k3-agent",
+   "item_id": "CCE-GEN-4-0034",
+   "k3": 0.9,
+   "j2": 1.0
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-GEN-1-0066",
+   "k3": 0.8,
+   "j2": 0.9
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-GEN-4-0030",
+   "k3": 0.5,
+   "j2": 0.5
+  },
+  {
+   "model": "ernie",
+   "item_id": "CCE-CUL-9-0026",
+   "k3": 0.7,
+   "j2": 0.8
+  },
+  {
+   "model": "hunyuan",
+   "item_id": "CCE-GEN-5-0026",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "stepfun",
+   "item_id": "CCE-PED-9-0092",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-CUL-9-0032",
+   "k3": 0.8,
+   "j2": 0.8
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-CUL-9-0026",
+   "k3": 0.8,
+   "j2": 1.0
+  },
+  {
+   "model": "hunyuan",
+   "item_id": "CCE-PED-9-0144",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "deepseek",
+   "item_id": "CCE-CUL-9-0011",
+   "k3": 0.9,
+   "j2": 1.0
+  },
+  {
+   "model": "doubao",
+   "item_id": "CCE-GEN-6-0005",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "ernie",
+   "item_id": "CCE-CUL-9-0059",
+   "k3": 0.8,
+   "j2": 0.9
+  },
+  {
+   "model": "k2d6-agent",
+   "item_id": "CCE-PED-9-0140",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "ernie",
+   "item_id": "CCE-CUL-9-0007",
+   "k3": 0.8,
+   "j2": 1.0
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-CUL-9-0061",
+   "k3": 0.8,
+   "j2": 1.0
+  },
+  {
+   "model": "deepseek",
+   "item_id": "CCE-CUL-9-0048",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-CUL-9-0030",
+   "k3": 0.7,
+   "j2": 0.6
+  },
+  {
+   "model": "k3-agent",
+   "item_id": "CCE-GEN-2-0075",
+   "k3": 0.8,
+   "j2": 1.0
+  },
+  {
+   "model": "hunyuan",
+   "item_id": "CCE-CUL-9-0071",
+   "k3": 0.6,
+   "j2": 0.8
+  },
+  {
+   "model": "stepfun",
+   "item_id": "CCE-CUL-9-0045",
+   "k3": 1.0,
+   "j2": 0.8
+  },
+  {
+   "model": "k2d6-agent",
+   "item_id": "CCE-CUL-9-0042",
+   "k3": 0.8,
+   "j2": 0.9
+  },
+  {
+   "model": "qwen",
+   "item_id": "CCE-CUL-9-0040",
+   "k3": 0.9,
+   "j2": 0.9
+  },
+  {
+   "model": "qwen",
+   "item_id": "CCE-CUL-9-0076",
+   "k3": 0.8,
+   "j2": 1.0
+  },
+  {
+   "model": "qwen",
+   "item_id": "CCE-PED-9-0109",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-GEN-5-0027",
+   "k3": 0.3,
+   "j2": 0.3
+  },
+  {
+   "model": "doubao",
+   "item_id": "CCE-GEN-4-0028",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "qwen",
+   "item_id": "CCE-CUL-9-0010",
+   "k3": 0.6,
+   "j2": 0.8
+  },
+  {
+   "model": "doubao",
+   "item_id": "CCE-PED-9-0123",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "k3-agent",
+   "item_id": "CCE-CUL-9-0010",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "k2d6-agent",
+   "item_id": "CCE-PED-9-0142",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-GEN-2-0067",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "ernie",
+   "item_id": "CCE-PED-9-0135",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "k3-agent",
+   "item_id": "CCE-GEN-1-0065",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "deepseek",
+   "item_id": "CCE-GEN-2-0077",
+   "k3": 1.0,
+   "j2": 0.7
+  },
+  {
+   "model": "qwen",
+   "item_id": "CCE-GEN-5-0028",
+   "k3": 0.9,
+   "j2": 0.9
+  },
+  {
+   "model": "qwen",
+   "item_id": "CCE-GEN-3-0066",
+   "k3": 0.8,
+   "j2": 0.4
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-GEN-3-0069",
+   "k3": 0.7,
+   "j2": 1.0
+  },
+  {
+   "model": "stepfun",
+   "item_id": "CCE-PED-9-0099",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "doubao",
+   "item_id": "CCE-PED-9-0127",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "stepfun",
+   "item_id": "CCE-CUL-9-0051",
+   "k3": 0.8,
+   "j2": 0.7
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-CUL-9-0063",
+   "k3": 0.75,
+   "j2": 0.8
+  },
+  {
+   "model": "ernie",
+   "item_id": "CCE-GEN-1-0068",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "stepfun",
+   "item_id": "CCE-PED-9-0112",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-GEN-2-0070",
+   "k3": 0.7,
+   "j2": 1.0
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-CUL-9-0033",
+   "k3": 0.7,
+   "j2": 0.7
+  },
+  {
+   "model": "stepfun",
+   "item_id": "CCE-CUL-9-0048",
+   "k3": 0.9,
+   "j2": 0.9
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-PED-9-0122",
+   "k3": 0.9,
+   "j2": 0.9
+  },
+  {
+   "model": "k2d6-agent",
+   "item_id": "CCE-CUL-9-0071",
+   "k3": 0.8,
+   "j2": 1.0
+  },
+  {
+   "model": "stepfun",
+   "item_id": "CCE-GEN-6-0009",
+   "k3": 0.8,
+   "j2": 1.0
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-PED-9-0134",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-GEN-5-0025",
+   "k3": 0.8,
+   "j2": 1.0
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-PED-9-0095",
+   "k3": 0.9,
+   "j2": 1.0
+  },
+  {
+   "model": "deepseek",
+   "item_id": "CCE-GEN-3-0066",
+   "k3": 0.8,
+   "j2": 1.0
+  },
+  {
+   "model": "hunyuan",
+   "item_id": "CCE-GEN-5-0031",
+   "k3": 0.8,
+   "j2": 0.9
+  },
+  {
+   "model": "ernie",
+   "item_id": "CCE-GEN-6-0005",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "doubao",
+   "item_id": "CCE-CUL-9-0004",
+   "k3": 0.95,
+   "j2": 1.0
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-PED-9-0117",
+   "k3": 0.8,
+   "j2": 1.0
+  },
+  {
+   "model": "stepfun",
+   "item_id": "CCE-PED-9-0128",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-PED-9-0097",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "ernie",
+   "item_id": "CCE-PED-9-0141",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-PED-9-0146",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "hunyuan",
+   "item_id": "CCE-PED-9-0099",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "ernie",
+   "item_id": "CCE-GEN-3-0066",
+   "k3": 0.9,
+   "j2": 1.0
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-GEN-2-0065",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-PED-9-0094",
+   "k3": 0.9,
+   "j2": 1.0
+  },
+  {
+   "model": "k2d6-agent",
+   "item_id": "CCE-CUL-9-0040",
+   "k3": 0.8,
+   "j2": 1.0
+  },
+  {
+   "model": "stepfun",
+   "item_id": "CCE-CUL-9-0064",
+   "k3": 0.6,
+   "j2": 0.9
+  },
+  {
+   "model": "k3-agent",
+   "item_id": "CCE-CUL-9-0074",
+   "k3": 0.95,
+   "j2": 1.0
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-CUL-9-0077",
+   "k3": 0.7,
+   "j2": 0.7
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-PED-9-0133",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "stepfun",
+   "item_id": "CCE-PED-9-0143",
+   "k3": 1.0,
+   "j2": 0.9
+  },
+  {
+   "model": "hunyuan",
+   "item_id": "CCE-CUL-9-0039",
+   "k3": 0.9,
+   "j2": 1.0
+  },
+  {
+   "model": "k3-agent",
+   "item_id": "CCE-CUL-9-0019",
+   "k3": 0.9,
+   "j2": 1.0
+  },
+  {
+   "model": "k2d6-agent",
+   "item_id": "CCE-GEN-4-0025",
+   "k3": 0.5,
+   "j2": 0.9
+  },
+  {
+   "model": "deepseek",
+   "item_id": "CCE-CUL-9-0038",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "deepseek",
+   "item_id": "CCE-GEN-6-0008",
+   "k3": 0.7,
+   "j2": 0.9
+  },
+  {
+   "model": "grok",
+   "item_id": "CCE-CUL-9-0021",
+   "k3": 0.9,
+   "j2": 1.0
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-GEN-2-0070",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-PED-9-0115",
+   "k3": 0.8,
+   "j2": 1.0
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-CUL-9-0027",
+   "k3": 0.7,
+   "j2": 0.6
+  },
+  {
+   "model": "qwen",
+   "item_id": "CCE-GEN-1-0076",
+   "k3": 0.8,
+   "j2": 1.0
+  },
+  {
+   "model": "hunyuan",
+   "item_id": "CCE-CUL-9-0028",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "k2d6-agent",
+   "item_id": "CCE-CUL-9-0077",
+   "k3": 0.8,
+   "j2": 0.9
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-CUL-9-0010",
+   "k3": 0.7,
+   "j2": 0.7
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-GEN-6-0002",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-GEN-4-0028",
+   "k3": 0.7,
+   "j2": 1.0
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-CUL-9-0058",
+   "k3": 0.75,
+   "j2": 1.0
+  },
+  {
+   "model": "stepfun",
+   "item_id": "CCE-PED-9-0148",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "deepseek",
+   "item_id": "CCE-PED-9-0091",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "k3-agent",
+   "item_id": "CCE-CUL-9-0002",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "k3-agent",
+   "item_id": "CCE-GEN-3-0072",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-GEN-2-0068",
+   "k3": 0.4,
+   "j2": 1.0
+  },
+  {
+   "model": "ernie",
+   "item_id": "CCE-CUL-9-0008",
+   "k3": 0.95,
+   "j2": 0.8
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-CUL-9-0015",
+   "k3": 0.95,
+   "j2": 1.0
+  },
+  {
+   "model": "zhipu",
+   "item_id": "CCE-GEN-6-0003",
+   "k3": 0.5,
+   "j2": 1.0
+  },
+  {
+   "model": "k2d6-agent",
+   "item_id": "CCE-CUL-9-0072",
+   "k3": 0.6,
+   "j2": 1.0
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-CUL-9-0075",
+   "k3": 0.9,
+   "j2": 0.8
+  },
+  {
+   "model": "grok",
+   "item_id": "CCE-PED-9-0109",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "stepfun",
+   "item_id": "CCE-PED-9-0113",
+   "k3": 0.9,
+   "j2": 0.8
+  },
+  {
+   "model": "doubao",
+   "item_id": "CCE-CUL-9-0067",
+   "k3": 0.9,
+   "j2": 1.0
+  },
+  {
+   "model": "k2d6-agent",
+   "item_id": "CCE-GEN-2-0077",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "qwen",
+   "item_id": "CCE-GEN-6-0003",
+   "k3": 0.6,
+   "j2": 0.7
+  },
+  {
+   "model": "ernie",
+   "item_id": "CCE-CUL-9-0001",
+   "k3": 0.8,
+   "j2": 0.8
+  },
+  {
+   "model": "hunyuan",
+   "item_id": "CCE-CUL-9-0007",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "stepfun",
+   "item_id": "CCE-GEN-2-0076",
+   "k3": 0.9,
+   "j2": 1.0
+  },
+  {
+   "model": "grok",
+   "item_id": "CCE-CUL-9-0007",
+   "k3": 0.8,
+   "j2": 1.0
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-CUL-9-0060",
+   "k3": 0.9,
+   "j2": 1.0
+  },
+  {
+   "model": "deepseek",
+   "item_id": "CCE-CUL-9-0058",
+   "k3": 0.8,
+   "j2": 1.0
+  },
+  {
+   "model": "doubao",
+   "item_id": "CCE-PED-9-0133",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "deepseek",
+   "item_id": "CCE-CUL-9-0001",
+   "k3": 0.9,
+   "j2": 1.0
+  },
+  {
+   "model": "tchub-dsv4f",
+   "item_id": "CCE-CUL-9-0068",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "doubao",
+   "item_id": "CCE-PED-9-0096",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "hunyuan",
+   "item_id": "CCE-CUL-9-0024",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "k2d6-agent",
+   "item_id": "CCE-CUL-9-0027",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "ernie",
+   "item_id": "CCE-GEN-2-0074",
+   "k3": 0.9,
+   "j2": 1.0
+  },
+  {
+   "model": "deepseek",
+   "item_id": "CCE-PED-9-0136",
+   "k3": 1.0,
+   "j2": 1.0
+  },
+  {
+   "model": "k2d6-agent",
+   "item_id": "CCE-GEN-3-0072",
+   "k3": 0.7,
+   "j2": 1.0
+  },
+  {
+   "model": "qwen",
+   "item_id": "CCE-GEN-1-0065",
+   "k3": 0.5,
+   "j2": 0.4
+  },
+  {
+   "model": "grok",
+   "item_id": "CCE-CUL-9-0041",
+   "k3": 0.85,
+   "j2": 1.0
+  }
+ ]
+}
