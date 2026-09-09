@@ -131,17 +131,17 @@ def main():
             preds.append({'item_id': r.get('item_id'), 'gold': r['gold'], 'pred': pred,
                           'correct': pred == r['gold']})
             n = len(preds)
+            # 每题落盘：环境可能随时回收进程，进度零丢失优先
+            acc0 = sum(p['correct'] for p in preds) / max(1, len(preds))
+            with open(args.out, 'w', encoding='utf-8') as f:
+                json.dump({'gguf': args.gguf, 'data': args.data, 'n': len(preds),
+                           'total': len(rows), 'acc': acc0,
+                           'complete': len(preds) == len(rows),
+                           'seconds': time.time() - t0, 'preds': preds}, f, ensure_ascii=False, indent=1)
             if n % 10 == 0:
                 el = time.time() - t0
                 print(f'{n}/{len(rows)}  {el:.0f}s  eta {el / max(1, n - (len(rows) - len(todo))) * (len(rows) - n):.0f}s',
                       flush=True)
-                # 增量落盘：长跑中断不丢进度
-                acc0 = sum(p['correct'] for p in preds) / max(1, len(preds))
-                with open(args.out, 'w', encoding='utf-8') as f:
-                    json.dump({'gguf': args.gguf, 'data': args.data, 'n': len(preds),
-                               'total': len(rows), 'acc': acc0,
-                               'complete': len(preds) == len(rows),
-                               'seconds': el, 'preds': preds}, f, ensure_ascii=False, indent=1)
             if time.time() - t0 > args.budget:
                 print('预算用尽，保存进度', flush=True)
                 break
