@@ -89,6 +89,15 @@ def score_exact(item, out):
     st = item['sub_type']
     if st.startswith('kno.') or st == 'pho.syl_level':
         return 1.0 if norm_level(out) == gold else 0.0
+    if st == 'lr.reading':
+        o = clean_output(out)
+        if re.search(r'不正确|错误|否|没提及|错', o):
+            pred = '错'
+        elif re.search(r'正确|是|对', o):
+            pred = '对'
+        else:
+            return 0.0
+        return 1.0 if pred == gold else 0.0
     if st == 'pho.syl_legal':
         o = clean_output(out)
         if re.search(r'非法|不合法|不存在|不是合法|不属于|不合法', o):
@@ -145,8 +154,43 @@ def score_gen(item, out):
     total = (1 if ok else 0) + (1 if not missing else 0)
     return total / 2 if req else (1.0 if ok else 0.0)
 
+def score_litsearch(item, out):
+    """文献检索题（rb.litsearch）：模型推荐的文献与金标集合按"第一作者+年份"或
+    标题关键词模糊匹配，命中数 / min(3, |金标|) 计分。金标在 reference.gold_meta.gold_set。"""
+    g = item['reference'].get('gold_meta') or {}
+    gold_set = g.get('gold_set') or []
+    if not gold_set:
+        return 0.0
+    o = clean_output(out)
+    lines = [l.strip(' 　·-–—*0123456789.') for l in o.splitlines() if l.strip()]
+    n_hit = 0
+    for gd in gold_set:
+        # 金标格式："第一作者 等 (年份)《标题》"
+        m = re.match(r'(.+?)\s*等?\s*[（(](\d{4})[)）]', gd)
+        author = (m.group(1) if m else gd).strip()
+        year = m.group(2) if m else ''
+        for l in lines:
+            if year and year in l and author[:6] in l:
+                n_hit += 1
+                break
+            # 标题长词兜底：金标标题去《》后取最长词段匹配
+            mt = re.search(r'《(.+?)》', gd)
+            if mt:
+                tkey = max(mt.group(1).split(), key=len)[:14]
+                if tkey in l:
+                    n_hit += 1
+                    break
+    k = min(3, len(gold_set))
+    return round(min(n_hit, k) / k, 2)
+
 SCORERS = {"exact_match": score_exact, "numeric_proximity": score_numeric,
            "set_overlap": score_err, "deterministic_rule": score_gen}
+
+def score_item(item, out):
+    """按 sub_type 分发评分器：rb.litsearch 用专用文献匹配器，其余按 scoring.type。"""
+    if item.get('sub_type') == 'rb.litsearch':
+        return score_litsearch(item, out)
+    return SCORERS[item['scoring']['type']](item, out)
 
 # ---------- API ----------
 def chat(base, key, model, messages, tries=4, thinking=False):
@@ -185,7 +229,7 @@ def run_one(base, key, model, item, thinking=False):
     if st == 'llm_rubric':
         return {"output": out, "score": None, "note": "pending judge"}
     try:
-        return {"output": out, "score": SCORERS[st](item, out)}
+        return {"output": out, "score": score_item(item, out)}
     except Exception as e:
         return {"output": out, "score": None, "error": f"scorer: {e}"}
 
