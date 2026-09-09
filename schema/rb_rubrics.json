@@ -1,0 +1,91 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ResearchBench 八维专家量表注册表（RB-Rubric-1.0）",
+  "designer": "于东兴（Dongxing Yu）",
+  "designed": "2026-09-08",
+  "license_note": "个人原创设计；使用需署名：ResearchBench 八维专家量表体系，于东兴设计（2026）",
+  "design_provenance": "量表结构迁移自设计者《学术论文写作》课程评价体系（16 周教学框架，附录 A 锚定式三档评分标准、评审意见书五段式、ABT/CCC/证据链方法论），经课堂真实评审迭代验证后向大模型科研能力评测迁移再设计",
+  "rubrics": {
+    "rb.topic": {
+      "dim_name": "研究选题",
+      "bench": "RB-R1",
+      "scale": 10,
+      "dims": [
+        {"dim": "选题价值", "max": 4, "excellent": "切中国际中文教育真实痛点，能说出谁需要这个答案", "pass": "有意义但价值陈述空泛", "poor": "纯粹跟风或无实际需求"},
+        {"dim": "可研究性", "max": 3, "excellent": "问题边界清楚，可在现有数据/方法条件下检验", "pass": "方向可行但范围模糊", "poor": "无法操作化或需不现实的数据"},
+        {"dim": "学术定位", "max": 3, "excellent": "明确指出与既有文献的关系（填补/扩展/反驳）", "pass": "提及文献但定位不清", "poor": "无文献对话"}
+      ]
+    },
+    "rb.question": {
+      "dim_name": "研究问题设计",
+      "bench": "RB-R2",
+      "scale": 10,
+      "dims": [
+        {"dim": "清晰性", "max": 4, "excellent": "问题用可观察变量表述，无歧义", "pass": "方向清楚但表述含混", "poor": "一句话里混入多个问题"},
+        {"dim": "可检验性", "max": 3, "excellent": "能转化为假设/可测量的对比，判据明确", "pass": "可检验但判据缺失", "poor": "不可证伪"},
+        {"dim": "与选题衔接", "max": 3, "excellent": "每个问题都服务主线", "pass": "部分问题游离", "poor": "问题与选题脱节"}
+      ]
+    },
+    "rb.review_lit": {
+      "dim_name": "文献综述",
+      "bench": "RB-R5",
+      "scale": 10,
+      "dims": [
+        {"dim": "综合能力", "max": 4, "excellent": "按主题/方法脉络组织多篇文献，指出共识与分歧", "pass": "罗列式但各篇相关", "poor": "逐篇摘要，无综合"},
+        {"dim": "批判性", "max": 3, "excellent": "指出既有方法的局限与证据缺口", "pass": "提到局限但无证据", "poor": "只褒不贬"},
+        {"dim": "空白识别", "max": 3, "excellent": "归纳的研究空白与综述逻辑一致", "pass": "有空白但跳跃", "poor": "无空白或凭空断言"}
+      ]
+    },
+    "rb.design": {
+      "dim_name": "研究设计",
+      "bench": "RB-R6",
+      "scale": 10,
+      "dims": [
+        {"dim": "方法-问题匹配", "max": 4, "excellent": "设计能直接回答研究问题，变量与判据对齐", "pass": "大体匹配但有冗余", "poor": "方法与问题脱节"},
+        {"dim": "严谨性", "max": 3, "excellent": "有对照组/基线、混淆控制、信效度考虑", "pass": "有基本控制但欠严谨", "poor": "无控制或逻辑跳跃"},
+        {"dim": "可操作性", "max": 3, "excellent": "样本、流程、分析步骤可执行可复现", "pass": "概略可行但细节缺失", "poor": "纸面设计无法落地"}
+      ]
+    },
+    "rb.analysis": {
+      "dim_name": "数据分析",
+      "bench": "RB-R7",
+      "scale": 10,
+      "dims": [
+        {"dim": "方法正确性", "max": 4, "excellent": "统计方法与数据类型/研究问题匹配，前提假设明示", "pass": "方法基本正确", "poor": "方法误用"},
+        {"dim": "解释准确性", "max": 3, "excellent": "解读限于统计结论本身，不外推", "pass": "解读基本对但偶有外推", "poor": "解读错误"},
+        {"dim": "规范性", "max": 3, "excellent": "报告统计量、效应量与显著性，符合 APA 风格", "pass": "报告不全", "poor": "无规范报告"}
+      ]
+    },
+    "rb.corpus": {
+      "dim_name": "语料与计算分析",
+      "bench": "RB-R8",
+      "scale": 10,
+      "dims": [
+        {"dim": "技术正确性", "max": 4, "excellent": "语料处理/统计/NLP 流程设计正确，规避分词/去重/抽样等坑", "pass": "流程可用但有瑕疵", "poor": "流程有原则性错误"},
+        {"dim": "任务适配性", "max": 3, "excellent": "设计与研究问题贴合，产出可评价", "pass": "部分贴合", "poor": "为技术而技术"},
+        {"dim": "可复现性", "max": 3, "excellent": "步骤参数化、可脚本化复现，说明版本与种子", "pass": "描述可循但不完整", "poor": "无法复现"}
+      ]
+    },
+    "rb.academic_writing": {
+      "dim_name": "学术写作",
+      "bench": "RB-R9",
+      "scale": 10,
+      "dims": [
+        {"dim": "IMRaD/CCC 结构", "max": 3, "excellent": "章节功能明确，段落有主题句与收束", "pass": "结构基本对但段落松散", "poor": "无结构"},
+        {"dim": "证据链", "max": 3, "excellent": "论断均由前文证据支撑，无凭空断言", "pass": "偶有断言无证据", "poor": "大量无证据断言"},
+        {"dim": "语言清晰度", "max": 2, "excellent": "动词驱动、少名词化、一遍可读", "pass": "偶有冗长难句", "poor": "堆砌难读"},
+        {"dim": "引用规范", "max": 2, "excellent": "引用可追溯、格式统一、引文与观点对位", "pass": "少量格式错漏", "poor": "引文错位或幻觉引用"}
+      ]
+    },
+    "rb.interpret": {
+      "dim_name": "研究结果解释",
+      "bench": "RB-R10",
+      "scale": 10,
+      "dims": [
+        {"dim": "解释合理性", "max": 4, "excellent": "解释与数据模式一致，考虑了替代解释", "pass": "解释合理但未排除替代", "poor": "解释与数据矛盾"},
+        {"dim": "证据一致性", "max": 3, "excellent": "区分数据支持的与推断的，边界清楚", "pass": "偶有越界推断", "poor": "把推断当结论"},
+        {"dim": "理论对话", "max": 3, "excellent": "把结果放回学科概念框架（如迁移/习得阶段）", "pass": "提到理论但联系弱", "poor": "无理论联系"}
+      ]
+    }
+  }
+}
