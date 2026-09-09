@@ -116,7 +116,7 @@ def main():
     log = open(args.out + '.server.log', 'w', encoding='utf-8', errors='replace')
     proc = subprocess.Popen([SERVER, '-m', args.gguf, '--port', str(args.port),
                              '--ctx-size', str(args.ctx), '-t', str(args.threads),
-                             '--cache-reuse', '256', '--no-warmup'],
+                             '--cache-reuse', '256', '--no-warmup', '--mlock'],
                             stdout=log, stderr=subprocess.STDOUT)
     try:
         wait_ready(args.port, proc)
