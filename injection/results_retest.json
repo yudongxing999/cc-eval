@@ -1,0 +1,188 @@
+{
+ "n": 30,
+ "逐字一致率": 0.5,
+ "复测正确率": 0.6,
+ "明细": [
+  {
+   "item_id": "CCE-KNO-6-0032",
+   "orig": "7-9",
+   "retest": "4",
+   "gold": 5
+  },
+  {
+   "item_id": "CCE-KNO-7-0055",
+   "orig": "7-9",
+   "retest": "7-9",
+   "gold": 6
+  },
+  {
+   "item_id": "CCE-KNO-7-0056",
+   "orig": "7-9",
+   "retest": "7-9",
+   "gold": 6
+  },
+  {
+   "item_id": "CCE-KNO-6-0033",
+   "orig": "4",
+   "retest": "2",
+   "gold": 5
+  },
+  {
+   "item_id": "CCE-KNO-7-0057",
+   "orig": "7-9",
+   "retest": "7-9",
+   "gold": 6
+  },
+  {
+   "item_id": "CCE-KNO-7-0058",
+   "orig": "7-9",
+   "retest": "7-9",
+   "gold": 6
+  },
+  {
+   "item_id": "CCE-KNO-5-0019",
+   "orig": "3",
+   "retest": "2",
+   "gold": 4
+  },
+  {
+   "item_id": "CCE-KNO-6-0034",
+   "orig": "4",
+   "retest": "4",
+   "gold": 5
+  },
+  {
+   "item_id": "CCE-KNO-7-0059",
+   "orig": "7-9",
+   "retest": "7-9",
+   "gold": 6
+  },
+  {
+   "item_id": "CCE-KNO-7-0060",
+   "orig": "4",
+   "retest": "7-9",
+   "gold": 6
+  },
+  {
+   "item_id": "CCE-KNO-7-0061",
+   "orig": "7-9",
+   "retest": "7-9",
+   "gold": 6
+  },
+  {
+   "item_id": "CCE-KNO-3-0027",
+   "orig": "7-9",
+   "retest": "4",
+   "gold": 2
+  },
+  {
+   "item_id": "CCE-KNO-7-0062",
+   "orig": "4",
+   "retest": "7-9",
+   "gold": 6
+  },
+  {
+   "item_id": "CCE-KNO-2-0029",
+   "orig": "3",
+   "retest": "3",
+   "gold": 1
+  },
+  {
+   "item_id": "CCE-KNO-4-0024",
+   "orig": "7-9",
+   "retest": "4",
+   "gold": 3
+  },
+  {
+   "item_id": "CCE-KNO-7-0063",
+   "orig": "7-9",
+   "retest": "7-9",
+   "gold": 6
+  },
+  {
+   "item_id": "CCE-KNO-7-0064",
+   "orig": "7-9",
+   "retest": "7-9",
+   "gold": 6
+  },
+  {
+   "item_id": "CCE-KNO-7-0065",
+   "orig": "4",
+   "retest": "7-9",
+   "gold": 6
+  },
+  {
+   "item_id": "CCE-KNO-7-0066",
+   "orig": "7-9",
+   "retest": "7-9",
+   "gold": 6
+  },
+  {
+   "item_id": "CCE-KNO-7-0067",
+   "orig": "7-9",
+   "retest": "7-9",
+   "gold": 6
+  },
+  {
+   "item_id": "CCE-KNO-2-0030",
+   "orig": "5",
+   "retest": "7-9",
+   "gold": 1
+  },
+  {
+   "item_id": "CCE-KNO-5-0020",
+   "orig": "4",
+   "retest": "3",
+   "gold": 4
+  },
+  {
+   "item_id": "CCE-KNO-5-0021",
+   "orig": "4",
+   "retest": "5",
+   "gold": 4
+  },
+  {
+   "item_id": "CCE-KNO-3-0028",
+   "orig": "4",
+   "retest": "3",
+   "gold": 2
+  },
+  {
+   "item_id": "CCE-KNO-5-0022",
+   "orig": "1",
+   "retest": "1",
+   "gold": 4
+  },
+  {
+   "item_id": "CCE-KNO-7-0068",
+   "orig": "7-9",
+   "retest": "4",
+   "gold": 6
+  },
+  {
+   "item_id": "CCE-KNO-7-0069",
+   "orig": "7-9",
+   "retest": "7-9",
+   "gold": 6
+  },
+  {
+   "item_id": "CCE-KNO-5-0023",
+   "orig": "5",
+   "retest": "7-9",
+   "gold": 4
+  },
+  {
+   "item_id": "CCE-KNO-5-0024",
+   "orig": "7-9",
+   "retest": "4",
+   "gold": 4
+  },
+  {
+   "item_id": "CCE-KNO-7-0070",
+   "orig": "7-9",
+   "retest": "7-9",
+   "gold": 6
+  }
+ ],
+ "原测正确率": 0.4666666666666667
+}
