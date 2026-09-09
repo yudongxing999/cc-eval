@@ -40,6 +40,19 @@ PARTS = {
     },
     'cceval_pho_poly': {},
 }
+# GGUF 路线模型（llama.cpp + gguf_score.py，结果文件名固定）
+GGUF_MODELS = ['Qwen2.5-7B-q8_0', 'Llama-3.1-8B-q8_0']
+GGUF_LABEL = {
+    'Qwen2.5-7B-q8_0': 'Qwen 7B 指令 Q8',
+    'Llama-3.1-8B-q8_0': 'Llama 8B 指令 Q8',
+}
+GGUF_FILE = {
+    'cceval_kno': 'kno.json',
+    'cceval_pho_legal': 'pho_legal.json',
+    'cceval_pho_level': 'pho_level.json',
+    'cceval_pho_poly': 'pho_poly.json',
+}
+
 TASKS = ['cceval_kno', 'cceval_pho_legal', 'cceval_pho_level', 'cceval_pho_poly']
 TASK_NAME = {
     'cceval_kno': 'KNO 标准知识定级（400 题）',
@@ -84,9 +97,24 @@ def task_acc(per_model, task, model):
     return c / n_tot
 
 
+def gguf_acc(model):
+    """读取 gguf_score.py 结果，返回 {task: (acc, n, complete)}。"""
+    d = os.path.join(RES, model)
+    out = {}
+    for task, fn in GGUF_FILE.items():
+        p = os.path.join(d, fn)
+        if os.path.exists(p):
+            with open(p, encoding='utf-8') as f:
+                r = json.load(f)
+            out[task] = (r['acc'], r['n'], r.get('complete', False))
+    return out
+
+
 def main():
     per = {m: latest_per_task(m) for m in MODELS}
     accs = {m: {t: task_acc(per[m], t, m) for t in TASKS} for m in MODELS}
+    gaccs = {m: gguf_acc(m) for m in GGUF_MODELS}
+    gaccs = {m: a for m, a in gaccs.items() if a}  # 只保留已有结果的模型
 
     lines = []
     lines.append('# CC-Eval v1.1a 本地开源模型实测（loglikelihood 判别式）')
@@ -105,6 +133,27 @@ def main():
         row += ''.join(f' {accs[m][task]*100:.1f}% |' for m in MODELS)
         lines.append(row)
     lines.append('')
+
+    if gaccs:
+        glabels = [GGUF_LABEL[m] for m in gaccs]
+        lines.append('## 7B/8B 量级（GGUF Q8_0 · llama.cpp · 同口径 loglikelihood 判别式）')
+        lines.append('')
+        lines.append('- 路线：llama-server + `gguf_score.py`（trie 共享候选前缀 + 全词表 logprobs 逐 token 取值），'
+                     '与 lm-eval 同口径公式，0.5B 抽样一致性核验差异 ≤1 题')
+        lines.append('- 量化：Q8_0（引入少量数值噪声，解释跨表对比时需注意）')
+        lines.append('')
+        lines.append('| 任务 | 题数 | 随机基线 |' + ''.join(f' {l} |' for l in glabels))
+        lines.append('|---|---:|---:|' + '---:|' * len(glabels))
+        for task in TASKS:
+            row = f"| {TASK_NAME[task]} | {TASK_N[task]} | {chance(task)*100:.1f}% |"
+            for m in gaccs:
+                if task in gaccs[m]:
+                    acc, n, comp = gaccs[m][task]
+                    row += f' {acc*100:.1f}%{"" if comp else f"({n}/{TASK_N[task]} 部分)"} |'
+                else:
+                    row += ' — |'
+            lines.append(row)
+        lines.append('')
     lines.append('## 初步观察')
     lines.append('')
     q, l1, l3 = (accs[m] for m in ('Qwen2.5-3B-Instruct', 'Llama-3.2-1B-Instruct', 'Llama-3.2-3B-Instruct'))

@@ -7,8 +7,8 @@
   "properties": {
     "item_id": {
       "type": "string",
-      "pattern": "^CCE-(KNO|ERR|SCO|GEN|CUL|PED|PHO)-[1-79]-[0-9]{4}$",
-      "description": "CCE-<任务>-<锚定等级>-<序号>；等级 1-6，7 代表 7-9 高等，9 代表不锚定等级"
+      "pattern": "^CCE-(KNO|ERR|SCO|GEN|CUL|PED|PHO)-[1-9]-[0-9]{4}$",
+      "description": "CCE-<任务>-<锚定等级>-<序号>；等级 1-6，7 代表 7-9 高等，9 代表不锚定等级，8 代表榜单专项题（v1.2 三 Bench 补充维度，原等级见 anchor.bench_level）"
     },
     "version": {"type": "string", "description": "题目版本，如 0.1.0"},
     "task_type": {

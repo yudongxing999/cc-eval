@@ -93,3 +93,17 @@ python runner/summarize.py mymodel
 - 全部 exact_match 确定性评分；拼音答案经声调符→数字归一化比对（见 `runner/run_eval.py` 的 `canon_pinyin`）
 - 生成器：`items/gen_pho_items.py`（种子 20260906，可复现）
 - 施测：`python runner/run_eval.py --items items/v1.1/items.jsonl ...`
+
+## v1.2 更新：三 Bench 榜单维度（新增 441 题，36 维全覆盖）
+
+对接《国际中文教育大模型测评榜单建设规划》（TeacherBench / LearnerBench / ResearchBench 三专项模块）：
+- `items/v1.2/items.jsonl` = v1.1 全部 1735 题 + 榜单专项 361 题（共 2096 题）
+- 一批（`items_bench.jsonl`，186 题）：知识讲解（60）、教学目标设计（20）、课堂活动设计（20）、
+  练习生成（20）、文献检索（6）、文献理解（20）、论文评审（20）、学术真实性（20，1 真 3 假判真伪）
+- 二批（`items_bench_b.jsonl`，100 题，纯现有数据源衍生）：阅读理解（30，文化概要 FMM 分级）、
+  个性化学习（20，HSK 真实画像）、个性化教学（20，偏误档案归因）、口语任务设计（30，职业情境卡）
+- 生成器：`items/gen_bench_items.py` / `items/gen_bench_items_b.py`（种子 20260907，可复现）；ID 用 level=8 专用段
+- 三批（`items_bench_c.jsonl`，75 题，公开官方资料衍生）：路径规划（16，语法大纲教材序列引用）、翻译（29，政府工作报告官方中英对照）、听力理解文本面（30，HSK 官方真题改编）
+- 四批（`items_bench_d.jsonl`，80 题，ResearchBench 八维专家量表题）：研究选题/问题设计/文献综述/研究设计/数据分析/语料计算/学术写作/结果解释各 10 题，量表体系 RB-Rubric-1.0（于东兴个人设计，见 `schema/RB八维专家量表体系.md`）——**至此三 Bench 36 维全部有题**
+- 维度匹配全景（36 个二级维度 × CC-Eval 现有题/缺口/需补数据源）：`report/三Bench维度匹配矩阵.md`
+- 施测：`python runner/run_eval.py --items items/v1.2/items.jsonl ...`

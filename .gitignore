@@ -43,3 +43,11 @@ standard/interpretation/orig_grammar/
 standard/interpretation/orig_hanzi/
 standard/culture-framework/theory_ch1-3_ocr.txt
 standard/culture-framework/teaching_cases.json
+
+# HSK 官方听力真题原始文件（改编出题用，不入库）
+corpus/hsk_listening_raw/
+
+# 金丝雀私藏题集（泄密探测，永不入库不交付）
+items/canary_private/
+kno_7b_run.log
+kno_7b_run.err
