@@ -45,10 +45,12 @@ def clean0(t):
 
 # ---------- 指标函数 ----------
 def qwk(g, p):
-    gs = np.array([max(0, min(10, int(round(x / 10)))) for x in g])
-    ps = np.array([max(0, min(10, int(round(x / 10)))) for x in p])
+    # 论文 3.2：QWK 在 0-100 整数原生网格（101 维）上计算；
+    # 连续值（校准后输出）四舍五入至最近整数后入网格
+    gs = np.array([max(0, min(100, int(x + 0.5))) for x in g])
+    ps = np.array([max(0, min(100, int(x + 0.5))) for x in p])
     n = len(gs)
-    k = 11
+    k = 101
     O = np.zeros((k, k))
     for a, b in zip(gs, ps):
         O[int(a), int(b)] += 1
@@ -59,9 +61,22 @@ def qwk(g, p):
     return float(1 - (w * O).sum() / den) if den else 1.0
 
 def spearman(a, b):
-    ra = np.argsort(np.argsort(a))
-    rb = np.argsort(np.argsort(b))
-    return float(np.corrcoef(ra, rb)[0, 1])
+    # 论文 3.2：平均秩 + 经典公式 1-6Σd²/(n(n²-1))（与表 1 数据同口径）
+    def rank(x):
+        s = sorted(range(len(x)), key=lambda i: x[i])
+        r = [0.0] * len(x)
+        i = 0
+        while i < len(s):
+            j = i
+            while j + 1 < len(s) and x[s[j + 1]] == x[s[i]]:
+                j += 1
+            for t in range(i, j + 1):
+                r[s[t]] = (i + j) / 2 + 1
+            i = j + 1
+        return r
+    ra, rb = rank(a), rank(b)
+    d2 = sum((x - y) ** 2 for x, y in zip(ra, rb))
+    return 1 - 6 * d2 / (len(a) * (len(a) ** 2 - 1))
 
 # ---------- A. 全量对齐指标 ----------
 table = {}
