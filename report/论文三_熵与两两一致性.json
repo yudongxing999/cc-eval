@@ -1,0 +1,513 @@
+{
+ "熵": {
+  "deepseek-chat": 4.0,
+  "qwen-flash": 3.13,
+  "glm-4-flash": 2.79,
+  "ernie-4.5-turbo": 3.32,
+  "grok-3-mini-fast": 3.12,
+  "step-3.7-flash": 5.07,
+  "doubao-seed-1-6": 4.09,
+  "hy3": 4.53,
+  "k2d6-agent": 2.7,
+  "k3-agent": 4.67,
+  "deepseek-v4-flash": 4.39
+ },
+ "两两一致性": [
+  {
+   "a": "qwen-flash",
+   "b": "ernie-4.5-turbo",
+   "n": 250,
+   "pearson": 0.791,
+   "spearman": 0.801,
+   "MAD": 9.9,
+   "bias": -9.6
+  },
+  {
+   "a": "hy3",
+   "b": "k3-agent",
+   "n": 250,
+   "pearson": 0.811,
+   "spearman": 0.794,
+   "MAD": 13.7,
+   "bias": 13.2
+  },
+  {
+   "a": "grok-3-mini-fast",
+   "b": "k3-agent",
+   "n": 250,
+   "pearson": 0.811,
+   "spearman": 0.77,
+   "MAD": 9.3,
+   "bias": 7.9
+  },
+  {
+   "a": "ernie-4.5-turbo",
+   "b": "k3-agent",
+   "n": 250,
+   "pearson": 0.779,
+   "spearman": 0.756,
+   "MAD": 6.9,
+   "bias": 1.1
+  },
+  {
+   "a": "qwen-flash",
+   "b": "grok-3-mini-fast",
+   "n": 250,
+   "pearson": 0.755,
+   "spearman": 0.752,
+   "MAD": 16.5,
+   "bias": -16.4
+  },
+  {
+   "a": "doubao-seed-1-6",
+   "b": "k3-agent",
+   "n": 249,
+   "pearson": 0.772,
+   "spearman": 0.744,
+   "MAD": 16.0,
+   "bias": 15.1
+  },
+  {
+   "a": "ernie-4.5-turbo",
+   "b": "grok-3-mini-fast",
+   "n": 250,
+   "pearson": 0.774,
+   "spearman": 0.74,
+   "MAD": 8.8,
+   "bias": -6.8
+  },
+  {
+   "a": "k2d6-agent",
+   "b": "k3-agent",
+   "n": 250,
+   "pearson": 0.76,
+   "spearman": 0.739,
+   "MAD": 10.9,
+   "bias": 8.9
+  },
+  {
+   "a": "qwen-flash",
+   "b": "k3-agent",
+   "n": 250,
+   "pearson": 0.75,
+   "spearman": 0.735,
+   "MAD": 9.7,
+   "bias": -8.5
+  },
+  {
+   "a": "ernie-4.5-turbo",
+   "b": "doubao-seed-1-6",
+   "n": 249,
+   "pearson": 0.767,
+   "spearman": 0.721,
+   "MAD": 15.5,
+   "bias": -14.0
+  },
+  {
+   "a": "ernie-4.5-turbo",
+   "b": "k2d6-agent",
+   "n": 250,
+   "pearson": 0.724,
+   "spearman": 0.718,
+   "MAD": 9.9,
+   "bias": -7.8
+  },
+  {
+   "a": "grok-3-mini-fast",
+   "b": "hy3",
+   "n": 250,
+   "pearson": 0.753,
+   "spearman": 0.718,
+   "MAD": 10.3,
+   "bias": -5.3
+  },
+  {
+   "a": "step-3.7-flash",
+   "b": "k3-agent",
+   "n": 248,
+   "pearson": 0.726,
+   "spearman": 0.703,
+   "MAD": 10.6,
+   "bias": 5.0
+  },
+  {
+   "a": "qwen-flash",
+   "b": "doubao-seed-1-6",
+   "n": 249,
+   "pearson": 0.715,
+   "spearman": 0.702,
+   "MAD": 23.7,
+   "bias": -23.6
+  },
+  {
+   "a": "ernie-4.5-turbo",
+   "b": "step-3.7-flash",
+   "n": 248,
+   "pearson": 0.739,
+   "spearman": 0.701,
+   "MAD": 10.5,
+   "bias": -3.9
+  },
+  {
+   "a": "qwen-flash",
+   "b": "deepseek-v4-flash",
+   "n": 250,
+   "pearson": 0.685,
+   "spearman": 0.699,
+   "MAD": 11.3,
+   "bias": -10.4
+  },
+  {
+   "a": "grok-3-mini-fast",
+   "b": "k2d6-agent",
+   "n": 250,
+   "pearson": 0.741,
+   "spearman": 0.699,
+   "MAD": 6.3,
+   "bias": -1.0
+  },
+  {
+   "a": "grok-3-mini-fast",
+   "b": "doubao-seed-1-6",
+   "n": 249,
+   "pearson": 0.751,
+   "spearman": 0.695,
+   "MAD": 12.0,
+   "bias": -7.2
+  },
+  {
+   "a": "qwen-flash",
+   "b": "k2d6-agent",
+   "n": 250,
+   "pearson": 0.721,
+   "spearman": 0.693,
+   "MAD": 17.5,
+   "bias": -17.4
+  },
+  {
+   "a": "ernie-4.5-turbo",
+   "b": "hy3",
+   "n": 250,
+   "pearson": 0.745,
+   "spearman": 0.693,
+   "MAD": 13.4,
+   "bias": -12.1
+  },
+  {
+   "a": "doubao-seed-1-6",
+   "b": "hy3",
+   "n": 249,
+   "pearson": 0.739,
+   "spearman": 0.684,
+   "MAD": 10.6,
+   "bias": 1.9
+  },
+  {
+   "a": "step-3.7-flash",
+   "b": "hy3",
+   "n": 248,
+   "pearson": 0.722,
+   "spearman": 0.683,
+   "MAD": 13.0,
+   "bias": -8.2
+  },
+  {
+   "a": "step-3.7-flash",
+   "b": "doubao-seed-1-6",
+   "n": 248,
+   "pearson": 0.727,
+   "spearman": 0.681,
+   "MAD": 14.3,
+   "bias": -10.0
+  },
+  {
+   "a": "doubao-seed-1-6",
+   "b": "k2d6-agent",
+   "n": 249,
+   "pearson": 0.687,
+   "spearman": 0.676,
+   "MAD": 12.0,
+   "bias": 6.2
+  },
+  {
+   "a": "deepseek-chat",
+   "b": "qwen-flash",
+   "n": 250,
+   "pearson": 0.71,
+   "spearman": 0.672,
+   "MAD": 8.0,
+   "bias": 5.6
+  },
+  {
+   "a": "qwen-flash",
+   "b": "step-3.7-flash",
+   "n": 248,
+   "pearson": 0.68,
+   "spearman": 0.671,
+   "MAD": 15.2,
+   "bias": -13.4
+  },
+  {
+   "a": "grok-3-mini-fast",
+   "b": "step-3.7-flash",
+   "n": 248,
+   "pearson": 0.713,
+   "spearman": 0.671,
+   "MAD": 11.4,
+   "bias": 3.0
+  },
+  {
+   "a": "deepseek-chat",
+   "b": "ernie-4.5-turbo",
+   "n": 250,
+   "pearson": 0.711,
+   "spearman": 0.67,
+   "MAD": 7.9,
+   "bias": -4.0
+  },
+  {
+   "a": "grok-3-mini-fast",
+   "b": "deepseek-v4-flash",
+   "n": 250,
+   "pearson": 0.716,
+   "spearman": 0.667,
+   "MAD": 9.7,
+   "bias": 6.0
+  },
+  {
+   "a": "deepseek-chat",
+   "b": "k3-agent",
+   "n": 250,
+   "pearson": 0.719,
+   "spearman": 0.658,
+   "MAD": 7.4,
+   "bias": -2.9
+  },
+  {
+   "a": "step-3.7-flash",
+   "b": "k2d6-agent",
+   "n": 248,
+   "pearson": 0.649,
+   "spearman": 0.653,
+   "MAD": 12.5,
+   "bias": -4.0
+  },
+  {
+   "a": "hy3",
+   "b": "k2d6-agent",
+   "n": 250,
+   "pearson": 0.659,
+   "spearman": 0.652,
+   "MAD": 11.1,
+   "bias": 4.3
+  },
+  {
+   "a": "qwen-flash",
+   "b": "hy3",
+   "n": 250,
+   "pearson": 0.662,
+   "spearman": 0.65,
+   "MAD": 21.9,
+   "bias": -21.7
+  },
+  {
+   "a": "ernie-4.5-turbo",
+   "b": "deepseek-v4-flash",
+   "n": 250,
+   "pearson": 0.686,
+   "spearman": 0.65,
+   "MAD": 8.1,
+   "bias": -0.8
+  },
+  {
+   "a": "deepseek-chat",
+   "b": "grok-3-mini-fast",
+   "n": 250,
+   "pearson": 0.708,
+   "spearman": 0.645,
+   "MAD": 12.0,
+   "bias": -10.8
+  },
+  {
+   "a": "qwen-flash",
+   "b": "glm-4-flash",
+   "n": 250,
+   "pearson": 0.654,
+   "spearman": 0.645,
+   "MAD": 8.7,
+   "bias": -5.4
+  },
+  {
+   "a": "deepseek-chat",
+   "b": "doubao-seed-1-6",
+   "n": 249,
+   "pearson": 0.684,
+   "spearman": 0.643,
+   "MAD": 18.8,
+   "bias": -18.0
+  },
+  {
+   "a": "deepseek-chat",
+   "b": "k2d6-agent",
+   "n": 250,
+   "pearson": 0.693,
+   "spearman": 0.632,
+   "MAD": 12.8,
+   "bias": -11.8
+  },
+  {
+   "a": "doubao-seed-1-6",
+   "b": "deepseek-v4-flash",
+   "n": 249,
+   "pearson": 0.656,
+   "spearman": 0.625,
+   "MAD": 16.0,
+   "bias": 13.2
+  },
+  {
+   "a": "deepseek-chat",
+   "b": "hy3",
+   "n": 250,
+   "pearson": 0.662,
+   "spearman": 0.623,
+   "MAD": 17.1,
+   "bias": -16.1
+  },
+  {
+   "a": "k3-agent",
+   "b": "deepseek-v4-flash",
+   "n": 250,
+   "pearson": 0.661,
+   "spearman": 0.621,
+   "MAD": 8.6,
+   "bias": -1.9
+  },
+  {
+   "a": "deepseek-chat",
+   "b": "deepseek-v4-flash",
+   "n": 250,
+   "pearson": 0.617,
+   "spearman": 0.614,
+   "MAD": 9.4,
+   "bias": -4.8
+  },
+  {
+   "a": "k2d6-agent",
+   "b": "deepseek-v4-flash",
+   "n": 250,
+   "pearson": 0.627,
+   "spearman": 0.61,
+   "MAD": 11.2,
+   "bias": 7.0
+  },
+  {
+   "a": "hy3",
+   "b": "deepseek-v4-flash",
+   "n": 250,
+   "pearson": 0.67,
+   "spearman": 0.609,
+   "MAD": 14.5,
+   "bias": 11.3
+  },
+  {
+   "a": "glm-4-flash",
+   "b": "k3-agent",
+   "n": 250,
+   "pearson": 0.625,
+   "spearman": 0.592,
+   "MAD": 9.5,
+   "bias": -3.1
+  },
+  {
+   "a": "step-3.7-flash",
+   "b": "deepseek-v4-flash",
+   "n": 248,
+   "pearson": 0.608,
+   "spearman": 0.59,
+   "MAD": 12.1,
+   "bias": 3.1
+  },
+  {
+   "a": "glm-4-flash",
+   "b": "k2d6-agent",
+   "n": 250,
+   "pearson": 0.634,
+   "spearman": 0.585,
+   "MAD": 13.5,
+   "bias": -12.0
+  },
+  {
+   "a": "glm-4-flash",
+   "b": "ernie-4.5-turbo",
+   "n": 250,
+   "pearson": 0.624,
+   "spearman": 0.581,
+   "MAD": 9.1,
+   "bias": -4.2
+  },
+  {
+   "a": "glm-4-flash",
+   "b": "grok-3-mini-fast",
+   "n": 250,
+   "pearson": 0.597,
+   "spearman": 0.578,
+   "MAD": 13.2,
+   "bias": -11.0
+  },
+  {
+   "a": "deepseek-chat",
+   "b": "step-3.7-flash",
+   "n": 248,
+   "pearson": 0.608,
+   "spearman": 0.568,
+   "MAD": 12.9,
+   "bias": -7.8
+  },
+  {
+   "a": "glm-4-flash",
+   "b": "doubao-seed-1-6",
+   "n": 249,
+   "pearson": 0.594,
+   "spearman": 0.566,
+   "MAD": 19.4,
+   "bias": -18.2
+  },
+  {
+   "a": "glm-4-flash",
+   "b": "step-3.7-flash",
+   "n": 248,
+   "pearson": 0.579,
+   "spearman": 0.551,
+   "MAD": 13.4,
+   "bias": -8.1
+  },
+  {
+   "a": "glm-4-flash",
+   "b": "deepseek-v4-flash",
+   "n": 250,
+   "pearson": 0.537,
+   "spearman": 0.516,
+   "MAD": 11.0,
+   "bias": -5.0
+  },
+  {
+   "a": "deepseek-chat",
+   "b": "glm-4-flash",
+   "n": 250,
+   "pearson": 0.565,
+   "spearman": 0.509,
+   "MAD": 9.0,
+   "bias": 0.2
+  },
+  {
+   "a": "glm-4-flash",
+   "b": "hy3",
+   "n": 250,
+   "pearson": 0.527,
+   "spearman": 0.503,
+   "MAD": 18.2,
+   "bias": -16.3
+  }
+ ],
+ "熵说明": "H=-p(s)log2p(s) 求和；理论最大 log2(250)≈7.97 bit"
+}
