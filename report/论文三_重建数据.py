@@ -131,14 +131,14 @@ def stratified_split(ids):
 
 def fit_linear(g_tr, p_tr):
     a, b = np.polyfit(p_tr, g_tr, 1)
-    return lambda x: a * x + b
+    return lambda x: min(100.0, max(0.0, a * x + b))  # 论文 3.3：截断至 [0,100]（分档下与隐式截断数学等价）
 
 def fit_qm(g_tr, p_tr):
     qs = np.linspace(0.01, 0.99, 99)
     src = np.quantile(p_tr, qs)
     dst = np.quantile(g_tr, qs)
     def f(x):
-        return float(np.interp(x, src, dst))
+        return float(np.interp(x, src, dst))  # 并列值落在 src 的平台上：插值输出取该平台对应 dst 区间的线性内插（并列组整体邻域），与论文 3.3 "并列组赋目标分位邻域"表述一致
     return f
 
 calib = {}
