@@ -17,7 +17,7 @@ llama.cpp 不暴露 prompt 对数概率，这里用"全词表 top_logprobs + 强
 import argparse, json, os, subprocess, time, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-SERVER = os.path.join(HERE, '..', '..', 'llamacpp', 'llama-server.exe')
+SERVER = os.path.join(HERE, '..', '..', 'llamacpp', 'cc_eval_srv.exe')
 
 
 def post(port, path, payload, timeout=180):
@@ -98,7 +98,7 @@ def main():
     ap.add_argument('--gguf', required=True)
     ap.add_argument('--data', required=True)
     ap.add_argument('--out', required=True)
-    ap.add_argument('--port', type=int, default=8377)
+    ap.add_argument('--port', type=int, default=8477)
     ap.add_argument('--ctx', type=int, default=1024)
     ap.add_argument('--threads', type=int, default=14)
     ap.add_argument('--budget', type=float, default=250.0)
