@@ -1,0 +1,403 @@
+{
+ "对齐指标": {
+  "deepseek-chat": {
+   "n": 250,
+   "QWK": 0.522,
+   "rho": 0.578,
+   "MAE": 10.4,
+   "delta": -0.4,
+   "alpha": 0.426,
+   "beta": 40.7,
+   "uniq_scores": 30,
+   "top_score": 78,
+   "top_score_n": 69,
+   "hi_pred_mean": 80.0,
+   "neg_words": 226,
+   "pos_words": 167,
+   "neg_pos_ratio": 1.35,
+   "lo_band_bias": 11.8,
+   "hi_band_bias": -12.0
+  },
+  "qwen-flash": {
+   "n": 250,
+   "QWK": 0.422,
+   "rho": 0.617,
+   "MAE": 10.7,
+   "delta": 5.2,
+   "alpha": 0.325,
+   "beta": 53.5,
+   "uniq_scores": 15,
+   "top_score": 85,
+   "top_score_n": 61,
+   "hi_pred_mean": 83.4,
+   "neg_words": 227,
+   "pos_words": 309,
+   "neg_pos_ratio": 0.73,
+   "lo_band_bias": 20.0,
+   "hi_band_bias": -8.6
+  },
+  "glm-4-flash": {
+   "n": 250,
+   "QWK": 0.36,
+   "rho": 0.479,
+   "MAE": 12.2,
+   "delta": -0.2,
+   "alpha": 0.347,
+   "beta": 46.6,
+   "uniq_scores": 13,
+   "top_score": 85,
+   "top_score_n": 87,
+   "hi_pred_mean": 80.0,
+   "neg_words": 202,
+   "pos_words": 158,
+   "neg_pos_ratio": 1.28,
+   "lo_band_bias": 15.5,
+   "hi_band_bias": -12.0
+  },
+  "ernie-4.5-turbo": {
+   "n": 250,
+   "QWK": 0.415,
+   "rho": 0.568,
+   "MAE": 10.9,
+   "delta": -4.4,
+   "alpha": 0.434,
+   "beta": 36.1,
+   "uniq_scores": 19,
+   "top_score": 65,
+   "top_score_n": 62,
+   "hi_pred_mean": 75.2,
+   "neg_words": 304,
+   "pos_words": 248,
+   "neg_pos_ratio": 1.23,
+   "lo_band_bias": 6.6,
+   "hi_band_bias": -16.8
+  },
+  "grok-3-mini-fast": {
+   "n": 250,
+   "QWK": 0.394,
+   "rho": 0.714,
+   "MAE": 13.9,
+   "delta": -11.2,
+   "alpha": 0.441,
+   "beta": 28.9,
+   "uniq_scores": 18,
+   "top_score": 62,
+   "top_score_n": 87,
+   "hi_pred_mean": 69.1,
+   "neg_words": 340,
+   "pos_words": 182,
+   "neg_pos_ratio": 1.87,
+   "lo_band_bias": -0.1,
+   "hi_band_bias": -22.9
+  },
+  "step-3.7-flash": {
+   "n": 248,
+   "QWK": 0.443,
+   "rho": 0.562,
+   "MAE": 14.5,
+   "delta": -8.3,
+   "alpha": 0.63,
+   "beta": 18.2,
+   "uniq_scores": 50,
+   "top_score": 65,
+   "top_score_n": 27,
+   "hi_pred_mean": 75.3,
+   "neg_words": 413,
+   "pos_words": 105,
+   "neg_pos_ratio": 3.93,
+   "lo_band_bias": -4.1,
+   "hi_band_bias": -16.7
+  },
+  "doubao-seed-1-6": {
+   "n": 249,
+   "QWK": 0.353,
+   "rho": 0.6,
+   "MAE": 20.6,
+   "delta": -18.3,
+   "alpha": 0.709,
+   "beta": 2.5,
+   "uniq_scores": 26,
+   "top_score": 45,
+   "top_score_n": 32,
+   "hi_pred_mean": 67.7,
+   "neg_words": 341,
+   "pos_words": 117,
+   "neg_pos_ratio": 2.91,
+   "lo_band_bias": -14.9,
+   "hi_band_bias": -24.3
+  },
+  "hy3": {
+   "n": 250,
+   "QWK": 0.414,
+   "rho": 0.683,
+   "MAE": 18.4,
+   "delta": -16.5,
+   "alpha": 0.744,
+   "beta": 1.8,
+   "uniq_scores": 36,
+   "top_score": 45,
+   "top_score_n": 25,
+   "hi_pred_mean": 70.6,
+   "neg_words": 284,
+   "pos_words": 61,
+   "neg_pos_ratio": 4.66,
+   "lo_band_bias": -14.4,
+   "hi_band_bias": -21.4
+  },
+  "k2d6-agent": {
+   "n": 250,
+   "QWK": 0.34,
+   "rho": 0.574,
+   "MAE": 15.0,
+   "delta": -12.2,
+   "alpha": 0.382,
+   "beta": 32.1,
+   "uniq_scores": 15,
+   "top_score": 62,
+   "top_score_n": 63,
+   "hi_pred_mean": 66.7,
+   "neg_words": 477,
+   "pos_words": 133,
+   "neg_pos_ratio": 3.59,
+   "lo_band_bias": 1.1,
+   "hi_band_bias": -25.3
+  },
+  "k3-agent": {
+   "n": 250,
+   "QWK": 0.58,
+   "rho": 0.689,
+   "MAE": 9.8,
+   "delta": -3.3,
+   "alpha": 0.553,
+   "beta": 28.7,
+   "uniq_scores": 41,
+   "top_score": 72,
+   "top_score_n": 25,
+   "hi_pred_mean": 79.0,
+   "neg_words": 294,
+   "pos_words": 252,
+   "neg_pos_ratio": 1.17,
+   "lo_band_bias": 4.3,
+   "hi_band_bias": -13.0
+  },
+  "deepseek-v4-flash": {
+   "n": 250,
+   "QWK": 0.473,
+   "rho": 0.577,
+   "MAE": 12.0,
+   "delta": -5.2,
+   "alpha": 0.491,
+   "beta": 31.2,
+   "uniq_scores": 40,
+   "top_score": 75,
+   "top_score_n": 42,
+   "hi_pred_mean": 76.8,
+   "neg_words": 256,
+   "pos_words": 157,
+   "neg_pos_ratio": 1.63,
+   "lo_band_bias": 5.9,
+   "hi_band_bias": -15.2
+  }
+ },
+ "校准": {
+  "deepseek-chat": {
+   "线性": {
+    "前QWK": 0.522,
+    "后QWK": 0.445,
+    "Δ95CI": [
+     -0.155,
+     -0.018
+    ]
+   },
+   "QM": {
+    "前QWK": 0.522,
+    "后QWK": 0.515,
+    "Δ95CI": [
+     -0.066,
+     0.049
+    ]
+   }
+  },
+  "qwen-flash": {
+   "线性": {
+    "前QWK": 0.422,
+    "后QWK": 0.396,
+    "Δ95CI": [
+     -0.077,
+     0.04
+    ]
+   },
+   "QM": {
+    "前QWK": 0.422,
+    "后QWK": 0.458,
+    "Δ95CI": [
+     -0.023,
+     0.089
+    ]
+   }
+  },
+  "glm-4-flash": {
+   "线性": {
+    "前QWK": 0.364,
+    "后QWK": 0.275,
+    "Δ95CI": [
+     -0.158,
+     -0.019
+    ]
+   },
+   "QM": {
+    "前QWK": 0.364,
+    "后QWK": 0.348,
+    "Δ95CI": [
+     -0.076,
+     0.04
+    ]
+   }
+  },
+  "ernie-4.5-turbo": {
+   "线性": {
+    "前QWK": 0.418,
+    "后QWK": 0.406,
+    "Δ95CI": [
+     -0.11,
+     0.043
+    ]
+   },
+   "QM": {
+    "前QWK": 0.418,
+    "后QWK": 0.487,
+    "Δ95CI": [
+     0.005,
+     0.133
+    ]
+   }
+  },
+  "grok-3-mini-fast": {
+   "线性": {
+    "前QWK": 0.393,
+    "后QWK": 0.479,
+    "Δ95CI": [
+     0.026,
+     0.144
+    ]
+   },
+   "QM": {
+    "前QWK": 0.393,
+    "后QWK": 0.552,
+    "Δ95CI": [
+     0.095,
+     0.231
+    ]
+   }
+  },
+  "step-3.7-flash": {
+   "线性": {
+    "前QWK": 0.444,
+    "后QWK": 0.386,
+    "Δ95CI": [
+     -0.13,
+     0.02
+    ]
+   },
+   "QM": {
+    "前QWK": 0.444,
+    "后QWK": 0.479,
+    "Δ95CI": [
+     -0.034,
+     0.101
+    ]
+   }
+  },
+  "doubao-seed-1-6": {
+   "线性": {
+    "前QWK": 0.353,
+    "后QWK": 0.458,
+    "Δ95CI": [
+     0.03,
+     0.192
+    ]
+   },
+   "QM": {
+    "前QWK": 0.353,
+    "后QWK": 0.527,
+    "Δ95CI": [
+     0.098,
+     0.255
+    ]
+   }
+  },
+  "hy3": {
+   "线性": {
+    "前QWK": 0.415,
+    "后QWK": 0.543,
+    "Δ95CI": [
+     0.06,
+     0.206
+    ]
+   },
+   "QM": {
+    "前QWK": 0.415,
+    "后QWK": 0.612,
+    "Δ95CI": [
+     0.134,
+     0.259
+    ]
+   }
+  },
+  "k2d6-agent": {
+   "线性": {
+    "前QWK": 0.337,
+    "后QWK": 0.388,
+    "Δ95CI": [
+     -0.022,
+     0.155
+    ]
+   },
+   "QM": {
+    "前QWK": 0.337,
+    "后QWK": 0.511,
+    "Δ95CI": [
+     0.118,
+     0.229
+    ]
+   }
+  },
+  "k3-agent": {
+   "线性": {
+    "前QWK": 0.58,
+    "后QWK": 0.548,
+    "Δ95CI": [
+     -0.098,
+     0.026
+    ]
+   },
+   "QM": {
+    "前QWK": 0.58,
+    "后QWK": 0.619,
+    "Δ95CI": [
+     -0.004,
+     0.08
+    ]
+   }
+  },
+  "deepseek-v4-flash": {
+   "线性": {
+    "前QWK": 0.47,
+    "后QWK": 0.41,
+    "Δ95CI": [
+     -0.127,
+     0.006
+    ]
+   },
+   "QM": {
+    "前QWK": 0.47,
+    "后QWK": 0.515,
+    "Δ95CI": [
+     -0.008,
+     0.092
+    ]
+   }
+  }
+ },
+ "说明": "金标=items reference.answer（HSK 语料库人工分）；QWK 按 10 分档；校准 500 次分层自举"
+}
