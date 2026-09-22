@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""审稿修改补充实验（当代语言学稿）：
+"""限级生成补充实验：
 实验A（意见1）：信息单元（IU）保留率——对低违规通过题做命题级核查，
   堵死"Jaccard 表面重叠悖论"（合法释义会拉低重叠率→重叠率≠保真度）。
 实验B（意见3）：FMM 审计器的人工一致性复核——随机抽 50 篇输出做"重判"，
@@ -194,5 +194,5 @@ out_j = {
     '违规构成': {'词表词': n_table, '单字回退': n_fallback,
                '回退TOP': fb_words.most_common(10)},
 }
-json.dump(out_j, open('report/审稿补充_当代语言学实验.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-print('\n保存: report/审稿补充_当代语言学实验.json')
+json.dump(out_j, open('report/研究补充_限级生成实验.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('\n保存: report/研究补充_限级生成实验.json')

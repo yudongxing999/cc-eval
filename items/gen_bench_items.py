@@ -8,7 +8,7 @@
   tb.exercise      练习生成（T10/L9）——给语法点生成练习+答案，llm_rubric
   rb.litsearch     文献检索支持（R3）——给主题推荐代表性文献，set_overlap
   rb.understand    文献理解（R4）——摘要→研究问题/方法/结论，llm_rubric
-  rb.review        论文评审（R11）——真实摘要+注入缺陷找缺陷，exact_match
+  rb.review        论文质量诊断（R11）——真实摘要+注入缺陷找缺陷，exact_match
   rb.authenticity  学术真实性（R12）——1真3假文献判真伪，exact_match
 
 锚定：GF 0025-2021 词汇/语法表 + report/lit/*.csv 真实文献检索记录
@@ -92,7 +92,7 @@ def add_item(task, sub, level, anchor, instruction, inp, ref, scoring, tags,
 TASK_PREFIX = {'TB': 'PED', 'RB': 'PED'}
 PROMPT_SYSTEM = {
     'TB': '你是国际中文教育资深教师培训师，熟悉《国际中文教育中文水平等级标准》（GF 0025-2021）。',
-    'RB': '你是国际中文教育领域的研究方法专家与文献审稿人。',
+    'RB': '你是国际中文教育领域的研究方法与文献分析专家。',
 }
 
 def normalize_scoring(item):
@@ -320,7 +320,7 @@ for x in random.sample(LIT, 20):
                         'abstract': x['abstract'][:500]})
 
 # =====================================================================
-# 7) rb.review 论文评审 20 题（真实摘要+注入缺陷→找缺陷）
+# 7) rb.review 论文质量诊断 20 题（真实摘要+注入缺陷→找缺陷）
 # =====================================================================
 DEFECT_TEMPLATES = [
     ('样本偏差', '研究者仅在单一母语背景的学习者样本上得出了一般性结论，未讨论样本代表性的限制'),
@@ -334,13 +334,13 @@ review_pool = [x for x in LIT if len(x['abstract']) >= 90]
 random.shuffle(review_pool)
 for x in review_pool[:20]:
     defect_name, defect_desc = random.choice(DEFECT_TEMPLATES)
-    instr = (f'下面是一篇投稿论文的摘要。审稿意见指出该文存在一个方法学缺陷。'
+    instr = (f'下面是一篇学术论文的摘要。质量诊断指出该文存在一个方法学缺陷。'
              f'请判断该缺陷属于下列哪一类，只输出类别名称：\n'
              + '\n'.join(f'- {d[0]}' for d in DEFECT_TEMPLATES) +
              '\n只回答类别名称，不要解释。')
     add_item('RB', 'rb.review', 9, {'lit_title': x['title'][:80]}, instr,
-             f'【摘要（含审稿人指出的问题情境）】{x["abstract"][:800]}',
-             defect_name, 'exact_match', ['论文评审', '方法学', defect_name],
+             f'【摘要（含方法学问题情境）】{x["abstract"][:800]}',
+             defect_name, 'exact_match', ['论文质量诊断', '方法学', defect_name],
              'lit-records', f'lit/{x["csv"]}#{x["title"][:40]}', 'low',
              gold_meta={'defect': defect_name, 'defect_desc': defect_desc,
                         'note': '缺陷由出题方注入（摘要情境描述按缺陷改写），金标为缺陷类别'})

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""审稿加固分析：
+"""补充稳健性分析：
 1) SCO：各模型作文分与人工分的 Pearson r / Spearman rho / QWK（10分档离散）
 2) GEN：各模型限级改写的平均超限词率 OOV%（FMM 切分，逐题重算）
 """
@@ -122,7 +122,7 @@ for name in MODELS:
                          'oov_rate_median_pct': round(100*statistics.median(rates), 2)}
 
 res = {'SCO_correlations': sco_out, 'GEN_oov': gen_out}
-out_path = os.path.join(ROOT, 'results', 'review_metrics.json')
+out_path = os.path.join(ROOT, 'results', 'analysis_metrics.json')
 json.dump(res, open(out_path, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
 print(json.dumps(res, ensure_ascii=False, indent=2))
 print('saved:', out_path)

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""审稿修改实验：A. 打分分布信息熵；B. 两两 LLM 在 250 篇作文上的一致性"""
+"""补充稳健性实验：A. 打分分布信息熵；B. 两两 LLM 在 250 篇作文上的一致性"""
 import json, os, re, glob
 import numpy as np
 

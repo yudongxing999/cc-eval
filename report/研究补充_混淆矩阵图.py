@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """意见5：混淆矩阵热力图（未见词条 n=1,000，行=金标等级，列=模型预测）
-投稿稿正文版：黑白灰阶（期刊印刷友好），行百分比归一。
+正文版：黑白灰阶，行百分比归一。
 """
 import json, os
 import matplotlib
@@ -12,7 +12,7 @@ import numpy as np
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-# 混淆矩阵（与 report/审稿补充_混淆矩阵.md 同源：preds_heldout.json）
+# 混淆矩阵（与 report/研究补充_混淆矩阵.md 同源：preds_heldout.json）
 d = json.load(open(os.path.join(ROOT, 'injection/preds_heldout.json'), encoding='utf-8'))
 LV = ['1', '2', '3', '4', '5', '6', '7-9']
 cm = np.zeros((7, 7))
@@ -44,7 +44,7 @@ cbar = fig.colorbar(im, ax=ax, shrink=0.85)
 cbar.set_label('行百分比 (%)', fontsize=10)
 
 plt.tight_layout()
-out = os.path.join(ROOT, 'report/审稿补充_混淆矩阵图.png')
+out = os.path.join(ROOT, 'report/研究补充_混淆矩阵图.png')
 fig.savefig(out, dpi=200, facecolor='white')
 print('保存:', out)
 

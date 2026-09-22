@@ -7,8 +7,8 @@
 - SUBTLEX-CH（Cai & Brysbaert 2010）：词频（W/million）、logW-CD
 - GF 0025 词表：词长、词性
 产出：
-- report/审稿补充_特征回归.json（全部统计量）
-- report/审稿补充_混淆矩阵.md（混淆矩阵表 + Macro-F1 对比）
+- report/研究补充_特征回归.json（全部统计量）
+- report/研究补充_混淆矩阵.md（混淆矩阵表 + Macro-F1 对比）
 """
 import json, re, os, sys
 from collections import Counter, defaultdict
@@ -199,12 +199,12 @@ out = {
     '训练分布': dict(train_dist),
     'SUBTLEX命中率': sum(r['in_freq_dict'] for r in rows),
 }
-opath = os.path.join(ROOT, 'report/审稿补充_特征回归.json')
+opath = os.path.join(ROOT, 'report/研究补充_特征回归.json')
 json.dump(out, open(opath, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
 print(f'\n保存: {opath}')
 
 # 混淆矩阵 markdown
-md = ['# 审稿补充：混淆矩阵与 Macro-F1（未见词条 n=1,000）\n',
+md = ['# 研究补充：混淆矩阵与 Macro-F1（未见词条 n=1,000）\n',
       '| gold\\pred | 1 | 2 | 3 | 4 | 5 | 6 | 7-9 | 行计 | 召回 |\n|--' + '|--' * 8 + '|',
       '| ' + ' | '.join(['**1**'] + [str(v) for v in cm[0]] + [str(sum(cm[0])), f'{100*cm[0][0]/sum(cm[0]):.1f}%']) + ' |']
 for i in range(1, 7):
@@ -214,8 +214,8 @@ md.append(f'- **macro-F1：注入 {mf1_inj*100:.2f} vs 多数类 {mf1_maj*100:.2
 md.append(f'- per-class F1：' + '、'.join(f'{LV[i]}={f1_by[i]:.3f}' for i in range(7)))
 md.append(f'\n训练集分布（均衡，每级约 322 对）：' + '、'.join(f'{k}={v}' for k, v in sorted(train_dist.items())))
 md.append('→ 训练分布均衡，"向多数类坍缩"不成立；吸引子只能来自词条特征与等级边界的交互。')
-open(os.path.join(ROOT, 'report/审稿补充_混淆矩阵.md'), 'w', encoding='utf-8').write('\n'.join(md))
-print('保存: report/审稿补充_混淆矩阵.md')
+open(os.path.join(ROOT, 'report/研究补充_混淆矩阵.md'), 'w', encoding='utf-8').write('\n'.join(md))
+print('保存: report/研究补充_混淆矩阵.md')
 for k in ['混淆矩阵', '判对率回归', '金标等级特征可预测性', '一级判对vs判错', '吸引子特征', 'Pearson相关']:
     print(f'\n=== {k} ===')
     print(json.dumps(out[k], ensure_ascii=False, indent=1)[:1200])
