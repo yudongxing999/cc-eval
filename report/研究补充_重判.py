@@ -106,5 +106,5 @@ res = {
         'kappa': round(kappa, 3),
     }
 }
-json.dump(res, open('report/审稿补充_当代语言学实验.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
-print('\n保存: report/审稿补充_当代语言学实验.json')
+json.dump(res, open('report/研究补充_限级生成实验.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+print('\n保存: report/研究补充_限级生成实验.json')
