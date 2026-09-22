@@ -103,7 +103,7 @@ while (i < lines.length) {
   }
 
   // 参考文献条目与英文摘要不缩进
-  const noIndent = /^（双向匿名|^[*A-Za-z(]|^网络资源|^宾帅|^杜月明|^江新|^王蕾|^王亚敏|^吴思远|^肖锐|^左虹|^中外语言/.test(line.trim());
+  const noIndent = /^（研究稿|^[*A-Za-z(]|^网络资源|^宾帅|^杜月明|^江新|^王蕾|^王亚敏|^吴思远|^肖锐|^左虹|^中外语言/.test(line.trim());
   children.push(noIndent ? pNoIndent(line.trim()) : p(line.trim()));
   i++;
 }
