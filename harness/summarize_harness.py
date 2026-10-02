@@ -86,6 +86,14 @@ def chance(task):
     return sum(1.0 / len(r['choices']) for r in rows) / len(rows)
 
 
+def majority_chance(task):
+    """众数猜测基线：始终预测 gold 频率最高的选项位置所能得到的 ACC。"""
+    from collections import Counter
+    with open(os.path.join(DATA, task + '.jsonl'), encoding='utf-8') as f:
+        rows = [json.loads(l) for l in f]
+    return Counter(r['gold'] for r in rows).most_common(1)[0][1] / len(rows)
+
+
 def task_acc(per_model, task, model):
     parts = PARTS[task].get(model, [task])
     n_tot, c = 0, 0.0
@@ -125,11 +133,12 @@ def main():
     lines.append('- 题型：multiple_choice 对数似然（不生成文本）；候选统一加共享前缀「答案：」缓解位置偏差')
     lines.append('- 数据：`harness/data/`（530 题 = KNO 400 + PHO 130），锚定 GF 0025-2021')
     lines.append('- 说明：loglikelihood 与 batch size 无关；KNO 按模型耗时以 100/50/25/12 题分片完成，题目完全一致')
+    lines.append('- 基线：随机基线 = 均匀猜测期望；众数基线 = 始终预测 gold 频率最高的选项位置（占位/退化行为的有效上限），模型 ACC 须同时越过两条基线才可解读为真实掌握')
     lines.append('')
-    lines.append('| 任务 | 题数 | 随机基线 |' + ''.join(f' {MODEL_LABEL[m]} |' for m in MODELS))
-    lines.append('|---|---:|---:|' + '---:|' * len(MODELS))
+    lines.append('| 任务 | 题数 | 随机基线 | 众数基线 |' + ''.join(f' {MODEL_LABEL[m]} |' for m in MODELS))
+    lines.append('|---|---:|---:|---:|' + '---:|' * len(MODELS))
     for task in TASKS:
-        row = f"| {TASK_NAME[task]} | {TASK_N[task]} | {chance(task)*100:.1f}% |"
+        row = f"| {TASK_NAME[task]} | {TASK_N[task]} | {chance(task)*100:.1f}% | {majority_chance(task)*100:.1f}% |"
         row += ''.join(f' {accs[m][task]*100:.1f}% |' for m in MODELS)
         lines.append(row)
     lines.append('')
@@ -142,10 +151,10 @@ def main():
                      '与 lm-eval 同口径公式，0.5B 抽样一致性核验差异 ≤1 题')
         lines.append('- 量化：Q8_0（引入少量数值噪声，解释跨表对比时需注意）')
         lines.append('')
-        lines.append('| 任务 | 题数 | 随机基线 |' + ''.join(f' {l} |' for l in glabels))
-        lines.append('|---|---:|---:|' + '---:|' * len(glabels))
+        lines.append('| 任务 | 题数 | 随机基线 | 众数基线 |' + ''.join(f' {l} |' for l in glabels))
+        lines.append('|---|---:|---:|---:|' + '---:|' * len(glabels))
         for task in TASKS:
-            row = f"| {TASK_NAME[task]} | {TASK_N[task]} | {chance(task)*100:.1f}% |"
+            row = f"| {TASK_NAME[task]} | {TASK_N[task]} | {chance(task)*100:.1f}% | {majority_chance(task)*100:.1f}% |"
             for m in gaccs:
                 if task in gaccs[m]:
                     acc, n, comp = gaccs[m][task]
@@ -157,11 +166,33 @@ def main():
     lines.append('## 初步观察')
     lines.append('')
     q, l1, l3 = (accs[m] for m in ('Qwen2.5-3B-Instruct', 'Llama-3.2-1B-Instruct', 'Llama-3.2-3B-Instruct'))
-    lines.append(f"1. **KNO 全部处于随机水平**：六个模型 KNO 落在 6.2%–15.8%（七选一随机 14.3%，400 题 stderr≈1.6%），两个模型族、0.5B–3B 之间无可靠缩放趋势（Qwen 3B 的 {q['cceval_kno']*100:.1f}% 甚至低于 1.5B 的 15.8%）——开源小模型普遍未内化《等级标准》知识，与商用模型（Kimi 88.5%）差距是质的而非量的。")
-    lines.append(f"2. **族间结论一致**：Llama-3.2 与 Qwen2.5 表现同构（KNO 1B {l1['cceval_kno']*100:.1f}% / 3B {l3['cceval_kno']*100:.1f}%，音节合法性均 50% 占位式回答）——标准知识缺失是跨模型族的普遍现象，非某家特有问题。")
-    lines.append(f"3. **多音字定音是唯一随规模稳定提升的子项**：Qwen 66.7% → 60.0% → 80.0% → {q['cceval_pho_poly']*100:.1f}%；Llama {l1['cceval_pho_poly']*100:.1f}% → {l3['cceval_pho_poly']*100:.1f}%——语境定音属于通用语言能力，而定级判断属于标准专门知识，二者清晰分离。")
-    lines.append('4. 音节定级无稳定模式（5%–32.5% 波动），"语音+等级"复合判断对小模型最难。')
-    lines.append('5. 佐证论文核心论点：通用开源小模型对锚定标准的专门知识近乎空白，且该空白与指令对齐、参数量级（≤3B）、模型族无关——必须通过后训练专门注入。')
+    lines.append(f"1. **KNO（标准定级知识）八个开源模型全部无真实掌握**：0.5B–3B 六模型落在 6.2%–15.8%（均匀随机 14.3%，stderr≈1.6%）；Qwen 7B 为 14.0% 恰在随机带内（主导文本「答案：3」集中度 56%，选其他文本时命中 14.0%）；Llama 8B 原始值 33.5% 经均衡化重测证伪——见下方「均衡化重测」节，其全部得分来自对「7-9 级」文本的内容先验剥削——标准定级知识在 0.5B–8B 两个模型族上均未随规模涌现，与商用模型（Kimi 88.5%）的差距是质的。")
+    lines.append('2. **音节合法性涌现是族特异的**：Qwen 7B 达 85.0%（0.5B–3B 各模型均为 50% 占位式退化），Llama 8B 仍为 50.0% 占位（合法半边 0/30、非法半边全对）——同为 7–8B 指令模型，语音知识涌现与否取决于训练数据/模型族而非参数量，能力结论不能跨族外推。')
+    lines.append(f"3. **多音字定音是唯一随规模稳定提升的子项**：Qwen 66.7% → 60.0% → 80.0% → 90.0% → 83.3%（7B）；Llama {l1['cceval_pho_poly']*100:.1f}% → {l3['cceval_pho_poly']*100:.1f}% → 72.4%（8B）——语境定音属于通用语言能力，与标准专门知识清晰分离。")
+    lines.append('4. **音节定级两族全败**：Qwen 7B 25.0%、Llama 8B 10.0%（低于随机 14.3%），"语音+等级"复合判断在通用模型上普遍缺失。')
+    lines.append('5. **方法论警示**：本批次同时给出正反两例——Qwen 7B 的 85% 经逐题核验为真实作答，Llama 8B KNO 的 33.5% 经两轮检验（位置分布 → 内容先验）证伪。任何基准的原始 ACC 都必须配套占位检验、众数基线与**按选项文本的偏好分解**（位置均衡化不能消除内容先验），否则会把退化行为误读为能力涌现。')
+    lines.append('6. 佐证论文核心论点：通用开源模型对锚定标准的专门知识近乎空白，该空白与指令对齐、参数量级（≤8B）、模型族无关；通用语言能力（音节表、语境定音）的涌现则是族特异、规模相关的——必须通过后训练专门注入标准知识，并以锚定基准客观验证。')
+    lines.append('')
+    lines.append('## 均衡化重测（v1.1b · 2026-10-02）')
+    lines.append('')
+    lines.append('对 KNO / 音节定级 / 多音字三个任务做 gold 位置均衡化（种子 42 轮转洗牌，仅对换选项、内容零改动，等价性已校验），7B/8B 两模型全量重测。**六个任务的均衡版 ACC 与原版完全一致**——模型预测由选项文本内容驱动而非位置，位置均衡化不改变结果；据此把偏好分解从"位置"升级为"内容先验"口径：')
+    lines.append('')
+    lines.append('| 模型 | 任务 | 原版 | 均衡版 | 主导选项文本集中度 | 选其他文本时命中 | 判读 |')
+    lines.append('|---|---|---:|---:|---:|---:|---|')
+    lines.append('| Qwen 7B | KNO 定级 | 14.0% | 14.0% | 「3 级」56% | 14.0%（n=178） | 随机 |')
+    lines.append('| Llama 8B | KNO 定级 | 33.5% | 33.5% | 「7-9 级」77% | **12.9%（n=93，低于随机）** | **内容先验剥削，无真实知识** |')
+    lines.append('| Qwen 7B | 音节定级 | 25.0% | 25.0% | 「3 级」75% | 60.0%（n=10，样本小） | 弱信号待复核 |')
+    lines.append('| Llama 8B | 音节定级 | 10.0% | 10.0% | 「7-9 级」92% | 0.0%（n=3） | 占位 |')
+    lines.append('| Qwen 7B | 多音字 | 83.3% | 83.3% | 7%（无先验） | 82.1%（n=28） | 真实能力 |')
+    lines.append('| Llama 8B | 多音字 | 72.4% | 72.4% | 7%（无先验） | 70.4%（n=27） | 真实能力 |')
+    lines.append('')
+    lines.append('要点：Llama 8B KNO 的 33.5% 全部来自"猜 7-9 级"策略——该标签覆盖词表 51% 词条（本题库 gold 占 39%），选它时命中 39.7%（恰等于该标签先验），不选时 12.9% 反低于随机。**内容先验剥削比位置偏误更隐蔽**：模型位置分布可以相当分散（均衡版位置 6 集中度降至 47%），但文本先验纹丝不动。KNO 题库的「7-9 级」是合并标签（覆盖三个等级、51% 词条），既是标准的本体特征也是评测的结构性弱点——v1.3 应将 7-9 拆分为独立等级或按词条频率加权报告。')
+    lines.append('')
+    lines.append('## 数据质量备注')
+    lines.append('')
+    lines.append('- KNO 金标选项位置不均衡：7 个选项的 gold 分布为 {0:25, 1:45, 2:42, 3:39, 4:43, 5:50, 6:156}（第 7 项占 39.0%）。均匀猜测基线仍为 14.3%，但众数猜测基线高达 39.0%——v1.3 题库应做 gold 位置均衡化。')
+    lines.append('- PHO 音节合法性题组按"合法/非法"顺序排列（前 30 合法、后 30 非法），便于占位行为识别；随机化后结论不变。')
+    lines.append('- 7B/8B 为 Q8_0 量化，与 fp32 的 lm-eval 结果跨表对比时存在少量量化噪声（0.5B 抽样核验 ≤1 题差异）。')
     lines.append('')
     lines.append('## 复现')
     lines.append('')

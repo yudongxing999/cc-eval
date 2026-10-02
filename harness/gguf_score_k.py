@@ -106,11 +106,12 @@ def main():
 
     rows = [json.loads(l) for l in open(args.data, encoding='utf-8')]
     preds = []
-    if os.path.exists(args.out):  # 断点续跑
+    if os.path.exists(args.out):  # 断点续跑（按 item_id 对齐，error 题自动重试）
         old = json.load(open(args.out, encoding='utf-8'))
-        preds = old.get('preds', [])
+        preds = [p for p in old.get('preds', []) if not p.get('error')]
         print(f'续跑：已有 {len(preds)}/{len(rows)}', flush=True)
-    todo = rows[len(preds):]
+    done_ids = {p['item_id'] for p in preds}
+    todo = [r for r in rows if r.get('item_id') not in done_ids]
 
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     log = open(args.out + '.server.log', 'w', encoding='utf-8', errors='replace')
@@ -124,15 +125,22 @@ def main():
         print('server ready', flush=True)
         t0 = time.time()
         for k, r in enumerate(todo):
-            ctx_ids = sc.tokenize(r['instruction'] + ' ', True)
-            choice_ids = [sc.tokenize(c, False) for c in r['choices']]
-            s = sc.score_choices(ctx_ids, choice_ids)
-            pred = max(range(len(s)), key=lambda i: s[i])
-            preds.append({'item_id': r.get('item_id'), 'gold': r['gold'], 'pred': pred,
-                          'correct': pred == r['gold']})
+            try:
+                ctx_ids = sc.tokenize(r['instruction'] + ' ', True)
+                choice_ids = [sc.tokenize(c, False) for c in r['choices']]
+                s = sc.score_choices(ctx_ids, choice_ids)
+                pred = max(range(len(s)), key=lambda i: s[i])
+                preds.append({'item_id': r.get('item_id'), 'gold': r['gold'], 'pred': pred,
+                              'correct': pred == r['gold']})
+            except Exception as e:
+                # 单题失败不终止整轮：记 error，acc 统计时剔除
+                print(f'ERROR item {r.get("item_id")}: {type(e).__name__}', flush=True)
+                preds.append({'item_id': r.get('item_id'), 'gold': r['gold'], 'pred': None,
+                              'correct': None, 'error': True})
             n = len(preds)
             # 每题落盘：环境可能随时回收进程，进度零丢失优先
-            acc0 = sum(p['correct'] for p in preds) / max(1, len(preds))
+            scored = [p for p in preds if not p.get('error')]
+            acc0 = sum(bool(p['correct']) for p in scored) / max(1, len(scored))
             with open(args.out, 'w', encoding='utf-8') as f:
                 json.dump({'gguf': args.gguf, 'data': args.data, 'n': len(preds),
                            'total': len(rows), 'acc': acc0,
@@ -145,12 +153,15 @@ def main():
             if time.time() - t0 > args.budget:
                 print('预算用尽，保存进度', flush=True)
                 break
-        acc = sum(p['correct'] for p in preds) / max(1, len(preds))
+        scored = [p for p in preds if not p.get('error')]
+        acc = sum(bool(p['correct']) for p in scored) / max(1, len(scored))
         with open(args.out, 'w', encoding='utf-8') as f:
             json.dump({'gguf': args.gguf, 'data': args.data, 'n': len(preds),
+                       'n_scored': len(scored), 'n_error': len(preds) - len(scored),
                        'total': len(rows), 'acc': acc, 'complete': len(preds) == len(rows),
                        'seconds': time.time() - t0, 'preds': preds}, f, ensure_ascii=False, indent=1)
-        print(f'ACC {acc:.4f} ({sum(p["correct"] for p in preds)}/{len(preds)})'
+        print(f'ACC {acc:.4f} ({sum(bool(p["correct"]) for p in scored)}/{len(scored)})'
+              f' err={len(preds) - len(scored)}'
               f'{" [完成]" if len(preds) == len(rows) else " [部分]"} -> {args.out}', flush=True)
     finally:
         proc.terminate()
