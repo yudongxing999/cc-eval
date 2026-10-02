@@ -1,6 +1,6 @@
 @echo off
-cd /d C:\Users\user\Documents\kimi\workspace\cc-eval\harness
-set PY=C:\Users\user\Documents\kimi\workspace\cc-eval\.venv\Scripts\python.exe
+cd /d %USERPROFILE%\Documents\kimi\workspace\cc-eval\harness
+set PY=%USERPROFILE%\Documents\kimi\workspace\cc-eval\.venv\Scripts\python.exe
 set M7=..\models\Qwen2.5-7B-GGUF\qwen2.5-7b-instruct-q8_0-00001-of-00003.gguf
 set M8=..\models\Llama-3.1-8B-GGUF\Meta-Llama-3.1-8B-Instruct-Q8_0.gguf
 set O7=..\results\harness\Qwen2.5-7B-q8_0
